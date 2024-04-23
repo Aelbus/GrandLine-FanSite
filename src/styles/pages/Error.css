@@ -1,0 +1,83 @@
+.error-div {
+  background: none;
+  margin-top: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 80px;
+  animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-div .error-div-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #242424;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+.error-div .error-div-content .error-number {
+  font-size: 80px;
+}
+.error-div .error-div-content .error-text {
+  margin-top: 10px;
+  font-size: 20px;
+  width: 280px;
+}
+.error-div .error-link {
+  margin-top: 30px;
+  color: red;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Fjalla One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .error-div {
+    margin: 120px 0 80px 0;
+    border-radius: 0 0 0 0;
+    animation: none;
+  }
+  .error-div .error-div-content {
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+  .error-div .error-div-content .error-number {
+    font-size: 25px;
+  }
+  .error-div .error-div-content .error-text {
+    margin-top: 10px;
+    font-size: 15px;
+    width: 250px;
+  }
+  .error-div .error-link {
+    margin-top: 30px;
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Fjalla One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=Error.css.map */

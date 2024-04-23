@@ -1,0 +1,72 @@
+.footer-div {
+  z-index: 99;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+}
+.footer-div p {
+  font-family: "Fjalla One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+}
+.footer-div .Social-media {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  padding-left: 10px;
+}
+.footer-div .Social-media a img {
+  background: black;
+  height: 30px;
+  width: 30px;
+  border: black 2px solid;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.footer-div .Social-media a img:hover {
+  border: #4bb04e 2px solid;
+}
+
+@media (max-width: 650px) {
+  .footer-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .footer-div p {
+    margin: 0;
+    width: 100%;
+    font-size: 12px;
+  }
+  .footer-div .Social-media {
+    position: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .footer-div .Social-media a img {
+    height: 25px;
+    width: 25px;
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */
