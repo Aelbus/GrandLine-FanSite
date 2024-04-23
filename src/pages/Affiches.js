@@ -458,9 +458,6 @@ const Affiches = () => {
           >
             <figure>
               <img src={project.image} alt={project.title} />
-              <figcaption>
-                <h2>{project.title}</h2>
-              </figcaption>
             </figure>
           </div>
         ))}

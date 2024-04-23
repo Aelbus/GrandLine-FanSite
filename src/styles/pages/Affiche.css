@@ -22,8 +22,7 @@
   flex-direction: row;
 }
 .projects-div .card-container-affiche .card-affiche {
-  margin: 5px;
-  background-color: rgb(66, 66, 66);
+  margin: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
