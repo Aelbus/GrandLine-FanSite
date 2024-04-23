@@ -10,7 +10,8 @@ const Home = () => {
         <li>Panneau 272x512</li>
         <li>Pancartes 307x512</li>
       </ul>
-      <p>MAJ 23/04 - Ajouts d'affiches + redimension des images</p>
+      <p>MAJ 23/04 16h - Ajouts Panneau</p>
+      <p>MAJ 23/04 14h - Ajouts d'affiches + redimension des images</p>
     </div>
   );
 };

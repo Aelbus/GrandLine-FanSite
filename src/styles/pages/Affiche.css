@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
 }
-.projects-div .card-container {
+.projects-div .card-container-affiche {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -21,7 +21,7 @@
   overflow: auto;
   flex-direction: row;
 }
-.projects-div .card-container .card {
+.projects-div .card-container-affiche .card-affiche {
   margin: 5px;
   background-color: rgb(66, 66, 66);
   display: flex;
@@ -31,7 +31,7 @@
   align-content: flex-start;
   cursor: pointer;
 }
-.projects-div .card-container .card figure {
+.projects-div .card-container-affiche .card-affiche figure {
   width: 100%;
   margin: 0;
   gap: 0;
@@ -40,18 +40,18 @@
   align-items: center;
   gap: 7px;
 }
-.projects-div .card-container .card figure img {
+.projects-div .card-container-affiche .card-affiche figure img {
   margin-top: 4px;
   width: 170px;
   height: auto;
   object-fit: cover;
 }
-.projects-div .card-container .card figure figcaption {
+.projects-div .card-container-affiche .card-affiche figure figcaption {
   width: 100%;
   margin: 0;
   text-align: center;
 }
-.projects-div .card-container .card figure figcaption h2 {
+.projects-div .card-container-affiche .card-affiche figure figcaption h2 {
   color: rgb(255, 255, 255);
   font-size: 16px;
 }

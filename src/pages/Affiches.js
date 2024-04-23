@@ -53,11 +53,32 @@ import hmarisback from "../assets/images/affiche/hmar is back - Arab Supreme.png
 import jasonvshector from "../assets/images/affiche/jason vs hector.png";
 import jasonix from "../assets/images/affiche/jasonix et gatonix - Achrafou.png";
 import bighess from "../assets/images/affiche/Jasoun et Gastoun bighess.png";
+import agrasman from "../assets/images/affiche/agrasman - M8 Zay.png";
+import teub from "../assets/images/affiche/Je suis une teub.png";
+import accident from "../assets/images/affiche/accident - suzuutv.png";
 
 const Affiches = () => {
   const [selectedCard, setSelectedCard] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
   const projects = [
+    {
+      title: "Accident",
+      info: "By SuzuuTV",
+      image: accident,
+      url: "https://example.com",
+    },
+    {
+      title: "Je suis une Teub",
+      info: "By Akuro",
+      image: teub,
+      url: "https://example.com",
+    },
+    {
+      title: "AGRASMAN",
+      info: "By M8 Zay",
+      image: agrasman,
+      url: "https://example.com",
+    },
     {
       title: "Jasoun et Gastoun Bighess",
       info: "By ???",
@@ -125,7 +146,7 @@ const Affiches = () => {
       url: "https://example.com",
     },
     {
-      title: "Chosen Of Auberviliers",
+      title: "Chosen Of Aubervilliers",
       info: "By Fireblaze - Uskal",
       image: coa,
       url: "https://example.com",
@@ -400,9 +421,13 @@ const Affiches = () => {
 
   return (
     <main className="projects-div">
-      <div className="card-container">
+      <div className="card-container-affiche">
         {projects.map((project, index) => (
-          <div key={index} className="card" onClick={() => openModal(index)}>
+          <div
+            key={index}
+            className="card-affiche"
+            onClick={() => openModal(index)}
+          >
             <figure>
               <img src={project.image} alt={project.title} />
               <figcaption>
