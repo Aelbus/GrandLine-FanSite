@@ -7,6 +7,20 @@ import MasterSnakou from "../assets/images/stream/mastersnakou.png";
 import Aminematue from "../assets/images/stream/aminematue.png";
 import redmafia from "../assets/images/stream/remafia_tv.png";
 import DENZ from "../assets/images/stream/3DENZ.png";
+import Chachou from "../assets/images/stream/chach0u__.png";
+import trixy from "../assets/images/stream/xo_trixy.png";
+import aneyaris from "../assets/images/stream/Aneyaris_.png";
+import GR from "../assets/images/stream/Gamesroses.png";
+import byilhann from "../assets/images/stream/Byilhann.png";
+import carbonhh from "../assets/images/stream/CarboNHH.png";
+import elbwa from "../assets/images/stream/Elbwa78.png";
+import locklear from "../assets/images/stream/Locklear.png";
+import samo from "../assets/images/stream/samolito9.png";
+import flamby from "../assets/images/stream/Flamby.png";
+import ludmyaa from "../assets/images/stream/Ludmyaa.jpeg";
+import zaardoz from "../assets/images/stream/Zaardoz.png";
+import zwave from "../assets/images/stream/Zwave69.png";
+import medja from "../assets/images/stream/DVM_Medja.png";
 
 const Stream = () => {
   const projects = [
@@ -16,6 +30,13 @@ const Stream = () => {
       image: Aminematue,
       info: "Fondateur",
       url: "https://www.twitch.tv/aminematue",
+    },
+    {
+      nomRP: "Denzel PALMER",
+      nomIRL: "3DENZ",
+      info: "STAFF",
+      image: DENZ,
+      url: "https://www.twitch.tv/3DENZ",
     },
     {
       nomRP: "Jason BIGMAN",
@@ -30,6 +51,13 @@ const Stream = () => {
       url: "https://www.twitch.tv/tatiana_tv",
     },
     {
+      nomRP: "Connor FORBES",
+      nomIRL: "Elbwa78",
+      image: elbwa,
+      info: "No Stream",
+      url: "https://www.twitch.tv/elbwa78",
+    },
+    {
       nomRP: "Stella FORBES",
       nomIRL: "HeavenFox",
       image: HeavenFox,
@@ -42,11 +70,84 @@ const Stream = () => {
       url: "https://www.twitch.tv/redmafia_tv",
     },
     {
-      nomRP: "Denzel PALMER",
-      nomIRL: "3DENZ",
-      info: "STAFF",
-      image: DENZ,
-      url: "https://www.twitch.tv/3DENZ",
+      nomRP: "Alix FORBES",
+      nomIRL: "Chach0u__",
+      image: Chachou,
+      info: "No Stream",
+      url: "https://www.twitch.tv/Chach0u__",
+    },
+    {
+      nomRP: "César ???",
+      nomIRL: "DVM_medja",
+      image: medja,
+      url: "https://www.twitch.tv/dvm_medja",
+    },
+    {
+      nomRP: "Jodie SAVAGE",
+      nomIRL: "Xo_trixy",
+      image: trixy,
+      url: "https://www.twitch.tv/xo_trixy",
+    },
+    {
+      nomRP: "Lenny CARTER",
+      nomIRL: "Zwave69",
+      image: zwave,
+      url: "https://www.twitch.tv/zwave69",
+    },
+    {
+      nomRP: "Narine MUCUS",
+      nomIRL: "Lockleary",
+      image: locklear,
+      url: "https://www.twitch.tv/locklear",
+    },
+    {
+      nomRP: "emily PALMER",
+      nomIRL: "Aneyaris_",
+      image: aneyaris,
+      url: "https://www.twitch.tv/aneyaris_",
+    },
+    {
+      nomRP: "Buck BARREL",
+      nomIRL: "Byilhann",
+      image: byilhann,
+      url: "https://www.twitch.tv/byilhann",
+    },
+    {
+      nomRP: "Ray WILKINS",
+      nomIRL: "Samolito9",
+      image: samo,
+      url: "https://www.twitch.tv/samolito9",
+    },
+    {
+      nomRP: "Steeve ???",
+      nomIRL: "Flamby",
+      image: flamby,
+      url: "https://www.twitch.tv/flamby",
+    },
+    {
+      nomRP: "BigJack",
+      nomIRL: "GamesRoses",
+      image: GR,
+      url: "https://www.twitch.tv/gamesroses",
+    },
+    {
+      nomRP: "Tyler JONES",
+      nomIRL: "CarbonHNN",
+      image: carbonhh,
+      url: "https://www.twitch.tv/carbonhh",
+    },
+    {
+      nomRP: "??? GORDON",
+      nomIRL: "Zaardoz",
+      image: zaardoz,
+      url: "https://www.twitch.tv/zaardoz",
+    },
+    {
+      nomRP: "Tara LEWIS",
+      nomIRL: "Ludmyaa",
+      image: ludmyaa,
+      info: "No Stream",
+      url: "https://www.twitch.tv/ludmyaa",
     },
   ];
 
