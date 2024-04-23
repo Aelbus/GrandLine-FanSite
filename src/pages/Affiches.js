@@ -1,401 +1,422 @@
 import { useState } from "react";
 import "../styles/pages/Affiche.css";
 import SuperBigmanBros from "../assets/images/affiche/SuperBigmanBros.png";
-import puceau from "../assets/images/affiche/25ans toujours puceau.png";
+import puceau from "../assets/images/affiche/25ans_toujours_puceau.png";
 import ahleradin from "../assets/images/affiche/Ahleradin.png";
 import bachelor from "../assets/images/affiche/Bachelor.png";
-import chevaux from "../assets/images/affiche/branleur chevaux.png";
+import chevaux from "../assets/images/affiche/branleur_chevaux.png";
 import cesar from "../assets/images/affiche/Cesar.png";
 import breakingbigman from "../assets/images/affiche/BreakBigMan.png";
 import deadpool from "../assets/images/affiche/deadpool.png";
 import gastonbuster from "../assets/images/affiche/gastonBuster.png";
 import gtforbman from "../assets/images/affiche/GTforbman.png";
-import jasonwick from "../assets/images/affiche/Jason Wick.jpg";
+import jasonwick from "../assets/images/affiche/Jason_Wick.jpg";
 import keskidi from "../assets/images/affiche/Keskidi.png";
-import planetesinge from "../assets/images/affiche/La planete des singes.png";
-import prada from "../assets/images/affiche/le diable s'habille en prada.png";
-import mrmrsForbes from "../assets/images/affiche/mr&mrs Forbes.png";
-import novapeau from "../assets/images/affiche/Nova dans la Peau.png";
-import onepouce from "../assets/images/affiche/one pouce.png";
-import petercheville from "../assets/images/affiche/peterleurs chevilles.png";
-import sauvezwalid from "../assets/images/affiche/sauvez Walid.png";
+import planetesinge from "../assets/images/affiche/La_planete_des_singes.png";
+import prada from "../assets/images/affiche/le_diable_habille_en_prada.png";
+import mrmrsForbes from "../assets/images/affiche/mr&mrs_Forbes.png";
+import novapeau from "../assets/images/affiche/Nova_dans_la_Peau.png";
+import onepouce from "../assets/images/affiche/one_pouce.png";
+import petercheville from "../assets/images/affiche/peterleurs_chevilles.png";
+import sauvezwalid from "../assets/images/affiche/sauvez_Walid.png";
 import spiderhalouf from "../assets/images/affiche/SpiderHalouf.png";
-import theforbes from "../assets/images/affiche/the forbes.png";
-import thesimian from "../assets/images/affiche/The Simian.png";
-import tresorforbes from "../assets/images/affiche/trésor forbes dpix.png";
-import vitelarsa from "../assets/images/affiche/vite Larsa.png";
+import theforbes from "../assets/images/affiche/the_forbes.png";
+import thesimian from "../assets/images/affiche/The_Simian.png";
+import tresorforbes from "../assets/images/affiche/trésor_forbes_dpix.png";
+import vitelarsa from "../assets/images/affiche/vite_Larsa.png";
 import walkingbread from "../assets/images/affiche/WalkingBread.png";
 import princessenova from "../assets/images/affiche/princessenova.png";
-import bienvenuforbes from "../assets/images/affiche/bienvenu chez les forbes.png";
-import gastonlagache from "../assets/images/affiche/Gaston la gache.png";
-import monfrere from "../assets/images/affiche/mon frère.png";
+import bienvenuforbes from "../assets/images/affiche/bienvenu_chez_les_forbes.png";
+import gastonlagache from "../assets/images/affiche/Gaston_la_gache.png";
+import monfrere from "../assets/images/affiche/mon_frère.png";
 import wanted from "../assets/images/affiche/Wanted.png";
 import leradin from "../assets/images/affiche/leradin.png";
-import stanlafondue from "../assets/images/affiche/Stan la fondue.png";
-import fatfurious from "../assets/images/affiche/2fat 2furious.png";
-import nuance from "../assets/images/affiche/50 Nuances de mamie Suzie.png";
+import stanlafondue from "../assets/images/affiche/Stan_la_fondue.png";
+import fatfurious from "../assets/images/affiche/2fat_2furious.png";
+import nuance from "../assets/images/affiche/50_Nuances_de_mamie_Suzie.png";
 import albatar from "../assets/images/affiche/Albatar.png";
 import atable from "../assets/images/affiche/Atable.png";
 import babybel from "../assets/images/affiche/Babybel.png";
-import bigman from "../assets/images/affiche/Bgmann. - hueb.png";
-import bigmanatoutfaire from "../assets/images/affiche/bigman a tout faire - aku.png";
+import bigman from "../assets/images/affiche/Bgmann_hueb.png";
+import bigmanatoutfaire from "../assets/images/affiche/bigman_a_tout_faire_aku.png";
 import bigtanic from "../assets/images/affiche/Bigtanic.png";
 import bouclette from "../assets/images/affiche/Bouclette.png";
-import coa from "../assets/images/affiche/Chosen of Aubervilliers - Fireblaze uskal.png";
-import ellerevient from "../assets/images/affiche/Elle reviens.png";
-import fuckboy from "../assets/images/affiche/Fuck Boy - ookamishiro.png";
+import coa from "../assets/images/affiche/Chosen_of_Aubervilliers_Fireblaze_uskal.png";
+import ellerevient from "../assets/images/affiche/Elle_reviens.png";
+import fuckboy from "../assets/images/affiche/Fuck_Boy_ookamishiro.png";
 import festin from "../assets/images/affiche/Festin.png";
-import yamakasi from "../assets/images/affiche/generation yamakasi - Chris blanche.png";
+import yamakasi from "../assets/images/affiche/generation_yamakasi_Chris_blanche.png";
 import gradiator from "../assets/images/affiche/Gradiator.png";
-import grosIII from "../assets/images/affiche/Gros III.png";
-import guardian from "../assets/images/affiche/Guardians of the taxi.png";
-import hmarisback from "../assets/images/affiche/hmar is back - Arab Supreme.png";
-import jasonvshector from "../assets/images/affiche/jason vs hector.png";
-import jasonix from "../assets/images/affiche/jasonix et gatonix - Achrafou.png";
-import bighess from "../assets/images/affiche/Jasoun et Gastoun bighess.png";
-import agrasman from "../assets/images/affiche/agrasman - M8 Zay.png";
-import teub from "../assets/images/affiche/Je suis une teub.png";
-import accident from "../assets/images/affiche/accident - suzuutv.png";
+import grosIII from "../assets/images/affiche/Gros_III.png";
+import guardian from "../assets/images/affiche/Guardians_of_the_taxi.png";
+import hmarisback from "../assets/images/affiche/hmar_is_back_Arab_Supreme.png";
+import jasonvshector from "../assets/images/affiche/jason_vs_hector.png";
+import jasonix from "../assets/images/affiche/jasonix_et_gatonix_Achrafou.png";
+import bighess from "../assets/images/affiche/Jasoun_et_Gastoun_bighess.png";
+import agrasman from "../assets/images/affiche/agrasman_M8_Zay.png";
+import teub from "../assets/images/affiche/Je_suis_une_teub.png";
+import accident from "../assets/images/affiche/accident_suzuutv.png";
+import baisemoi from "../assets/images/affiche/baise_moi_si_tu_peux.png";
+import gastonfisc from "../assets/images/affiche/Qui_retrouveras_Gaston_FISC.png";
+import snakouS6 from "../assets/images/affiche/snakouS6.png";
 
 const Affiches = () => {
   const [selectedCard, setSelectedCard] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
   const projects = [
     {
+      title: "S.N.A.K.O.U S6",
+      info: "By Mohamed_genie",
+      image: snakouS6,
+      url: "https://i.goopics.net/92ytp1.png",
+    },
+    {
+      title: "Qui retrouvera Gaston ?",
+      info: "By Mohamed_genie",
+      image: gastonfisc,
+      url: "https://i.goopics.net/9y5rfd.png",
+    },
+    {
+      title: "Baise moi si tu peux",
+      info: "By Mohamed_genie",
+      image: baisemoi,
+      url: "https://i.goopics.net/iangsr.png",
+    },
+    {
       title: "Accident",
       info: "By SuzuuTV",
       image: accident,
-      url: "https://example.com",
+      url: "https://i.goopics.net/rfsxr3.png",
     },
     {
       title: "Je suis une Teub",
       info: "By Akuro",
       image: teub,
-      url: "https://example.com",
+      url: "https://i.goopics.net/luus3g.png",
     },
     {
       title: "AGRASMAN",
       info: "By M8 Zay",
       image: agrasman,
-      url: "https://example.com",
+      url: "https://i.goopics.net/tc3r48.png",
     },
     {
       title: "Jasoun et Gastoun Bighess",
       info: "By ???",
       image: bighess,
-      url: "https://example.com",
+      url: "https://i.goopics.net/43v0cy.png",
     },
     {
       title: "Jasonix & Gastonix",
       info: "By Achrafou",
       image: jasonix,
-      url: "https://example.com",
+      url: "https://i.goopics.net/npvdnq.png",
     },
     {
       title: "Jason VS Hector",
       info: "By ???",
       image: jasonvshector,
-      url: "https://example.com",
+      url: "https://i.goopics.net/7cnqio.png",
     },
     {
       title: "Hmar Is Back",
       info: "By Arab Supreme",
       image: hmarisback,
-      url: "https://example.com",
+      url: "https://i.goopics.net/w7ohs4.png",
     },
     {
       title: "Guardian of the TAXI",
       info: "By ???",
       image: guardian,
-      url: "https://example.com",
+      url: "https://i.goopics.net/54ri64.png",
     },
     {
       title: "Gros III",
       info: "By ???",
       image: grosIII,
-      url: "https://example.com",
+      url: "https://i.goopics.net/r1twqq.png",
     },
     {
       title: "Gradiator",
       info: "By ???",
       image: gradiator,
-      url: "https://example.com",
+      url: "https://i.goopics.net/v9gfzw.png",
     },
     {
       title: "Génération YAMAKASI",
-      info: "By FChris Blanche",
+      info: "By Chris Blanche",
       image: yamakasi,
-      url: "https://example.com",
+      url: "https://i.goopics.net/b5ekok.png",
     },
     {
       title: "Festin",
       info: "By ???",
       image: festin,
-      url: "https://example.com",
+      url: "https://i.goopics.net/xrp5m9.png",
     },
     {
       title: "FuckBoy",
       info: "By Ookamishiro",
       image: fuckboy,
-      url: "https://example.com",
+      url: "https://i.goopics.net/uonper.png",
     },
     {
       title: "Elle Revient",
       info: "By ???",
       image: ellerevient,
-      url: "https://example.com",
+      url: "https://i.goopics.net/oljebe.png",
     },
     {
       title: "Chosen Of Aubervilliers",
       info: "By Fireblaze - Uskal",
       image: coa,
-      url: "https://example.com",
+      url: "https://i.goopics.net/e1uoig.png",
     },
     {
       title: "Bouclette",
       info: "By ???",
       image: bouclette,
-      url: "https://example.com",
+      url: "https://i.goopics.net/0isvjc.png",
     },
     {
       title: "Bigtanic",
       info: "By ???",
       image: bigtanic,
-      url: "https://example.com",
+      url: "https://i.goopics.net/5eydyd.png",
     },
     {
       title: "Bigman à tout faire",
       info: "By Aku",
       image: bigmanatoutfaire,
-      url: "https://example.com",
+      url: "https://i.goopics.net/iklktr.png",
     },
     {
       title: "BIGMAN.",
       info: "By Hueb",
       image: bigman,
-      url: "https://example.com",
+      url: "https://i.goopics.net/bv2rae.pngm",
     },
     {
       title: "Babybel",
       info: "By ???",
       image: babybel,
-      url: "https://example.com",
+      url: "https://i.goopics.net/nngi09.png",
     },
     {
       title: "A Table",
       info: "By ???",
       image: atable,
-      url: "https://example.com",
+      url: "https://i.goopics.net/icjwd4.png",
     },
     {
       title: "Ahlbatar",
       info: "By ???",
       image: albatar,
-      url: "https://example.com",
+      url: "https://i.goopics.net/ycas1l.png",
     },
     {
       title: "50 Nuances de Mamie Suzie",
       info: "By ???",
       image: nuance,
-      url: "https://example.com",
+      url: "https://i.goopics.net/foghmc.png",
     },
     {
       title: "2 Fat 2 Furious",
       info: "By ???",
       image: fatfurious,
-      url: "https://example.com",
+      url: "https://i.goopics.net/pi0mx4.png",
     },
     {
       title: "Stan La fondue",
       info: "By Fireblaze",
       image: stanlafondue,
-      url: "https://example.com",
+      url: "https://i.goopics.net/a46d1t.png",
     },
     {
       title: "Le Radin",
       info: "By Eskobar",
       image: leradin,
-      url: "https://example.com",
+      url: "https://i.goopics.net/d8xznt.png",
     },
     {
       title: "Wanted, dead or alive",
       info: "By Maxime Rg",
       image: wanted,
-      url: "https://example.com",
+      url: "https://i.goopics.net/xpxxft.png",
     },
     {
       title: "Mon Frère",
       info: "By Maxime Rg",
       image: monfrere,
-      url: "https://example.com",
+      url: "https://i.goopics.net/3iqetw.png",
     },
     {
       title: "Gaston la gâche",
       info: "By Gabin.nsrtxd",
       image: gastonlagache,
-      url: "https://example.com",
+      url: "https://i.goopics.net/rg6qos.png",
     },
     {
       title: "Bienvenue chez les Forbes",
       info: "By Eskobar",
       image: bienvenuforbes,
-      url: "https://example.com",
+      url: "https://i.goopics.net/niz0jl.png",
     },
     {
       title: "Princesse Nova Oragana",
       info: "By Fireblaze",
       image: princessenova,
-      url: "https://example.com",
+      url: "https://i.goopics.net/dkk7rp.png",
     },
     {
       title: "The Walking Bread",
       info: "By Unknown",
       image: walkingbread,
-      url: "https://example.com",
+      url: "https://i.goopics.net/mectd6.png",
     },
     {
       title: "Vite Larsa",
       info: "By Unknown",
       image: vitelarsa,
-      url: "https://example.com",
+      url: "https://i.goopics.net/9rrsxj.png",
     },
     {
       title: "Trésor Forbes",
       info: "By Dpix",
       image: tresorforbes,
-      url: "https://example.com",
+      url: "https://i.goopics.net/qam844.png",
     },
     {
       title: "The Simian",
       info: "By Varggan",
       image: thesimian,
-      url: "https://example.com",
+      url: "https://i.goopics.net/k8a47h.png",
     },
     {
       title: "The Forbes",
       info: "By Fireblaze - Uskal",
       image: theforbes,
-      url: "https://example.com",
+      url: "https://i.goopics.net/t6fkpv.png",
     },
     {
       title: "SpiderHalouf",
       info: "By Fireblaze - Uskal - Akuro",
       image: spiderhalouf,
-      url: "https://example.com",
+      url: "https://i.goopics.net/istsvz.png",
     },
     {
       title: "Sauvez Walid",
       info: "By Unknown",
       image: sauvezwalid,
-      url: "https://example.com",
+      url: "https://i.goopics.net/r3oq9j.png",
     },
     {
       title: "Peter leurs chevilles",
       info: "By Unknown",
       image: petercheville,
-      url: "https://example.com",
+      url: "https://i.goopics.net/v9vyx7.png",
     },
     {
       title: "One Pouce",
       info: "By Fireblaze - Uskal",
       image: onepouce,
-      url: "https://example.com",
+      url: "https://i.goopics.net/wy3n8p.png",
     },
     {
       title: "Nova dans la peau",
       info: "By Fireblaze - Uskal",
       image: novapeau,
-      url: "https://example.com",
+      url: "https://i.goopics.net/viffia.png",
     },
     {
       title: "Mr. & Mrs. Forbes",
       info: "By Unknown",
       image: mrmrsForbes,
-      url: "https://example.com",
+      url: "https://i.goopics.net/ohw975.png",
     },
     {
       title: "Le diable en Prada",
       info: "By Fireblaze",
       image: prada,
-      url: "https://example.com",
+      url: "https://i.goopics.net/9yi520.png",
     },
     {
       title: "la Planete des singes",
       info: "By Fireblaze",
       image: planetesinge,
-      url: "https://example.com",
+      url: "https://i.goopics.net/3qzhq3.png",
     },
     {
       title: "Keskidi",
       info: "By Akuro",
       image: keskidi,
-      url: "https://example.com",
+      url: "https://i.goopics.net/fd0se4.png",
     },
     {
       title: "Jason Wick",
       info: "By Fireblaze - Akuro",
       image: jasonwick,
-      url: "https://example.com",
+      url: "https://i.goopics.net/8i9hdj.jpg",
     },
     {
       title: "Super Bigman Bros",
       info: "By AeLBuS",
       image: SuperBigmanBros,
-      url: "https://example.com",
+      url: "https://i.goopics.net/tsx6uo.png",
     },
     {
       title: "25 Ans, toujours puceau",
       info: "By Fireblaze",
       image: puceau,
-      url: "https://example.com",
+      url: "https://i.goopics.net/nu8idb.png",
     },
     {
       title: "Ah le Radin",
       info: "By unknowm",
       image: ahleradin,
-      url: "https://example.com",
+      url: "https://i.goopics.net/lft5dr.png",
     },
     {
       title: "The Bachelor",
       info: "By Fireblaze",
       image: bachelor,
-      url: "https://example.com",
+      url: "https://i.goopics.net/s12jf8.png",
     },
     {
       title: "Le Branleurs de Chevaux",
       info: "By Fireblaze - Uskal",
       image: chevaux,
-      url: "https://example.com",
+      url: "https://i.goopics.net/z1s4cb.png",
     },
     {
       title: "César",
       info: "By Fireblaze",
       image: cesar,
-      url: "https://example.com",
+      url: "https://i.goopics.net/xb56iv.png",
     },
     {
       title: "Breaking BigMan",
       info: "By Unknown",
       image: breakingbigman,
-      url: "https://example.com",
+      url: "https://i.goopics.net/9coql7.png",
     },
     {
       title: "Deapool Wolverine",
       info: "By Fireblaze",
       image: deadpool,
-      url: "https://example.com",
+      url: "https://i.goopics.net/aote2b.png",
     },
     {
       title: "GastonBuster",
       info: "By Sxcret.eth",
       image: gastonbuster,
-      url: "https://example.com",
+      url: "https://i.goopics.net/fgtku9.png",
     },
     {
       title: "Grand Theft Fobman",
       info: "By AeLBuS",
       image: gtforbman,
-      url: "https://example.com",
+      url: "https://i.goopics.net/jgqbwv.png",
     },
   ];
 

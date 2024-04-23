@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
 }
-.projects-div .card-container {
+.projects-div .card-container-stream {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -21,101 +21,67 @@
   overflow: auto;
   flex-direction: row;
 }
-.projects-div .card-container .card {
-  width: 180px;
-  height: 320px;
-  margin: 7px;
-  background-color: rgb(66, 66, 66);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: flex-start;
-  cursor: pointer;
-}
-.projects-div .card-container .card figure {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  gap: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 7px;
-}
-.projects-div .card-container .card figure img {
-  margin-top: 3px;
-  width: 170px;
-  height: auto;
-  object-fit: cover;
-}
-.projects-div .card-container .card figure figcaption {
-  width: 100%;
-  height: auto;
-  margin: 0;
-  text-align: center;
-}
-.projects-div .card-container .card figure figcaption h2 {
-  color: rgb(255, 255, 255);
-  font-size: 16px;
-  margin: 0;
-  margin-top: 3px;
-}
-.projects-div .card-container .card figure figcaption p {
-  color: rgb(185, 185, 185);
-  margin: 0;
-  margin-top: 2px;
-  font-size: 12px;
-}
-
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.modal-content {
-  background-color: rgb(219, 219, 219);
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 80%;
-  max-height: 80%;
-  overflow: auto;
+.projects-div .card-container-stream .card-stream {
   position: relative;
 }
-.modal-content .close {
-  position: absolute;
-  top: 0px;
-  right: 10px;
-  cursor: pointer;
-  font-size: 35px;
+.projects-div .card-container-stream .card-stream figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 25px;
+  width: 300px;
+  height: 60px;
 }
-.modal-content h2 {
+.projects-div .card-container-stream .card-stream figure:hover {
+  animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.projects-div .card-container-stream .card-stream figure img {
+  width: 70px;
+  height: 70px;
+  margin: 0;
+  border-radius: 100%;
+  border: 3px solid rgb(36, 36, 36);
+}
+.projects-div .card-container-stream .card-stream figure .Infosupp {
+  padding: 4px;
+  background-color: #242424;
+  border-radius: 10px;
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  bottom: -4px;
+  left: 35px;
+}
+.projects-div .card-container-stream .card-stream figure figcaption {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  padding-left: 10px;
+}
+.projects-div .card-container-stream .card-stream figure figcaption h2 {
+  font-size: 20px;
+  margin: 0;
+}
+.projects-div .card-container-stream .card-stream figure figcaption p {
   font-size: 18px;
   margin: 0;
 }
-.modal-content p {
-  font-size: 14px;
-  margin: 2px 0 8px 0;
-}
-.modal-content button {
-  background-color: rgb(38, 173, 110);
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  height: 25px;
+.projects-div .card-container-stream .card-stream figure figcaption a {
   position: absolute;
-  top: 40px;
-  right: 20px;
+  right: 60px;
 }
-.modal-content button:hover {
-  background-color: rgb(8, 212, 117);
+.projects-div .card-container-stream .card-stream figure figcaption a:hover {
+  animation: rotate-center 0.6s ease-in-out both;
+}
+.projects-div .card-container-stream .card-stream figure figcaption a img {
+  width: 60px;
+  height: 60px;
+  border: none;
 }
 
 @keyframes slide-in-top {
@@ -126,6 +92,22 @@
   100% {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes shadow-drop-center {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 20px 0px rgb(255, 0, 0);
   }
 }
 

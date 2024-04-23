@@ -47,32 +47,38 @@
   justify-content: center;
 }
 
-.modal-content {
+.modal-content-panneau {
   background-color: rgb(219, 219, 219);
   padding: 20px;
   border-radius: 10px;
-  max-width: 80%;
-  max-height: 80%;
+  width: auto;
+  height: auto;
   overflow: auto;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
-.modal-content .close {
+.modal-content-panneau .close {
   position: absolute;
   top: 0px;
   right: 10px;
   cursor: pointer;
   font-size: 35px;
 }
-.modal-content h2 {
+.modal-content-panneau h2 {
   font-size: 18px;
   margin: 0;
 }
-.modal-content p {
+.modal-content-panneau p {
   font-size: 14px;
   color: #747474;
   margin: 2px 0 8px 0;
 }
-.modal-content button {
+.modal-content-panneau img {
+  width: 700px;
+  height: auto;
+}
+.modal-content-panneau button {
   background-color: rgb(38, 173, 110);
   border-radius: 5px;
   border: none;
@@ -82,7 +88,7 @@
   top: 40px;
   right: 20px;
 }
-.modal-content button:hover {
+.modal-content-panneau button:hover {
   background-color: rgb(8, 212, 117);
 }
 
