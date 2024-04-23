@@ -5,7 +5,6 @@ import Affiche from "./pages/Affiches";
 import Error from "./pages/Error";
 import Stream from "./pages/Stream";
 import Panneau from "./pages/Panneau";
-import TEST from "./pages/test";
 
 const router = () => {
   return (
