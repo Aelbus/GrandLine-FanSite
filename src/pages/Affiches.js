@@ -59,11 +59,18 @@ import accident from "../assets/images/affiche/accident_suzuutv.png";
 import baisemoi from "../assets/images/affiche/baise_moi_si_tu_peux.png";
 import gastonfisc from "../assets/images/affiche/Qui_retrouveras_Gaston_FISC.png";
 import snakouS6 from "../assets/images/affiche/snakouS6.png";
+import forbaise from "../assets/images/affiche/Forbaise.png";
 
 const Affiches = () => {
   const [selectedCard, setSelectedCard] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
   const projects = [
+    {
+      title: "Forbaise",
+      info: "By Gabrielh",
+      image: forbaise,
+      url: "https://i.goopics.net/fkvgcu.png",
+    },
     {
       title: "S.N.A.K.O.U S6",
       info: "By Mohamed_genie",
@@ -138,7 +145,7 @@ const Affiches = () => {
     },
     {
       title: "Gradiator",
-      info: "By ???",
+      info: "By Beuh",
       image: gradiator,
       url: "https://i.goopics.net/v9gfzw.png",
     },
@@ -192,7 +199,7 @@ const Affiches = () => {
     },
     {
       title: "BIGMAN.",
-      info: "By Hueb",
+      info: "By Beuh",
       image: bigman,
       url: "https://i.goopics.net/bv2rae.pngm",
     },
