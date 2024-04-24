@@ -36,6 +36,7 @@ import ZeAaron from "../assets/images/stream/zeaaron_.png";
 import postbadon from "../assets/images/stream/postbadon.png";
 import loly from "../assets/images/stream/lolypokicake.png";
 import dorel from "../assets/images/stream/Dorelium.png";
+import bilou from "../assets/images/stream/Bilou.png";
 
 const Stream = () => {
   const projects = [
@@ -258,8 +259,15 @@ const Stream = () => {
       nomRP: "Guadalupe MORA",
       nomIRL: "LaTomateMozza",
       image: latomatemozza,
-      info: "No Sream",
+      info: "No Stream",
       url: "https://www.twitch.tv/latomatemozza",
+    },
+    {
+      nomRP: "Javier CHAMORRO",
+      nomIRL: "Bilou",
+      image: bilou,
+      info: "",
+      url: "https://www.twitch.tv/bilou",
     },
     {
       nomRP: "Balentina CUCALACHA",
