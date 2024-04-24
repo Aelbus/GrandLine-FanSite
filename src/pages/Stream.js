@@ -55,7 +55,7 @@ const Stream = () => {
       url: "https://www.twitch.tv/aminematue",
     },
     {
-      nomRP: "Bellamy ???",
+      nomRP: "Matthew BELLAMY",
       nomIRL: "Dorelium",
       info: "STAFF - No Stream",
       image: dorel,
