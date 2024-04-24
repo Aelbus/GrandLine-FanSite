@@ -9,7 +9,6 @@ const Home = () => {
         Lexique Dimension : Hauteur x Largeur
         <li>Affiche: 512x330</li>
         <li>Panneau 272x512</li>
-        <li>Pancartes 307x512</li>
       </ul>
       <p>
         MAJ 24/04 16h30- ajouts d'un formulaire pour envoyez vos images. "Add ?"{" "}
