@@ -21,7 +21,12 @@ const Home = () => {
         <img src={prime} alt="GrandLineRP by Uskal" />
       </div>
       <div className="info-home">
-        <p>Remerciement à tout les contributeurs</p>
+        <p>
+          Remerciement a tous les contributeurs <br />
+          Uskal, Fireblaze, Varggan, Dpix qui ont lancer le méta Affiche
+          <br />
+          Désolé de ne pas pouvoir citer tous les créateurs
+        </p>
       </div>
     </div>
   );
