@@ -47,7 +47,12 @@ function ContactForm() {
     <div className="contact-div">
       <div className="contact-container">
         <h2>Envoyer vos affiches et panneaux</h2>
-        <p>Merci de respecter le format PNG ainsi que les dimensions</p>
+        <p>
+          Merci de respecter le format PNG ainsi que les dimensions
+          <br />
+          J'ajoute manuellement les affiches, si la vôtre n'est pas affiché ce
+          n'est soit pas encore fait, soit inapproprié. <br />
+        </p>
         <form className="contact-form" onSubmit={sendEmail}>
           <div className="contact-label">
             <label htmlFor="name">Pseudo</label>
