@@ -10,6 +10,7 @@ const Home = () => {
         <li>Affiche: 512x330</li>
         <li>Panneau 272x512</li>
       </ul>
+      <p>MAJ 24/04 21h30- ajouts Barre de recherche "Stream" </p>
       <p>MAJ 24/04 19h30- ajouts Barre de recherche "affiche" </p>
       <p>
         MAJ 24/04 16h30- ajouts d'un formulaire pour envoyez vos images. "Add ?"{" "}

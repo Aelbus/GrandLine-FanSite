@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "../styles/pages/Stream.css";
 import Twitchico from "../assets/icons/twitch.webp";
 
@@ -40,6 +41,8 @@ import bilou from "../assets/images/stream/Bilou.png";
 import reymann from "../assets/images/stream/R3YMANN.png";
 
 const Stream = () => {
+  const [searchTerm, setSearchTerm] = useState(""); // Ajout de l'état de recherche
+
   const projects = [
     {
       nomRP: "John APOTRI - multiRP",
@@ -286,13 +289,26 @@ const Stream = () => {
     },
   ];
 
+  // Filtrer les streamers en fonction du terme de recherche dans le nomRP
+  const filteredProjects = projects.filter((project) =>
+    project.nomRP.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <main className="projects-div">
+      {/* Barre de recherche */}
+      <input
+        className="search-bar"
+        type="text"
+        placeholder="Rechercher un Streamer par NomRP..."
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+      />
       <div className="card-container-stream">
-        {projects.map((project, index) => (
+        {filteredProjects.map((project, index) => (
           <div key={index} className="card-stream">
             <figure>
-              <img src={project.image} alt={project.title} />
+              <img src={project.image} alt={project.nomIRL} />
               <p className="Infosupp">{project.info}</p>
               <figcaption>
                 <h2>{project.nomIRL}</h2>
