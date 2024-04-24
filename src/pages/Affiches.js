@@ -4,7 +4,8 @@ import "../styles/pages/Affiche.css";
 const Affiches = () => {
   const [selectedCard, setSelectedCard] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
-  const [searchTerm, setSearchTerm] = useState(""); // Ajout de l'état de recherche
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredIndices, setFilteredIndices] = useState([]);
 
   const projects = [
     {
@@ -374,37 +375,57 @@ const Affiches = () => {
     alert("URL copiée dans le presse-papiers !");
   };
 
-  // Filtrer les projets en fonction du terme de recherche
-  const filteredProjects =
-    searchTerm.trim() === ""
-      ? projects
-      : projects.filter((project) =>
-          project.title.toLowerCase().includes(searchTerm.toLowerCase())
-        );
+  const handleSearch = (e) => {
+    const term = e.target.value;
+    setSearchTerm(term);
+
+    if (term.trim() === "") {
+      setFilteredIndices([]);
+    } else {
+      const filteredIndices = projects
+        .map((project, index) => ({ project, index }))
+        .filter(({ project }) =>
+          project.title.toLowerCase().includes(term.toLowerCase())
+        )
+        .map(({ index }) => index)
+        .filter((index) => index >= 0 && index < projects.length);
+
+      setFilteredIndices(filteredIndices);
+    }
+  };
 
   return (
     <main className="projects-div">
-      {/* Barre de recherche */}
       <input
         className="search-bar"
         type="text"
         placeholder="Rechercher une affiche par titre..."
         value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
+        onChange={handleSearch}
       />
 
       <div className="card-container-affiche">
-        {filteredProjects.map((project, index) => (
-          <div
-            key={index}
-            className="card-affiche"
-            onClick={() => openModal(index)}
-          >
-            <figure>
-              <img src={project.url} alt={project.title} />
-            </figure>
-          </div>
-        ))}
+        {(searchTerm.trim() === ""
+          ? projects.map((_, index) => index)
+          : filteredIndices
+        ).map((index) => {
+          if (index >= 0 && index < projects.length) {
+            return (
+              <div
+                key={index}
+                className="card-affiche"
+                onClick={() => openModal(index)}
+              >
+                <figure>
+                  <img src={projects[index].url} alt={projects[index].title} />
+                </figure>
+              </div>
+            );
+          } else {
+            console.error("Invalid index:", index);
+            return null;
+          }
+        })}
       </div>
       {modalOpen && (
         <div className="modal">
@@ -419,7 +440,6 @@ const Affiches = () => {
               alt={projects[selectedCard].title}
             />
             <button onClick={copyURL}>Importer en jeu</button>{" "}
-            {/* Bouton pour copier l'URL */}
           </div>
         </div>
       )}
