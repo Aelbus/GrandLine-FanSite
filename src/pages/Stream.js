@@ -23,6 +23,15 @@ import zwave from "../assets/images/stream/Zwave69.png";
 import medja from "../assets/images/stream/DVM_Medja.png";
 import gzafizzle from "../assets/images/stream/GzaFizzle.jpeg";
 import hyenaa from "../assets/images/stream/hyenaa.png";
+import anaisMrn from "../assets/images/stream/anaismrn.png";
+import ascoco from "../assets/images/stream/as_coco.png";
+import ayline213 from "../assets/images/stream/ayline213.png";
+import evelunes from "../assets/images/stream/evelunes.png";
+import kailusss from "../assets/images/stream/kailusss.png";
+import latomatemozza from "../assets/images/stream/LaTomateMozza.png";
+import nicotheo from "../assets/images/stream/Nicotheo_off.png";
+import panpanqq from "../assets/images/stream/panpanqqoh.jpeg";
+import saadikoi from "../assets/images/stream/saadikoooi.png";
 
 const Stream = () => {
   const projects = [
@@ -98,7 +107,7 @@ const Stream = () => {
     },
     {
       nomRP: "Narine MUCUS",
-      nomIRL: "Lockleary",
+      nomIRL: "Locklear",
       image: locklear,
       url: "https://www.twitch.tv/locklear",
     },
@@ -163,6 +172,69 @@ const Stream = () => {
       image: hyenaa,
       info: "RIP - No Stream",
       url: "https://www.twitch.tv/hyenaaa",
+    },
+    {
+      nomRP: "Zoe BAKER",
+      nomIRL: "AnaisMRN",
+      image: anaisMrn,
+      info: "La Zoooooo'",
+      url: "https://www.twitch.tv/anaisMRN",
+    },
+    {
+      nomRP: "Robert WALTON",
+      nomIRL: "Nicotheo_Off",
+      image: nicotheo,
+      info: "",
+      url: "https://www.twitch.tv/nicotheo_off",
+    },
+    {
+      nomRP: "Patrice PLOT",
+      nomIRL: "PanpanQqOH",
+      image: panpanqq,
+      info: "",
+      url: "https://www.twitch.tv/panpanqqoh",
+    },
+    {
+      nomRP: "Framboise LOPEZ",
+      nomIRL: "Ayline213",
+      image: ayline213,
+      info: "",
+      url: "https://www.twitch.tv/ayline213",
+    },
+    {
+      nomRP: "Diana ALLOCCO",
+      nomIRL: "Evelunes",
+      image: evelunes,
+      info: "",
+      url: "https://www.twitch.tv/evelunes",
+    },
+    {
+      nomRP: "Alya Rosales MORA",
+      nomIRL: "As-Coco",
+      image: ascoco,
+      info: "",
+      url: "https://www.twitch.tv/as-coco",
+    },
+    {
+      nomRP: "Harukichi YAMAGUCHI",
+      nomIRL: "Saadikoooi",
+      image: saadikoi,
+      info: "",
+      url: "https://www.twitch.tv/saadikoooi",
+    },
+    {
+      nomRP: "Guadalupe MORA",
+      nomIRL: "LaTomateMozza",
+      image: latomatemozza,
+      info: "No Sream",
+      url: "https://www.twitch.tv/latomatemozza",
+    },
+    {
+      nomRP: "Balentina CUCALACHA",
+      nomIRL: "Kailusss",
+      image: kailusss,
+      info: "",
+      url: "https://www.twitch.tv/Kailusss",
     },
   ];
 

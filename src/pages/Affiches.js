@@ -65,11 +65,25 @@ import titan from "../assets/images/affiche/attack_on_titan.png";
 import family from "../assets/images/affiche/family_buisness.png";
 import testament from "../assets/images/affiche/le_testament.png";
 import puant from "../assets/images/affiche/le_gros_la_vieille_et_le_puant.png";
+import starfoulah from "../assets/images/affiche/star_foulah_tomsy.png";
+import laweewee from "../assets/images/affiche/la_weewee_tomsy.png";
 
 const Affiches = () => {
   const [selectedCard, setSelectedCard] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
   const projects = [
+    {
+      title: "La WeeWee",
+      info: "By Tomsy",
+      image: laweewee,
+      url: "https://i.goopics.net/7jaq9q.png",
+    },
+    {
+      title: "Star Foulah Episode 2",
+      info: "By Tomsy",
+      image: starfoulah,
+      url: "https://i.goopics.net/yq7v9e.png",
+    },
     {
       title: "Le Gros, La vieille et le Puant",
       info: "By ???",
