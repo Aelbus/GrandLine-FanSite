@@ -21,6 +21,8 @@ import ludmyaa from "../assets/images/stream/Ludmyaa.jpeg";
 import zaardoz from "../assets/images/stream/Zaardoz.png";
 import zwave from "../assets/images/stream/Zwave69.png";
 import medja from "../assets/images/stream/DVM_Medja.png";
+import gzafizzle from "../assets/images/stream/GzaFizzle.jpeg";
+import hyenaa from "../assets/images/stream/hyenaa.png";
 
 const Stream = () => {
   const projects = [
@@ -137,6 +139,12 @@ const Stream = () => {
       url: "https://www.twitch.tv/carbonhh",
     },
     {
+      nomRP: "Jimmy OPPENHEIM",
+      nomIRL: "GzaFizzle",
+      image: gzafizzle,
+      url: "https://www.twitch.tv/gzafizzle",
+    },
+    {
       nomRP: "??? GORDON",
       nomIRL: "Zaardoz",
       image: zaardoz,
@@ -148,6 +156,13 @@ const Stream = () => {
       image: ludmyaa,
       info: "No Stream",
       url: "https://www.twitch.tv/ludmyaa",
+    },
+    {
+      nomRP: "Mamie Suzie BIGMAN",
+      nomIRL: "Hyenaa",
+      image: hyenaa,
+      info: "RIP - No Stream",
+      url: "https://www.twitch.tv/hyenaaa",
     },
   ];
 
