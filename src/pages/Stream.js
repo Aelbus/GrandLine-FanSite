@@ -234,7 +234,7 @@ const Stream = () => {
       nomIRL: "Kailusss",
       image: kailusss,
       info: "",
-      url: "https://www.twitch.tv/Kailusss",
+      url: "https://www.twitch.tv/Kailussss",
     },
   ];
 
