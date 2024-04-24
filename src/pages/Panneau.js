@@ -16,11 +16,18 @@ import reddeadN from "../assets/images/panneau/red_dead_nova.png";
 import redumbtion from "../assets/images/panneau/Red_Dead_Redumbtion.png";
 import seigneuranus from "../assets/images/panneau/Seigneur_anus.png";
 import téléteubé from "../assets/images/panneau/Téléteubé.png";
+import again from "../assets/images/panneau/here_we_go_again.png";
 
 const Panneau = () => {
   const [selectedCard, setSelectedCard] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
   const projects = [
+    {
+      title: "Here we go again...",
+      info: "By AeLBuS",
+      image: again,
+      url: "https://i.goopics.net/ivv15h.png",
+    },
     {
       title: "Téléteubé",
       info: "By AeLBuS",
