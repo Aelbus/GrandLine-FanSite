@@ -15,7 +15,7 @@ const router = () => {
         <Route path="/affiche" element={<Affiche />} />
         <Route path="/panneau" element={<Panneau />} />
         <Route path="/stream" element={<Stream />} />
-        <Route path="/add" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </>
