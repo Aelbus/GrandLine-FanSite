@@ -25,7 +25,7 @@ const Home = () => {
       <div className="info-home">
         <p>
           Remerciement a tous les contributeurs <br />
-          Uskal, Fireblaze, Varggan, Dpix qui ont lancer le méta Affiche
+          Uskal, Fireblaze, Varggan, Dpix qui ont lancer la méta Affiche
           <br />
           Désolé de ne pas pouvoir citer tous les créateurs
         </p>
