@@ -120,7 +120,7 @@ const Affiches = () => {
     },
     {
       title: "Adieu Mamie",
-      info: "By Kanosumi",
+      info: "By DraZer_",
       image: adieu,
       url: "https://i.goopics.net/4i7fkd.png",
     },
