@@ -67,11 +67,18 @@ import testament from "../assets/images/affiche/le_testament.png";
 import puant from "../assets/images/affiche/le_gros_la_vieille_et_le_puant.png";
 import starfoulah from "../assets/images/affiche/star_foulah_tomsy.png";
 import laweewee from "../assets/images/affiche/la_weewee_tomsy.png";
+import GLRP from "../assets/images/affiche/grand_line_rp.png";
 
 const Affiches = () => {
   const [selectedCard, setSelectedCard] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
   const projects = [
+    {
+      title: "Grand Line RP",
+      info: "By Uskal",
+      image: GLRP,
+      url: "https://i.goopics.net/nymsvq.png",
+    },
     {
       title: "La WeeWee",
       info: "By Tomsy",
