@@ -52,6 +52,12 @@ function ContactForm() {
           <br />
           J'ajoute manuellement les affiches, si la vôtre n'est pas affiché ce
           n'est soit pas encore fait, soit inapproprié. <br />
+          <br />
+          Hauteur x Largeur
+          <br />
+          Affiche: 512x330
+          <br />
+          Panneau 272x512
         </p>
         <form className="contact-form" onSubmit={sendEmail}>
           <div className="contact-label">
