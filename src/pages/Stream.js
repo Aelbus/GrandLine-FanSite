@@ -121,7 +121,7 @@ const Stream = () => {
       nomRP: "Alix FORBES",
       nomIRL: "Chach0u__",
       image: Chachou,
-      info: "No Stream",
+      info: "Stream occasionnel",
       url: "https://www.twitch.tv/Chach0u__",
     },
     {
