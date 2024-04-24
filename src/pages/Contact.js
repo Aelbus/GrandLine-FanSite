@@ -7,13 +7,14 @@ function ContactForm() {
 
   const inputRefs = {
     name: useRef(null),
+    title: useRef(null), // Nouveau champ "title"
     url: useRef(null),
   };
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    const requiredFields = ["name", "url"]; // Changement ici pour vérifier seulement name et email
+    const requiredFields = ["name", "title", "url"]; // Mettez à jour pour inclure "title"
     let hasErrors = false;
 
     requiredFields.forEach((field) => {
@@ -65,9 +66,18 @@ function ContactForm() {
             <input type="text" name="name" id="name" ref={inputRefs.name} />
           </div>
           <div className="contact-label">
+            <label htmlFor="title">Titre</label> {/* Nouveau champ "title" */}
+            <input
+              type="text"
+              name="title"
+              id="title"
+              ref={inputRefs.title}
+            />{" "}
+            {/* Nouveau champ "title" */}
+          </div>
+          <div className="contact-label">
             <label htmlFor="url">Lien Image</label>
-            <input type="text" name="url" id="url" ref={inputRefs.url} />{" "}
-            {/* Changement ici pour corriger la référence */}
+            <input type="text" name="url" id="url" ref={inputRefs.url} />
           </div>
 
           <div className="btn-submit">
