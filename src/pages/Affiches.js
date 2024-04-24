@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../styles/pages/Affiche.css";
+
 import SuperBigmanBros from "../assets/images/affiche/SuperBigmanBros.png";
 import puceau from "../assets/images/affiche/25ans_toujours_puceau.png";
 import ahleradin from "../assets/images/affiche/Ahleradin.png";
@@ -72,6 +73,8 @@ import GLRP from "../assets/images/affiche/grand_line_rp.png";
 const Affiches = () => {
   const [selectedCard, setSelectedCard] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
+  const [searchTerm, setSearchTerm] = useState(""); // Ajout de l'état de recherche
+
   const projects = [
     {
       title: "Grand Line RP",
@@ -503,10 +506,27 @@ const Affiches = () => {
     alert("URL copiée dans le presse-papiers !");
   };
 
+  // Filtrer les projets en fonction du terme de recherche
+  const filteredProjects =
+    searchTerm.trim() === ""
+      ? projects
+      : projects.filter((project) =>
+          project.title.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+
   return (
     <main className="projects-div">
+      {/* Barre de recherche */}
+      <input
+        className="search-bar"
+        type="text"
+        placeholder="Rechercher une affiche par titre..."
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+      />
+
       <div className="card-container-affiche">
-        {projects.map((project, index) => (
+        {filteredProjects.map((project, index) => (
           <div
             key={index}
             className="card-affiche"

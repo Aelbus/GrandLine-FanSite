@@ -7,8 +7,27 @@
   border: 2px black solid;
   animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.projects-div .search-bar {
+  font-family: "Fjalla One", sans-serif;
+  width: 600px;
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: #5c5c5c;
+  color: white;
+}
+.projects-div .search-bar:focus {
+  border-color: #ff0000;
+  outline: none;
+}
+.projects-div .search-bar::placeholder {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
 }
 .projects-div .card-container-affiche {
   display: flex;
@@ -20,6 +39,7 @@
   height: 80vh;
   overflow: auto;
   flex-direction: row;
+  margin-top: 5px;
 }
 .projects-div .card-container-affiche .card-affiche {
   margin: 10px;
