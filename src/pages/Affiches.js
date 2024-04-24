@@ -162,7 +162,7 @@ const Affiches = () => {
     },
     {
       title: "AGRASMAN",
-      info: "By M8 Zay",
+      info: "By ComKris",
       image: agrasman,
       url: "https://i.goopics.net/tc3r48.png",
     },
