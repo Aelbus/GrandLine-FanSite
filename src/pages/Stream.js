@@ -37,6 +37,7 @@ import postbadon from "../assets/images/stream/postbadon.png";
 import loly from "../assets/images/stream/lolypokicake.png";
 import dorel from "../assets/images/stream/Dorelium.png";
 import bilou from "../assets/images/stream/Bilou.png";
+import reymann from "../assets/images/stream/R3YMANN.png";
 
 const Stream = () => {
   const projects = [
@@ -275,6 +276,13 @@ const Stream = () => {
       image: kailusss,
       info: "",
       url: "https://www.twitch.tv/Kailussss",
+    },
+    {
+      nomRP: "Béatrice BONIFACE",
+      nomIRL: "R3YMANN",
+      image: reymann,
+      info: "",
+      url: "https://www.twitch.tv/R3YMANN",
     },
   ];
 
