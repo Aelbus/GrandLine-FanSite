@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles//pages/Home.css";
+import prime from "../assets/images/Home.png";
 
 const Home = () => {
   return (
@@ -16,6 +17,12 @@ const Home = () => {
       <p>MAJ 23/04 16h - Ajouts Panneau</p>
       <p>MAJ 23/04 14h - Ajouts d'affiches + redimension des images</p>
       <p>22/04 - Début du projet</p>
+      <div className="img-home">
+        <img src={prime} alt="GrandLineRP by Uskal" />
+      </div>
+      <div className="info-home">
+        <p>Remerciement à tout les contributeurs</p>
+      </div>
     </div>
   );
 };
