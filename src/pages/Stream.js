@@ -210,10 +210,10 @@ const Stream = () => {
     },
     {
       nomRP: "Alya Rosales MORA",
-      nomIRL: "As-Coco",
+      nomIRL: "As_Coco",
       image: ascoco,
       info: "",
-      url: "https://www.twitch.tv/as-coco",
+      url: "https://www.twitch.tv/as_coco",
     },
     {
       nomRP: "Harukichi YAMAGUCHI",
