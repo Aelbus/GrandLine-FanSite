@@ -52,7 +52,7 @@
   font-size: 12px;
   position: absolute;
   bottom: -4px;
-  left: 35px;
+  right: 35px;
 }
 .projects-div .card-container-stream .card-stream figure figcaption {
   width: 250px;
@@ -64,11 +64,11 @@
   padding-left: 10px;
 }
 .projects-div .card-container-stream .card-stream figure figcaption h2 {
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
 }
 .projects-div .card-container-stream .card-stream figure figcaption p {
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
 }
 .projects-div .card-container-stream .card-stream figure figcaption a {
@@ -79,8 +79,8 @@
   animation: rotate-center 0.6s ease-in-out both;
 }
 .projects-div .card-container-stream .card-stream figure figcaption a img {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border: none;
 }
 

@@ -32,9 +32,20 @@ import latomatemozza from "../assets/images/stream/LaTomateMozza.png";
 import nicotheo from "../assets/images/stream/Nicotheo_off.png";
 import panpanqq from "../assets/images/stream/panpanqqoh.jpeg";
 import saadikoi from "../assets/images/stream/saadikoooi.png";
+import ZeAaron from "../assets/images/stream/zeaaron_.png";
+import postbadon from "../assets/images/stream/postbadon.png";
+import loly from "../assets/images/stream/lolypokicake.png";
+import dorel from "../assets/images/stream/Dorelium.png";
 
 const Stream = () => {
   const projects = [
+    {
+      nomRP: "John APOTRI - multiRP",
+      nomIRL: "LolyPokiCake",
+      image: loly,
+      info: "Fondateur - Staff",
+      url: "https://www.twitch.tv/lolypokicake",
+    },
     {
       nomRP: "Gaston BIGMAN",
       nomIRL: "Aminematue",
@@ -43,11 +54,32 @@ const Stream = () => {
       url: "https://www.twitch.tv/aminematue",
     },
     {
+      nomRP: "Bellamy ???",
+      nomIRL: "Dorelium",
+      info: "STAFF - No Stream",
+      image: dorel,
+      url: "https://www.twitch.tv/dorelium",
+    },
+    {
       nomRP: "Denzel PALMER",
       nomIRL: "3DENZ",
       info: "STAFF",
       image: DENZ,
       url: "https://www.twitch.tv/3DENZ",
+    },
+    {
+      nomRP: "Alexandre FORBES",
+      nomIRL: "ZeAaron_",
+      info: "STAFF - No Stream",
+      image: ZeAaron,
+      url: "https://www.twitch.tv/zeaaron_",
+    },
+    {
+      nomRP: "Hector MORA",
+      nomIRL: "PostbaDON",
+      info: "STAFF - No Stream",
+      image: postbadon,
+      url: "https://www.twitch.tv/postbadon",
     },
     {
       nomRP: "Jason BIGMAN",
