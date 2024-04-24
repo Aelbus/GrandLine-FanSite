@@ -47,6 +47,16 @@ const Header = () => {
               Stream
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) => {
+                return isActive ? "nav-link active-link" : "nav-link";
+              }}
+            >
+              Add ?
+            </NavLink>
+          </li>
         </ul>
       </nav>
       <h1>GRANDLINE RP - GALERIE TROLLESQUE</h1>

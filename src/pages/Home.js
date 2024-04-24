@@ -11,6 +11,9 @@ const Home = () => {
         <li>Panneau 272x512</li>
         <li>Pancartes 307x512</li>
       </ul>
+      <p>
+        MAJ 24/04 16h30- ajouts d'un formulaire pour envoyez vos images. "Add ?"{" "}
+      </p>
       <p>MAJ 24/04 13h30- ajouts streamer + affiche </p>
       <p>MAJ 23/04 20h50 - Ajouts Imports </p>
       <p>MAJ 23/04 17h30 - Ajouts Quelque Stream + redirection</p>

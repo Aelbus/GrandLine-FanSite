@@ -145,7 +145,7 @@ const Stream = () => {
       url: "https://www.twitch.tv/locklear",
     },
     {
-      nomRP: "emily PALMER",
+      nomRP: "Emily PALMER",
       nomIRL: "Aneyaris_",
       image: aneyaris,
       url: "https://www.twitch.tv/aneyaris_",
