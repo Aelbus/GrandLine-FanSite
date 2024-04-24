@@ -60,11 +60,46 @@ import baisemoi from "../assets/images/affiche/baise_moi_si_tu_peux.png";
 import gastonfisc from "../assets/images/affiche/Qui_retrouveras_Gaston_FISC.png";
 import snakouS6 from "../assets/images/affiche/snakouS6.png";
 import forbaise from "../assets/images/affiche/Forbaise.png";
+import adieu from "../assets/images/affiche/adieu_mamie.png";
+import titan from "../assets/images/affiche/attack_on_titan.png";
+import family from "../assets/images/affiche/family_buisness.png";
+import testament from "../assets/images/affiche/le_testament.png";
+import puant from "../assets/images/affiche/le_gros_la_vieille_et_le_puant.png";
 
 const Affiches = () => {
   const [selectedCard, setSelectedCard] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
   const projects = [
+    {
+      title: "Le Gros, La vieille et le Puant",
+      info: "By ???",
+      image: puant,
+      url: "https://i.goopics.net/xpq7k3.png",
+    },
+    {
+      title: "Le Testament",
+      info: "By ???",
+      image: testament,
+      url: "https://i.goopics.net/5hagtj.png",
+    },
+    {
+      title: "Family Buisness",
+      info: "By ???",
+      image: family,
+      url: "https://i.goopics.net/wx324t.png",
+    },
+    {
+      title: "Attack On TITAN",
+      info: "By ???",
+      image: titan,
+      url: "https://i.goopics.net/qxjl4m.png",
+    },
+    {
+      title: "Adieu Mamie",
+      info: "By Kanosumi",
+      image: adieu,
+      url: "https://i.goopics.net/4i7fkd.png",
+    },
     {
       title: "Forbaise",
       info: "By Gabrielh",
