@@ -19,25 +19,12 @@
   font-size: 15px;
   text-align: center;
 }
-.footer-div .Social-media {
-  position: absolute;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  width: auto;
-  padding-left: 10px;
+.footer-div a {
+  text-decoration: none;
+  color: #ff0000;
 }
-.footer-div .Social-media a img {
-  background: black;
-  height: 30px;
-  width: 30px;
-  border: black 2px solid;
-  border-radius: 100%;
-  margin-right: 10px;
-}
-.footer-div .Social-media a img:hover {
-  border: #4bb04e 2px solid;
+.footer-div a:visited {
+  color: #ff0000;
 }
 
 @media (max-width: 650px) {
