@@ -49,7 +49,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <h1>EN CONSTRUCTION...</h1>
+      <h1>GRANDLINE RP - GALERIE TROLLESQUE</h1>
     </header>
   );
 };
