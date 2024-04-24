@@ -1,92 +1,24 @@
 .contact-div {
   background: #242424;
-  height: 85vh;
-  margin-top: 90px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-top: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 80px;
+  border-radius: 20px 20px 20px 20px;
   border: 2px black solid;
   animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
 }
 .contact-div .contact-container {
-  width: 60%;
+  width: 40%;
   height: 100%;
   margin: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-.contact-div .contact-container label {
-  justify-content: center;
-  margin-bottom: 8px;
-  font-weight: bold;
-  color: white;
-}
-.contact-div .contact-container input[type=text] {
-  font-family: "Fjalla One", sans-serif;
-  width: 90%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  background: #5c5c5c;
-  color: white;
-  text-align: center;
-}
-.contact-div .contact-container input[type=text]:focus {
-  border-color: #ff0000;
-  outline: none;
-}
-.contact-div .contact-container input[type=text]::placeholder {
-  font-size: 14px;
-  color: rgb(0, 0, 0);
-}
-.contact-div .contact-container textarea {
-  z-index: 2;
-  font-family: "Fjalla One", sans-serif;
-  width: 90%;
-  height: 150px;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  background: #5c5c5c;
-  color: white;
-  resize: none;
-}
-.contact-div .contact-container textarea:focus {
-  border-color: #4bb04e;
-  outline: none;
-}
-.contact-div .contact-container textarea::placeholder {
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.918);
-}
-.contact-div .contact-container .btn-submit {
-  margin-top: 20px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.contact-div .contact-container button[type=submit] {
-  display: flex;
-  flex-direction: column;
-  font-family: "Fjalla One", sans-serif;
-  font-size: 20px;
-  background-color: #ff0000;
-  color: rgb(0, 0, 0);
-  padding: 10px 15px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-}
-.contact-div .contact-container button[type=submit]:hover {
-  box-shadow: 0 0 11px rgb(0, 0, 0);
 }
 .contact-div .contact-container h2 {
   text-align: center;
@@ -95,15 +27,50 @@
   color: white;
 }
 .contact-div .contact-container p {
-  text-align: center;
-  font-size: 18px;
-  margin-bottom: 50px;
   color: white;
 }
-.contact-div .contact-container .Enjoy {
-  position: absolute;
-  bottom: 30px;
+.contact-div .contact-container .contact-form .contact-label {
+  display: flex;
+  flex-direction: column;
+}
+.contact-div .contact-container .contact-form .contact-label label {
+  color: white;
+  margin: 10px 0 10px 0;
+}
+.contact-div .contact-container .contact-form .contact-label input[type=text] {
+  border-radius: 25px;
+  height: 25px;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 16px;
   text-align: center;
+  color: black;
+  border: 1px solid Black;
+}
+.contact-div .contact-container .contact-form .contact-label input[type=text]:focus {
+  border-color: #ff0000;
+  outline: none;
+}
+.contact-div .contact-container .contact-form .contact-label input[type=text]::placeholder {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+.contact-div .contact-container .contact-form .btn-submit button[type=submit] {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 20px;
+  height: 50px;
+  width: 150px;
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.contact-div .contact-container .contact-form .btn-submit button[type=submit]:hover {
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+.contact-div .contact-container .contact-form .btn-submit .Enjoy {
+  margin-top: 10px;
   color: #ff0000;
   font-size: 20px;
 }

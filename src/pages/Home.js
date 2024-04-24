@@ -5,11 +5,6 @@ import prime from "../assets/images/Home.png";
 const Home = () => {
   return (
     <div className="home-div">
-      <ul>
-        Lexique Dimension : Hauteur x Largeur
-        <li>Affiche: 512x330</li>
-        <li>Panneau 272x512</li>
-      </ul>
       <p>MAJ 24/04 21h30- ajouts Barre de recherche "Stream" </p>
       <p>MAJ 24/04 19h30- ajouts Barre de recherche "affiche" </p>
       <p>

@@ -13,6 +13,9 @@
   justify-content: space-around;
   padding: 0 0 0 30px;
   gap: 5%;
+  padding: 20px;
+}
+.home-div p {
   color: #ffffff;
 }
 .home-div .img-home {
