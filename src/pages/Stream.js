@@ -175,13 +175,13 @@ const Stream = () => {
       url: "https://www.twitch.tv/byilhann",
     },
     {
-      nomRP: "Ray WILKINS",
+      nomRP: "Ray WALKINS",
       nomIRL: "Samolito9",
       image: samo,
       url: "https://www.twitch.tv/samolito9",
     },
     {
-      nomRP: "Steeve ???",
+      nomRP: "Steeve WALKINS",
       nomIRL: "Flamby",
       image: flamby,
       url: "https://www.twitch.tv/flamby",
@@ -205,7 +205,7 @@ const Stream = () => {
       url: "https://www.twitch.tv/gzafizzle",
     },
     {
-      nomRP: "??? GORDON",
+      nomRP: "Mike GORDON",
       nomIRL: "Zaardoz",
       image: zaardoz,
       url: "https://www.twitch.tv/zaardoz",
