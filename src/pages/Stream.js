@@ -323,7 +323,7 @@ const Stream = () => {
       url: "https://www.twitch.tv/saniahasna",
     },
     {
-      nomRP: "Addebayo ???",
+      nomRP: "Addebayo OKONKWO",
       nomIRL: "Qidou",
       image: qidou,
       info: "",
@@ -337,14 +337,14 @@ const Stream = () => {
       url: "https://www.twitch.tv/nekzioh",
     },
     {
-      nomRP: "Olya ???",
+      nomRP: "Olya NELSON",
       nomIRL: "Lil__Quinn",
       image: lilquinn,
       info: "",
       url: "https://www.twitch.tv/lil__quinn",
     },
     {
-      nomRP: "Terry ???",
+      nomRP: "Terry COCO",
       nomIRL: "TerryCoco",
       image: terrycoco,
       info: "",
@@ -379,7 +379,7 @@ const Stream = () => {
       url: "https://www.twitch.tv/klearradio",
     },
     {
-      nomRP: "Mercedes ???",
+      nomRP: "Mercedes MARCOU",
       nomIRL: "Las_Pepitasse",
       image: laspepitasse,
       info: "",
