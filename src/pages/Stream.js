@@ -39,6 +39,20 @@ import loly from "../assets/images/stream/lolypokicake.png";
 import dorel from "../assets/images/stream/Dorelium.png";
 import bilou from "../assets/images/stream/Bilou.png";
 import reymann from "../assets/images/stream/R3YMANN.png";
+import der_glaude from "../assets/images/stream/der_glaude.png";
+import latuah from "../assets/images/stream/latuah.png";
+import saniahasna from "../assets/images/stream/saniahasna.png";
+import qidou from "../assets/images/stream/Qidou.png";
+import nekzioh from "../assets/images/stream/NekzioH.png";
+import lilquinn from "../assets/images/stream/lil__quinn.png";
+import terrycoco from "../assets/images/stream/terrycoco.jpeg";
+import violence from "../assets/images/stream/vi00lence.png";
+import elfiguees from "../assets/images/stream/el_figuees.png";
+import kiko from "../assets/images/stream/kiko_Tech.png";
+import klear from "../assets/images/stream/KlearRadio.png";
+import laspepitasse from "../assets/images/stream/las_pepitasse.png";
+import boblegob from "../assets/images/stream/boblegob.png";
+import goudaal from "../assets/images/stream/goudaal.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState(""); // Ajout de l'état de recherche
@@ -286,6 +300,104 @@ const Stream = () => {
       image: reymann,
       info: "",
       url: "https://www.twitch.tv/R3YMANN",
+    },
+    {
+      nomRP: "Monsieur DUBIDON",
+      nomIRL: "Der_Glaude",
+      image: der_glaude,
+      info: "",
+      url: "https://www.twitch.tv/R3YMANN",
+    },
+    {
+      nomRP: "Alice DELACOURS",
+      nomIRL: "Latuah",
+      image: latuah,
+      info: "",
+      url: "https://www.twitch.tv/latuah",
+    },
+    {
+      nomRP: "Félichia ???",
+      nomIRL: "SaniaHasna",
+      image: saniahasna,
+      info: "",
+      url: "https://www.twitch.tv/saniahasna",
+    },
+    {
+      nomRP: "Addebayo ???",
+      nomIRL: "Qidou",
+      image: qidou,
+      info: "",
+      url: "https://www.twitch.tv/qidou",
+    },
+    {
+      nomRP: "Léonardo SKORPION",
+      nomIRL: "NekZioH",
+      image: nekzioh,
+      info: "",
+      url: "https://www.twitch.tv/nekzioh",
+    },
+    {
+      nomRP: "Olya ???",
+      nomIRL: "Lil__Quinn",
+      image: lilquinn,
+      info: "",
+      url: "https://www.twitch.tv/lil__quinn",
+    },
+    {
+      nomRP: "Terry ???",
+      nomIRL: "TerryCoco",
+      image: terrycoco,
+      info: "",
+      url: "https://www.twitch.tv/terrycoco",
+    },
+    {
+      nomRP: "Sam Djoris",
+      nomIRL: "Vi00lence",
+      image: violence,
+      info: "",
+      url: "https://www.twitch.tv/vi00lence",
+    },
+    {
+      nomRP: "Isabella LOPEZ",
+      nomIRL: "El_Figuees",
+      image: elfiguees,
+      info: "No Stream",
+      url: "https://www.twitch.tv/el_figuees",
+    },
+    {
+      nomRP: "Jake ???",
+      nomIRL: "Kiko_Tech",
+      image: kiko,
+      info: "",
+      url: "https://www.twitch.tv/kiko_tech",
+    },
+    {
+      nomRP: "Aresene & Melton",
+      nomIRL: "KlearRadio",
+      image: klear,
+      info: "Weazel News",
+      url: "https://www.twitch.tv/klearradio",
+    },
+    {
+      nomRP: "Mercedes ???",
+      nomIRL: "Las_Pepitasse",
+      image: laspepitasse,
+      info: "",
+      url: "https://www.twitch.tv/las_pepitasse",
+    },
+    {
+      nomRP: "Michel ENCLUME",
+      nomIRL: "BobLeGob",
+      image: boblegob,
+      info: "",
+      url: "https://www.twitch.tv/boblegob",
+    },
+    {
+      nomRP: "Tyler TURNER",
+      nomIRL: "Goudaal",
+      image: goudaal,
+      info: "",
+      url: "https://www.twitch.tv/goudaal",
     },
   ];
 
