@@ -1,5 +1,5 @@
-.projects-div {
-  background: rgba(36, 36, 36, 0.662745098);
+.projects-div-affiche {
+  background: rgba(36, 36, 36, 0.5333333333);
   height: 85vh;
   margin-top: 90px;
   margin-left: 5px;
@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
 }
-.projects-div .search-bar {
+.projects-div-affiche .search-bar {
   font-family: "Fjalla One", sans-serif;
   width: 600px;
   padding: 10px;
@@ -20,15 +20,15 @@
   background: #5c5c5c;
   color: white;
 }
-.projects-div .search-bar:focus {
+.projects-div-affiche .search-bar:focus {
   border-color: #ff0000;
   outline: none;
 }
-.projects-div .search-bar::placeholder {
+.projects-div-affiche .search-bar::placeholder {
   font-size: 14px;
   color: rgb(255, 255, 255);
 }
-.projects-div .card-container-affiche {
+.projects-div-affiche .card-container-affiche {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -40,7 +40,7 @@
   flex-direction: row;
   margin-top: 5px;
 }
-.projects-div .card-container-affiche .card-affiche {
+.projects-div-affiche .card-container-affiche .card-affiche {
   margin: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -49,7 +49,7 @@
   align-content: flex-start;
   cursor: pointer;
 }
-.projects-div .card-container-affiche .card-affiche figure {
+.projects-div-affiche .card-container-affiche .card-affiche figure {
   width: 100%;
   margin: 0;
   gap: 0;
@@ -58,21 +58,21 @@
   align-items: center;
   gap: 7px;
 }
-.projects-div .card-container-affiche .card-affiche figure img {
+.projects-div-affiche .card-container-affiche .card-affiche figure img {
   margin-top: 4px;
   width: 170px;
   height: auto;
   object-fit: cover;
 }
-.projects-div .card-container-affiche .card-affiche figure img:hover {
+.projects-div-affiche .card-container-affiche .card-affiche figure img:hover {
   animation: shadow-drop-center 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-.projects-div .card-container-affiche .card-affiche figure figcaption {
+.projects-div-affiche .card-container-affiche .card-affiche figure figcaption {
   width: 100%;
   margin: 0;
   text-align: center;
 }
-.projects-div .card-container-affiche .card-affiche figure figcaption h2 {
+.projects-div-affiche .card-container-affiche .card-affiche figure figcaption h2 {
   color: rgb(255, 255, 255);
   font-size: 16px;
 }

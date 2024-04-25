@@ -128,7 +128,7 @@ const Panneau = () => {
   };
 
   return (
-    <main className="projects-div">
+    <main className="projects-div-panneau">
       <div className="card-container-panneau">
         {projects.map((project, index) => (
           <div

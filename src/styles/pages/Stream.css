@@ -1,4 +1,4 @@
-.projects-div {
+.projects-div-stream {
   background: rgba(36, 36, 36, 0.662745098);
   height: 85vh;
   margin-top: 90px;
@@ -6,10 +6,29 @@
   margin-right: 5px;
   animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.projects-div .card-container-stream {
+.projects-div-stream .search-bar {
+  font-family: "Fjalla One", sans-serif;
+  width: 600px;
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: #5c5c5c;
+  color: white;
+}
+.projects-div-stream .search-bar:focus {
+  border-color: #ff0000;
+  outline: none;
+}
+.projects-div-stream .search-bar::placeholder {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+.projects-div-stream .card-container-stream {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -20,10 +39,10 @@
   overflow: auto;
   flex-direction: row;
 }
-.projects-div .card-container-stream .card-stream {
+.projects-div-stream .card-container-stream .card-stream {
   position: relative;
 }
-.projects-div .card-container-stream .card-stream figure {
+.projects-div-stream .card-container-stream .card-stream figure {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,27 +52,26 @@
   width: 250px;
   height: 30px;
 }
-.projects-div .card-container-stream .card-stream figure:hover {
+.projects-div-stream .card-container-stream .card-stream figure:hover {
   animation: shadow-drop-center-stream 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-.projects-div .card-container-stream .card-stream figure img {
+.projects-div-stream .card-container-stream .card-stream figure img {
   width: 70px;
   height: 70px;
   margin: 0;
   border-radius: 100%;
   border: 3px solid #f0f0f0;
+  background: #f0f0f0;
 }
-.projects-div .card-container-stream .card-stream figure .Infosupp {
-  padding: 4px;
-  background-color: #242424;
-  border-radius: 10px;
-  color: red;
+.projects-div-stream .card-container-stream .card-stream figure .Infosupp {
+  color: #ff0000;
   font-size: 12px;
+  font-weight: 700;
   position: absolute;
-  bottom: -11px;
-  right: 40px;
+  bottom: -8px;
+  left: 100px;
 }
-.projects-div .card-container-stream .card-stream figure figcaption {
+.projects-div-stream .card-container-stream .card-stream figure figcaption {
   width: 250px;
   height: 60px;
   display: flex;
@@ -63,25 +81,26 @@
   gap: 10px;
   padding-left: 10px;
 }
-.projects-div .card-container-stream .card-stream figure figcaption h2 {
+.projects-div-stream .card-container-stream .card-stream figure figcaption h2 {
   width: 200px;
   font-size: 16px;
   font-weight: 400;
   margin: 0;
 }
-.projects-div .card-container-stream .card-stream figure figcaption p {
+.projects-div-stream .card-container-stream .card-stream figure figcaption p {
   width: 200px;
   font-size: 14px;
   margin: 0;
 }
-.projects-div .card-container-stream .card-stream figure figcaption a {
+.projects-div-stream .card-container-stream .card-stream figure figcaption a {
   position: absolute;
+  top: 23px;
   right: 47px;
 }
-.projects-div .card-container-stream .card-stream figure figcaption a:hover {
+.projects-div-stream .card-container-stream .card-stream figure figcaption a:hover {
   animation: rotate-center 0.6s ease-in-out both;
 }
-.projects-div .card-container-stream .card-stream figure figcaption a img {
+.projects-div-stream .card-container-stream .card-stream figure figcaption a img {
   width: 45px;
   height: 45px;
   border: none;

@@ -565,7 +565,7 @@ const Affiches = () => {
   };
 
   return (
-    <main className="projects-div">
+    <main className="projects-div-affiche">
       <input
         className="search-bar"
         type="text"

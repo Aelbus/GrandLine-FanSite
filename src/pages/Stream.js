@@ -141,7 +141,7 @@ const Stream = () => {
       url: "https://www.twitch.tv/Chach0u__",
     },
     {
-      nomRP: "César ???",
+      nomRP: "Cesar ALARCON",
       nomIRL: "DVM_medja",
       image: medja,
       url: "https://www.twitch.tv/dvm_medja",
@@ -412,8 +412,8 @@ const Stream = () => {
       nomRP: "Donnie FRANKLIN",
       nomIRL: "Siknyre_",
       image: siknyre,
-      info: "",
-      url: "https://www.twitch.tv/Siknyre_",
+      info: "Roi des rats",
+      url: "https://www.twitch.tv/siknyre__",
     },
   ];
 
@@ -423,7 +423,7 @@ const Stream = () => {
   );
 
   return (
-    <main className="projects-div">
+    <main className="projects-div-stream">
       {/* Barre de recherche */}
       <input
         className="search-bar"
