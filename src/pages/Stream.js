@@ -53,6 +53,8 @@ import klear from "../assets/images/stream/KlearRadio.png";
 import laspepitasse from "../assets/images/stream/las_pepitasse.png";
 import boblegob from "../assets/images/stream/boblegob.png";
 import goudaal from "../assets/images/stream/goudaal.png";
+import izacarg from "../assets/images/stream/izac95arg.png";
+import siknyre from "../assets/images/stream/siknyre_.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState(""); // Ajout de l'état de recherche
@@ -398,6 +400,20 @@ const Stream = () => {
       image: goudaal,
       info: "",
       url: "https://www.twitch.tv/goudaal",
+    },
+    {
+      nomRP: "Daryl DECKER",
+      nomIRL: "Izac95arg",
+      image: izacarg,
+      info: "",
+      url: "https://www.twitch.tv/Izac95arg",
+    },
+    {
+      nomRP: "Donnie FRANKLIN",
+      nomIRL: "Siknyre_",
+      image: siknyre,
+      info: "",
+      url: "https://www.twitch.tv/Siknyre_",
     },
   ];
 
