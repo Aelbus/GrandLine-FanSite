@@ -54,8 +54,8 @@ function ContactForm() {
         <p>
           Merci de respecter le format PNG ainsi que les dimensions
           <br />
-          J'ajoute manuellement les affiches, si la vôtre n'est pas affiché ce
-          n'est soit pas encore fait, soit inapproprié. <br />
+          J'ajoute manuellement les affiches, si la vôtre n'est pas affiché
+          c'est soit pas encore fait, soit inapproprié. <br />
           <br />
           Hauteur x Largeur
           <br />
