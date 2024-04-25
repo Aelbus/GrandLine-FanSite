@@ -372,7 +372,7 @@ const Stream = () => {
       url: "https://www.twitch.tv/kiko_tech",
     },
     {
-      nomRP: "Aresene & Melton",
+      nomRP: "Arsene & Melton",
       nomIRL: "KlearRadio",
       image: klear,
       info: "Weazel News",
