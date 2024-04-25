@@ -64,12 +64,12 @@
   background: #f0f0f0;
 }
 .projects-div-stream .card-container-stream .card-stream figure .Infosupp {
-  color: #ff0000;
+  color: #f0f0f0;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 400;
   position: absolute;
-  bottom: -8px;
-  left: 100px;
+  bottom: -7px;
+  left: 124px;
 }
 .projects-div-stream .card-container-stream .card-stream figure figcaption {
   width: 250px;
