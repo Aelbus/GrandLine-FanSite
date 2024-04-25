@@ -155,7 +155,6 @@ const Panneau = () => {
               alt={projects[selectedCard].title}
             />
             <button onClick={copyURL}>Importer en jeu</button>{" "}
-            {/* Bouton pour copier l'URL */}
           </div>
         </div>
       )}

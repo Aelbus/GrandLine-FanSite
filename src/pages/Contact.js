@@ -7,14 +7,14 @@ function ContactForm() {
 
   const inputRefs = {
     name: useRef(null),
-    title: useRef(null), // Nouveau champ "title"
+    title: useRef(null),
     url: useRef(null),
   };
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    const requiredFields = ["name", "title", "url"]; // Mettez à jour pour inclure "title"
+    const requiredFields = ["name", "title", "url"];
     let hasErrors = false;
 
     requiredFields.forEach((field) => {
@@ -37,7 +37,7 @@ function ContactForm() {
       )
       .then((result) => {
         console.log("E-mail envoyé avec succès", result.text);
-        setIsSent(true); // Met à jour l'état pour afficher le message de confirmation
+        setIsSent(true);
       })
       .catch((error) => {
         console.error("Erreur lors de l'envoi de l'e-mail", error);
@@ -47,7 +47,10 @@ function ContactForm() {
   return (
     <div className="contact-div">
       <div className="contact-container">
-        <h2>Envoyer vos affiches et panneaux</h2>
+        <h2>
+          Envoyer vos affiches et panneaux <br />
+          Ajoutez vos Streameur Favoris
+        </h2>
         <p>
           Merci de respecter le format PNG ainsi que les dimensions
           <br />
@@ -62,21 +65,20 @@ function ContactForm() {
         </p>
         <form className="contact-form" onSubmit={sendEmail}>
           <div className="contact-label">
-            <label htmlFor="name">Pseudo</label>
+            <label htmlFor="name">Pseudo / Streamer</label>
             <input type="text" name="name" id="name" ref={inputRefs.name} />
           </div>
           <div className="contact-label">
-            <label htmlFor="title">Titre</label> {/* Nouveau champ "title" */}
+            <label htmlFor="title">Titre / Nom RP</label>
             <input
               type="text"
               name="title"
               id="title"
               ref={inputRefs.title}
             />{" "}
-            {/* Nouveau champ "title" */}
           </div>
           <div className="contact-label">
-            <label htmlFor="url">Lien Image</label>
+            <label htmlFor="url">Lien Image / Lien Twitch</label>
             <input type="text" name="url" id="url" ref={inputRefs.url} />
           </div>
 

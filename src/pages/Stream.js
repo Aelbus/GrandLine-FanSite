@@ -57,8 +57,7 @@ import izacarg from "../assets/images/stream/izac95arg.png";
 import siknyre from "../assets/images/stream/siknyre_.png";
 
 const Stream = () => {
-  const [searchTerm, setSearchTerm] = useState(""); // Ajout de l'état de recherche
-
+  const [searchTerm, setSearchTerm] = useState("");
   const projects = [
     {
       nomRP: "John APOTRI - multiRP",
@@ -417,14 +416,12 @@ const Stream = () => {
     },
   ];
 
-  // Filtrer les streamers en fonction du terme de recherche dans le nomRP
   const filteredProjects = projects.filter((project) =>
     project.nomRP.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
     <main className="projects-div-stream">
-      {/* Barre de recherche */}
       <input
         className="search-bar"
         type="text"
