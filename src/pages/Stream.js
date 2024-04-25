@@ -55,6 +55,7 @@ import boblegob from "../assets/images/stream/boblegob.png";
 import goudaal from "../assets/images/stream/goudaal.png";
 import izacarg from "../assets/images/stream/izac95arg.png";
 import siknyre from "../assets/images/stream/siknyre_.png";
+import tekoyoung from "../assets/images/stream/tekoyoungcity_.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -413,6 +414,13 @@ const Stream = () => {
       image: siknyre,
       info: "Roi des rats",
       url: "https://www.twitch.tv/siknyre__",
+    },
+    {
+      nomRP: "Tom CARTER",
+      nomIRL: "TekoYoungCity_",
+      image: tekoyoung,
+      info: "",
+      url: "https://www.twitch.tv/tekoyoungcity_",
     },
   ];
 
