@@ -1,10 +1,9 @@
 .projects-div {
-  background: #242424;
+  background: rgba(36, 36, 36, 0.662745098);
   height: 85vh;
   margin-top: 90px;
   margin-left: 5px;
   margin-right: 5px;
-  border: 2px black solid;
   animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   display: flex;
   align-items: center;
@@ -31,8 +30,8 @@
   background-color: #f0f0f0;
   padding: 15px;
   border-radius: 25px;
-  width: 300px;
-  height: 60px;
+  width: 250px;
+  height: 30px;
 }
 .projects-div .card-container-stream .card-stream figure:hover {
   animation: shadow-drop-center-stream 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -42,7 +41,7 @@
   height: 70px;
   margin: 0;
   border-radius: 100%;
-  border: 3px solid rgb(36, 36, 36);
+  border: 3px solid #f0f0f0;
 }
 .projects-div .card-container-stream .card-stream figure .Infosupp {
   padding: 4px;
@@ -51,8 +50,8 @@
   color: red;
   font-size: 12px;
   position: absolute;
-  bottom: -4px;
-  right: 35px;
+  bottom: -11px;
+  right: 40px;
 }
 .projects-div .card-container-stream .card-stream figure figcaption {
   width: 250px;
@@ -60,15 +59,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 15px;
+  align-items: flex-start;
+  gap: 10px;
   padding-left: 10px;
 }
 .projects-div .card-container-stream .card-stream figure figcaption h2 {
-  font-size: 18px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 400;
   margin: 0;
 }
 .projects-div .card-container-stream .card-stream figure figcaption p {
-  font-size: 16px;
+  width: 200px;
+  font-size: 14px;
   margin: 0;
 }
 .projects-div .card-container-stream .card-stream figure figcaption a {

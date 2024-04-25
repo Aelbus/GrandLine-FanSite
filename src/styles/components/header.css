@@ -1,8 +1,7 @@
 .header-div {
   z-index: 99;
-  background: #242424;
+  background: rgba(36, 36, 36, 0.8352941176);
   position: fixed;
-  border-bottom: black 2px solid;
   top: 0;
   left: 0;
   width: 100%;

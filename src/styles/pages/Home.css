@@ -1,12 +1,11 @@
 .home-div {
   position: relative;
-  background: #242424;
+  background: rgba(36, 36, 36, 0.662745098);
   margin-top: 120px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 80px;
   border-radius: 20px 20px 20px 20px;
-  border: 2px black solid;
   animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   display: flex;
   flex-direction: column;
@@ -30,6 +29,9 @@
   border-radius: 5%;
 }
 .home-div .info-home {
+  background: rgba(36, 36, 36, 0.662745098);
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px;
   text-align: center;
   position: absolute;
   bottom: -180px;
