@@ -6,8 +6,9 @@ html {
 }
 
 body {
-  background-color: rgb(20, 20, 20);
-  background-size: auto;
+  background-color: black;
+  background-image: url(../assets/images/background.webp);
+  background-size: 100%;
   background-repeat: no-repeat;
   margin: 0;
 }
