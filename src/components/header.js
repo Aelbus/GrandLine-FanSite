@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/components/header.css";
 import { NavLink } from "react-router-dom";
+import Logo from "../assets/images/Logo.png";
 
 const Header = () => {
   return (
@@ -59,7 +60,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <h1>GRANDLINE RP - GALERIE TROLLESQUE</h1>
+      <img className="logo-head" src={Logo} alt="Logo" />
     </header>
   );
 };
