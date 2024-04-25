@@ -6,88 +6,103 @@ const Panneau = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const projects = [
     {
+      title: "FISTE",
+      info: "???",
+      url: "https://i.goopics.net/ohexfw.png",
+    },
+    {
+      title: "L.A.Noire",
+      info: "???",
+      url: "https://i.goopics.net/kdlx1m.png",
+    },
+    {
+      title: "Alerte Kehba",
+      info: "???",
+      url: "https://i.goopics.net/od5x0g.png",
+    },
+    {
       title: "Here we go again...",
-      info: "By AeLBuS",
+      info: "AeLBuS",
       url: "https://i.goopics.net/ivv15h.png",
     },
     {
       title: "Téléteubé",
-      info: "By AeLBuS",
+      info: "AeLBuS",
       url: "https://i.goopics.net/dmhi4p.png",
     },
     {
       title: "Le Seigneur des Anus",
-      info: "By Varggan",
+      info: "Varggan",
       url: "https://i.goopics.net/5llv85.png",
     },
     {
       title: "Red Dead Redumbtion",
-      info: "By ???",
+      info: "???",
       url: "https://i.goopics.net/509okb.png",
     },
     {
       title: "Red Dead Jason",
-      info: "By Varggan",
+      info: "Varggan",
       url: "https://i.goopics.net/o6tkyx.png",
     },
     {
       title: "Red Dead Nova",
-      info: "By Varggan",
+      info: "Varggan",
       url: "https://i.goopics.net/g486gb.png",
     },
     {
       title: "Raid dingue",
-      info: "By ???",
+      info: "???",
       url: "https://i.goopics.net/82w7rf.png",
     },
     {
       title: "Pokémon",
-      info: "By ???",
+      info: "???",
       url: "https://i.goopics.net/p09nrv.png",
     },
     {
       title: "One Piece",
-      info: "By ???",
+      info: "???",
       url: "https://i.goopics.net/btnguc.png",
     },
     {
       title: "Matrixé",
-      info: "By Varggan",
+      info: "Varggan",
       url: "https://i.goopics.net/xjvtec.png",
     },
     {
       title: "Mariés au premier regard",
-      info: "By ???",
+      info: "???",
       url: "https://i.goopics.net/gf3wt1.png",
     },
     {
       title: "KFC Delux Edition",
-      info: "By ???",
+      info: "???",
       url: "https://i.goopics.net/urnyvo.png",
     },
     {
       title: "Jamais peur d'Hector, GASTOUN & JASOUN",
-      info: "By ???",
+      info: "???",
       url: "https://i.goopics.net/wn6tj6.png",
     },
     {
       title: "God Of Ouarzazate",
-      info: "By Varggan",
+      info: "Varggan",
       url: "https://i.goopics.net/4slg76.png",
     },
     {
       title: "Les mysterieuse cites d'or",
-      info: "By ???",
+      info: "???",
       url: "https://i.goopics.net/ykzejf.png",
     },
     {
       title: "Bzezilla",
-      info: "By Varggan",
+      info: "Varggan",
       url: "https://i.goopics.net/cm8lhz.png",
     },
     {
       title: "Bigman et Loup Garou",
-      info: "By ???",
+      info: "???",
       url: "https://i.goopics.net/x4ecb1.png",
     },
   ];
