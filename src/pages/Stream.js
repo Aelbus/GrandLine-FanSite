@@ -351,7 +351,7 @@ const Stream = () => {
       url: "https://www.twitch.tv/terrycoco",
     },
     {
-      nomRP: "Sam Djoris",
+      nomRP: "Sam DJORIS",
       nomIRL: "Vi00lence",
       image: violence,
       info: "",
