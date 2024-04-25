@@ -316,7 +316,7 @@ const Stream = () => {
       url: "https://www.twitch.tv/latuah",
     },
     {
-      nomRP: "Félichia ???",
+      nomRP: "Felichia DELAMANCHA",
       nomIRL: "SaniaHasna",
       image: saniahasna,
       info: "",
@@ -365,7 +365,7 @@ const Stream = () => {
       url: "https://www.twitch.tv/el_figuees",
     },
     {
-      nomRP: "Jake ???",
+      nomRP: "Jake THOMPSON",
       nomIRL: "Kiko_Tech",
       image: kiko,
       info: "",
