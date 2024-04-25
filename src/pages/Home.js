@@ -5,7 +5,7 @@ import prime from "../assets/images/Home.png";
 const Home = () => {
   return (
     <div className="home-div">
-      <p>MAJ 25/04 16h30- ajouts Multiple Streamer + add affiches </p>
+      <p>MAJ 25/04 16h30- ajouts Multiple Streamer + add affiches/panneaux </p>
       <p>MAJ 24/04 21h30- ajouts Barre de recherche "Stream" </p>
       <p>MAJ 24/04 19h30- ajouts Barre de recherche "affiche" </p>
       <p>
