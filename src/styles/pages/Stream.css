@@ -76,14 +76,14 @@
 }
 .projects-div .card-container-stream .card-stream figure figcaption a {
   position: absolute;
-  right: 60px;
+  right: 47px;
 }
 .projects-div .card-container-stream .card-stream figure figcaption a:hover {
   animation: rotate-center 0.6s ease-in-out both;
 }
 .projects-div .card-container-stream .card-stream figure figcaption a img {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   border: none;
 }
 
