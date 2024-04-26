@@ -57,6 +57,7 @@ import izacarg from "../assets/images/stream/izac95arg.png";
 import siknyre from "../assets/images/stream/siknyre_.png";
 import tekoyoung from "../assets/images/stream/tekoyoungcity_.png";
 import kalavera from "../assets/images/stream/KaLaVeRaX3.png";
+import sayrann from "../assets/images/stream/sayrannW.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -429,6 +430,13 @@ const Stream = () => {
       image: kalavera,
       info: "",
       url: "https://www.twitch.tv/kalaverax3",
+    },
+    {
+      nomRP: "Ava MENDEZ",
+      nomIRL: "SayrannW",
+      image: sayrann,
+      info: "",
+      url: "https://www.twitch.tv/sayrannw",
     },
   ];
 
