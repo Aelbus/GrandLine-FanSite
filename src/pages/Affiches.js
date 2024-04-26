@@ -9,6 +9,41 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Rick Ross",
+      info: "Raf",
+      url: "https://i.goopics.net/g53a8c.png",
+    },
+    {
+      title: "Blede 2",
+      info: "Gab",
+      url: "https://i.goopics.net/isoil9.png",
+    },
+    {
+      title: "Prison Bebek",
+      info: "Gab",
+      url: "https://i.goopics.net/415qug.png",
+    },
+    {
+      title: "On va rater l'avion pour la Turquie",
+      info: "Zerek-01",
+      url: "https://i.goopics.net/vxi410.png",
+    },
+    {
+      title: "moins 8 Miles Dollaars",
+      info: "Gab",
+      url: "https://i.goopics.net/kg25wr.png",
+    },
+    {
+      title: "Bled Boys 2 v2",
+      info: "Gab",
+      url: "https://i.goopics.net/duf3rl.png",
+    },
+    {
+      title: "Bled Boys 2",
+      info: "Gab",
+      url: "https://i.goopics.net/hecuj7.png",
+    },
+    {
       title: "Breaking Bled",
       info: "Tomsy",
       url: "https://i.goopics.net/bdjn48.png",
@@ -44,9 +79,9 @@ const Affiches = () => {
       url: "https://i.goopics.net/2tkv1j.png",
     },
     {
-      title: "Allez ça part ! BIGMAN",
+      title: "Allez ça part ! Constat ! BIGMAN",
       info: "Gab",
-      url: "https://i.goopics.net/4nnj0s.png",
+      url: "https://i.goopics.net/toie0l.png",
     },
     {
       title: "A Jamais gros",
