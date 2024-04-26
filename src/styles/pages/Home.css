@@ -14,8 +14,12 @@
   gap: 5%;
   padding: 20px;
 }
+.home-div h1 {
+  color: #ffffff;
+}
 .home-div p {
   color: #ffffff;
+  font-size: 18px;
 }
 .home-div .img-home {
   position: absolute;

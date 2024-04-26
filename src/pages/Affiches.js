@@ -709,7 +709,9 @@ const Affiches = () => {
               src={projects[selectedCard].url}
               alt={projects[selectedCard].title}
             />
-            <button onClick={copyURL}>Importer en jeu</button>{" "}
+            <button className="import" onClick={copyURL}>
+              Importer en jeu
+            </button>{" "}
           </div>
         </div>
       )}

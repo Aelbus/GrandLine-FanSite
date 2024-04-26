@@ -118,7 +118,7 @@ p {
   margin: 2px 0 8px 0;
 }
 
-button {
+.import {
   background-color: rgb(38, 173, 110);
   border-radius: 5px;
   border: none;
@@ -128,7 +128,7 @@ button {
   top: 40px;
   right: 20px;
 }
-button:hover {
+.import:hover {
   background-color: rgb(8, 212, 117);
 }
 

@@ -5,24 +5,30 @@ import prime from "../assets/images/Home.png";
 const Home = () => {
   return (
     <div className="home-div">
-      <p>MAJ 25/04 16h30- ajouts Multiple Streamer + add affiches/panneaux </p>
-      <p>MAJ 24/04 21h30- ajouts Barre de recherche "Stream" </p>
-      <p>MAJ 24/04 19h30- ajouts Barre de recherche "affiche" </p>
+      <h1>Bienvenue sur GrandLine Galerie Trollesque</h1>
       <p>
-        MAJ 24/04 16h30- ajouts d'un formulaire pour envoyez vos images. "Add ?"{" "}
+        Ce site est un outil pour les streameurs présents sur le serveur
+        GrandLineWL GTA5 RP. <br />
+        Vous pouvez y retrouver la plupart des affiches et panneaux créer par
+        les communautés ainsi que la plupart des streamers du serveur.
+        <br />
+        L'ajout de contenu est fait manuellement, donc quand j'ai le temps.
+        <br />
+        Vous pouvez envoyer vos affiches et panneaux, ajoutez vos Streamers
+        Favoris dans la section "add?" du site.
+        <br />
+        <br />
+        Merci à tous pour vos retour, c'est trés encourageant. <br />
+        En ésperant que le site vous convients. <br />
+        <br />
+        AeLBuS
       </p>
-      <p>MAJ 24/04 13h30- ajouts streamer + affiche </p>
-      <p>MAJ 23/04 20h50 - Ajouts Imports </p>
-      <p>MAJ 23/04 17h30 - Ajouts Quelque Stream + redirection</p>
-      <p>MAJ 23/04 16h - Ajouts Panneau</p>
-      <p>MAJ 23/04 14h - Ajouts d'affiches + redimension des images</p>
-      <p>22/04 - Début du projet</p>
       <div className="img-home">
         <img src={prime} alt="GrandLineRP by Uskal" />
       </div>
       <div className="info-home">
         <p>
-          Remerciement a tous les contributeurs <br />
+          Remerciement à tous les contributeurs <br />
           Uskal, Fireblaze, Varggan, Dpix et Akuro qui ont lancer la méta
           Affiche
           <br />

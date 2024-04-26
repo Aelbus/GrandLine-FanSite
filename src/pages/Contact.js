@@ -84,10 +84,8 @@ function ContactForm() {
           </div>
 
           <div className="btn-submit">
+            {isSent && <p className="Enjoy">Envoyé avec succès !</p>}
             <button type="submit">Envoyer</button>
-            {isSent && (
-              <p className="Enjoy">Votre message a été envoyé avec succès !</p>
-            )}
           </div>
         </form>
       </div>
