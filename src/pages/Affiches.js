@@ -9,6 +9,36 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "The Bloodline",
+      info: "Tomsy",
+      url: "https://i.goopics.net/v6e5kh.png",
+    },
+    {
+      title: "TopGun Maverick",
+      info: "KabylDeter",
+      url: "https://i.goopics.net/asne1m.png",
+    },
+    {
+      title: "Intouchables",
+      info: "KabylDeter",
+      url: "https://i.goopics.net/o0wkia.png",
+    },
+    {
+      title: "Mamie on a raté Gwendo",
+      info: "Eneko",
+      url: "https://i.goopics.net/9qcsrz.png",
+    },
+    {
+      title: "Bois ma pisse",
+      info: "Jun",
+      url: "https://i.goopics.net/ym4myz.png",
+    },
+    {
+      title: "ça",
+      info: "KabylDeter",
+      url: "https://i.goopics.net/b45cqo.png",
+    },
+    {
       title: "Nova Forbes",
       info: "Eneko",
       url: "https://i.goopics.net/bs24dk.png",
