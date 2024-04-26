@@ -59,7 +59,7 @@ import tekoyoung from "../assets/images/stream/tekoyoungcity_.png";
 import kalavera from "../assets/images/stream/KaLaVeRaX3.png";
 import sayrann from "../assets/images/stream/sayrannW.png";
 import heyar from "../assets/images/stream/heyarTV.png";
-
+import zipper from "../assets/images/stream/zipper.png";
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const projects = [
@@ -104,6 +104,13 @@ const Stream = () => {
       info: "Staff",
       image: postbadon,
       url: "https://www.twitch.tv/postbadon",
+    },
+    {
+      nomRP: "Igor CASIMIR",
+      nomIRL: "Zipperr",
+      info: "Staff",
+      image: zipper,
+      url: "https://www.twitch.tv/zipperr",
     },
     {
       nomRP: "Jason BIGMAN",
