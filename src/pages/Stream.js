@@ -60,6 +60,8 @@ import kalavera from "../assets/images/stream/KaLaVeRaX3.png";
 import sayrann from "../assets/images/stream/sayrannW.png";
 import heyar from "../assets/images/stream/heyarTV.png";
 import zipper from "../assets/images/stream/zipper.png";
+import llswi from "../assets/images/stream/LLswi.jpeg";
+
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const projects = [
@@ -452,6 +454,13 @@ const Stream = () => {
       image: heyar,
       info: "",
       url: "https://www.twitch.tv/heyarTV",
+    },
+    {
+      nomRP: "Ketly HISPANIOLA",
+      nomIRL: "LLSYWI",
+      image: llswi,
+      info: "",
+      url: "https://www.twitch.tv/llyswi",
     },
   ];
 
