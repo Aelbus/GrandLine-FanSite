@@ -684,7 +684,7 @@ const Affiches = () => {
       url: "https://i.goopics.net/fgtku9.png",
     },
     {
-      title: "Grand Theft Fobman",
+      title: "Grand Theft Forbman",
       info: "AeLBuS",
       url: "https://i.goopics.net/jgqbwv.png",
     },
