@@ -9,6 +9,26 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "LAISTER",
+      info: "Tomsy",
+      url: "https://i.goopics.net/9n3s7h.png",
+    },
+    {
+      title: "La vie de ma mamie",
+      info: "Beuh",
+      url: "https://i.goopics.net/q1ybi9.png",
+    },
+    {
+      title: "PiB International",
+      info: "???",
+      url: "https://i.goopics.net/ewmgli.png",
+    },
+    {
+      title: "CoD BIG WAR",
+      info: "???",
+      url: "https://i.goopics.net/6xvehw.png",
+    },
+    {
       title: "Zoé Baker",
       info: "Alf96",
       url: "https://i.goopics.net/m9bgtg.png",

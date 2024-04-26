@@ -58,6 +58,7 @@ import siknyre from "../assets/images/stream/siknyre_.png";
 import tekoyoung from "../assets/images/stream/tekoyoungcity_.png";
 import kalavera from "../assets/images/stream/KaLaVeRaX3.png";
 import sayrann from "../assets/images/stream/sayrannW.png";
+import heyar from "../assets/images/stream/heyarTV.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -437,6 +438,13 @@ const Stream = () => {
       image: sayrann,
       info: "",
       url: "https://www.twitch.tv/sayrannw",
+    },
+    {
+      nomRP: "Jean-François WALTON",
+      nomIRL: "HeyarTV",
+      image: heyar,
+      info: "",
+      url: "https://www.twitch.tv/heyarTV",
     },
   ];
 
