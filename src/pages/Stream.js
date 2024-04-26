@@ -56,6 +56,7 @@ import goudaal from "../assets/images/stream/goudaal.png";
 import izacarg from "../assets/images/stream/izac95arg.png";
 import siknyre from "../assets/images/stream/siknyre_.png";
 import tekoyoung from "../assets/images/stream/tekoyoungcity_.png";
+import kalavera from "../assets/images/stream/KaLaVeRaX3.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -421,6 +422,13 @@ const Stream = () => {
       image: tekoyoung,
       info: "",
       url: "https://www.twitch.tv/tekoyoungcity_",
+    },
+    {
+      nomRP: "Tego OCHOA",
+      nomIRL: "KaLaVeRaX3",
+      image: kalavera,
+      info: "",
+      url: "https://www.twitch.tv/kalaverax3",
     },
   ];
 

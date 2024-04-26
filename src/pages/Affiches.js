@@ -9,6 +9,71 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Nova Forbes",
+      info: "Eneko",
+      url: "https://i.goopics.net/nvlbta.png",
+    },
+    {
+      title: "Tamereleporc",
+      info: "???",
+      url: "https://i.goopics.net/bxt9d3.png",
+    },
+    {
+      title: "Voyage au centre de nova 2",
+      info: "Tom38",
+      url: "https://i.goopics.net/dpqjen.png",
+    },
+    {
+      title: "Pulp Forbes",
+      info: "Eneko",
+      url: "https://i.goopics.net/a386an.png",
+    },
+    {
+      title: "NoRage",
+      info: "Beuh",
+      url: "https://i.goopics.net/pv7m3s.png",
+    },
+    {
+      title: "Le Concess du la Peur ",
+      info: "TheoHD",
+      url: "https://i.goopics.net/7zzb4x.png",
+    },
+    {
+      title: "Ibn el Kalb",
+      info: "Gab",
+      url: "https://i.goopics.net/epxvrn.jpg",
+    },
+    {
+      title: "Summer Slam",
+      info: "HeyLek216",
+      url: "https://i.goopics.net/l0lqaj.png",
+    },
+    {
+      title: "Golf CLub",
+      info: "Eneko",
+      url: "https://i.goopics.net/tfb36n.png",
+    },
+    {
+      title: "Gaston",
+      info: "GioGio",
+      url: "https://i.goopics.net/mkhrlc.png",
+    },
+    {
+      title: "Bring him food the Bigman",
+      info: "Akhoriz",
+      url: "https://i.goopics.net/emtu4g.png",
+    },
+    {
+      title: "Bigman",
+      info: "Xili0ne",
+      url: "https://i.goopics.net/gln1ws.png",
+    },
+    {
+      title: "Bigman Bad",
+      info: "Eneko",
+      url: "https://i.goopics.net/kx9w74.png",
+    },
+    {
       title: "Virus219",
       info: "Uskal",
       url: "https://i.goopics.net/f02j7k.png",
@@ -17,6 +82,11 @@ const Affiches = () => {
       title: "XXL",
       info: "Tepdo",
       url: "https://i.goopics.net/503v28.png",
+    },
+    {
+      title: "Le Grand Remplacement ",
+      info: "Gab",
+      url: "https://i.goopics.net/4xrbz5.jpg",
     },
     {
       title: "The Gelatine",
