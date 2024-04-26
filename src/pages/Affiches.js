@@ -9,6 +9,11 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "LOLY VS matriX-MEN",
+      info: "Fireblaze & Akuro & Uskal",
+      url: "https://i.goopics.net/ecg98e.png",
+    },
+    {
       title: "Vrai Mensonge",
       info: "Varggan",
       url: "https://i.goopics.net/7jtpo5.png",
