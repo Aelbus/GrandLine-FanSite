@@ -9,6 +9,41 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "S.D.F.",
+      info: "Anos Voldigoad",
+      url: "https://i.goopics.net/jgh1cv.png",
+    },
+    {
+      title: "Pain & Gain",
+      info: "???",
+      url: "https://i.goopics.net/nmuwni.png",
+    },
+    {
+      title: "OR POIRE",
+      info: "???",
+      url: "https://i.goopics.net/44bcgn.png",
+    },
+    {
+      title: "Nova Ball",
+      info: "Eneko",
+      url: "https://i.goopics.net/wk81w7.png",
+    },
+    {
+      title: "DAVID",
+      info: "Eneko",
+      url: "https://i.goopics.net/2tkv1j.png",
+    },
+    {
+      title: "Allez ça part ! BIGMAN",
+      info: "Gab",
+      url: "https://i.goopics.net/4nnj0s.png",
+    },
+    {
+      title: "A Jamais gros",
+      info: "Eneko",
+      url: "https://i.goopics.net/3jy6y4.png",
+    },
+    {
       title: "LAISTER",
       info: "Tomsy",
       url: "https://i.goopics.net/9n3s7h.png",
