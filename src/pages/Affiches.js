@@ -29,6 +29,11 @@ const Affiches = () => {
       url: "https://i.goopics.net/6xvehw.png",
     },
     {
+      title: "Mok2",
+      info: "???",
+      url: "https://i.goopics.net/nrlo85.png",
+    },
+    {
       title: "Zoé Baker",
       info: "Alf96",
       url: "https://i.goopics.net/m9bgtg.png",
