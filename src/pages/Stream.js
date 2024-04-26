@@ -61,6 +61,7 @@ import sayrann from "../assets/images/stream/sayrannW.png";
 import heyar from "../assets/images/stream/heyarTV.png";
 import zipper from "../assets/images/stream/zipper.png";
 import llswi from "../assets/images/stream/LLswi.jpeg";
+import nayrenns from "../assets/images/stream/NAYRENNS.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -342,6 +343,13 @@ const Stream = () => {
       image: qidou,
       info: "",
       url: "https://www.twitch.tv/qidou",
+    },
+    {
+      nomRP: "Dylan POTIN",
+      nomIRL: "NAYRENNS",
+      image: nayrenns,
+      info: "Richie M-Bappe",
+      url: "https://www.twitch.tv/nayrenns",
     },
     {
       nomRP: "Léonardo SKORPION",
