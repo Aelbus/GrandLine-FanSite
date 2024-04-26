@@ -55,7 +55,7 @@ function ContactForm() {
           Merci de respecter le format PNG ainsi que les dimensions
           <br />
           J'ajoute manuellement les affiches/panneau/streamer. Si vôtre
-          réalisation et/ou nomd de streamer n'est pas affiché c'est soit pas
+          réalisation et/ou nom de streamer n'est pas affiché c'est soit pas
           encore fait, soit inapproprié. <br />
           <br />
           Hauteur x Largeur
