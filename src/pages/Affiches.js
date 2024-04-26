@@ -11,7 +11,7 @@ const Affiches = () => {
     {
       title: "Nova Forbes",
       info: "Eneko",
-      url: "https://i.goopics.net/nvlbta.png",
+      url: "https://i.goopics.net/bs24dk.png",
     },
     {
       title: "Tamereleporc",
