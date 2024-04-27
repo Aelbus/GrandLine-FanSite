@@ -34,7 +34,7 @@
   width: 120px;
 }
 .header-div .nav-div ul li:hover {
-  background-color: #2c2c2c;
+  background-color: rgba(167, 167, 167, 0.082);
 }
 .header-div .nav-div ul li a {
   display: flex;
@@ -59,12 +59,11 @@
 
 @keyframes text-pop-up-bottom {
   0% {
-    background-color: #242424;
     transform-origin: 50% 50%;
     text-shadow: none;
   }
   100% {
-    background-color: #1a1a1a;
+    background-color: rgba(26, 26, 26, 0.5960784314);
     transform-origin: 50% 50%;
     text-shadow: 0 1px 0 #000000, 0 2px 0 #000000, 0 3px 0 #ff0000, 0 4px 0 #ff0000, 0 5px 0 #ff0000, 0 6px 0 #ff0000, 0 7px 0 #000000, 0 8px 0 #000000, 0 9px 0 #000000, 0 50px 30px rgba(0, 0, 0, 0.3);
   }
