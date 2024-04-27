@@ -64,6 +64,10 @@ import llswi from "../assets/images/stream/LLswi.jpeg";
 import nayrenns from "../assets/images/stream/NAYRENNS.png";
 import kalandras from "../assets/images/stream/eKalandras.png";
 import naked from "../assets/images/stream/Nacked.png";
+import frenchdee from "../assets/images/stream/frenchdee.png";
+import spincheck from "../assets/images/stream/Spincheck.png";
+import feykow from "../assets/images/stream/feykoww.png";
+import zxyassine from "../assets/images/stream/zx_yassine.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -326,11 +330,39 @@ const Stream = () => {
       url: "https://www.twitch.tv/R3YMANN",
     },
     {
+      nomRP: "Stephen W.FAUST",
+      nomIRL: "Feykow",
+      image: feykow,
+      info: "",
+      url: "https://www.twitch.tv/feykoww",
+    },
+    {
       nomRP: "Alice DELACOURS",
       nomIRL: "Latuah",
       image: latuah,
       info: "",
       url: "https://www.twitch.tv/latuah",
+    },
+    {
+      nomRP: "Harry NOLUCK",
+      nomIRL: "SpinCheck",
+      image: spincheck,
+      info: "",
+      url: "https://www.twitch.tv/Spincheck",
+    },
+    {
+      nomRP: "Enriqué DELGADO",
+      nomIRL: "ZX_Yassine",
+      image: zxyassine,
+      info: "",
+      url: "https://www.twitch.tv/zx_yassine",
+    },
+    {
+      nomRP: "Gary JAY",
+      nomIRL: "FrenchDee",
+      image: frenchdee,
+      info: "",
+      url: "https://www.twitch.tv/frenchdee",
     },
     {
       nomRP: "Monique SCHMITTELBOURG",
