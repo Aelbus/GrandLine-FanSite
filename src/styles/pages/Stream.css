@@ -118,10 +118,13 @@
 }
 @keyframes rotate-center {
   0% {
-    transform: rotate(0);
+    transform: translateZ(0);
+    filter: invert(0);
+    border: none;
   }
   100% {
-    transform: rotate(360deg);
+    transform: translateZ(100px);
+    filter: invert(1);
   }
 }
 @keyframes shadow-drop-center-stream {

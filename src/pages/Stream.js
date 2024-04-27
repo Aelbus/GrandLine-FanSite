@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../styles/pages/Stream.css";
-import Twitchico from "../assets/icons/twitch.webp";
+import Twitchico from "../assets/icons/twitch.png";
 
 import HeavenFox from "../assets/images/stream/HeavenFox.png";
 import TatianaTV from "../assets/images/stream/tatiana_tv.png";
