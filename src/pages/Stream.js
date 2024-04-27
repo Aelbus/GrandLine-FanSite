@@ -62,6 +62,8 @@ import heyar from "../assets/images/stream/heyarTV.png";
 import zipper from "../assets/images/stream/zipper.png";
 import llswi from "../assets/images/stream/LLswi.jpeg";
 import nayrenns from "../assets/images/stream/NAYRENNS.png";
+import kalandras from "../assets/images/stream/eKalandras.png";
+import naked from "../assets/images/stream/Nacked.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -329,6 +331,20 @@ const Stream = () => {
       image: latuah,
       info: "",
       url: "https://www.twitch.tv/latuah",
+    },
+    {
+      nomRP: "Monique SCHMITTELBOURG",
+      nomIRL: "Nacked",
+      image: naked,
+      info: "",
+      url: "https://www.twitch.tv/nacked",
+    },
+    {
+      nomRP: "Ezra GREY",
+      nomIRL: "eKalandras",
+      image: kalandras,
+      info: "",
+      url: "https://www.twitch.tv/ekalandras",
     },
     {
       nomRP: "Felichia DELAMANCHA",
