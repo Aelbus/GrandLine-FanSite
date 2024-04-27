@@ -520,8 +520,12 @@ const Stream = () => {
     },
   ];
 
-  const filteredProjects = projects.filter((project) =>
-    project.nomRP.toLowerCase().includes(searchTerm.toLowerCase())
+  const filteredProjects = projects.filter(
+    (project) =>
+      project.nomRP.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      project.nomIRL.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      (project.info &&
+        project.info.toLowerCase().includes(searchTerm.toLowerCase()))
   );
 
   return (
@@ -529,7 +533,7 @@ const Stream = () => {
       <input
         className="search-bar"
         type="text"
-        placeholder="Rechercher un Streamer par NomRP..."
+        placeholder="Rechercher un Streamer par NomRP, PseudoTwitch ou Tag... "
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />

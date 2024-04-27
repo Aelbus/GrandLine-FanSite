@@ -784,8 +784,10 @@ const Affiches = () => {
     } else {
       const filteredIndices = projects
         .map((project, index) => ({ project, index }))
-        .filter(({ project }) =>
-          project.title.toLowerCase().includes(term.toLowerCase())
+        .filter(
+          ({ project }) =>
+            project.title.toLowerCase().includes(term.toLowerCase()) ||
+            project.info.toLowerCase().includes(term.toLowerCase())
         )
         .map(({ index }) => index)
         .filter((index) => index >= 0 && index < projects.length);
@@ -799,7 +801,7 @@ const Affiches = () => {
       <input
         className="search-bar"
         type="text"
-        placeholder="Rechercher une affiche par titre..."
+        placeholder="Rechercher une affiche par Titre ou Créateur..."
         value={searchTerm}
         onChange={handleSearch}
       />
