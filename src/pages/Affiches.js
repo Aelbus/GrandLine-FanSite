@@ -80,7 +80,7 @@ const Affiches = () => {
     },
     {
       title: "Jack Spardough",
-      info: "???",
+      info: "Uskal Fireblaze",
       url: "https://i.goopics.net/rvhcs8.png",
       import:
         "https://zone52.wizebot.tv/gl-pancarte/imgs/91d0d4f1f758d554a52729b62b71334f.png",
