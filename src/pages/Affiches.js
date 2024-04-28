@@ -9,6 +9,26 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Oui Mile",
+      info: "Uskal Fireblaze",
+      url: "https://i.goopics.net/j5bsnl.png",
+    },
+    {
+      title: "The Whale",
+      info: "Matt_Cllt",
+      url: "https://i.goopics.net/kdll3g.jpg",
+    },
+    {
+      title: "La Khnouna",
+      info: "COMKRIS",
+      url: "https://i.goopics.net/ppvbv7.png",
+    },
+    {
+      title: "HUNGER FORBES",
+      info: "Eneko",
+      url: "https://i.goopics.net/u07qyb.png",
+    },
+    {
       title: "Qui a fourré Mamie ?",
       info: "Drazer_",
       url: "https://i.goopics.net/4ke1yl.png",
@@ -447,6 +467,8 @@ const Affiches = () => {
       title: "Burne",
       info: "Eneko",
       url: "https://i.goopics.net/84qp1c.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/6880012cb7f3f0dcde74594822ec9c42.png",
     },
     {
       title: "Bigman",
@@ -632,15 +654,17 @@ const Affiches = () => {
       title: "A Table",
       info: "???",
       url: "https://i.goopics.net/icjwd4.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/af10a08179f55f2ec851908e95d9ec11.png",
     },
     {
       title: "Ahlbatar",
-      info: "???",
+      info: "Varggan",
       url: "https://i.goopics.net/ycas1l.png",
     },
     {
       title: "50 Nuances de Mamie Suzie",
-      info: "???",
+      info: "Uskal Fireblaze",
       url: "https://i.goopics.net/foghmc.png",
     },
     {
@@ -820,7 +844,7 @@ const Affiches = () => {
   };
 
   const copyURL = () => {
-    const url = projects[selectedCard].url;
+    const url = projects[selectedCard].import;
     const el = document.createElement("textarea");
     el.value = url;
     document.body.appendChild(el);

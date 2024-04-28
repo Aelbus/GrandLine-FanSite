@@ -58,11 +58,12 @@ function ContactForm() {
           réalisation et/ou nom de streamer n'est pas affiché c'est soit pas
           encore fait, soit inapproprié. <br />
           <br />
-          Hauteur x Largeur
+          Dimension
           <br />
-          Affiche: 512x330
           <br />
-          Panneau 272x512
+          <a href="https://files.glife.fr/assets/poster_1.png"> Affiche </a>
+          <br />
+          <a href="https://files.glife.fr/assets/poster_2.png"> Panneau </a>
         </p>
         <form className="contact-form" onSubmit={sendEmail}>
           <div className="contact-label">

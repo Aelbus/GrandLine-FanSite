@@ -59,8 +59,7 @@
   gap: 7px;
 }
 .projects-div-affiche .card-container-affiche .card-affiche figure img {
-  margin-top: 4px;
-  width: 170px;
+  width: 200px;
   height: auto;
   object-fit: cover;
 }
@@ -119,6 +118,7 @@ p {
 }
 
 .import {
+  display: none;
   background-color: rgb(38, 173, 110);
   border-radius: 5px;
   border: none;

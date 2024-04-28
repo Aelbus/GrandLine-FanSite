@@ -17,6 +17,10 @@
 .home-div h1 {
   color: #ffffff;
 }
+.home-div h2 {
+  font-size: 40px;
+  color: red;
+}
 .home-div p {
   color: #ffffff;
   font-size: 18px;
