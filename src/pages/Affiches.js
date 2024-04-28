@@ -296,7 +296,7 @@ const Affiches = () => {
         "https://zone52.wizebot.tv/gl-pancarte/imgs/3398ff1301e2231aa0fc22a0839c287f.png",
     },
     {
-      title: "Zoé Baker",
+      title: "Zoe Baker",
       info: "Alf96",
       url: "https://i.goopics.net/m9bgtg.png",
       import:
