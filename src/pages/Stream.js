@@ -72,6 +72,7 @@ import hirukiart from "../assets/images/stream/hirukiart.png";
 import darcy from "../assets/images/stream/darcy_tv.png";
 import ayakataz from "../assets/images/stream/ayakataz.png";
 import jumbo from "../assets/images/stream/Jumbo_Gumbo.png";
+import saanzou from "../assets/images/stream/Saanzou.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -549,6 +550,13 @@ const Stream = () => {
       image: jumbo,
       info: "",
       url: "https://www.twitch.tv/jumbo_gumbo",
+    },
+    {
+      nomRP: "Luciano PEREZ",
+      nomIRL: "Saanzou",
+      image: saanzou,
+      info: "",
+      url: "https://www.twitch.tv/saanzou",
     },
   ];
 
