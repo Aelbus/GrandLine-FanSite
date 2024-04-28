@@ -71,6 +71,7 @@ import zxyassine from "../assets/images/stream/zx_yassine.png";
 import hirukiart from "../assets/images/stream/hirukiart.png";
 import darcy from "../assets/images/stream/darcy_tv.png";
 import ayakataz from "../assets/images/stream/ayakataz.png";
+import jumbo from "../assets/images/stream/Jumbo_Gumbo.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -541,6 +542,13 @@ const Stream = () => {
       image: llswi,
       info: "",
       url: "https://www.twitch.tv/llyswi",
+    },
+    {
+      nomRP: "Vincent MOREAU",
+      nomIRL: "Jumbo_Gumbo",
+      image: jumbo,
+      info: "",
+      url: "https://www.twitch.tv/jumbo_gumbo",
     },
   ];
 
