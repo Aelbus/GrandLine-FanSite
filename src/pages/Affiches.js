@@ -9,6 +9,11 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Qui a fourré Mamie ?",
+      info: "Drazer_",
+      url: "https://i.goopics.net/4ke1yl.png",
+    },
+    {
       title: "Epouse moi",
       info: "Laurentoutang",
       url: "https://i.goopics.net/o9em8g.png",
@@ -40,7 +45,7 @@ const Affiches = () => {
     },
     {
       title: "Fiché HESS",
-      info: "Drazer",
+      info: "Drazer_",
       url: "https://i.goopics.net/mvltvv.png",
     },
     {
