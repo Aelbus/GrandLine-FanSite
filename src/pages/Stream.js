@@ -68,6 +68,8 @@ import frenchdee from "../assets/images/stream/frenchdee.png";
 import spincheck from "../assets/images/stream/Spincheck.png";
 import feykow from "../assets/images/stream/feykoww.png";
 import zxyassine from "../assets/images/stream/zx_yassine.png";
+import hirukiart from "../assets/images/stream/hirukiart.png";
+import darcy from "../assets/images/stream/darcy_tv.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -253,6 +255,13 @@ const Stream = () => {
       url: "https://www.twitch.tv/anaisMRN",
     },
     {
+      nomRP: "Britney HUNDERSON",
+      nomIRL: "Darcy_tv",
+      image: darcy,
+      info: "Présentatrice Météo",
+      url: "https://www.twitch.tv/darcy_tv",
+    },
+    {
       nomRP: "Robert WALTON",
       nomIRL: "Nicotheo_Off",
       image: nicotheo,
@@ -272,6 +281,13 @@ const Stream = () => {
       image: ayline213,
       info: "",
       url: "https://www.twitch.tv/ayline213",
+    },
+    {
+      nomRP: "Fraise MIRA",
+      nomIRL: "Hirukiart",
+      image: hirukiart,
+      info: "",
+      url: "https://www.twitch.tv/hirukiart",
     },
     {
       nomRP: "Diana ALLOCCO",
