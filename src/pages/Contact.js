@@ -52,18 +52,9 @@ function ContactForm() {
           Ajoutez vos Streameur Favoris
         </h2>
         <p>
-          Merci de respecter le format PNG ainsi que les dimensions
-          <br />
           J'ajoute manuellement les affiches/panneau/streamer. Si vôtre
           réalisation et/ou nom de streamer n'est pas affiché c'est soit pas
           encore fait, soit inapproprié. <br />
-          <br />
-          Dimension
-          <br />
-          <br />
-          <a href="https://files.glife.fr/assets/poster_1.png"> Affiche </a>
-          <br />
-          <a href="https://files.glife.fr/assets/poster_2.png"> Panneau </a>
         </p>
         <form className="contact-form" onSubmit={sendEmail}>
           <div className="contact-label">

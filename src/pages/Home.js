@@ -6,7 +6,6 @@ const Home = () => {
   return (
     <div className="home-div">
       <h1>Bienvenue sur GrandLine Galerie Trollesque</h1>
-      <h2> IMPORT EN JEU - En maintenance... </h2>
       <p>
         Ce site est un outil pour les streameurs présents sur le serveur
         GrandLineWL GTA5 RP. <br />
