@@ -9,7 +9,7 @@ const Affiches = () => {
 
   const projects = [
     {
-      title: "Les Fouins VS Bellamy",
+      title: "Les Fouines VS Bellamy",
       info: "Hajar DZPS",
       url: "https://i.goopics.net/dmgpgy.png",
     },
