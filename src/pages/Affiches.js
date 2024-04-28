@@ -9,6 +9,46 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "MAMINATOR",
+      info: "Wärp",
+      url: "https://i.goopics.net/1f64ng.png",
+    },
+    {
+      title: "Les Endettés",
+      info: "Hakke95",
+      url: "https://i.goopics.net/7vnpbp.png",
+    },
+    {
+      title: "La Frappe de Zongo",
+      info: "???",
+      url: "https://i.goopics.net/dhg9a6.png",
+    },
+    {
+      title: "J'ai eteint Nova",
+      info: "???",
+      url: "https://i.goopics.net/ta46c3.png",
+    },
+    {
+      title: "Fiché HESS",
+      info: "Drazer",
+      url: "https://i.goopics.net/mvltvv.png",
+    },
+    {
+      title: "Frère Soeur Forbes",
+      info: "Eneko",
+      url: "https://i.goopics.net/2ysj72.png",
+    },
+    {
+      title: "Cohabiter",
+      info: "Matt_cllt",
+      url: "https://i.goopics.net/s6dvk2.png",
+    },
+    {
+      title: "SAH",
+      info: "COMKRIS",
+      url: "https://i.goopics.net/togg72.png",
+    },
+    {
       title: "La Rupture",
       info: "AeLBuS",
       url: "https://i.goopics.net/i7p7ws.png",
