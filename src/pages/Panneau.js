@@ -6,6 +6,11 @@ const Panneau = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const projects = [
     {
+      title: "The Queen Grandebite",
+      info: "Varggan",
+      url: "https://i.goopics.net/wied9f.png",
+    },
+    {
       title: "The Mega Gaston 2",
       info: "shdw_18",
       url: "https://i.goopics.net/gro0xg.png",
