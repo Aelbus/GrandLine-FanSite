@@ -125,6 +125,13 @@ const Stream = () => {
       url: "https://www.twitch.tv/zipperr",
     },
     {
+      nomRP: "Arsene & Melton",
+      nomIRL: "KlearRadio",
+      image: klear,
+      info: "Weazel News",
+      url: "https://www.twitch.tv/klearradio",
+    },
+    {
       nomRP: "Jason BIGMAN",
       nomIRL: "MasterSnakou",
       image: MasterSnakou,
@@ -150,17 +157,24 @@ const Stream = () => {
       url: "https://www.twitch.tv/heavenfox",
     },
     {
+      nomRP: "Alix FORBES",
+      nomIRL: "Chach0u__",
+      image: Chachou,
+      info: "",
+      url: "https://www.twitch.tv/Chach0u__",
+    },
+    {
       nomRP: "David FORBES",
       nomIRL: "REDMAFIA_TV",
       image: redmafia,
       url: "https://www.twitch.tv/redmafia_tv",
     },
     {
-      nomRP: "Alix FORBES",
-      nomIRL: "Chach0u__",
-      image: Chachou,
-      info: "",
-      url: "https://www.twitch.tv/Chach0u__",
+      nomRP: "Britney HUNDERSON",
+      nomIRL: "Darcy_tv",
+      image: darcy,
+      info: "Présentatrice Météo",
+      url: "https://www.twitch.tv/darcy_tv",
     },
     {
       nomRP: "Cesar ALARCON",
@@ -245,7 +259,7 @@ const Stream = () => {
       nomRP: "Mamie Suzie BIGMAN",
       nomIRL: "Hyenaa",
       image: hyenaa,
-      info: "Morte RP",
+      info: "Mort RP",
       url: "https://www.twitch.tv/hyenaaa",
     },
     {
@@ -254,13 +268,6 @@ const Stream = () => {
       image: anaisMrn,
       info: "La Zoooooo'",
       url: "https://www.twitch.tv/anaisMRN",
-    },
-    {
-      nomRP: "Britney HUNDERSON",
-      nomIRL: "Darcy_tv",
-      image: darcy,
-      info: "Présentatrice Météo",
-      url: "https://www.twitch.tv/darcy_tv",
     },
     {
       nomRP: "Robert WALTON",
@@ -464,13 +471,6 @@ const Stream = () => {
       image: kiko,
       info: "",
       url: "https://www.twitch.tv/kiko_tech",
-    },
-    {
-      nomRP: "Arsene & Melton",
-      nomIRL: "KlearRadio",
-      image: klear,
-      info: "Weazel News",
-      url: "https://www.twitch.tv/klearradio",
     },
     {
       nomRP: "Mercedes MARCOU",
