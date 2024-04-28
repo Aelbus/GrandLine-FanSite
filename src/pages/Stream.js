@@ -70,6 +70,7 @@ import feykow from "../assets/images/stream/feykoww.png";
 import zxyassine from "../assets/images/stream/zx_yassine.png";
 import hirukiart from "../assets/images/stream/hirukiart.png";
 import darcy from "../assets/images/stream/darcy_tv.png";
+import ayakataz from "../assets/images/stream/ayakataz.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -295,6 +296,13 @@ const Stream = () => {
       image: evelunes,
       info: "",
       url: "https://www.twitch.tv/evelunes",
+    },
+    {
+      nomRP: "Lucy DAMORT",
+      nomIRL: "AyaKataz",
+      image: ayakataz,
+      info: "",
+      url: "https://www.twitch.tv/ayakataz",
     },
     {
       nomRP: "Alya Rosales MORA",
