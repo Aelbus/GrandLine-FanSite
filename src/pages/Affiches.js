@@ -16,6 +16,13 @@ const Affiches = () => {
         "https://zone52.wizebot.tv/gl-pancarte/imgs/41f583c6d5429e38a1ff942c21bd26e3.png",
     },
     {
+      title: "Nous - NOVAFLIX",
+      info: "Eneko",
+      url: "https://i.goopics.net/912q55.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/9f567cf508a4ae88ad53634ee7137978.png",
+    },
+    {
       title: "Solitaire 000",
       info: "Eneko",
       url: "https://i.goopics.net/u87bdj.png",
