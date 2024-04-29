@@ -9,6 +9,27 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "NOVAFLIX - Le Trésor des Forbes",
+      info: "Eneko",
+      url: "https://i.goopics.net/45a3b5.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/9bd0e34af64adda3bf20d372588e42d1.png",
+    },
+    {
+      title: "NOVAFLIX - Forbaise",
+      info: "Eneko",
+      url: "https://i.goopics.net/cbjao2.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/1b7739e42acf7b1524176dbb026c21e2.png",
+    },
+    {
+      title: "Donne nous la paie DAVID",
+      info: "Tepdo",
+      url: "https://i.goopics.net/vnigu4.jpg",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/6aa2bd123925b079d1a3e3a51be6014a.png",
+    },
+    {
       title: "Oui Mile",
       info: "Uskal Fireblaze",
       url: "https://i.goopics.net/j5bsnl.png",
@@ -21,6 +42,48 @@ const Affiches = () => {
       url: "https://i.goopics.net/kdll3g.jpg",
       import:
         "https://zone52.wizebot.tv/gl-pancarte/imgs/6707621ece8cfdf70658d254be4e5420.png",
+    },
+    {
+      title: "Inspector Gadget 2",
+      info: "Marouane",
+      url: "https://i.goopics.net/37pwp4.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/b45741a0184c98da2206cddb678a3ed5.png",
+    },
+    {
+      title: "Introuvable",
+      info: "Lilan",
+      url: "https://i.goopics.net/mq3yow.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/a06793f402b53ea55875ac76980dd44a.png",
+    },
+    {
+      title: "Jasoun & Gastoun contre Cesar",
+      info: "n7",
+      url: "https://i.goopics.net/4cd1yk.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/e05216a455e12de4976c31c1bd7b2469.png",
+    },
+    {
+      title: "L'arnaqueur",
+      info: "Lilan",
+      url: "https://i.goopics.net/pr6ily.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/8a0a3616e75c7b348a5635028c44a78c.png",
+    },
+    {
+      title: "Opération Portugal",
+      info: "COMKRIS",
+      url: "https://i.goopics.net/3bu7z3.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/04875d442af2ee88e3ed0a964a13af5c.png",
+    },
+    {
+      title: "Seg Hard",
+      info: "Alazul21",
+      url: "https://i.goopics.net/3mkerw.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/e58dde332fdefbb2e58c85578a10cc02.png",
     },
     {
       title: "La Khnouna",
