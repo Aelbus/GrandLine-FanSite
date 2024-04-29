@@ -73,6 +73,7 @@ import darcy from "../assets/images/stream/darcy_tv.png";
 import ayakataz from "../assets/images/stream/ayakataz.png";
 import jumbo from "../assets/images/stream/Jumbo_Gumbo.png";
 import saanzou from "../assets/images/stream/Saanzou.png";
+import hassan from "../assets/images/stream/hassan.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -118,6 +119,13 @@ const Stream = () => {
       info: "Staff",
       image: postbadon,
       url: "https://www.twitch.tv/postbadon",
+    },
+    {
+      nomRP: "Mikey",
+      nomIRL: "Hassvnz",
+      info: "Staff",
+      image: hassan,
+      url: "https://www.twitch.tv/hassvnz",
     },
     {
       nomRP: "Igor CASIMIR",
