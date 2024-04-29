@@ -9,6 +9,27 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Traistring Day v2",
+      info: "Raf",
+      url: "https://i.goopics.net/5hwhtf.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/9a21ebb4ddc777b0242b35be4fe2b489.png",
+    },
+    {
+      title: "Traistring Day",
+      info: "Raf",
+      url: "https://i.goopics.net/8z5hxn.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/b6765ed30b0fc6609ff4d155612ed4bc.png",
+    },
+    {
+      title: "Chleuhcky",
+      info: "Raf",
+      url: "https://i.goopics.net/jf89zl.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/a12b30724055f02ac84f332abd1f0313.png",
+    },
+    {
       title: "Behlul of the carribean",
       info: "Eddy",
       url: "https://i.goopics.net/pantmq.png",
@@ -704,9 +725,9 @@ const Affiches = () => {
     {
       title: "Jason Burne",
       info: "Raf",
-      url: "https://i.goopics.net/ix62jx.png",
+      url: "https://i.goopics.net/dkeq00.png",
       import:
-        "https://zone52.wizebot.tv/gl-pancarte/imgs/6e0d302f4acba2622a24666ad952b7fa.png",
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/ed579de61784a5f9ab3d80f7d4342045.png",
     },
     {
       title: "Inceste Forbes",
@@ -1011,10 +1032,10 @@ const Affiches = () => {
     },
     {
       title: "2 Fat 2 Furious",
-      info: "???",
-      url: "https://i.goopics.net/pi0mx4.png",
+      info: "Raf",
+      url: "https://i.goopics.net/e1qwxk.png",
       import:
-        "https://zone52.wizebot.tv/gl-pancarte/imgs/96706ae107ee0c06004f3a518e65b6d2.png",
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/73fef334848ef2478346eec72cff8dec.png",
     },
     {
       title: "Stan La fondue",
