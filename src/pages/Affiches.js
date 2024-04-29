@@ -1285,6 +1285,14 @@ const Affiches = () => {
         value={searchTerm}
         onChange={handleSearch}
       />
+      <a
+        className="tuto"
+        href="https://www.youtube.com/watch?v=xFbs4_-sOig"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Comment importer en jeu ?
+      </a>
 
       <div className="card-container-affiche">
         {(searchTerm.trim() === ""

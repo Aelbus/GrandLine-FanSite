@@ -10,6 +10,20 @@
   align-items: center;
   justify-content: center;
 }
+.projects-div-affiche .tuto {
+  text-decoration: none;
+  color: white;
+  background: red;
+  margin-top: 10px;
+  padding: 6px 10px;
+  border-radius: 25px;
+}
+.projects-div-affiche .tuto:visited {
+  color: #ffffff;
+}
+.projects-div-affiche .tuto:hover {
+  animation: shadow-drop-center 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
 .projects-div-affiche .search-bar {
   font-family: "Fjalla One", sans-serif;
   width: 600px;

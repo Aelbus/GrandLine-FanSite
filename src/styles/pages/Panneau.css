@@ -6,8 +6,23 @@
   margin-right: 5px;
   animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.projects-div-panneau .tuto {
+  text-decoration: none;
+  color: white;
+  background: red;
+  padding: 6px 10px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+.projects-div-panneau .tuto:visited {
+  color: #ffffff;
+}
+.projects-div-panneau .tuto:hover {
+  animation: shadow-drop-center 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 .projects-div-panneau .card-container-panneau {
   display: flex;
