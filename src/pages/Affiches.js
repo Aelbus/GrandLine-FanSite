@@ -9,7 +9,28 @@ const Affiches = () => {
 
   const projects = [
     {
-      title: "NOVAFLIX - Le Trésor des Forbes",
+      title: "En Cloque mode d'emploi",
+      info: "Elanciel",
+      url: "https://i.goopics.net/w9ncg2.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/41f583c6d5429e38a1ff942c21bd26e3.png",
+    },
+    {
+      title: "Solitaire 000",
+      info: "Eneko",
+      url: "https://i.goopics.net/u87bdj.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/b1ef8522e709c30b25c8d36cb2427fc0.png",
+    },
+    {
+      title: "NOVAFLIX - Le Trésor des Forbes - DAVID",
+      info: "Eneko",
+      url: "https://i.goopics.net/vkzoyw.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/fad0bd156e01d2f259fc354508e54265.png",
+    },
+    {
+      title: "NOVAFLIX - Le Trésor des Forbes - NOVA",
       info: "Eneko",
       url: "https://i.goopics.net/45a3b5.png",
       import:
