@@ -75,6 +75,7 @@ import jumbo from "../assets/images/stream/Jumbo_Gumbo.png";
 import saanzou from "../assets/images/stream/Saanzou.png";
 import hassan from "../assets/images/stream/hassan.png";
 import kimalec from "../assets/images/stream/kimalec_.png";
+import pfut from "../assets/images/stream/pauleta_twitch.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -210,6 +211,12 @@ const Stream = () => {
       nomIRL: "Locklear",
       image: locklear,
       url: "https://www.twitch.tv/locklear",
+    },
+    {
+      nomRP: "Stan LAFONDUE",
+      nomIRL: "Pfut - Pauleta_Twitch",
+      image: pfut,
+      url: "https://www.twitch.tv/pauleta_twitch",
     },
     {
       nomRP: "Emily PALMER",
