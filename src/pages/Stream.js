@@ -74,6 +74,7 @@ import ayakataz from "../assets/images/stream/ayakataz.png";
 import jumbo from "../assets/images/stream/Jumbo_Gumbo.png";
 import saanzou from "../assets/images/stream/Saanzou.png";
 import hassan from "../assets/images/stream/hassan.png";
+import kimalec from "../assets/images/stream/kimalec_.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -565,6 +566,13 @@ const Stream = () => {
       image: saanzou,
       info: "",
       url: "https://www.twitch.tv/saanzou",
+    },
+    {
+      nomRP: "Lucas MORETTI",
+      nomIRL: "Kimalec_",
+      image: kimalec,
+      info: "",
+      url: "https://www.twitch.tv/kimalec_",
     },
   ];
 
