@@ -394,6 +394,13 @@ const Affiches = () => {
         "https://zone52.wizebot.tv/gl-pancarte/imgs/ab2e4362c9b48f4c593cac494769ee15.png",
     },
     {
+      title: "HECTOR",
+      info: "Sims_Artist1",
+      url: "https://i.goopics.net/9k1itq.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/a4a8cf1af1c1593a91054f7561a2e456.png",
+    },
+    {
       title: "S.D.F.",
       info: "Anos Voldigoad",
       url: "https://i.goopics.net/jgh1cv.png",
