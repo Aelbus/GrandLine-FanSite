@@ -9,6 +9,20 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "NOVAFLIX - Tapine",
+      info: "Eneko",
+      url: "https://i.goopics.net/6n5bdl.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/94b13fcaeee37e3ff027195cd4b47d1a.png",
+    },
+    {
+      title: "Sexual PREDATOR",
+      info: "mat_cllt",
+      url: "https://i.goopics.net/ekfkw6.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/a42f80f65c96a35a71c122dba30eb262.png",
+    },
+    {
       title: "Traistring Day v2",
       info: "Raf",
       url: "https://i.goopics.net/5hwhtf.png",
