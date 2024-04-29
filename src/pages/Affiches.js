@@ -9,6 +9,13 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Forbaise - Amour impossible",
+      info: "CMLBLK",
+      url: "https://i.goopics.net/jxpd15.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/0ca9f2630d0e836d5492f1c0069c9d38.png",
+    },
+    {
       title: "Nova Croft",
       info: "Varggan",
       url: "https://i.goopics.net/y99kk1.png",
@@ -91,6 +98,13 @@ const Affiches = () => {
       url: "https://i.goopics.net/u87bdj.png",
       import:
         "https://zone52.wizebot.tv/gl-pancarte/imgs/b1ef8522e709c30b25c8d36cb2427fc0.png",
+    },
+    {
+      title: "NOVAFLIX - Le Trésor des Forbes - TRIO",
+      info: "Eneko",
+      url: "https://i.goopics.net/klpkw6.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/7c1c8b434ad287953159c6ca8753e914.png",
     },
     {
       title: "NOVAFLIX - Le Trésor des Forbes - DAVID",
