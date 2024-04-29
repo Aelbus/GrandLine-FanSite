@@ -508,9 +508,9 @@ const Affiches = () => {
     {
       title: "Bigman",
       info: "Xili0ne",
-      url: "https://i.goopics.net/gln1ws.png",
+      url: "https://i.goopics.net/h0n7p2.png",
       import:
-        "https://zone52.wizebot.tv/gl-pancarte/imgs/16f983992e5bf804957f3dc16849340c.png",
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/17c97ce3a7cc47bf9f65841d139ef3a1.png",
     },
     {
       title: "Bigman Bad",
