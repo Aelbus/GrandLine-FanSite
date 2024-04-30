@@ -9,6 +9,41 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "En Plein FEU",
+      info: "Elanciel",
+      url: "https://i.goopics.net/u2bdrk.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/ce97fb90fa4dd9319cb7ce998d5b113a.png",
+    },
+    {
+      title: "Stella FRIT",
+      info: "FireBlaze",
+      url: "https://i.goopics.net/dowtm1.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/8a4c4334261f21165183c0858149a8ec.png",
+    },
+    {
+      title: "Game Of Forbes",
+      info: "Eddy",
+      url: "https://i.goopics.net/2oqr1v.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/3483ae02de99bd676b3a01f906cf5260.png",
+    },
+    {
+      title: "FriendZone",
+      info: "Moulamax",
+      url: "https://i.goopics.net/xdy1bm.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/753652ab71d2a1084cd3a17d0160a6a9.png",
+    },
+    {
+      title: "Manger Stella",
+      info: "Moulamax",
+      url: "https://i.goopics.net/nv1qm4.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/7bb12bc0f669c6277a17be8a453b9242.png",
+    },
+    {
       title: "Après 4h t'est mort",
       info: "Gab",
       url: "https://i.goopics.net/1g6deo.jpg",
