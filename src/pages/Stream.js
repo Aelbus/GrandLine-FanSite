@@ -76,6 +76,7 @@ import saanzou from "../assets/images/stream/Saanzou.png";
 import hassan from "../assets/images/stream/hassan.png";
 import kimalec from "../assets/images/stream/kimalec_.png";
 import pfut from "../assets/images/stream/pauleta_twitch.png";
+import kayps from "../assets/images/stream/KaypsTV.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -440,6 +441,13 @@ const Stream = () => {
       image: qidou,
       info: "",
       url: "https://www.twitch.tv/qidou",
+    },
+    {
+      nomRP: "Maellys HUNDERSON",
+      nomIRL: "KaypsTV",
+      image: kayps,
+      info: "",
+      url: "https://www.twitch.tv/kaypstv",
     },
     {
       nomRP: "Dylan POTIN",
