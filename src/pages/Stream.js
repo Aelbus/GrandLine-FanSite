@@ -377,7 +377,7 @@ const Stream = () => {
       nomIRL: "Der_Glaude",
       image: der_glaude,
       info: "",
-      url: "https://www.twitch.tv/R3YMANN",
+      url: "https://www.twitch.tv/der_glaude",
     },
     {
       nomRP: "Stephen W.FAUST",
