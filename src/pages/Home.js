@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles//pages/Home.css";
-import prime from "../assets/images/Home.png";
+import prime from "../assets/images/home.jpg";
 
 const Home = () => {
   return (
