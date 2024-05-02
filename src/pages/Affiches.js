@@ -9,6 +9,34 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "TULANIC",
+      info: "B4K",
+      url: "https://i.goopics.net/cbdvlu.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/e172c8eea81ca318b67b58905c6222f4.png",
+    },
+    {
+      title: "Interstegras",
+      info: "SØsio",
+      url: "https://i.goopics.net/23w5bt.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/369af43a357cc2cb3c9585fa9082c15a.png",
+    },
+    {
+      title: "Big Maman",
+      info: "AndJou",
+      url: "https://i.goopics.net/wavaol.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/91cd654858860c6a0db3556d2d2ace91.png",
+    },
+    {
+      title: "Brothers Of Destruction",
+      info: "Memozb67",
+      url: "https://i.goopics.net/2po25j.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/9e329d62f871d406ace5077bc93d8338.png",
+    },
+    {
       title: "Los Santos Fire",
       info: "Hajar17",
       url: "https://i.goopics.net/z8zcm9.png",
