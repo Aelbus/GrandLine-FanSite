@@ -9,7 +9,14 @@ const Affiches = () => {
 
   const projects = [
     {
-      title: "Kader 2000",
+      title: "Los Santos Fire",
+      info: "Hajar17",
+      url: "https://i.goopics.net/z8zcm9.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/19b1578dda039e612dc7ef1739238e6d.png",
+    },
+    {
+      title: "Opération Istambul",
       info: "Bob L'ingé",
       url: "https://i.goopics.net/6vxe6t.png",
       import:

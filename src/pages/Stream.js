@@ -79,6 +79,8 @@ import pfut from "../assets/images/stream/pauleta_twitch.png";
 import kayps from "../assets/images/stream/KaypsTV.png";
 import pazouz from "../assets/images/stream/Pazouzoo.png";
 import olivanie from "../assets/images/stream/Olivanie.png";
+import cptnyahya from "../assets/images/stream/CapitaineYahya.png";
+import restespec from "../assets/images/stream/Reste_special.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -604,6 +606,20 @@ const Stream = () => {
       image: olivanie,
       info: "",
       url: "https://www.twitch.tv/olivanie",
+    },
+    {
+      nomRP: "Bruno EFENE",
+      nomIRL: "CapitaineYahya",
+      image: cptnyahya,
+      info: "",
+      url: "https://www.twitch.tv/capitaineyahya",
+    },
+    {
+      nomRP: "Lucy COWELL / Marie DEFONTAINE",
+      nomIRL: "Reste_Special",
+      image: restespec,
+      info: "",
+      url: "https://www.twitch.tv/reste_special",
     },
   ];
 
