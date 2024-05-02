@@ -77,6 +77,8 @@ import hassan from "../assets/images/stream/hassan.png";
 import kimalec from "../assets/images/stream/kimalec_.png";
 import pfut from "../assets/images/stream/pauleta_twitch.png";
 import kayps from "../assets/images/stream/KaypsTV.png";
+import pazouz from "../assets/images/stream/Pazouzoo.png";
+import olivanie from "../assets/images/stream/Olivanie.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -588,6 +590,20 @@ const Stream = () => {
       image: kimalec,
       info: "",
       url: "https://www.twitch.tv/kimalec_",
+    },
+    {
+      nomRP: "Thorfinn THORSON",
+      nomIRL: "Pazouzoo",
+      image: pazouz,
+      info: "",
+      url: "https://www.twitch.tv/pazouzoo",
+    },
+    {
+      nomRP: "Sarahi MORA",
+      nomIRL: "Olivanie",
+      image: olivanie,
+      info: "",
+      url: "https://www.twitch.tv/olivanie",
     },
   ];
 
