@@ -9,6 +9,48 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Kader 2000",
+      info: "Bob L'ingé",
+      url: "https://i.goopics.net/6vxe6t.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/8603f6147243db9c8f7d87807044ca6f.png",
+    },
+    {
+      title: "Kader 2000",
+      info: "Shdw",
+      url: "https://i.goopics.net/1tkalq.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/065129d30180963170af240afefdc0af.png",
+    },
+    {
+      title: "J'irai dormir chez vous",
+      info: "Hakke95",
+      url: "https://i.goopics.net/a8a2vu.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/89b459929c802fe27979f4651f9fc79d.png",
+    },
+    {
+      title: "Fatgun Maveribs",
+      info: "Tepdo",
+      url: "https://i.goopics.net/17jzbk.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/ff29ae4ecab7902d52da8540b37bdf6f.png",
+    },
+    {
+      title: "Le Bigman",
+      info: "Moulamax",
+      url: "https://i.goopics.net/eijj3m.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/5c1589d35606d7e89460ff6f6cdae488.png",
+    },
+    {
+      title: "Bruleur d'Alexandre",
+      info: "Moulamax",
+      url: "https://i.goopics.net/6gexyu.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/192707189791ef90e3b125da20b4a026.png",
+    },
+    {
       title: "La soupe aux forbes pour Noluck",
       info: "Varggan & AeLBuS",
       url: "https://i.postimg.cc/g0tKTSSt/SOUPE-AUX-CHOUX-aelbus-x-Varggan.png",
