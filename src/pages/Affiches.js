@@ -9,6 +9,90 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "La soupe aux forbes pour Noluck",
+      info: "Varggan & AeLBuS",
+      url: "https://i.postimg.cc/g0tKTSSt/SOUPE-AUX-CHOUX-aelbus-x-Varggan.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/de9ada0e7fff55396b8c7c89127cca1d.png",
+    },
+    {
+      title: "Tout pour la maison de Mamie",
+      info: "???",
+      url: "https://i.postimg.cc/WbwCfSs0/tout-pour-la-maison-de-mamie.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/f564984649ed399100ea785580d73b2a.png",
+    },
+    {
+      title: "Prison Break",
+      info: "Flav",
+      url: "https://i.postimg.cc/FRGhvm4V/Prison-break-Flav.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/9e4f8c5345f0b9d0603b02cb45a46b25.png",
+    },
+    {
+      title: "Les vacances des BIGMAN",
+      info: "Lone",
+      url: "https://i.postimg.cc/cJmmM5Wb/Les-vacances-des-bigman-lone.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/f776317b9049d7bfb6ee33d5cbf04277.png",
+    },
+    {
+      title: "Le Zbeul",
+      info: "Silentheal",
+      url: "https://i.postimg.cc/hjmGRNGC/LE-ZBEUL-silentheal.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/3014d80b7278c17f53305d8d7ae1fa53.png",
+    },
+    {
+      title: "Le bon la brute et la demente",
+      info: "Bob L'ingé",
+      url: "https://i.postimg.cc/rygJtHj0/le-bon-la-brute-et-la-demente-bob-l-ing.jpg",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/4095afc147337eebae2aa90ba5a2e3d5.png",
+    },
+    {
+      title: "JOHN JOID Master SnakBack",
+      info: "Bob L'ingé",
+      url: "https://i.postimg.cc/tJvLg47p/John-Joid-bob-l-ing.jpg",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/25accab3e303d80a03198e19fa30b2c2.png",
+    },
+    {
+      title: "Hangover",
+      info: "Flav",
+      url: "https://i.postimg.cc/VLMRvNJg/Hangover-Flav.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/c0514819bb2cb5e28d586a9211c2d838.png",
+    },
+    {
+      title: "GTHRP",
+      info: "Lone",
+      url: "https://i.postimg.cc/dV5JywXk/GTHRP-Lone.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/0cf29dab6de6fb53bfcd3a0f5b79139f.png",
+    },
+    {
+      title: "GrandLine",
+      info: "Bob L'ingé",
+      url: "https://i.postimg.cc/264d0cnW/grandline-bob-l-ing.jpg",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/de6c3f979a1f20a9a9ef260488b6b568.png",
+    },
+    {
+      title: "Grand Forbes Malade",
+      info: "Ficello30",
+      url: "https://i.postimg.cc/TP6Jgcv4/Grand-forbes-malade-ficello30.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/8282dd85378d384e623c661516b43b69.png",
+    },
+    {
+      title: "Alix Forbes",
+      info: "AelBus & Chach0u_",
+      url: "https://i.postimg.cc/mD33m1Bg/Alix-Forbes.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/5ffe015734fcd046ed939bcddc5b61b8.png",
+    },
+    {
       title: "En Plein FEU",
       info: "Elanciel",
       url: "https://i.goopics.net/u2bdrk.png",

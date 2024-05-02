@@ -6,6 +6,34 @@ const Panneau = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const projects = [
     {
+      title: "David Forbes Boule boule",
+      info: "AeLBuS",
+      url: "https://i.postimg.cc/13QHbN96/David-et-les-boules-Aelbus.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/c921cef4a3f3c8807c35f2fb3efeb884.png",
+    },
+    {
+      title: "Disaster Gaston",
+      info: "???",
+      url: "https://i.postimg.cc/R01TMCZ8/Disaster-Gaston.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/bd297a22c87737f52e4d2f29c1f184d3.png",
+    },
+    {
+      title: "A prendre ou a manger",
+      info: "JiB",
+      url: "https://i.postimg.cc/sDF1JYcY/aminematue-aprendreouamanger-JIB.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/bfefb3360b2cb0221e4b51f834f9396c.png",
+    },
+    {
+      title: "Mysnake",
+      info: "Moulamax",
+      url: "https://i.postimg.cc/6qtL7ky3/affiche-mysnake-moulamax.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/dc09c0b42f9ace37b935d80e14f68405.png",
+    },
+    {
       title: "CRISE CORLEONE",
       info: "Raf",
       url: "https://i.goopics.net/hz9478.png",
