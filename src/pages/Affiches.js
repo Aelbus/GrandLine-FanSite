@@ -74,7 +74,7 @@ const Affiches = () => {
     {
       title: "GrandLine",
       info: "Bob L'ingé",
-      url: "https://i.postimg.cc/264d0cnW/grandline-bob-l-ing.jpg",
+      url: "https://i.goopics.net/uxyi46.png",
       import:
         "https://zone52.wizebot.tv/gl-pancarte/imgs/de6c3f979a1f20a9a9ef260488b6b568.png",
     },
