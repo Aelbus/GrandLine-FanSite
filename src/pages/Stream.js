@@ -194,12 +194,6 @@ const Stream = () => {
       url: "https://www.twitch.tv/darcy_tv",
     },
     {
-      nomRP: "Cesar ALARCON",
-      nomIRL: "DVM_medja",
-      image: medja,
-      url: "https://www.twitch.tv/dvm_medja",
-    },
-    {
       nomRP: "Jodie SAVAGE",
       nomIRL: "Xo_trixy",
       image: trixy,
@@ -620,6 +614,12 @@ const Stream = () => {
       image: restespec,
       info: "",
       url: "https://www.twitch.tv/reste_special",
+    },
+    {
+      nomRP: "Cesar ALARCON",
+      nomIRL: "DVM_medja",
+      image: medja,
+      url: "https://www.twitch.tv/dvm_medja",
     },
   ];
 

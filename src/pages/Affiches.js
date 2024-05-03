@@ -9,6 +9,48 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Histoire impossible",
+      info: "Khannibal",
+      url: "https://i.goopics.net/2pif6v.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/a9cc7dba85f690b3b270991156af70b3.png",
+    },
+    {
+      title: "Akhy Potter",
+      info: "Sims_Artist1",
+      url: "https://i.goopics.net/aiecos.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/eb02cbab42fa16aed83708548353defa.png",
+    },
+    {
+      title: "Miss Los Santos",
+      info: "Ellanciel",
+      url: "https://i.goopics.net/m2a9k5.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/79dd163c6680225b2c2ded91dacdcd3a.png",
+    },
+    {
+      title: "Jason BIGMAN",
+      info: "Matt_cllt",
+      url: "https://i.goopics.net/5xmfxy.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/70e1bf6ed098bf0414d665103f1c8421.png",
+    },
+    {
+      title: "Gros Lard",
+      info: "Eneko",
+      url: "https://i.goopics.net/bdmja9.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/5eaaeada8c5fcd1f5b6b3115c06190ea.png",
+    },
+    {
+      title: "Assassin Cringe",
+      info: "Eneko",
+      url: "https://i.goopics.net/nbcq4j.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/9623e044256af846abbafc4f730c3dd7.png",
+    },
+    {
       title: "FORBES",
       info: "Eneko",
       url: "https://i.goopics.net/hg7nvr.png",
