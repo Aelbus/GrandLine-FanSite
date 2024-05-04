@@ -9,6 +9,41 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "David.",
+      info: "Eneko",
+      url: "https://i.goopics.net/omo6jw.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/73e019ab7f8f4e00a7129f753c694964.png",
+    },
+    {
+      title: "Plus tard J'atteindrai les pépites d'or",
+      info: "Eneko",
+      url: "https://i.goopics.net/9bmayt.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/c4836de1f923d95f473a8bd280c5df33.png",
+    },
+    {
+      title: "Le jour où j'ai forbaise Nova",
+      info: "Fiicello30",
+      url: "https://i.goopics.net/0qae7o.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/b90fa0d103c7f3e9eb58ec106def7f40.png",
+    },
+    {
+      title: "The Terminateur",
+      info: "Inspecteur Barnab*te",
+      url: "https://i.goopics.net/h5a6mx.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/1fc17f5934ec21e937f1efff7b37bc0d.png",
+    },
+    {
+      title: "Fat & Curious",
+      info: "???",
+      url: "https://i.goopics.net/blikrh.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/7ffc1a126b001da62f2721ca21194f6d.png",
+    },
+    {
       title: "Histoire impossible",
       info: "Khannibal",
       url: "https://i.goopics.net/2pif6v.png",
