@@ -190,7 +190,7 @@ const Stream = () => {
       nomRP: "Britney HUNDERSON",
       nomIRL: "Darcy_tv",
       image: darcy,
-      info: "Présentatrice Météo",
+      info: "Présentatrice Météo - Miss Los Santos",
       url: "https://www.twitch.tv/darcy_tv",
     },
     {
