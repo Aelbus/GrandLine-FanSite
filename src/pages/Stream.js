@@ -81,6 +81,11 @@ import pazouz from "../assets/images/stream/Pazouzoo.png";
 import olivanie from "../assets/images/stream/Olivanie.png";
 import cptnyahya from "../assets/images/stream/CapitaineYahya.png";
 import restespec from "../assets/images/stream/Reste_special.png";
+import azrega from "../assets/images/stream/AzregaFR.png";
+import valhala from "../assets/images/stream/ValhalaTV.png";
+import angyalll from "../assets/images/stream/Angyalll.png";
+import dzamine from "../assets/images/stream/DZ_Amine.png";
+import latache from "../assets/images/stream/La_tache.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -280,6 +285,13 @@ const Stream = () => {
       url: "https://www.twitch.tv/hyenaaa",
     },
     {
+      nomRP: "Bettie JONES",
+      nomIRL: "Hyenaa",
+      image: hyenaa,
+      info: "",
+      url: "https://www.twitch.tv/hyenaaa",
+    },
+    {
       nomRP: "Zoe BAKER",
       nomIRL: "AnaisMRN",
       image: anaisMrn,
@@ -292,6 +304,12 @@ const Stream = () => {
       image: nicotheo,
       info: "",
       url: "https://www.twitch.tv/nicotheo_off",
+    },
+    {
+      nomRP: "Cesar ALARCON",
+      nomIRL: "DVM_medja",
+      image: medja,
+      url: "https://www.twitch.tv/dvm_medja",
     },
     {
       nomRP: "Patrice PLOT",
@@ -616,10 +634,36 @@ const Stream = () => {
       url: "https://www.twitch.tv/reste_special",
     },
     {
-      nomRP: "Cesar ALARCON",
-      nomIRL: "DVM_medja",
-      image: medja,
-      url: "https://www.twitch.tv/dvm_medja",
+      nomRP: "Poté ALVAREZ",
+      nomIRL: "AzregaFR",
+      image: azrega,
+      url: "https://www.twitch.tv/azregafr",
+    },
+    {
+      nomRP: "Brahim SEKSOUKI",
+      nomIRL: "ValhalaTV",
+      image: valhala,
+      url: "https://www.twitch.tv/valhalaTV",
+    },
+    {
+      nomRP: "Isabella HARRINGTON",
+      nomIRL: "Angyalll",
+      image: angyalll,
+      url: "https://www.twitch.tv/angyalll",
+    },
+    {
+      nomRP: "Mchenef Mekthoub",
+      nomIRL: "DZ_AMINE",
+      image: dzamine,
+      info: "Double M",
+      url: "https://www.twitch.tv/dz_amine",
+    },
+    {
+      nomRP: "Roger ZEFE",
+      nomIRL: "La_Tache",
+      image: latache,
+      info: "",
+      url: "https://www.twitch.tv/la_tache",
     },
   ];
 
