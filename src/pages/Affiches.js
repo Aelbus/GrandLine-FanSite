@@ -80,7 +80,7 @@ const Affiches = () => {
     },
     {
       title: "Fat & Curious",
-      info: "???",
+      info: "B4K",
       url: "https://i.goopics.net/blikrh.png",
       import:
         "https://zone52.wizebot.tv/gl-pancarte/imgs/7ffc1a126b001da62f2721ca21194f6d.png",

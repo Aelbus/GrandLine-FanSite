@@ -18,7 +18,7 @@ const Home = () => {
         Favoris dans la section "add?" du site.
         <br />
         <br />
-        Merci à tous pour vos retour, c'est trés encourageant. <br />
+        Merci à tous pour vos retours, c'est très encourageant. <br />
         En ésperant que le site vous convients. <br />
         <br />
         AeLBuS
