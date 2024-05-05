@@ -55,6 +55,11 @@ function ContactForm() {
           J'ajoute manuellement les affiches/panneau/streamer. Si vôtre
           réalisation et/ou nom de streamer n'est pas affiché c'est soit pas
           encore fait, soit inapproprié. <br />
+          Vous pouvez heberger vos image{" "}
+          <a href="https://goopics.net/" className="ici">
+            ici
+          </a>
+          .
         </p>
         <form className="contact-form" onSubmit={sendEmail}>
           <div className="contact-label">
