@@ -9,6 +9,13 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Fast and furious 21",
+      info: "Bob L'ingé",
+      url: "https://i.goopics.net/hl1onu.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/b5bc5a413694d40480d5ed29891e38be.png",
+    },
+    {
       title: "Stage Militaire",
       info: "Eneko",
       url: "https://i.goopics.net/b2t9eh.png",
