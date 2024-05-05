@@ -9,6 +9,34 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Les Bigman",
+      info: "Eneko",
+      url: "https://i.goopics.net/a5kapg.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/64daa8476bd5955a9d916f450c2eca19.png",
+    },
+    {
+      title: "Grand Line",
+      info: "Khannibal",
+      url: "https://i.goopics.net/kqmvrk.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/2424822b13954967bfe9dc6c211f521b.png",
+    },
+    {
+      title: "Roméo & Juliette",
+      info: "Georges de rimouski",
+      url: "https://i.goopics.net/v7kztw.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/602b630548a44ac2fe0ca61606e3d29f.png",
+    },
+    {
+      title: "Fée Clocharde",
+      info: "Azur",
+      url: "https://i.goopics.net/u8e7i7.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/d703034b0c915960df9af72dde66dce5.png",
+    },
+    {
       title: "David.",
       info: "Eneko",
       url: "https://i.goopics.net/omo6jw.png",
