@@ -9,6 +9,34 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Scarfesse",
+      info: "Bob L'ingé",
+      url: "https://i.goopics.net/3l9c92.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/e8f434d8ebea134776f9053ff6b8d1cc.png",
+    },
+    {
+      title: "Pretty Man",
+      info: "Bob L'ingé",
+      url: "https://i.goopics.net/5tfyyh.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/208d2056b0b0bc3872b2b1f65ef2f1fb.png",
+    },
+    {
+      title: "Los Santos",
+      info: "Bob L'ingé",
+      url: "https://i.goopics.net/9kg36l.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/c936d27a35e1ea131abaaff5b4a56252.png",
+    },
+    {
+      title: "Fast and Furious",
+      info: "Bob L'ingé",
+      url: "https://i.goopics.net/8i5ox5.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/d2e7de4cf2888001f67e66d5536352ae.png",
+    },
+    {
       title: "Ava MENDEZ Influenceuse 4",
       info: "AeLBuS & Sayrann",
       url: "https://i.goopics.net/kvlru6.png",
