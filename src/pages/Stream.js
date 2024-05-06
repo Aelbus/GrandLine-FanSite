@@ -87,6 +87,7 @@ import angyalll from "../assets/images/stream/Angyalll.png";
 import dzamine from "../assets/images/stream/DZ_Amine.png";
 import latache from "../assets/images/stream/La_tache.png";
 import nasd from "../assets/images/stream/Nasd91.png";
+import kozukid from "../assets/images/stream/KozukiDbasma.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -672,6 +673,13 @@ const Stream = () => {
       image: nasd,
       info: "",
       url: "https://twitch.tv/nasd91",
+    },
+    {
+      nomRP: "Lilia BENZOUZ",
+      nomIRL: "KozukiDbasma",
+      image: kozukid,
+      info: "",
+      url: "https://www.twitch.tv/kozukidbasma",
     },
   ];
 
