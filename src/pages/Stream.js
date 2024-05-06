@@ -86,6 +86,7 @@ import valhala from "../assets/images/stream/ValhalaTV.png";
 import angyalll from "../assets/images/stream/Angyalll.png";
 import dzamine from "../assets/images/stream/DZ_Amine.png";
 import latache from "../assets/images/stream/La_tache.png";
+import nasd from "../assets/images/stream/Nasd91.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -336,7 +337,7 @@ const Stream = () => {
       nomRP: "Diana ALLOCCO",
       nomIRL: "Evelunes",
       image: evelunes,
-      info: "",
+      info: "Didi",
       url: "https://www.twitch.tv/evelunes",
     },
     {
@@ -664,6 +665,13 @@ const Stream = () => {
       image: latache,
       info: "",
       url: "https://www.twitch.tv/la_tache",
+    },
+    {
+      nomRP: "Giorgio VASELINELLI",
+      nomIRL: "Nasd91",
+      image: nasd,
+      info: "",
+      url: "https://twitch.tv/nasd91",
     },
   ];
 
