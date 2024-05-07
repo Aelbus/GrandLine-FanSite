@@ -9,6 +9,34 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "The Bigman",
+      info: "SilentHill",
+      url: "https://i.goopics.net/076tf5.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/07f8da3c51ae7b8df961c5747ee87cd4.png",
+    },
+    {
+      title: "Seul au monde",
+      info: "Matt Cllt",
+      url: "https://i.goopics.net/hbcuby.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/64127f4b9d8a26ef1b506692a92b6199.png",
+    },
+    {
+      title: "SanGroku",
+      info: "Majado",
+      url: "https://i.goopics.net/5pvjil.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/07e56ae17dbb4d3f10bd62474e05714f.png",
+    },
+    {
+      title: "Radin",
+      info: "Max Cllt",
+      url: "https://i.goopics.net/jih1dj.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/b92cd4e073dd991cf1a5031bc6d0eb1e.png",
+    },
+    {
       title: "Scarfesse",
       info: "Bob L'ingé",
       url: "https://i.goopics.net/3l9c92.png",
@@ -242,9 +270,9 @@ const Affiches = () => {
     {
       title: "J'irai dormir chez vous",
       info: "Hakke95",
-      url: "https://i.goopics.net/a8a2vu.png",
+      url: "https://i.goopics.net/hi79yz.png",
       import:
-        "https://zone52.wizebot.tv/gl-pancarte/imgs/89b459929c802fe27979f4651f9fc79d.png",
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/59adb2b54fc9281432a199052be21ac8.png",
     },
     {
       title: "Fatgun Maveribs",
