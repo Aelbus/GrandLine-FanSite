@@ -16,13 +16,6 @@ const Affiches = () => {
         "https://zone52.wizebot.tv/gl-pancarte/imgs/dd835d30962d6114fdc7fc962b60221d.png",
     },
     {
-      title: "Fat Gastoune",
-      info: "Novasihg",
-      url: "https://i.goopics.net/9okgd7.png",
-      import:
-        "https://zone52.wizebot.tv/gl-pancarte/imgs/e5c40ac8a371e2481ff7ec9e05ec6770.png",
-    },
-    {
       title: "LADDER",
       info: "SilentHill",
       url: "https://i.goopics.net/dufv2q.png",
