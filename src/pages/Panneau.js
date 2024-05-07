@@ -6,6 +6,13 @@ const Panneau = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const projects = [
     {
+      title: "CHAUVA",
+      info: "",
+      url: "https://i.goopics.net/791uh8.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/f41662fa4a485387a052c1fa2411e7b3.png",
+    },
+    {
       title: "Nova Army",
       info: "",
       url: "https://i.goopics.net/2uqvax.png",

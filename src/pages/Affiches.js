@@ -9,6 +9,48 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Gaston BIGMAN",
+      info: "",
+      url: "https://i.goopics.net/s4r4mk.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/dd835d30962d6114fdc7fc962b60221d.png",
+    },
+    {
+      title: "Fat Gastoune",
+      info: "Novasihg",
+      url: "https://i.goopics.net/9okgd7.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/e5c40ac8a371e2481ff7ec9e05ec6770.png",
+    },
+    {
+      title: "LADDER",
+      info: "SilentHill",
+      url: "https://i.goopics.net/dufv2q.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/22c0c018aea2847584b805c351f63bfc.png",
+    },
+    {
+      title: "NYMPHO",
+      info: "Garou",
+      url: "https://i.goopics.net/a9abpr.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/49afcb460727fc97687c02ecd4807022.png",
+    },
+    {
+      title: "Graisse anatomy",
+      info: "Novasihg",
+      url: "https://i.goopics.net/y4vis9.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/7236129b075ae22ebf92c4748fa2ce53.png",
+    },
+    {
+      title: "Forbie",
+      info: "Novasihg",
+      url: "https://i.goopics.net/0inyrv.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/a60b4119f1c393c6c1fa0a932222e60b.png",
+    },
+    {
       title: "The Bigman",
       info: "SilentHill",
       url: "https://i.goopics.net/076tf5.png",

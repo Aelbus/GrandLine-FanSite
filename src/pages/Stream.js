@@ -88,6 +88,8 @@ import dzamine from "../assets/images/stream/DZ_Amine.png";
 import latache from "../assets/images/stream/La_tache.png";
 import nasd from "../assets/images/stream/Nasd91.png";
 import kozukid from "../assets/images/stream/KozukiDbasma.png";
+import yannis from "../assets/images/stream/YanisMonkey.png";
+import jamelito from "../assets/images/stream/jamelito_.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -680,6 +682,20 @@ const Stream = () => {
       image: kozukid,
       info: "",
       url: "https://www.twitch.tv/kozukidbasma",
+    },
+    {
+      nomRP: "Amir ASHRAFI",
+      nomIRL: "YanisMonkey",
+      image: yannis,
+      info: "",
+      url: "https://www.twitch.tv/yanismonkey",
+    },
+    {
+      nomRP: "Jayden FOREMAN",
+      nomIRL: "Jamelito",
+      image: jamelito,
+      info: "",
+      url: "https://www.twitch.tv/jamelito_",
     },
   ];
 
