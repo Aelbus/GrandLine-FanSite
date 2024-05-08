@@ -9,11 +9,18 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Mon Incroyable Fiancée",
+      info: "SilentHill",
+      url: "https://i.postimg.cc/mDXc8zRh/incroyable-fianc-silent-Hill.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/3864e03b98e773ca982f7d042aa968e8.png",
+    },
+    {
       title: "Jalousie de Miss",
       info: "AeLBuS & Sayrann",
-      url: "https://i.goopics.net/f84j3e.png",
+      url: "https://i.postimg.cc/Hxw9VL9x/Jalousie-de-miss-Aelbus-Sayran.png",
       import:
-        "https://zone52.wizebot.tv/gl-pancarte/imgs/7ec3fe8dd6b7682c0a8c05a4ed850c6c.png",
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/bd0c2d4819aec6d2a95137a8ec9060ba.png",
     },
     {
       title: "Gaston BIGMAN",
