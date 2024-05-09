@@ -9,6 +9,13 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "La Gros",
+      info: "Azarogg",
+      url: "https://i.goopics.net/oa8bxb.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/94143a51db30678631c62d4005547deb.png",
+    },
+    {
       title: "EGG MILES",
       info: "Elanciel",
       url: "https://i.goopics.net/sbnuk6.png",
@@ -417,14 +424,14 @@ const Affiches = () => {
     {
       title: "Le bon la brute et la demente",
       info: "Bob L'ingé",
-      url: "https://i.postimg.cc/rygJtHj0/le-bon-la-brute-et-la-demente-bob-l-ing.jpg",
+      url: "https://i.goopics.net/zph9uw.png",
       import:
         "https://zone52.wizebot.tv/gl-pancarte/imgs/4095afc147337eebae2aa90ba5a2e3d5.png",
     },
     {
       title: "JOHN JOID Master SnakBack",
       info: "Bob L'ingé",
-      url: "https://i.postimg.cc/tJvLg47p/John-Joid-bob-l-ing.jpg",
+      url: "https://i.goopics.net/ku1fy3.png",
       import:
         "https://zone52.wizebot.tv/gl-pancarte/imgs/25accab3e303d80a03198e19fa30b2c2.png",
     },
