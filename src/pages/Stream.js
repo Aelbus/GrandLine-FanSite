@@ -91,6 +91,7 @@ import kozukid from "../assets/images/stream/KozukiDbasma.png";
 import yannis from "../assets/images/stream/YanisMonkey.png";
 import jamelito from "../assets/images/stream/jamelito_.png";
 import idkleila from "../assets/images/stream/idkbutimleila.png";
+import nadouli from "../assets/images/stream/nadoulliiii.png";
 
 const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -704,6 +705,13 @@ const Stream = () => {
       image: idkleila,
       info: "",
       url: "https://www.twitch.tv/idkbutimleila",
+    },
+    {
+      nomRP: "gynnie HARRINGTON",
+      nomIRL: "Nadoulliiii",
+      image: nadouli,
+      info: "",
+      url: "https://www.twitch.tv/nadoulliiii",
     },
   ];
 
