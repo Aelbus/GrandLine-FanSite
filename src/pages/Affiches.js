@@ -9,6 +9,34 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "MK8 de pute",
+      info: "ilyes",
+      url: "https://i.goopics.net/kwnbt8.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/236b9b584b3be037b11d4429b5b026b5.png",
+    },
+    {
+      title: "inmangeable",
+      info: "Beubz",
+      url: "https://i.goopics.net/buula3.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/db95c666ca77d518645d013aa132c37e.png",
+    },
+    {
+      title: "Elle veut  HITCH",
+      info: "Elanciel",
+      url: "https://i.goopics.net/xr3ajn.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/9159b9549dc124f8cb545f19bbe57254.png",
+    },
+    {
+      title: "BigMen",
+      info: "Dragfy",
+      url: "https://i.goopics.net/kabi6c.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/15b54d0ec908b0a17ce8fa846a126428.png",
+    },
+    {
       title: "Mon Incroyable Fiancée",
       info: "SilentHill",
       url: "https://i.postimg.cc/mDXc8zRh/incroyable-fianc-silent-Hill.png",
