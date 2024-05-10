@@ -50,6 +50,16 @@ const Header = () => {
           </li>
           <li>
             <NavLink
+              to="/vidéo"
+              className={({ isActive }) => {
+                return isActive ? "nav-link active-link" : "nav-link";
+              }}
+            >
+              Vidéo
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/contact"
               className={({ isActive }) => {
                 return isActive ? "nav-link active-link" : "nav-link";
