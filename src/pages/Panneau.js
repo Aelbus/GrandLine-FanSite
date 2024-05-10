@@ -9,14 +9,14 @@ const Panneau = () => {
   const projects = [
     {
       title: "CHAUVA",
-      info: "",
+      info: "???",
       url: "https://i.goopics.net/791uh8.png",
       import:
         "https://zone52.wizebot.tv/gl-pancarte/imgs/f41662fa4a485387a052c1fa2411e7b3.png",
     },
     {
       title: "Nova Army",
-      info: "",
+      info: "???",
       url: "https://i.goopics.net/2uqvax.png",
       import:
         "https://zone52.wizebot.tv/gl-pancarte/imgs/f3c0647a5fbe98919b51c08fc6fe0d3a.png",
