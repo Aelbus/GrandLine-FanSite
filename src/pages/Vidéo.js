@@ -74,7 +74,7 @@ const Video = () => {
               vidéo. Je suis également designer, dans le montage, tel que les
               miniatures youtube ou autre, je suis toujours à la recherche de
               boulôt. <br /> Bref on s'en fou de ma vie, je suis là pour faire
-              kiffé tout le monde avec mes petit travaux. 😎
+              kiffer tout le monde avec mes petits travaux. 😎
             </p>
           </div>
           <div className="creator-reseau">
