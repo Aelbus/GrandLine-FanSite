@@ -4,6 +4,8 @@ import "../styles/pages/Panneau.css";
 const Panneau = () => {
   const [selectedCard, setSelectedCard] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
+  const [totalPanneaux, setTotalPanneaux] = useState(0);
+
   const projects = [
     {
       title: "CHAUVA",
@@ -237,8 +239,14 @@ const Panneau = () => {
     alert("URL copiée dans le presse-papiers !");
   };
 
+  useState(() => {
+    setTotalPanneaux(projects.length);
+  }, []);
+
   return (
     <main className="projects-div-panneau">
+      <p className="compteur">Nombre de panneaux : {totalPanneaux}</p>
+
       <a
         className="tuto"
         href="https://www.youtube.com/watch?v=xFbs4_-sOig"

@@ -6,8 +6,16 @@ const Affiches = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredIndices, setFilteredIndices] = useState([]);
+  const [totalAffiches, setTotalAffiches] = useState(0);
 
   const projects = [
+    {
+      title: "Bonnie and Clyde",
+      info: "Elanciel",
+      url: "https://i.goopics.net/3sd2xh.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/6fc8c227bb2793da75159e5e9ab1f39f.png",
+    },
     {
       title: "La Gros",
       info: "Azarogg",
@@ -1871,6 +1879,10 @@ const Affiches = () => {
     }
   };
 
+  useState(() => {
+    setTotalAffiches(projects.length);
+  }, []);
+
   return (
     <main className="projects-div-affiche">
       <input
@@ -1880,6 +1892,7 @@ const Affiches = () => {
         value={searchTerm}
         onChange={handleSearch}
       />
+      <p className="compteur">Nombre d'affiches : {totalAffiches}</p>
       <a
         className="tuto"
         href="https://www.youtube.com/watch?v=xFbs4_-sOig"
@@ -1888,7 +1901,6 @@ const Affiches = () => {
       >
         Comment importer en jeu ?
       </a>
-
       <div className="card-container-affiche">
         {(searchTerm.trim() === ""
           ? projects.map((_, index) => index)

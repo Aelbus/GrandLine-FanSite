@@ -9,6 +9,11 @@
   align-items: center;
   justify-content: center;
 }
+.projects-div-stream .compteur {
+  position: absolute;
+  top: -6px;
+  color: white;
+}
 .projects-div-stream .search-bar {
   font-family: "Fjalla One", sans-serif;
   width: 600px;
@@ -48,7 +53,7 @@
   background-color: #f0f0f0;
   padding: 15px;
   border-radius: 25px;
-  width: 250px;
+  width: 280px;
   height: 30px;
 }
 .projects-div-stream .card-container-stream .card-stream figure:hover {
@@ -62,16 +67,8 @@
   border: 3px solid #f0f0f0;
   background: #f0f0f0;
 }
-.projects-div-stream .card-container-stream .card-stream figure .Infosupp {
-  color: #f0f0f0;
-  font-size: 12px;
-  font-weight: 400;
-  position: absolute;
-  bottom: -7px;
-  left: 124px;
-}
 .projects-div-stream .card-container-stream .card-stream figure figcaption {
-  width: 250px;
+  width: 280px;
   height: 60px;
   display: flex;
   flex-direction: column;
@@ -80,16 +77,24 @@
   gap: 10px;
   padding-left: 10px;
 }
-.projects-div-stream .card-container-stream .card-stream figure figcaption h2 {
-  width: 200px;
-  font-size: 16px;
-  font-weight: 400;
+.projects-div-stream .card-container-stream .card-stream figure figcaption p {
+  width: 250px;
   margin: 0;
 }
-.projects-div-stream .card-container-stream .card-stream figure figcaption p {
-  width: 200px;
-  font-size: 14px;
-  margin: 0;
+.projects-div-stream .card-container-stream .card-stream figure figcaption p .name {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+.projects-div-stream .card-container-stream .card-stream figure figcaption p .nomrp {
+  font-size: 13px;
+  font-weight: 300;
+  color: #5c5c5c;
+}
+.projects-div-stream .card-container-stream .card-stream figure figcaption p .tag {
+  font-size: 13px;
+  font-weight: 500;
+  color: #bb1818;
 }
 .projects-div-stream .card-container-stream .card-stream figure figcaption a {
   position: absolute;
