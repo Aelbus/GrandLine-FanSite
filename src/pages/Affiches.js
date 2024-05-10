@@ -81,7 +81,7 @@ const Affiches = () => {
     },
     {
       title: "Gaston BIGMAN",
-      info: "",
+      info: "???",
       url: "https://i.goopics.net/s4r4mk.png",
       import:
         "https://zone52.wizebot.tv/gl-pancarte/imgs/dd835d30962d6114fdc7fc962b60221d.png",
