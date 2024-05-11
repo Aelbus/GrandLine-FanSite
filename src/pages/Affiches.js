@@ -10,6 +10,48 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "KESCAPE Bigman toujours lui",
+      info: "Beubz",
+      url: "https://i.goopics.net/b2k4f9.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/4c3253e7afc401eef7c012a074d02bfb.png",
+    },
+    {
+      title: "King Fight Golf Club",
+      info: "Ilyes",
+      url: "https://i.goopics.net/wfb9x4.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/dbe6392589b70177afe6078b36a5d479.png",
+    },
+    {
+      title: "Mon Incroyable Fiancé",
+      info: "SilentHeal",
+      url: "https://i.goopics.net/49uvqc.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/48af1087b546590f4cbdb352c61f4949.png",
+    },
+    {
+      title: "#freeGaston",
+      info: "SilentHeal",
+      url: "https://i.goopics.net/6pxay7.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/6b93bc67e6b3a0ea571bd43d2d612ef6.png",
+    },
+    {
+      title: "Da Zebi CODE",
+      info: "Garou",
+      url: "https://i.goopics.net/t2yce6.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/fb846a1be1b9d702e529c4e3e491c3a7.png",
+    },
+    {
+      title: "Tara Lewis",
+      info: "Bambi",
+      url: "https://i.goopics.net/i7r81p.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/10a096bda407797459279bb454274f4a.png",
+    },
+    {
       title: "Sous Ecrou",
       info: "Ilyes",
       url: "https://i.goopics.net/s99hwn.png",
