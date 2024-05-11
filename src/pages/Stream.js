@@ -123,6 +123,11 @@ const Stream = () => {
           { username: "jamelito_", nomRP: "Jayden FOREMAN" },
           { username: "idkbutimleila", nomRP: "Assia MALIK" },
           { username: "nadoulliiii", nomRP: "gynnie HARRINGTON" },
+          {
+            username: "nnounoursbastion",
+            nomRP: "Alex PRICE",
+            tag: "Chef ROUX",
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
