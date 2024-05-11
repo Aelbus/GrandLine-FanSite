@@ -124,8 +124,8 @@ const Stream = () => {
           { username: "idkbutimleila", nomRP: "Assia MALIK" },
           { username: "nadoulliiii", nomRP: "gynnie HARRINGTON" },
           {
-            username: "nnounoursbastion",
-            nomRP: "Alex PRICE",
+            username: "Nounoursbastion",
+            nomRP: "Alex Price",
             tag: "Chef ROUX",
           },
         ];
