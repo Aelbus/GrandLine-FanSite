@@ -10,6 +10,48 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Ravagé",
+      info: "Nicolassss57",
+      url: "https://i.goopics.net/oiubxn.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/5a245ff657c7a591b98e7df0fd9e5046.png",
+    },
+    {
+      title: "Il était une fois Nova",
+      info: "Bob L'ingé",
+      url: "https://i.goopics.net/eyjtoy.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/b5425c0f02fb9eb872677741b3cd25f1.png",
+    },
+    {
+      title: "FAT Bigman",
+      info: "Bob L'ingé",
+      url: "https://i.goopics.net/9ms3r2.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/2c777b858b7ee27a33ea7b022c7f1350.png",
+    },
+    {
+      title: "Bruler et Mentir",
+      info: "Matt Cllt",
+      url: "https://i.goopics.net/x9fown.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/5c1e2760fe2f87b70d2e27a5b30ee693.png",
+    },
+    {
+      title: "Aviatior",
+      info: "Inspecteur Barnabite",
+      url: "https://i.goopics.net/bau6xd.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/cf28338a2bffd6339f2ead5382112a36.png",
+    },
+    {
+      title: "3,65 Centimètres",
+      info: "Matt cllt",
+      url: "https://i.goopics.net/pcb6ib.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/e74242f7e0390778f010411b2672f0fc.png",
+    },
+    {
       title: "KESCAPE Bigman toujours lui",
       info: "Beubz",
       url: "https://i.goopics.net/b2k4f9.png",
