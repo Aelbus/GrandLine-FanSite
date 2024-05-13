@@ -122,13 +122,30 @@ const Stream = () => {
           { username: "yanismonkey", nomRP: "Amir ASHRAFI" },
           { username: "jamelito_", nomRP: "Jayden FOREMAN" },
           { username: "idkbutimleila", nomRP: "Assia MALIK" },
-          { username: "nadoulliiii", nomRP: "Gynnie HARRINGTON" },
+          {
+            username: "nadoulliiii",
+            nomRP: "Gynnie HARRINGTON",
+          },
           {
             username: "Nounoursbastion",
             nomRP: "Alex PRICE",
             tag: "Chef ROUX",
           },
           { username: "helfynn", nomRP: "Eustache FERNI" },
+          {
+            username: "james__patagheul",
+            nomRP: "Moumoudou JOHNSON",
+            tag: "MYS & LEWIS Management",
+          },
+          {
+            username: "dilovibes",
+            nomRP: "Samir ALMADA",
+            tag: "MYS & LEWIS Management",
+          },
+          {
+            username: "TvMadiba",
+            nomRP: "Pavel YOGUNSKOI",
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
