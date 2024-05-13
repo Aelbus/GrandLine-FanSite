@@ -146,6 +146,10 @@ const Stream = () => {
             username: "TvMadiba",
             nomRP: "Pavel YOGUNSKOI",
           },
+          {
+            username: "Flyorrr",
+            nomRP: "Daniel BOYLER",
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
