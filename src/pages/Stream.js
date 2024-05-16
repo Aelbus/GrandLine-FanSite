@@ -31,12 +31,12 @@ const Stream = () => {
           { username: "zipperr", nomRP: "Igor CASIMIR", tag: "Staff" },
           {
             username: "klearradio",
-            nomRP: "Arsene",
+            nomRP: "Arsene WASHINGTON",
             tag: "Weazel News",
           },
           {
             username: "Melton_Wine",
-            nomRP: "Melton",
+            nomRP: "Melton WINE",
             tag: "Weazel News",
           },
           { username: "mastersnakou", nomRP: "Jason BIGMAN" },
