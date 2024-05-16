@@ -159,6 +159,23 @@ const Stream = () => {
             username: "tiks782",
             nomRP: "Aron EL HAITY",
           },
+          {
+            username: "troismont",
+            nomRP: "Damian STEEL",
+          },
+          {
+            username: "Anastronaute_",
+            nomRP: "Charlie DAVIS",
+          },
+          {
+            username: "SooFianSoo",
+            nomRP: "Dr COHEN",
+          },
+          {
+            username: "Yaroph",
+            nomRP: "John SMITH",
+            tag: "L'Amiral",
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
