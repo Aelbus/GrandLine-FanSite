@@ -24,6 +24,7 @@ const Stream = () => {
           },
           { username: "Aminematue", nomRP: "Gaston BIGMAN", tag: "Fondateur" },
           { username: "Dorelium", nomRP: "Matthew BELLAMY", tag: "Staff" },
+          { username: "malariatv", nomRP: "Owen Davis - Ziggen", tag: "Staff" },
           { username: "3DENZ", nomRP: "Denzel PALMER", tag: "Staff" },
           { username: "zeaaron_", nomRP: "Alexandre FORBES", tag: "Staff" },
           { username: "postbadon", nomRP: "Hector MORA", tag: "Staff" },

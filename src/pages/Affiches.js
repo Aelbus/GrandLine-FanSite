@@ -10,6 +10,13 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Touken7 PS2",
+      info: "Hakke95",
+      url: "https://i.goopics.net/kna6rn.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/032d9022b90dcfa8ea835d6d33fc4281.png",
+    },
+    {
       title: "Gromeo & Juliette",
       info: "SilentHeal",
       url: "https://i.goopics.net/2x1qv2.png",

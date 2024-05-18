@@ -8,6 +8,13 @@ const Panneau = () => {
 
   const projects = [
     {
+      title: "TouKen7",
+      info: "Hakke95",
+      url: "https://i.goopics.net/m1jc8o.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/e0edebeaad974e2c67b32cd2b05e0ab4.png",
+    },
+    {
       title: "CHAUVA",
       info: "???",
       url: "https://i.goopics.net/791uh8.png",
