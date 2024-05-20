@@ -10,6 +10,27 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Les BIGMAN",
+      info: "SilentHeal",
+      url: "https://i.goopics.net/12lvih.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/2e1499ec22bc96b116b97acdf4ff08f6.png",
+    },
+    {
+      title: "The Baiseur",
+      info: "Junior7",
+      url: "https://i.goopics.net/psfhsj.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/79dd942c97149c95f106b2312e6fae72.png",
+    },
+    {
+      title: "Mon père et moi",
+      info: "Junior7",
+      url: "https://i.goopics.net/frptd6.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/4eb01ca0cb1e7a0aad4856da4424d43f.png",
+    },
+    {
       title: "SoloQ",
       info: "Elanciel",
       url: "https://i.goopics.net/svrmv1.png",
