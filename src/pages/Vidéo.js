@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/pages/Vidéo.css";
+import "../styles/pages/Video.css";
 import Twitchico from "../assets/icons/twitch.png";
 import YTBico from "../assets/icons/youtube.png";
 import Twitterico from "../assets/icons/twitter.png";
