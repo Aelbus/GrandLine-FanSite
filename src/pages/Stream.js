@@ -177,6 +177,11 @@ const Stream = () => {
             nomRP: "John SMITH",
             tag: "L'Amiral",
           },
+          {
+            username: "aimebap",
+            nomRP: "Jacky JONES",
+            tag: "Colonel",
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
