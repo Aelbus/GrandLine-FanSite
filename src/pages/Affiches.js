@@ -10,6 +10,20 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Jason VS Santana For NOVA",
+      info: "Dpix",
+      url: "https://i.goopics.net/q6msas.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/63bd93593e0752d57bc9bc872b0a75c5.png",
+    },
+    {
+      title: "PAWNSTART",
+      info: "SilentHeal",
+      url: "https://i.goopics.net/wuxah0.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/8392027195c4b03ab41f5ac05d71bd9e.png",
+    },
+    {
       title: "Les BIGMAN",
       info: "SilentHeal",
       url: "https://i.goopics.net/12lvih.png",
