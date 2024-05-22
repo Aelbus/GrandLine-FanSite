@@ -17,7 +17,7 @@ const Affiches = () => {
         "https://zone52.wizebot.tv/gl-pancarte/imgs/63bd93593e0752d57bc9bc872b0a75c5.png",
     },
     {
-      title: "PAWNSTART",
+      title: "PAWN STARS",
       info: "SilentHeal",
       url: "https://i.goopics.net/wuxah0.png",
       import:
