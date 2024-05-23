@@ -73,7 +73,11 @@ const Stream = () => {
           { username: "as_coco", nomRP: "Alya Rosales MORA" },
           { username: "saadikoooi", nomRP: "Harukichi YAMAGUCHI" },
           { username: "latomatemozza", nomRP: "Guadalupe MORA" },
-          { username: "bilou", nomRP: "Javier CHAMORRO" },
+          {
+            username: "bilou",
+            nomRP: "Javier CHAMORRO",
+            tag: "Canello - Blagueur fou",
+          },
           { username: "kailussss", nomRP: "Balentina CUCALACHA" },
           { username: "r3ymann", nomRP: "Béatrice BONIFACE" },
           { username: "der_glaude", nomRP: "Monsieur DUBIDON" },
