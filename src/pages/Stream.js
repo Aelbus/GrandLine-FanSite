@@ -12,7 +12,7 @@ const Stream = () => {
     const fetchStreamerData = async () => {
       try {
         const response = await axios.post(
-          `https://id.twitch.tv/oauth2/token?client_id=l9y7l85ti4l8bjgcy73hbp2hwcjras&client_secret=oqubtsg8p3pw1tpqoxu3csverdc598&grant_type=client_credentials`
+          `https://id.twitch.tv/oauth2/token?client_id=u1ne1fj44jwu9p37xh6wu7t0n3lg7c&client_secret=81n9cc2nqq05g59e190fstcnsu6r6t&grant_type=client_credentials`
         );
         const accessToken = response.data.access_token;
 
@@ -199,7 +199,7 @@ const Stream = () => {
         const promises = streamerDataList.map(({ username }) =>
           axios.get(`https://api.twitch.tv/helix/users?login=${username}`, {
             headers: {
-              "Client-ID": "l9y7l85ti4l8bjgcy73hbp2hwcjras",
+              "Client-ID": "u1ne1fj44jwu9p37xh6wu7t0n3lg7c",
               Authorization: `Bearer ${accessToken}`,
             },
           })
