@@ -186,6 +186,14 @@ const Stream = () => {
             nomRP: "Jacky JONES",
             tag: "Colonel",
           },
+          {
+            username: "Melosatv",
+            nomRP: "Tallulah SPARKS",
+          },
+          {
+            username: "baba2m",
+            nomRP: "Baba J. SANTANA",
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
