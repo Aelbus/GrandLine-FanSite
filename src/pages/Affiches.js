@@ -10,6 +10,20 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "La guerre commence",
+      info: "Moha92",
+      url: "https://i.goopics.net/pxt1g6.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/a333bafbf7d671a29346058f0d82acca.png",
+    },
+    {
+      title: "11.11.24",
+      info: "Moha92",
+      url: "https://i.goopics.net/73u447.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/2c4db66ae55fb4cd8e4ce296ae2be6a2.png",
+    },
+    {
       title: "Jason VS Santana For NOVA",
       info: "Dpix",
       url: "https://i.goopics.net/q6msas.png",
