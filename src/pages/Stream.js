@@ -80,7 +80,7 @@ const Stream = () => {
           },
           { username: "kailussss", nomRP: "Balentina CUCALACHA" },
           { username: "r3ymann", nomRP: "Béatrice BONIFACE" },
-          { username: "der_glaude", nomRP: "Monsieur DUBIDON" },
+          { username: "der_glaude", nomRP: "Maurice DUBIDON" },
           { username: "feykoww", nomRP: "Stephen W.FAUST" },
           { username: "latuah", nomRP: "Alice DELACOURS" },
           { username: "spincheck", nomRP: "Harry NOLUCK" },
@@ -94,7 +94,6 @@ const Stream = () => {
           { username: "nayrenns", nomRP: "Dylan POTIN" },
           { username: "nekzioh", nomRP: "Léonardo SKORPION" },
           { username: "lil__quinn", nomRP: "Olya NELSON" },
-          { username: "terrycoco", nomRP: "Terry COCO" },
           { username: "vi00lence", nomRP: "Sam DJORIS" },
           { username: "el_figuees", nomRP: "Isabella LOPEZ" },
           { username: "kiko_tech", nomRP: "Jake THOMPSON" },
@@ -193,6 +192,14 @@ const Stream = () => {
           {
             username: "baba2m",
             nomRP: "Baba J. SANTANA",
+          },
+          {
+            username: "AlexGamingCrew",
+            nomRP: "Walter QUEENSEY",
+          },
+          {
+            username: "keiiiizz",
+            nomRP: "Kelly BARKS",
           },
         ];
 
