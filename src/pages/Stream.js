@@ -63,6 +63,7 @@ const Stream = () => {
           { username: "ludmyaa", nomRP: "Tara LEWIS" },
           { username: "hyenaa", nomRP: "Suzie BIGMAN - Bettie JONES" },
           { username: "anaisMRN", nomRP: "Zoe BAKER", tag: "La Zoooooo'" },
+          { username: "prince_toz", nomRP: "Gustavo CESAR", tag: "GUS" },
           { username: "nicotheo_off", nomRP: "Robert WALTON" },
           { username: "dvm_medja", nomRP: "Cesar ALARCON" },
           { username: "panpanqqoh", nomRP: "Patrice PLOT" },
