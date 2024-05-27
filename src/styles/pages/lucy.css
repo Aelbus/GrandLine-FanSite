@@ -1,0 +1,19 @@
+.ester-eggs {
+  background: rgba(36, 36, 36, 0.5333333333);
+  height: 85vh;
+  margin-top: 90px;
+  margin-left: 5px;
+  margin-right: 5px;
+  animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ester-eggs img {
+  width: 1280px;
+  height: 760px;
+  border-radius: 25px 25px 25px 25px;
+}
+
+/*# sourceMappingURL=lucy.css.map */

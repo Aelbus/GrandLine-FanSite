@@ -7,6 +7,7 @@ import Stream from "./pages/Stream";
 import Panneau from "./pages/Panneau";
 import Contact from "./pages/Contact";
 import Vidéo from "./pages/Vidéo";
+import Lucy from "./pages/lucy";
 
 const router = () => {
   return (
@@ -18,6 +19,7 @@ const router = () => {
         <Route path="/stream" element={<Stream />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/vidéo" element={<Vidéo />} />
+        <Route path="/lucy" element={<Lucy />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </>
