@@ -1,5 +1,4 @@
 .ester-eggs {
-  background: rgba(36, 36, 36, 0.5333333333);
   height: 85vh;
   margin-top: 90px;
   margin-left: 5px;
@@ -11,8 +10,8 @@
   justify-content: center;
 }
 .ester-eggs img {
-  width: 1280px;
-  height: 760px;
+  width: 1001px;
+  height: 751px;
   border-radius: 25px 25px 25px 25px;
 }
 
