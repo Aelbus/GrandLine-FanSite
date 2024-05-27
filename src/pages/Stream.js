@@ -88,7 +88,6 @@ const Stream = () => {
           { username: "zx_yassine", nomRP: "Enriqué DELGADO" },
           { username: "frenchdee", nomRP: "Gary JAY" },
           { username: "nacked", nomRP: "Monique SCHMITTELBOURG" },
-          { username: "ekalandras", nomRP: "Ezra GREY" },
           { username: "saniahasna", nomRP: "Felichia DELAMANCHA" },
           { username: "qidou", nomRP: "Addebayo OKONKWO" },
           { username: "kaypstv", nomRP: "Maellys HUNDERSON" },
