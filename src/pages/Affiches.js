@@ -10,6 +10,34 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Le Mariage Bigman Forbes",
+      info: "Dpix",
+      url: "https://i.goopics.net/2mass1.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/eb225a3dcbce3796699299ad7ca449a5.png",
+    },
+    {
+      title: "La Big Magouille",
+      info: "Lone",
+      url: "https://i.goopics.net/cg2bmb.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/0201423f7d49734e5d8cd163cae8278d.png",
+    },
+    {
+      title: "Bonnie & Clyde",
+      info: "Sayrann",
+      url: "https://i.goopics.net/4uhfn1.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/332cb3c642baaf22da6f5a052eb0666d.png",
+    },
+    {
+      title: "Bonnie & Clyde",
+      info: "Sayrann",
+      url: "https://i.goopics.net/4uhfn1.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/332cb3c642baaf22da6f5a052eb0666d.png",
+    },
+    {
       title: "La guerre commence",
       info: "Moha92",
       url: "https://i.goopics.net/pxt1g6.png",
