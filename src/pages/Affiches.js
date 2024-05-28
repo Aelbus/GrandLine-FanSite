@@ -31,13 +31,6 @@ const Affiches = () => {
         "https://zone52.wizebot.tv/gl-pancarte/imgs/332cb3c642baaf22da6f5a052eb0666d.png",
     },
     {
-      title: "Bonnie & Clyde",
-      info: "Sayrann",
-      url: "https://i.goopics.net/4uhfn1.png",
-      import:
-        "https://zone52.wizebot.tv/gl-pancarte/imgs/332cb3c642baaf22da6f5a052eb0666d.png",
-    },
-    {
       title: "La guerre commence",
       info: "Moha92",
       url: "https://i.goopics.net/pxt1g6.png",
