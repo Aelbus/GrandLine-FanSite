@@ -10,6 +10,13 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Hector Mora",
+      info: "Sayrann",
+      url: "https://i.goopics.net/fu9rg7.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/7ce6b0aaea4345ca15c903b39cac209e.png",
+    },
+    {
       title: "Le Mariage Bigman Forbes",
       info: "Dpix",
       url: "https://i.goopics.net/2mass1.png",
