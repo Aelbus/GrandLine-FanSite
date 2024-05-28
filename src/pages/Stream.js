@@ -1,18 +1,23 @@
-import { useState, useEffect } from "react";
-import "../styles/pages/Stream.css";
-import Twitchico from "../assets/icons/twitch.png";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Twitchico from "../assets/icons/twitch.png";
+import "../styles/pages/Stream.css";
 
 const Stream = () => {
-  const [searchTerm, setSearchTerm] = useState("");
   const [streamers, setStreamers] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
   const [totalStreamers, setTotalStreamers] = useState(0);
 
   useEffect(() => {
     const fetchStreamerData = async () => {
       try {
         const response = await axios.post(
-          `https://id.twitch.tv/oauth2/token?client_id=u1ne1fj44jwu9p37xh6wu7t0n3lg7c&client_secret=81n9cc2nqq05g59e190fstcnsu6r6t&grant_type=client_credentials`
+          `https://id.twitch.tv/oauth2/token`,
+          new URLSearchParams({
+            client_id: "u1ne1fj44jwu9p37xh6wu7t0n3lg7c",
+            client_secret: "77435hlfxy5njb0at679o91w6a2jo6",
+            grant_type: "client_credentials",
+          })
         );
         const accessToken = response.data.access_token;
 
@@ -216,11 +221,19 @@ const Stream = () => {
           })
         );
         const responses = await Promise.all(promises);
-        const streamerData = responses.map((response, index) => ({
-          ...response.data.data[0],
-          nomRP: streamerDataList[index].nomRP,
-          tag: streamerDataList[index].tag,
-        }));
+        const streamerData = responses
+          .map((response, index) => {
+            const data = response.data.data[0];
+            return data
+              ? {
+                  ...data,
+                  nomRP: streamerDataList[index].nomRP,
+                  tag: streamerDataList[index].tag,
+                }
+              : null;
+          })
+          .filter((streamer) => streamer !== null);
+
         setStreamers(streamerData);
         setTotalStreamers(streamerData.length);
       } catch (error) {
@@ -236,11 +249,12 @@ const Stream = () => {
 
   const filteredStreamers = streamers.filter(
     (streamer) =>
-      streamer.display_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      streamer.login.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      streamer.nomRP.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      (streamer.tag &&
-        streamer.tag.toLowerCase().includes(searchTerm.toLowerCase()))
+      streamer.display_name &&
+      (streamer.display_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        streamer.login.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        streamer.nomRP.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        (streamer.tag &&
+          streamer.tag.toLowerCase().includes(searchTerm.toLowerCase())))
   );
 
   return (
@@ -258,23 +272,28 @@ const Stream = () => {
           <div key={index} className="card-stream">
             <figure>
               <img
-                src={streamer.profile_image_url}
-                alt={streamer.display_name}
+                src={streamer.profile_image_url || ""}
+                alt={streamer.display_name || "Unknown"}
               />
               <figcaption>
                 <p>
-                  <span className="name">{streamer.display_name}</span>
+                  <span className="name">
+                    {streamer.display_name || "Unknown"}
+                  </span>
                   <br />
-                  <span className="nomrp">{streamer.nomRP}</span>
+                  <span className="nomrp">{streamer.nomRP || "Unknown"}</span>
                   <br />
-                  <span className="tag">{streamer.tag}</span>
+                  <span className="tag">{streamer.tag || ""}</span>
                 </p>
                 <a
                   href={`https://www.twitch.tv/${streamer.login}`}
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={Twitchico} alt={streamer.display_name} />
+                  <img
+                    src={Twitchico}
+                    alt={streamer.display_name || "Twitch"}
+                  />
                 </a>
               </figcaption>
             </figure>
