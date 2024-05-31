@@ -24,7 +24,7 @@ const Stream = () => {
         const streamerDataList = [
           {
             username: "LolyPokiCake",
-            nomRP: "John APOTRI",
+            nomRP: "John APPOTRIE",
             tag: "Fondateur - Staff",
           },
           { username: "Aminematue", nomRP: "Gaston BIGMAN", tag: "Fondateur" },
