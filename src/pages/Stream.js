@@ -37,13 +37,16 @@ const Stream = () => {
           { username: "zipperr", nomRP: "Igor CASIMIR", tag: "Staff" },
           {
             username: "klearradio",
-            nomRP: "Arsene WASHINGTON",
+            nomRP: "Arsene & Melton",
             tag: "Weazel News",
+          },
+          {
+            username: "barbenoire__00",
+            nomRP: "Arsene WASHINGTON",
           },
           {
             username: "Melton_Wine",
             nomRP: "Melton WINE",
-            tag: "Weazel News",
           },
           { username: "mastersnakou", nomRP: "Jason BIGMAN" },
           { username: "tatiana_tv", nomRP: "Nova FORBES" },
