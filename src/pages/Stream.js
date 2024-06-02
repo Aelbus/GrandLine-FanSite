@@ -138,6 +138,7 @@ const Stream = () => {
           { username: "kozukidbasma", nomRP: "Lilia BENZOUZ" },
           { username: "yanismonkey", nomRP: "Amir ASHRAFI" },
           { username: "jamelito_", nomRP: "Jayden FOREMAN" },
+          { username: "ekalandras", nomRP: "Ezra GREY" },
           { username: "idkbutimleila", nomRP: "Assia MALIK" },
           {
             username: "nadoulliiii",
