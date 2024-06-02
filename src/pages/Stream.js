@@ -226,6 +226,10 @@ const Stream = () => {
             username: "Medouda",
             nomRP: "Martin MOULIN",
           },
+          {
+            username: "riinemaa",
+            nomRP: "Lovena HISPANIOLA",
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
