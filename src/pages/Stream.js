@@ -237,6 +237,18 @@ const Stream = () => {
             username: "lilrhey",
             nomRP: "Francky GONZALES",
           },
+          {
+            username: "iSpace",
+            nomRP: "Floyd ELLIS",
+          },
+          {
+            username: "real_anantia",
+            nomRP: "Jake DEAN",
+          },
+          {
+            username: "misil17_",
+            nomRP: "Elros WARD",
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
