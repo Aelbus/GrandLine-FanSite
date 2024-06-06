@@ -157,7 +157,7 @@ const Stream = () => {
             nomRP: "Alex PRICE",
             tag: "Chef ROUX",
           },
-          { username: "helfynn", nomRP: "Eustache FERNI" },
+          { username: "helfynn", nomRP: "Eustache FERMI" },
           {
             username: "james__patagheul",
             nomRP: "Moumoudou JOHNSON",
