@@ -90,6 +90,11 @@ const Stream = () => {
             nomRP: "Javier CHAMORRO",
             tag: "Canello - Blagueur fou",
           },
+          {
+            username: "Tnopy",
+            nomRP: "Léonard KRUGER",
+            tag: "Juge",
+          },
           { username: "kailussss", nomRP: "Balentina CUCALACHA" },
           { username: "r3ymann", nomRP: "Béatrice BONIFACE" },
           { username: "der_glaude", nomRP: "Maurice DUBIDON" },
@@ -248,6 +253,10 @@ const Stream = () => {
           {
             username: "misil17_",
             nomRP: "Elros WARD",
+          },
+          {
+            username: "SkelOneS1",
+            nomRP: "Frédéric OSWALD",
           },
         ];
 
