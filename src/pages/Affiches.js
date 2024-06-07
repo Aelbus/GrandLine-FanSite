@@ -10,6 +10,13 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Love Forever",
+      info: "Dpix",
+      url: "https://i.postimg.cc/8PB31p6v/love-forever-dpix.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/30ab8a82acc61c5a1ab8b72b9f4098be.png",
+    },
+    {
       title: "Orange is the new Black",
       info: "Elanciel",
       url: "https://i.postimg.cc/C1JQ0Jtq/orange-is-the-new-black-elanciel.png",
