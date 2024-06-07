@@ -10,6 +10,27 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Orange is the new Black",
+      info: "Elanciel",
+      url: "https://i.postimg.cc/C1JQ0Jtq/orange-is-the-new-black-elanciel.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/5a4ca1e8b9ea5fd6aa6e5cf8312ee2f7.png",
+    },
+    {
+      title: "Bigman",
+      info: "Dpix",
+      url: "https://i.postimg.cc/25RJ71hV/bigman-dpix.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/6340d446deb9e966f8e8f3194db88ac7.png",
+    },
+    {
+      title: "Nova jason",
+      info: "LeBambi",
+      url: "https://i.postimg.cc/vBGNCCPy/Nova-jason-le-Bambi.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/b99ad0311431e8fd6c49a66a01a3f2e7.png",
+    },
+    {
       title: "Qu'est ce qu'on a fait au Forbes",
       info: "Jumpyman",
       url: "https://i.goopics.net/qmttaj.png",
