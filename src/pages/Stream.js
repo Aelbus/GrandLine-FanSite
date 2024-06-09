@@ -48,6 +48,7 @@ const Stream = () => {
             username: "Melton_Wine",
             nomRP: "Melton WINE",
           },
+          { username: "shreik_", nomRP: "Keiko USAGI" },
           { username: "mastersnakou", nomRP: "Jason BIGMAN" },
           { username: "tatiana_tv", nomRP: "Nova FORBES" },
           { username: "elbwa78", nomRP: "Connor FORBES" },
