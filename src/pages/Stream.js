@@ -267,6 +267,15 @@ const Stream = () => {
             username: "real_anantia",
             nomRP: "Jake DEAN",
           },
+          {
+            username: "Eyalan",
+            nomRP: "Winfield BLACKWOOD",
+            tag: "Docteur",
+          },
+          {
+            username: "pleyss2be_p2b",
+            nomRP: "Papicha",
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
