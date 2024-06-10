@@ -268,10 +268,6 @@ const Stream = () => {
             nomRP: "Kay KATANA",
           },
           {
-            username: "real_anantia",
-            nomRP: "Jake DEAN",
-          },
-          {
             username: "Eyalan",
             nomRP: "Winfield BLACKWOOD",
             tag: "Docteur",
