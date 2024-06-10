@@ -61,7 +61,11 @@ const Stream = () => {
             tag: "Présentatrice Météo - Miss Los Santos",
           },
           { username: "xo_trixy", nomRP: "Jodie SAVAGE" },
-          { username: "zwave69", nomRP: "Lenny CARTER Ethan WHITE" },
+          {
+            username: "zwave69",
+            nomRP: "Lenny CARTER Ethan WHITE",
+            tag: "Genesis",
+          },
           { username: "locklear", nomRP: "Narine MUCUS" },
           { username: "pauleta_twitch", nomRP: "Stan LAFONDUE" },
           { username: "aneyaris_", nomRP: "Emily PALMER" },
