@@ -221,7 +221,7 @@ const Stream = () => {
           },
           {
             username: "AlexGamingCrew",
-            nomRP: "Walter QUEENSEY",
+            nomRP: "Walter QUEENSEY / Joe HIGHWAY",
           },
           {
             username: "keiiiizz",
