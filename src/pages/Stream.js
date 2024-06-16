@@ -276,6 +276,11 @@ const Stream = () => {
             username: "pleyss2be_p2b",
             nomRP: "Papicha",
           },
+          {
+            username: "Zz_Sumsunnnito_SDF",
+            nomRP: "Steeve/Steevie",
+            tag: "Majordome Gordon",
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
