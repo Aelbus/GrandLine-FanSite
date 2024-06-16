@@ -58,16 +58,6 @@ const Header = () => {
               Vidéo
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to="/contact"
-              className={({ isActive }) => {
-                return isActive ? "nav-link active-link" : "nav-link";
-              }}
-            >
-              Add ?
-            </NavLink>
-          </li>
         </ul>
       </nav>
       <img className="logo-head" src={Logo} alt="Logo" />
