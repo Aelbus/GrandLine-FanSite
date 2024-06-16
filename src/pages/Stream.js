@@ -113,7 +113,11 @@ const Stream = () => {
           { username: "qidou", nomRP: "Addebayo OKONKWO" },
           { username: "kaypstv", nomRP: "Maellys HUNDERSON" },
           { username: "nayrenns", nomRP: "Dylan POTIN", tag: "Mbappe" },
-          { username: "nekzioh", nomRP: "Léonardo SKORPION" },
+          {
+            username: "nekzioh",
+            nomRP: "Léonardo SKORPION",
+            tag: "Damon FORBES",
+          },
           { username: "lil__quinn", nomRP: "Olya NELSON" },
           { username: "vi00lence", nomRP: "Sam DJORIS" },
           { username: "el_figuees", nomRP: "Isabella LOPEZ" },
