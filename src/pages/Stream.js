@@ -281,6 +281,10 @@ const Stream = () => {
             nomRP: "Papicha",
           },
           {
+            username: "covatvv",
+            nomRP: "Logan WALKER",
+          },
+          {
             username: "Zz_Sumsunnnito_SDF",
             nomRP: "Steeve/Steevie",
             tag: "Majordome Gordon",
