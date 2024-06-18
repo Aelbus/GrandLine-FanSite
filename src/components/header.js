@@ -58,6 +58,15 @@ const Header = () => {
               Vidéo
             </NavLink>
           </li>
+          <li>
+            <a
+              href="https://x.com/i/communities/1802767786420191701"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Discussion
+            </a>
+          </li>
         </ul>
       </nav>
       <img className="logo-head" src={Logo} alt="Logo" />
