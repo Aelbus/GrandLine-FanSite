@@ -285,6 +285,10 @@ const Stream = () => {
             nomRP: "Logan WALKER",
           },
           {
+            username: "zulematv",
+            nomRP: "Gaby MONTANA",
+          },
+          {
             username: "Zz_Sumsunnnito_SDF",
             nomRP: "Steeve/Steevie",
             tag: "Majordome Gordon",
