@@ -111,7 +111,11 @@ const Stream = () => {
           { username: "nacked", nomRP: "Monique SCHMITTELBOURG" },
           { username: "saniahasna", nomRP: "Felichia DELAMANCHA" },
           { username: "qidou", nomRP: "Addebayo OKONKWO" },
-          { username: "kaypstv", nomRP: "Maellys HUNDERSON" },
+          {
+            username: "kaypstv",
+            nomRP: "Maellys HUNDERSON",
+            tag: "House Of Secret PROD",
+          },
           { username: "nayrenns", nomRP: "Dylan POTIN", tag: "Mbappe" },
           {
             username: "nekzioh",
