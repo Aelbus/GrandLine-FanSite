@@ -67,6 +67,17 @@ const Header = () => {
               Discussion
             </a>
           </li>
+          <li>
+            <a
+              href="https://miro.com/app/board/uXjVK6FsXdE=/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              HRP
+              <br />
+              Matrixé Originel
+            </a>
+          </li>
         </ul>
       </nav>
       <img className="logo-head" src={Logo} alt="Logo" />
