@@ -302,6 +302,11 @@ const Stream = () => {
             nomRP: "Steeve/Steevie",
             tag: "Majordome Gordon",
           },
+          {
+            username: "fc_vito_",
+            nomRP: "Ghjuvan RICCI",
+            tag: "L'Italien",
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
