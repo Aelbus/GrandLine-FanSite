@@ -58,7 +58,7 @@ const Stream = () => {
           {
             username: "darcy_tv",
             nomRP: "Britney HUNDERSON",
-            tag: "Météo - Miss Los Santos",
+            tag: "Présentatrice Météo - Miss Los Santos",
           },
           { username: "xo_trixy", nomRP: "Jodie SAVAGE" },
           {
@@ -391,11 +391,7 @@ const Stream = () => {
                 src={streamer.profile_image_url || ""}
                 alt={streamer.display_name || "Unknown"}
               />
-              <p>
-                <span className="live-status">
-                  {streamer.isLive ? "🟢 LIVE" : "🔴 OFF"}
-                </span>
-              </p>
+
               <figcaption>
                 <p>
                   <span className="name">
