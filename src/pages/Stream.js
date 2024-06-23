@@ -58,7 +58,7 @@ const Stream = () => {
           {
             username: "darcy_tv",
             nomRP: "Britney HUNDERSON",
-            tag: "Présentatrice Météo - Miss Los Santos",
+            tag: "Météo - Miss Los Santos",
           },
           { username: "xo_trixy", nomRP: "Jodie SAVAGE" },
           {
@@ -331,8 +331,27 @@ const Stream = () => {
           })
           .filter((streamer) => streamer !== null);
 
-        setStreamers(streamerData);
-        setTotalStreamers(streamerData.length);
+        // Ajout de la vérification du statut en direct
+        const livePromises = streamerData.map((streamer) =>
+          axios
+            .get(`https://api.twitch.tv/helix/streams?user_id=${streamer.id}`, {
+              headers: {
+                "Client-ID": "u1ne1fj44jwu9p37xh6wu7t0n3lg7c",
+                Authorization: `Bearer ${accessToken}`,
+              },
+            })
+            .then((response) => {
+              return {
+                ...streamer,
+                isLive: response.data.data.length > 0,
+              };
+            })
+        );
+
+        const streamerDataWithLiveStatus = await Promise.all(livePromises);
+
+        setStreamers(streamerDataWithLiveStatus);
+        setTotalStreamers(streamerDataWithLiveStatus.length);
       } catch (error) {
         console.error(
           "Erreur lors de la récupération des données des streamers :",
@@ -372,6 +391,11 @@ const Stream = () => {
                 src={streamer.profile_image_url || ""}
                 alt={streamer.display_name || "Unknown"}
               />
+              <p>
+                <span className="live-status">
+                  {streamer.isLive ? "🟢 LIVE" : "🔴 OFF"}
+                </span>
+              </p>
               <figcaption>
                 <p>
                   <span className="name">
