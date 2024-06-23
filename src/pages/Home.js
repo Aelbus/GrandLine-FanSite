@@ -14,6 +14,7 @@ const Home = () => {
         <br />
         L'ajout de contenu est fait manuellement, donc quand j'ai le temps.
         <br />
+        <br />
         AeLBuS
       </p>
       <div className="img-home">
