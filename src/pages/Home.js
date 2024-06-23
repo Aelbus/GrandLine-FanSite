@@ -14,13 +14,6 @@ const Home = () => {
         <br />
         L'ajout de contenu est fait manuellement, donc quand j'ai le temps.
         <br />
-        Vous pouvez envoyer vos affiches et panneaux, ajoutez vos Streamers
-        Favoris dans la section "add?" du site.
-        <br />
-        <br />
-        Merci à tous pour vos retours, c'est très encourageant. <br />
-        En ésperant que le site vous convients. <br />
-        <br />
         AeLBuS
       </p>
       <div className="img-home">
