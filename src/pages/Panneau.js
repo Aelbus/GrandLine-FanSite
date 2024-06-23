@@ -8,6 +8,20 @@ const Panneau = () => {
 
   const projects = [
     {
+      title: "Grandline solid V",
+      info: "Hakke95",
+      url: "https://i.goopics.net/k0379v.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/4623d2451effb0ea44f2d22c2b57544d.png",
+    },
+    {
+      title: "GrandLine AIRWAYS",
+      info: "",
+      url: "https://i.goopics.net/c38c9h.png",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/9f2b15d515e9ccde8f451af0baac49b5.png",
+    },
+    {
       title: "TouKen7",
       info: "Hakke95",
       url: "https://i.goopics.net/m1jc8o.png",
