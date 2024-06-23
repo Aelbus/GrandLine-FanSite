@@ -35,6 +35,7 @@
   width: 100%;
   height: auto;
   border-radius: 5%;
+  border: 3px black solid;
 }
 .home-div .info-home {
   background: rgba(36, 36, 36, 0.662745098);

@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles//pages/Home.css";
-import prime from "../assets/images/home.jpg";
+import prime from "../assets/images/Los Santos.jpg";
 
 const Home = () => {
   return (
@@ -18,7 +18,7 @@ const Home = () => {
         AeLBuS
       </p>
       <div className="img-home">
-        <img src={prime} alt="GrandLineRP by Uskal" />
+        <img src={prime} alt="GrandLineRP" />
       </div>
       <div className="info-home">
         <p>

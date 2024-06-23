@@ -3,6 +3,8 @@
 # dependencies
 /node_modules
 /src/sass
+/src/assets/image/affiche
+/src/assets/image/panneau
 /.pnp
 .pnp.js
 
