@@ -60,6 +60,15 @@ const Header = () => {
           </li>
           <li>
             <a
+              href="https://x.com/i/communities/1810012235831406662"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Discussion
+            </a>
+          </li>
+          <li>
+            <a
               href="https://grandline.ggrd.fr/"
               target="_blank"
               rel="noreferrer"
