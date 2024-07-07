@@ -67,15 +67,6 @@ const Header = () => {
               Discussion
             </a>
           </li>
-          <li>
-            <a
-              href="https://grandline.ggrd.fr/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Wiki
-            </a>
-          </li>
         </ul>
       </nav>
       <img className="logo-head" src={Logo} alt="Logo" />
