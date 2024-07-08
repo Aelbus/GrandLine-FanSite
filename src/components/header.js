@@ -67,6 +67,26 @@ const Header = () => {
               Discussion
             </a>
           </li>
+          <li>
+            <a
+              href=" https://discord.gg/grandlinewl"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Discord <br />
+              WL
+            </a>
+          </li>
+          <li>
+            <a
+              href=" https://discord.com/grandlinefa"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Discord <br />
+              FA
+            </a>
+          </li>
         </ul>
       </nav>
       <img className="logo-head" src={Logo} alt="Logo" />
