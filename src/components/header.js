@@ -79,7 +79,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href=" https://discord.com/grandlinefa"
+              href=" https://discord.gg/grandlinefa"
               target="_blank"
               rel="noreferrer"
             >
