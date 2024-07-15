@@ -16,6 +16,8 @@ const Home = () => {
         <br />
         <br />
         AeLBuS
+        <br />
+        L'aventure est terminer, FERMETURE DU SITE le 20/07/2024 ! Merci à tous!
       </p>
       <div className="img-home">
         <img src={prime} alt="GrandLineRP" />
