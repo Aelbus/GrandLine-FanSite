@@ -5,7 +5,7 @@ const footer = () => {
   return (
     <footer className="footer-div">
       <p>
-        © 2024{" "}
+        © 2025{" "}
         <a href="https://linktr.ee/AelBus" target="_blank" rel="noreferrer">
           AelbusProd{" "}
         </a>

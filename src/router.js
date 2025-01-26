@@ -6,7 +6,6 @@ import Error from "./pages/Error";
 import Stream from "./pages/Stream";
 import Panneau from "./pages/Panneau";
 import Vidéo from "./pages/Vidéo";
-import Lucy from "./pages/lucy";
 
 const router = () => {
   return (
@@ -17,7 +16,6 @@ const router = () => {
         <Route path="/panneau" element={<Panneau />} />
         <Route path="/stream" element={<Stream />} />
         <Route path="/vidéo" element={<Vidéo />} />
-        <Route path="/lucy" element={<Lucy />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </>
