@@ -56,7 +56,7 @@ const Stream = () => {
           { username: "chach0u__", nomRP: "Alix FORBES" },
           { username: "redmafia_tv", nomRP: "David FORBES" },
           {
-            username: "darcy_tv",
+            username: "darcy_trix",
             nomRP: "Britney HUNDERSON",
             tag: "Présentatrice Météo - Miss Los Santos",
           },
