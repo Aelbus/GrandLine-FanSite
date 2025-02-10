@@ -15,6 +15,13 @@ const Arc = () => {
             introduit une nouvelle dimension dans l'univers du RP sur Twitch,
             offrant une immersion complète dans un univers scolaire déjanté.
           </p>
+          <a
+            href="https://www.youtube.com/watch?v=D0s5osLybL0"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Le Film
+          </a>
         </div>
         <div className="card-arc">
           <h1>Survivor</h1>
@@ -26,6 +33,13 @@ const Arc = () => {
             se déroulent dans l'univers de GTA V. Ce jeu de rôle unique et
             captivant promet une expérience inédite sur le serveur GRANDLINE.
           </p>
+          <a
+            href="https://www.youtube.com/watch?v=-5Qr4yfs-ic&list=PL-J1pZdtmC0eEO2uXXoKy-DkH3jgdkjUQ"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Playlist
+          </a>
         </div>
         <div className="card-arc">
           <h1>Pentacle</h1>
@@ -37,6 +51,13 @@ const Arc = () => {
             parler d'elle en étant suivie par des milliers de spectateurs
             totalisant des millions de vues.
           </p>
+          <a
+            href="https://www.youtube.com/watch?v=oPa1GIMBqTo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Le Film
+          </a>
         </div>
         <div className="card-arc">
           <h1>Fort Carson City</h1>
@@ -49,6 +70,9 @@ const Arc = () => {
             théâtre de tensions croissantes entre les différents acteurs
             majeurs.
           </p>
+          <a href="#" target="_blank" rel="noreferrer">
+            Soon
+          </a>
         </div>
         <div className="card-arc">
           <h1>???</h1>

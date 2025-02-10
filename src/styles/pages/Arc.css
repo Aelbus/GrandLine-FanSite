@@ -31,6 +31,7 @@
   align-items: center;
   flex-direction: column;
   background: rgba(36, 36, 36, 0.6039215686);
+  position: relative;
 }
 .Arc .card-arc-container .card-arc h1 {
   margin: 0 0 15px 0;
@@ -48,6 +49,24 @@
   font-size: 18px;
   text-align: center;
   text-shadow: 0 3px 0 black;
+}
+.Arc .card-arc-container .card-arc a {
+  position: absolute;
+  bottom: 5px;
+  border: #ff0000 2px solid;
+  padding: 8px 10px 8px 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  background: #ff0000;
+}
+.Arc .card-arc-container .card-arc a:hover {
+  border: #970404 2px solid;
+}
+.Arc .card-arc-container .card-arc a:visited {
+  color: white;
+  text-decoration: none;
 }
 .Arc .card-arc-container .card-arc:hover {
   background: rgba(66, 66, 66, 0.6039215686);
