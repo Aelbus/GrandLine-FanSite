@@ -70,9 +70,6 @@ const Arc = () => {
             théâtre de tensions croissantes entre les différents acteurs
             majeurs.
           </p>
-          <a href="#" target="_blank" rel="noreferrer">
-            Soon
-          </a>
         </div>
         <div className="card-arc">
           <h1>???</h1>
