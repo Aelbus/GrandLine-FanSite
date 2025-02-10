@@ -27,6 +27,105 @@
   color: #ff0000;
 }
 
+.PhoneX {
+  position: fixed;
+  bottom: -50px;
+  right: 50px;
+  width: auto;
+  z-index: 90;
+}
+
+.Phone {
+  position: relative;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(198deg, rgb(2, 0, 36) 0%, rgb(56, 56, 171) 13%, rgb(0, 212, 255) 27%, rgb(47, 62, 65) 43%, rgb(74, 149, 164) 58%, rgb(0, 51, 136) 66%, rgb(106, 143, 205) 76%, rgb(33, 48, 74) 83%, rgb(56, 215, 214) 93%);
+  border-radius: 50px;
+  width: 300px;
+}
+.Phone img {
+  object-fit: cover;
+  width: 300px;
+  height: auto;
+  cursor: pointer;
+}
+.Phone .contact-div {
+  z-index: 1000;
+  position: absolute;
+  width: 258px;
+  top: 80px;
+  left: 20px;
+}
+.Phone .contact-div h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #ffffff;
+  text-shadow: 3px 2px 10px rgb(0, 0, 0);
+}
+.Phone .contact-div .contact-label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  color: #ffffff;
+}
+.Phone .contact-div input[type=text],
+.Phone .contact-div input[type=email],
+.Phone .contact-div input[type=tel] {
+  font-family: "Fjalla One", sans-serif;
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+}
+.Phone .contact-div input[type=text]:focus,
+.Phone .contact-div input[type=email]:focus,
+.Phone .contact-div input[type=tel]:focus {
+  border-color: #4bb04e;
+  outline: none;
+}
+.Phone .contact-div input[type=text]::placeholder,
+.Phone .contact-div input[type=email]::placeholder,
+.Phone .contact-div input[type=tel]::placeholder {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+.Phone .contact-div textarea {
+  z-index: 2;
+  font-family: "Fjalla One", sans-serif;
+  width: 90%;
+  height: 80px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  resize: none;
+}
+.Phone .contact-div textarea:focus {
+  border-color: #4bb04e;
+  outline: none;
+}
+.Phone .contact-div textarea::placeholder {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.918);
+}
+.Phone .contact-div button {
+  background-color: #4bb04e;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.PhoneX img:hover {
+  transition: transform 0.3s ease;
+}
+
 @media (max-width: 650px) {
   .footer-div {
     flex-direction: column;
