@@ -143,7 +143,7 @@ const Stream = () => {
             nomRP: {
               School: "Brandon KUROSAKI",
               FortCarson: " Calleb COLBY",
-              Survivor: "Habib OCHE",
+              Survivor: "🟡Habib OCHE",
             },
             arcs: ["School", "FortCarson", "Survivor"],
           },
@@ -152,7 +152,7 @@ const Stream = () => {
             nomRP: {
               School: "Kevin DUCHAMPS",
               FortCarson: "Marie-José DEBRUN",
-              Survivor: "Buddy RAY",
+              Survivor: "🟡Buddy RAY",
             },
             arcs: ["School", "FortCarson", "Survivor"],
           },
@@ -196,7 +196,7 @@ const Stream = () => {
           },
           {
             username: "GrimKujow",
-            nomRP: { Survivor: "Douglas MENPHIS" },
+            nomRP: { Survivor: "🟡Douglas MENPHIS" },
             arcs: ["Survivor"],
           },
           {
@@ -222,7 +222,7 @@ const Stream = () => {
             nomRP: {
               Pentacle: "Jason BIGMAN",
               School: "John SOURDOUGH",
-              Survivor: "Jack SPARDOUGH",
+              Survivor: "🟡Jack SPARDOUGH",
             },
             arcs: ["Pentacle", "School", "Survivor"],
           },
@@ -295,7 +295,7 @@ const Stream = () => {
             nomRP: {
               Pentacle: "GENESIS - Lenny CARTER/Ethan WHITE",
               School: "Jean Charles VIVIER (Aziz)",
-              Survivor: "Karim BEIDA",
+              Survivor: "🟡Karim BEIDA",
             },
             arcs: ["Pentacle", "School", "Survivor"],
           },
@@ -306,12 +306,12 @@ const Stream = () => {
           },
           {
             username: "Maghla",
-            nomRP: { Survivor: "Stéphanie LEULEU" },
+            nomRP: { Survivor: "🟡Stéphanie LEULEU" },
             arcs: ["Survivor"],
           },
           {
             username: "pauleta_twitch",
-            nomRP: { Pentacle: "Stan LAFONDUE", Survivor: "François PIGNON" },
+            nomRP: { Pentacle: "Stan LAFONDUE", Survivor: "🟡François PIGNON" },
             arcs: ["Pentacle", "Survivor"],
           },
           {
