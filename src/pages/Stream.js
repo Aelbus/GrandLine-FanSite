@@ -6,7 +6,6 @@ import "../styles/pages/Stream.css";
 const Stream = () => {
   const [streamers, setStreamers] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const [totalStreamers, setTotalStreamers] = useState(0);
   const [selectedArc, setSelectedArc] = useState("School");
 
   const arcs = ["School", "Survivor", "Pentacle", "FortCarson"];
@@ -964,7 +963,6 @@ const Stream = () => {
           .filter((streamer) => streamer !== null);
 
         setStreamers(streamerData);
-        setTotalStreamers(streamerData.length);
       } catch (error) {
         console.error(
           "Erreur lors de la récupération des données des streamers :",
