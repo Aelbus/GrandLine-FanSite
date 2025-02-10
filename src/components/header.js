@@ -20,6 +20,16 @@ const Header = () => {
           </li>
           <li>
             <NavLink
+              to="/arc"
+              className={({ isActive }) => {
+                return isActive ? "nav-link active-link" : "nav-link";
+              }}
+            >
+              Arc
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/affiche"
               className={({ isActive }) => {
                 return isActive ? "nav-link active-link" : "nav-link";
@@ -57,35 +67,6 @@ const Header = () => {
             >
               Vidéo
             </NavLink>
-          </li>
-          <li>
-            <a
-              href="https://x.com/i/communities/1810012235831406662"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Discussion
-            </a>
-          </li>
-          <li>
-            <a
-              href=" https://discord.gg/grandlinewl"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Discord <br />
-              WL
-            </a>
-          </li>
-          <li>
-            <a
-              href=" https://discord.gg/grandlinefa"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Discord <br />
-              FA
-            </a>
           </li>
         </ul>
       </nav>

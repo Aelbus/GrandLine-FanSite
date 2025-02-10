@@ -1,0 +1,56 @@
+.Arc {
+  height: 88vh;
+  margin-top: 90px;
+  margin-left: 5px;
+  margin-right: 5px;
+  animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.Arc .card-arc-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 98%;
+  height: 80vh;
+  overflow: auto;
+  flex-direction: row;
+  margin-top: 5px;
+  gap: 20px;
+}
+.Arc .card-arc-container .card-arc {
+  height: 320px;
+  width: 350px;
+  border-radius: 40px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(36, 36, 36, 0.6039215686);
+}
+.Arc .card-arc-container .card-arc h1 {
+  margin: 0 0 15px 0;
+  color: white;
+  font-size: 42px;
+  text-shadow: 0 1px 0 #000000, 0 2px 0 #000000, 0 3px 0 #ff0000, 0 4px 0 #ff0000, 0 5px 0 #ff0000, 0 6px 0 #ff0000, 0 7px 0 #000000;
+}
+.Arc .card-arc-container .card-arc span {
+  color: rgba(255, 255, 255, 0.685);
+  margin-bottom: 30px;
+  text-shadow: 0 2px 0 black;
+}
+.Arc .card-arc-container .card-arc p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  text-shadow: 0 3px 0 black;
+}
+.Arc .card-arc-container .card-arc:hover {
+  background: rgba(66, 66, 66, 0.6039215686);
+}
+
+/*# sourceMappingURL=Arc.css.map */
