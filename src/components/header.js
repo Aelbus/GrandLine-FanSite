@@ -30,6 +30,16 @@ const Header = () => {
           </li>
           <li>
             <NavLink
+              to="/stream"
+              className={({ isActive }) => {
+                return isActive ? "nav-link active-link" : "nav-link";
+              }}
+            >
+              Stream
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/affiche"
               className={({ isActive }) => {
                 return isActive ? "nav-link active-link" : "nav-link";
@@ -48,16 +58,7 @@ const Header = () => {
               Panneau
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to="/stream"
-              className={({ isActive }) => {
-                return isActive ? "nav-link active-link" : "nav-link";
-              }}
-            >
-              Stream
-            </NavLink>
-          </li>
+
           <li>
             <NavLink
               to="/vidéo"

@@ -9,7 +9,7 @@ const Stream = () => {
   const [totalStreamers, setTotalStreamers] = useState(0);
   const [selectedArc, setSelectedArc] = useState("School");
 
-  const arcs = ["School", "Survivor", "Pentacle", "Fort Carson"];
+  const arcs = ["School", "Survivor", "Pentacle", "FortCarson"];
 
   useEffect(() => {
     const fetchStreamerData = async () => {
@@ -29,35 +29,53 @@ const Stream = () => {
             username: "LolyPokiCake",
             nomRP: {
               School: "Andrew PETERSON",
-              Survivor: "Multiple Personnage",
+              Survivor: "Le CHAUVE",
               Pentacle: "John APOTRIE",
-              "Fort Carson": "Multiple Personnage",
+              FortCarson: "Multiple Personnage",
             },
             tag: "Fondateur - Staff",
-            arcs: ["School", "Survivor", "Pentacle", "Fort Carson"],
+            arcs: ["School", "Survivor", "Pentacle", "FortCarson"],
           },
           {
             username: "Aminematue",
             nomRP: {
               School: "Amine ZEUBIO",
-              Survivor: "Amine MATHIEU",
+              Survivor: "🟡/🔴/🎤 Amine MATHIEU",
               Pentacle: "Gaston BIGMAN",
-              "Fort Carson": "Larry COLBY",
+              FortCarson: "Larry COLBY",
             },
             tag: "Fondateur",
-            arcs: ["School", "Survivor", "Pentacle", "Fort Carson"],
+            arcs: ["School", "Survivor", "Pentacle", "FortCarson"],
+          },
+          {
+            username: "IproMx",
+            nomRP: {
+              School: "Jeffrey ROGER",
+              FortCarson: "Père COLBY",
+              Survivor: "🔴Axel LERET",
+            },
+            tag: "Staff",
+            arcs: ["School", "FortCarson", "Survivor"],
           },
           {
             username: "Dorelium",
-            nomRP: { Pentacle: "Matthew BELLAMY" },
+            nomRP: {
+              Pentacle: "Matthew BELLAMY",
+              Survivor: "🟡Tom LEWIS",
+              School: "Alan SMITHY (Prof Thêatre)",
+            },
             tag: "Staff",
-            arcs: ["Pentacle"],
+            arcs: ["Pentacle", "Survivor", "School"],
           },
           {
             username: "malariatv",
-            nomRP: { Pentacle: "Owen Davis - Ziggen", Survivor: "Clark LEWIS" },
+            nomRP: {
+              Pentacle: "Owen Davis - ZIEGEN",
+              Survivor: "🟡Clark LEWIS",
+              School: "Ludwig ZIEGEN (Prof SVT)",
+            },
             tag: "Staff",
-            arcs: ["Pentacle", "Survivor"],
+            arcs: ["Pentacle", "Survivor", "School"],
           },
           {
             username: "3DENZ",
@@ -67,15 +85,34 @@ const Stream = () => {
           },
           {
             username: "zeaaron_",
-            nomRP: { Pentacle: "Alexandre FORBES" },
+            nomRP: {
+              Pentacle: "Alexandre FORBES",
+              School: "Capitaine POLICE",
+              Survivor: "🔴Philippe SALAMONCA",
+            },
             tag: "Staff",
-            arcs: ["Pentacle"],
+            arcs: ["Pentacle", "School", "Survivor"],
           },
           {
             username: "postbadon",
-            nomRP: { Pentacle: "Hector MORA" },
+            nomRP: {
+              Pentacle: "Hector MORA",
+              Survivor: "🎥Mali",
+              School: "Ganesh VIKAPUTASH (CPE)",
+            },
             tag: "Staff",
-            arcs: ["Pentacle"],
+            arcs: ["Pentacle", "Survivor", "School"],
+          },
+          {
+            username: "shreik_",
+            nomRP: {
+              Pentacle: "Keiko USAGI",
+              School: "Keiko USAGI",
+              FortCarson: "Keiko USAGI",
+              Survivor: "🔴Kiara HANET",
+            },
+            tag: "Staff",
+            arcs: ["Pentacle", "School", "Survivor", "FortCarson"],
           },
           {
             username: "hassvnz",
@@ -85,9 +122,62 @@ const Stream = () => {
           },
           {
             username: "zipperr",
-            nomRP: { Pentacle: "Igor CASIMIR" },
+            nomRP: {
+              Pentacle: "Igor CASIMIR",
+              School: "Joshua JOHN",
+              Survivor: "🟡/🔴Hassan HAMAR",
+              FortCarson: "Nelson POWELL",
+            },
             tag: "Staff",
-            arcs: ["Pentacle"],
+            arcs: ["Pentacle", "School", "FortCarson", "Survivor"],
+          },
+          {
+            username: "Rebeudeter",
+            nomRP: {
+              School: "Amid SEFIO",
+              Survivor: "🟡Jax SOMBRERO",
+            },
+            arcs: ["School", "Survivor"],
+          },
+          {
+            username: "Kamet0",
+            nomRP: {
+              School: "Brandon KUROSAKI",
+              FortCarson: " Calleb COLBY",
+              Survivor: "Habib OCHE",
+            },
+            arcs: ["School", "FortCarson", "Survivor"],
+          },
+          {
+            username: "Nateos",
+            nomRP: {
+              School: "Kevin DUCHAMPS",
+              FortCarson: "Marie-José DEBRUN",
+              Survivor: "Buddy RAY",
+            },
+            arcs: ["School", "FortCarson", "Survivor"],
+          },
+          {
+            username: "Minos",
+            nomRP: {
+              School: "Mouloud KEFTA",
+              FortCarson: "???",
+            },
+            arcs: ["School", "FortCarson"],
+          },
+          {
+            username: "Farees",
+            nomRP: {
+              School: "Bachir LEBDIRI",
+            },
+            arcs: ["School"],
+          },
+          {
+            username: "MrBboy45",
+            nomRP: {
+              School: "Jordan BIRKINS",
+            },
+            arcs: ["School"],
           },
           {
             username: "klearradio",
@@ -106,14 +196,36 @@ const Stream = () => {
             arcs: ["Pentacle"],
           },
           {
-            username: "shreik_",
-            nomRP: { Pentacle: "Keiko USAGI" },
-            arcs: ["Pentacle"],
+            username: "GrimKujow",
+            nomRP: { Survivor: "Douglas MENPHIS" },
+            arcs: ["Survivor"],
+          },
+          {
+            username: "Michou",
+            nomRP: { School: "Bobby JUNIOR" },
+            arcs: ["School"],
+          },
+          {
+            username: "Inoxtag",
+            nomRP: {
+              School: "Romuald PORNAULT",
+              Survivor: "🔴Ousmane DEMBELE",
+            },
+            arcs: ["School", "Survivor"],
+          },
+          {
+            username: "LeBouseuh",
+            nomRP: { School: "Francis LALENE", Survivor: "🔴Patrick BRUNEL" },
+            arcs: ["School", "Survivor"],
           },
           {
             username: "mastersnakou",
-            nomRP: { Pentacle: "Jason BIGMAN" },
-            arcs: ["Pentacle"],
+            nomRP: {
+              Pentacle: "Jason BIGMAN",
+              School: "John SOURDOUGH",
+              Survivor: "Jack SPARDOUGH",
+            },
+            arcs: ["Pentacle", "School", "Survivor"],
           },
           {
             username: "tatiana_tv",
@@ -126,9 +238,33 @@ const Stream = () => {
             arcs: ["Pentacle"],
           },
           {
+            username: "Skyyart",
+            nomRP: { Survivor: "🔴Pierre CARRE" },
+            arcs: ["Survivor"],
+          },
+          {
+            username: "Terracid",
+            nomRP: { Survivor: "🔴Richard PASTEL" },
+            arcs: ["Survivor"],
+          },
+          {
+            username: "Laink",
+            nomRP: { Survivor: "🔴Jacques BOULON" },
+            arcs: ["Survivor"],
+          },
+          {
             username: "heavenfox",
-            nomRP: { Pentacle: "Stella FORBES" },
-            arcs: ["Pentacle"],
+            nomRP: {
+              Pentacle: "Stella FORBES",
+              School: "Marie-jeanne DUBIJON (Prof Arts)",
+              Survivor: "🟡Camélia COSTE",
+            },
+            arcs: ["Pentacle", "School", "Survivor"],
+          },
+          {
+            username: "MlleHailey",
+            nomRP: { School: "Yellow BISHOP" },
+            arcs: ["School"],
           },
           {
             username: "chach0u__",
@@ -148,24 +284,36 @@ const Stream = () => {
           },
           {
             username: "xo_trixy",
-            nomRP: { Pentacle: "Jodie SAVAGE" },
-            arcs: ["Pentacle"],
+            nomRP: {
+              Pentacle: "Jodie SAVAGE",
+              School: "Nova BURGER",
+              Survivor: "🔴Alba NANA",
+            },
+            arcs: ["Pentacle", "Survivor", "School"],
           },
           {
-            username: "zwave69",
-            nomRP: { Pentacle: "Lenny CARTER Ethan WHITE" },
-            tag: "Genesis",
-            arcs: ["Pentacle"],
+            username: "zwave",
+            nomRP: {
+              Pentacle: "GENESIS - Lenny CARTER/Ethan WHITE",
+              School: "Jean Charles VIVIER (Aziz)",
+              Survivor: "Karim BEIDA",
+            },
+            arcs: ["Pentacle", "School", "Survivor"],
           },
           {
             username: "locklear",
-            nomRP: { Pentacle: "Narine MUCUS" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Narine MUCUS", Survivor: "🟡Narine MUCUS 🏆" },
+            arcs: ["Pentacle", "Survivor"],
+          },
+          {
+            username: "Maghla",
+            nomRP: { Survivor: "Stéphanie LEULEU" },
+            arcs: ["Survivor"],
           },
           {
             username: "pauleta_twitch",
-            nomRP: { Pentacle: "Stan LAFONDUE" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Stan LAFONDUE", Survivor: "François PIGNON" },
+            arcs: ["Pentacle", "Survivor"],
           },
           {
             username: "aneyaris_",
@@ -189,13 +337,20 @@ const Stream = () => {
           },
           {
             username: "zaardoz",
-            nomRP: { Pentacle: "Mike GORDON" },
-            arcs: ["Pentacle"],
+            nomRP: {
+              Pentacle: "Mike GORDON",
+              School: "Harry McARTHUR (Prof Musique)",
+              FortCarson: "Franco RUSSO",
+            },
+            arcs: ["Pentacle", "School", "FortCarson"],
           },
           {
-            username: "ludmyaa",
-            nomRP: { Pentacle: "Tara BIGMAN LEWIS" },
-            arcs: ["Pentacle"],
+            username: "ludmya",
+            nomRP: {
+              Pentacle: "Tara BIGMAN LEWIS",
+              School: "Emily EVANS",
+            },
+            arcs: ["Pentacle", "School", "FortCarson"],
           },
           {
             username: "hyenaa",
@@ -210,19 +365,27 @@ const Stream = () => {
           },
           {
             username: "prince_toz",
-            nomRP: { Pentacle: "Gustavo CESAR" },
-            tag: "Grayson FORBES",
+            nomRP: { Pentacle: "Gustavo CESAR / Grayson FORBES" },
             arcs: ["Pentacle"],
+          },
+          {
+            username: "leiona17",
+            nomRP: { School: "Leiona WILSON" },
+            arcs: ["School"],
           },
           {
             username: "nicotheo_off",
-            nomRP: { Pentacle: "Robert WALTON" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Robert WALTON", School: "Bobby LUNIVERS" },
+            arcs: ["Pentacle", "School"],
           },
           {
             username: "dvm_medja",
-            nomRP: { Pentacle: "Cesar ALARCON" },
-            arcs: ["Pentacle"],
+            nomRP: {
+              Pentacle: "Cesar ALARCON",
+              School: "Jabar JACKSON (Prof Chimie)",
+              FortCarson: "Sheriff 22",
+            },
+            arcs: ["Pentacle", "School", "FortCarson"],
           },
           {
             username: "panpanqqoh",
@@ -276,15 +439,29 @@ const Stream = () => {
             arcs: ["Pentacle"],
           },
           {
+            username: "MrPaul_Live",
+            nomRP: { School: "MR. WHITE (Prof Langues)" },
+            arcs: ["School"],
+          },
+          {
             username: "latomatemozza",
             nomRP: { Pentacle: "Guadalupe MORA" },
             arcs: ["Pentacle"],
           },
           {
             username: "bilou",
-            nomRP: { Pentacle: "Javier CHAMORRO" },
-            tag: "Canello - Blagueur fou",
-            arcs: ["Pentacle"],
+            nomRP: {
+              Pentacle: "Javier CHAMORRO",
+              School: " Patrick BLONDEL (Prof Sport)",
+            },
+            arcs: ["Pentacle", "School"],
+          },
+          {
+            username: "JulobsS",
+            nomRP: {
+              School: "MR. BURTON (Prof Cultur.G)",
+            },
+            arcs: ["School"],
           },
           {
             username: "Tnopy",
@@ -294,8 +471,8 @@ const Stream = () => {
           },
           {
             username: "kailussss",
-            nomRP: { Pentacle: "Balentina CUCALACHA" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Balentina CUCALACHA", School: "Kaïna (Pion)" },
+            arcs: ["Pentacle", "School"],
           },
           {
             username: "r3ymann",
@@ -361,14 +538,28 @@ const Stream = () => {
           },
           {
             username: "nekzioh",
-            nomRP: { Pentacle: "Léonardo SKORPION" },
-            tag: "Damon FORBES",
-            arcs: ["Pentacle"],
+            nomRP: {
+              Pentacle: "Léonardo SKORPION / Damon FORBES",
+              School: "Clétus O'NEIL",
+              Survivor: "🔴Vince SAVAGE",
+            },
+            arcs: ["Pentacle", "School", "Survivor"],
+          },
+          {
+            username: "CeliaaXVI",
+            nomRP: {
+              School: "Elena RIMENEZ",
+            },
+            arcs: ["School"],
           },
           {
             username: "lil__quinn",
-            nomRP: { Pentacle: "Olya NELSON" },
-            arcs: ["Pentacle"],
+            nomRP: {
+              Pentacle: "Olya NELSON",
+              School: "Suzie SMITH",
+              Survivor: "🔴Victorine DELACOURS",
+            },
+            arcs: ["Pentacle", "School", "Survivor"],
           },
           {
             username: "vi00lence",
@@ -564,6 +755,11 @@ const Stream = () => {
             username: "Flyorrr",
             nomRP: { Pentacle: "Daniel BOYLER" },
             arcs: ["Pentacle"],
+          },
+          {
+            username: "Blaize",
+            nomRP: { School: "Nash RONDA (Prof Chimie)" },
+            arcs: ["School"],
           },
           {
             username: "tiks782",
