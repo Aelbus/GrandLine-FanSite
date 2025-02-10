@@ -23,7 +23,7 @@ const Home = () => {
         <img src={prime} alt="GrandLineRP" />
       </div>
       <div className="home-staff">
-        <h2>Staff grandline principaux:</h2>
+        <h2>Staffs GrandLine principaux:</h2>
         <div className="staff">
           <a href="https://x.com/AmineMaTue" target="_blank" rel="noreferrer">
             💠 Aminematue

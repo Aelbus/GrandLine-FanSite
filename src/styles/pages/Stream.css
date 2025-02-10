@@ -9,16 +9,40 @@
   align-items: center;
   justify-content: center;
 }
+.projects-div-stream .arc-buttons {
+  display: flex;
+  gap: 8px;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+.projects-div-stream .arc-buttons button {
+  font-size: 18px;
+  padding: 0 10px;
+  background: white;
+  border: black 1px solid;
+  border-radius: 25px;
+}
+.projects-div-stream .arc-buttons button:focus {
+  border-color: #2bff00;
+  background: #ace67c;
+  outline: none;
+}
+.projects-div-stream .arc-buttons button:hover {
+  background: rgb(199, 199, 199);
+  border: black 1px solid;
+}
 .projects-div-stream .compteur {
   position: absolute;
-  top: -6px;
+  top: 29px;
   color: white;
+  text-shadow: 1px 1px 0 black;
 }
 .projects-div-stream .search-bar {
   font-family: "Fjalla One", sans-serif;
   width: 600px;
   padding: 10px;
   margin-top: 15px;
+  margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 20px;
   background: #5c5c5c;
@@ -33,6 +57,7 @@
   color: rgb(255, 255, 255);
 }
 .projects-div-stream .card-container-stream {
+  border-top: rgba(0, 0, 0, 0.2588235294) solid 3px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
