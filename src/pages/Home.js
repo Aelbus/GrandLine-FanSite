@@ -10,7 +10,8 @@ const Home = () => {
         Ce site est un "Wiki" pour les différents Arc sur le serveur GrandLineWL
         GTA5 / Red Dead RP. <br />
         Vous pouvez y retrouver la plupart des affiches et panneaux créer par
-        les communautés ainsi que la plupart des streamers du serveur.
+        les communautés ainsi que la plupart des streamers sur les différents
+        Arcs.
         <br />
         <br />
         AeLBuS
@@ -18,6 +19,8 @@ const Home = () => {
         <br />
         <br />
         ⭕⭕ Site en travaux... ⭕⭕
+        <br />
+        Ajouts des streamers "Fort Carson" prochainement.
       </p>
       <div className="img-home">
         <img src={prime} alt="GrandLineRP" />
