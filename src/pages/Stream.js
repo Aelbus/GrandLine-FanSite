@@ -200,6 +200,12 @@ const Stream = () => {
             arcs: ["Pentacle"],
           },
           {
+            username: "RayouLivee",
+            nomRP: { FortCarson: "RAVI" },
+            tag: "Weazel News",
+            arcs: ["FortCarson"],
+          },
+          {
             username: "barbenoire__00",
             nomRP: { Pentacle: "Arsene WASHINGTON" },
             arcs: ["Pentacle"],
@@ -1107,7 +1113,7 @@ const Stream = () => {
                   </span>
                   <br />
                   <span className="nomrp">
-                    {streamer.nomRP[selectedArc] || "NomRP non disponible"}
+                    {streamer.nomRP[selectedArc] || "???"}
                   </span>
                   <br />
                   <span className="tag">{streamer.tag || ""}</span>
