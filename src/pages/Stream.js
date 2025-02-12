@@ -181,6 +181,11 @@ const Stream = () => {
             arcs: ["FortCarson"],
           },
           {
+            username: "mulann92",
+            nomRP: { FortCarson: "Lana WILLIAMS" },
+            arcs: ["FortCarson"],
+          },
+          {
             username: "MrBboy45",
             nomRP: {
               School: "Jordan BIRKINS",
@@ -1023,11 +1028,6 @@ const Stream = () => {
           {
             username: "LidailHD",
             nomRP: { FortCarson: "Walker ROLLINS" },
-            arcs: ["FortCarson"],
-          },
-          {
-            username: "mulann92",
-            nomRP: { FortCarson: "Lana WILLIAMS" },
             arcs: ["FortCarson"],
           },
         ];
