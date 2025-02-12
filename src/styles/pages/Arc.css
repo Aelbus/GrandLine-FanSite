@@ -23,7 +23,7 @@
   gap: 20px;
 }
 .Arc .card-arc-container .card-arc {
-  height: 320px;
+  height: 380px;
   width: 350px;
   border-radius: 40px;
   padding: 30px;
@@ -41,14 +41,19 @@
 }
 .Arc .card-arc-container .card-arc span {
   color: rgba(255, 255, 255, 0.685);
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   text-shadow: 0 2px 0 black;
 }
 .Arc .card-arc-container .card-arc p {
+  border: rgba(0, 0, 0, 0.2274509804) 2px solid;
+  border-radius: 25px;
+  padding: 12px;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   text-shadow: 0 3px 0 black;
+  overflow: auto;
+  max-height: 225px;
 }
 .Arc .card-arc-container .card-arc a {
   position: absolute;

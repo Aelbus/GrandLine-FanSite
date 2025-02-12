@@ -9,11 +9,13 @@ const Arc = () => {
           <h1>School</h1>
           <span>31/03/2023 - 24/04/2023</span>
           <p>
-            Le 19 mars 2023, à l'occasion de son grand retour sur Twitch, le
-            streamer Aminematue a révélé un projet innovant en partenariat avec
-            Lolypokicake : le serveur de roleplay 'School RP'. Ce projet a
-            introduit une nouvelle dimension dans l'univers du RP sur Twitch,
-            offrant une immersion complète dans un univers scolaire déjanté.
+            C'est la rentrée pour les élèves de School RP, les lycéens
+            retournent à l'école pour leur dernière année afin de passer leur
+            diplôme. Les 25 élèves environ (cancres, redoublants ou élèves
+            studieux) font la connaissance du directeur d'école, de leurs
+            professeurs loufoques et du concierge. Le professeur de mécanique «
+            Mr Kennet Wilson » a disparu la nuit dernière et son bras
+            ensanglanté à été retrouvé. Une enquête est alors ouverte...
           </p>
           <a
             href="https://www.youtube.com/watch?v=D0s5osLybL0"
@@ -27,11 +29,12 @@ const Arc = () => {
           <h1>Survivor</h1>
           <span>03/01/2024 - 31/01/2024</span>
           <p>
-            Lancé le 3 janvier 2024, ce projet, dirigé par les streamers
-            Aminematue et Lolypokicake, propose une aventure immersive où les
-            défis de survie et les stratégies inspirées des émissions à succès
-            se déroulent dans l'univers de GTA V. Ce jeu de rôle unique et
-            captivant promet une expérience inédite sur le serveur GRANDLINE.
+            Adoptant le concept emblématique d'une émission bien connu ,
+            Survivor RP réunira 22 streamers dans un jeu de rôle. Les
+            participants seront éliminés au fil des soirées, créant une
+            atmosphère de suspense et de compétition. Pendant le jeu, le
+            présentateur orchestrera les événements, animera les épreuves et
+            narrera les rebondissements de l'aventure.
           </p>
           <a
             href="https://www.youtube.com/watch?v=-5Qr4yfs-ic&list=PL-J1pZdtmC0eEO2uXXoKy-DkH3jgdkjUQ"
@@ -45,11 +48,13 @@ const Arc = () => {
           <h1>Pentacle</h1>
           <span>22/03/2024 - 15/06/2024</span>
           <p>
-            Le chef d'oeuvre de l'année 2024 dans la dimension de GTA RP, cette
-            aventure immersive et captivante initiée par les célèbres streamers
-            Aminematue et Lolypokicake sur le serveur GRANDLINE a su faire
-            parler d'elle en étant suivie par des milliers de spectateurs
-            totalisant des millions de vues.
+            Depuis l'attentat du 10 août 2018 et la fermeture des frontières
+            avec le pays terroriste de Blaine County, la métropole de Los
+            Santos, enfin libre du nord, n'a fait que s'étendre et s'enrichir.
+            Depuis 2018, grâce à la confiance des citoyens de Los Santos, la
+            construction d'un mur est faites, et grâce au professionnalisme et à
+            l'entraînement des forces du L.S.P.D., aucun attentat n'est à
+            déplorer sur le territoire.
           </p>
           <a
             href="https://www.youtube.com/watch?v=oPa1GIMBqTo"
@@ -63,12 +68,13 @@ const Arc = () => {
           <h1>Fort Carson City</h1>
           <span>01/01/2025 - 06/02/2025</span>
           <p>
-            Fort Carson City du serveur GTA RP GrandLine, créé par les streamers
-            Lolypokicake et Aminematue, est une aventure immersive qui
-            transporte les joueurs dans une ville fictive riche en histoire et
-            en mystères. Fort Carson City, autrefois paisible, est désormais le
-            théâtre de tensions croissantes entre les différents acteurs
-            majeurs.
+            Fort Carson City met en avant des intrigues complexes, des alliances
+            stratégiques et des rivalités intenses.Les joueurs doivent naviguer
+            à travers des défis politiques, économiques et sociaux, tout en
+            développant leurs propres histoires au sein de la communauté. Les
+            interactions entre les personnages sont au cœur de l'expérience,
+            chaque rencontre pouvant mener à des opportunités ou des conflits
+            imprévus.
           </p>
         </div>
         <div className="card-arc">
