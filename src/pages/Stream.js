@@ -395,7 +395,6 @@ const Stream = () => {
           {
             username: "anaisMRN",
             nomRP: { Pentacle: "Zoe BAKER" },
-            tag: "La Zoooooo'",
             arcs: ["Pentacle"],
           },
           {
@@ -460,7 +459,6 @@ const Stream = () => {
           {
             username: "evelunes",
             nomRP: { Pentacle: "Diana ALLOCCO" },
-            tag: "Didi",
             arcs: ["Pentacle"],
           },
           {
@@ -506,7 +504,6 @@ const Stream = () => {
           {
             username: "Tnopy",
             nomRP: { Pentacle: "Léonard KRUGER" },
-            tag: "Juge",
             arcs: ["Pentacle"],
           },
           {
@@ -576,7 +573,6 @@ const Stream = () => {
           {
             username: "nayrenns",
             nomRP: { Pentacle: "Dylan POTIN" },
-            tag: "Mbappe",
             arcs: ["Pentacle"],
           },
           {
@@ -642,7 +638,6 @@ const Stream = () => {
           {
             username: "siknyre__",
             nomRP: { Pentacle: "Donnie FRANKLIN" },
-            tag: "Roi des Rats",
             arcs: ["Pentacle"],
           },
           {
@@ -723,7 +718,6 @@ const Stream = () => {
           {
             username: "dz_amine",
             nomRP: { Pentacle: "Mchenef MEKTOUB" },
-            tag: "Double M",
             arcs: ["Pentacle"],
           },
           {
@@ -769,7 +763,6 @@ const Stream = () => {
           {
             username: "Nounoursbastion",
             nomRP: { Pentacle: "Alex PRICE" },
-            tag: "Chef ROUX",
             arcs: ["Pentacle"],
           },
           {
@@ -780,13 +773,11 @@ const Stream = () => {
           {
             username: "james__patagheul",
             nomRP: { Pentacle: "Moumoudou JOHNSON" },
-            tag: "MYS & LEWIS Management",
             arcs: ["Pentacle"],
           },
           {
             username: "dilovibes",
             nomRP: { Pentacle: "Samir ALMADA" },
-            tag: "MYS & LEWIS Management",
             arcs: ["Pentacle"],
           },
           {
@@ -827,13 +818,11 @@ const Stream = () => {
           {
             username: "Yaroph",
             nomRP: { Pentacle: "John SMITH" },
-            tag: "L'Amiral",
             arcs: ["Pentacle"],
           },
           {
             username: "aimebap",
             nomRP: { Pentacle: "Jacky JONES" },
-            tag: "Colonel",
             arcs: ["Pentacle"],
           },
           {
@@ -914,7 +903,6 @@ const Stream = () => {
           {
             username: "Eyalan",
             nomRP: { Pentacle: "Winfield BLACKWOOD" },
-            tag: "Docteur",
             arcs: ["Pentacle"],
           },
           {
@@ -935,19 +923,16 @@ const Stream = () => {
           {
             username: "Eterzx",
             nomRP: { Pentacle: "Jake Prize" },
-            tag: "Majordome Forbes",
             arcs: ["Pentacle"],
           },
           {
             username: "Zz_Sumsunnnito_SDF",
             nomRP: { Pentacle: "Steeve/Steevie" },
-            tag: "Majordome Gordon",
             arcs: ["Pentacle"],
           },
           {
             username: "fc_vito_",
             nomRP: { Pentacle: "Ghjuvan RICCI" },
-            tag: "L'Italien",
             arcs: ["Pentacle"],
           },
           {
@@ -1099,7 +1084,7 @@ const Stream = () => {
       <input
         className="search-bar"
         type="text"
-        placeholder="Rechercher un Streamer par NomRP, PseudoTwitch ou Tag..."
+        placeholder="Rechercher un Streamer par NomRP ou Pseudo Twitch..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
