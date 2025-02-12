@@ -133,6 +133,18 @@ const Stream = () => {
             arcs: ["Pentacle", "School", "FortCarson", "Survivor"],
           },
           {
+            username: "klearradio",
+            nomRP: { Pentacle: "Arsene & Melton" },
+            tag: "Weazel News",
+            arcs: ["Pentacle"],
+          },
+          {
+            username: "RayouLivee",
+            nomRP: { FortCarson: "RAVI" },
+            tag: "Weazel News",
+            arcs: ["FortCarson"],
+          },
+          {
             username: "Rebeudeter",
             nomRP: {
               School: "Amid SEFIO",
@@ -193,18 +205,7 @@ const Stream = () => {
             },
             arcs: ["School", "FortCarson"],
           },
-          {
-            username: "klearradio",
-            nomRP: { Pentacle: "Arsene & Melton" },
-            tag: "Weazel News",
-            arcs: ["Pentacle"],
-          },
-          {
-            username: "RayouLivee",
-            nomRP: { FortCarson: "RAVI" },
-            tag: "Weazel News",
-            arcs: ["FortCarson"],
-          },
+
           {
             username: "barbenoire__00",
             nomRP: { Pentacle: "Arsene WASHINGTON" },
