@@ -25,6 +25,12 @@
   color: #ffffff;
   font-size: 18px;
 }
+.home-div a {
+  color: white;
+}
+.home-div a:visited {
+  color: white;
+}
 .home-div .img-home {
   position: absolute;
   right: 50px;

@@ -14,13 +14,13 @@ const Home = () => {
         Arcs.
         <br />
         <br />
-        AeLBuS
         <br />
         <br />
-        <br />
-        ⭕⭕ Site en travaux... ⭕⭕
-        <br />
-        Ajouts des streamers "Fort Carson" prochainement.
+        Dev{" "}
+        <a href="https://linktr.ee/AelBus" target="_blank" rel="noreferrer">
+          AeLBuS
+        </a>
+        .
       </p>
       <div className="img-home">
         <img src={prime} alt="GrandLineRP" />

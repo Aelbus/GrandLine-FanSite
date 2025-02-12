@@ -228,8 +228,18 @@ const Stream = () => {
           },
           {
             username: "tatiana_tv",
-            nomRP: { Pentacle: "Nova FORBES" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Nova FORBES", FortCarson: "Fidji LAZARE" },
+            arcs: ["Pentacle", "FortCarson"],
+          },
+          {
+            username: "idkbutimleila",
+            nomRP: { FortCarson: "Louisa LAZARE" },
+            arcs: ["FortCarson"],
+          },
+          {
+            username: "manouyee",
+            nomRP: { FortCarson: "???" },
+            arcs: ["FortCarson"],
           },
           {
             username: "elbwa78",
@@ -257,18 +267,19 @@ const Stream = () => {
               Pentacle: "Stella FORBES",
               School: "Marie-jeanne DUBIJON (Prof Arts)",
               Survivor: "🟡Camélia COSTE",
+              FortCarson: "Chiara BELLADONNA",
             },
-            arcs: ["Pentacle", "School", "Survivor"],
+            arcs: ["Pentacle", "School", "Survivor", "FortCarson"],
           },
           {
             username: "MlleHailey",
-            nomRP: { School: "Yellow BISHOP" },
-            arcs: ["School"],
+            nomRP: { School: "Yellow BISHOP", FortCarson: "Brenda POWELL" },
+            arcs: ["School", "FortCarson"],
           },
           {
             username: "chach0u__",
-            nomRP: { Pentacle: "Alix FORBES" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Alix FORBES", FortCarson: "Lexie DAWSON" },
+            arcs: ["Pentacle", "FortCarson"],
           },
           {
             username: "redmafia_tv",
@@ -277,9 +288,12 @@ const Stream = () => {
           },
           {
             username: "darcy_trix",
-            nomRP: { Pentacle: "Britney HUNDERSON" },
-            tag: "Présentatrice Météo - Miss Los Santos",
-            arcs: ["Pentacle"],
+            nomRP: {
+              Pentacle: "Britney HUNDERSON / FORBES",
+              FortCarson: " Elena DAWSON",
+            },
+
+            arcs: ["Pentacle", "FortCarson"],
           },
           {
             username: "xo_trixy",
@@ -296,8 +310,9 @@ const Stream = () => {
               Pentacle: "GENESIS - Lenny CARTER/Ethan WHITE",
               School: "Jean Charles VIVIER (Aziz)",
               Survivor: "🟡Karim BEIDA",
+              FortCarson: "Colt WINCHESTER",
             },
-            arcs: ["Pentacle", "School", "Survivor"],
+            arcs: ["Pentacle", "School", "Survivor", "FortCarson"],
           },
           {
             username: "locklear",
@@ -348,6 +363,7 @@ const Stream = () => {
             nomRP: {
               Pentacle: "Tara BIGMAN LEWIS",
               School: "Emily EVANS",
+              FortCarson: " Linzee LOVE",
             },
             arcs: ["Pentacle", "School", "FortCarson"],
           },
@@ -366,6 +382,11 @@ const Stream = () => {
             username: "prince_toz",
             nomRP: { Pentacle: "Gustavo CESAR / Grayson FORBES" },
             arcs: ["Pentacle"],
+          },
+          {
+            username: "Laukinawa",
+            nomRP: { FortCarson: "Ayana CARTER" },
+            arcs: ["FortCarson"],
           },
           {
             username: "leiona17",
@@ -398,8 +419,8 @@ const Stream = () => {
           },
           {
             username: "Flamby",
-            nomRP: { Pentacle: "Steeve WALKINS" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Steeve WALKINS", FortCarson: "Dwayne CARTER" },
+            arcs: ["Pentacle", "FortCarson"],
           },
           {
             username: "byilhann",
@@ -424,8 +445,8 @@ const Stream = () => {
           },
           {
             username: "ayakataz",
-            nomRP: { Pentacle: "Lucy DAMORT" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Lucy DAMORT", FortCarson: "Stormy CLOVER" },
+            arcs: ["Pentacle", "FortCarson"],
           },
           {
             username: "as_coco",
@@ -475,8 +496,11 @@ const Stream = () => {
           },
           {
             username: "r3ymann",
-            nomRP: { Pentacle: "Béatrice BONIFACE" },
-            arcs: ["Pentacle"],
+            nomRP: {
+              Pentacle: "Béatrice BONIFACE",
+              FortCarson: "Ezekiel WHITEMORE",
+            },
+            arcs: ["Pentacle", "FortCarson"],
           },
           {
             username: "der_glaude",
@@ -490,8 +514,8 @@ const Stream = () => {
           },
           {
             username: "latuah",
-            nomRP: { Pentacle: "Alice DELACOURS" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Alice DELACOURS", FortCarson: "Cassidy SMITH" },
+            arcs: ["Pentacle", "FortCarson"],
           },
           {
             username: "spincheck",
@@ -613,8 +637,8 @@ const Stream = () => {
           },
           {
             username: "sayrannw",
-            nomRP: { Pentacle: "Ava MENDEZ" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Ava MENDEZ", FortCarson: "Arya JENSEN" },
+            arcs: ["Pentacle", "FortCarson"],
           },
           {
             username: "heyarTV",
@@ -880,8 +904,8 @@ const Stream = () => {
           },
           {
             username: "covatvv",
-            nomRP: { Pentacle: "Logan WALKER" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Logan WALKER", FortCarson: "Elijah STONE" },
+            arcs: ["Pentacle", "FortCarson"],
           },
           {
             username: "zulematv",
@@ -935,6 +959,56 @@ const Stream = () => {
             username: "D_Roretsu",
             nomRP: { Pentacle: "Ricco" },
             arcs: ["Pentacle"],
+          },
+          {
+            username: "OhLaZizanie",
+            nomRP: { FortCarson: "Ava CARTER" },
+            arcs: ["FortCarson"],
+          },
+          {
+            username: "freboca",
+            nomRP: { FortCarson: "Cletus BICOU" },
+            arcs: ["FortCarson"],
+          },
+          {
+            username: "clescopaings",
+            nomRP: { FortCarson: "Curtis McCOY" },
+            arcs: ["FortCarson"],
+          },
+          {
+            username: "Clemsed",
+            nomRP: { FortCarson: "Dante BELLADONNA" },
+            arcs: ["FortCarson"],
+          },
+          {
+            username: "SkyRavenTV",
+            nomRP: { FortCarson: "Gabriel HAMBLE" },
+            arcs: ["FortCarson"],
+          },
+          {
+            username: "Boubouune",
+            nomRP: { FortCarson: "Kaiya KANE" },
+            arcs: ["FortCarson"],
+          },
+          {
+            username: "beaxttv",
+            nomRP: { FortCarson: "Buck HARLOW", Pentacle: "???" },
+            arcs: ["FortCarson", "Pentacle"],
+          },
+          {
+            username: "miisterkel",
+            nomRP: { FortCarson: "Michael HAWK" },
+            arcs: ["FortCarson"],
+          },
+          {
+            username: "PlumeLIVE",
+            nomRP: { FortCarson: "Virginia WESTWOOD" },
+            arcs: ["FortCarson"],
+          },
+          {
+            username: "LidailHD",
+            nomRP: { FortCarson: "Walker ROLLINS" },
+            arcs: ["FortCarson"],
           },
         ];
 
