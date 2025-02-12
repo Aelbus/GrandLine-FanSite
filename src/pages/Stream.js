@@ -6,7 +6,7 @@ import "../styles/pages/Stream.css";
 const Stream = () => {
   const [streamers, setStreamers] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedArc, setSelectedArc] = useState("School");
+  const [selectedArc, setSelectedArc] = useState("");
 
   const arcs = ["School", "Survivor", "Pentacle", "FortCarson"];
 
@@ -44,17 +44,6 @@ const Stream = () => {
               FortCarson: "Larry COLBY",
             },
             tag: "Fondateur",
-            arcs: ["School", "Survivor", "Pentacle", "FortCarson"],
-          },
-          {
-            username: "Pichotm",
-            nomRP: {
-              School: "DEV",
-              Survivor: "DEV",
-              Pentacle: "DEV - Robot gardien",
-              FortCarson: "DEV",
-            },
-            tag: "Fondateur - Staff - Dev Goat",
             arcs: ["School", "Survivor", "Pentacle", "FortCarson"],
           },
           {
