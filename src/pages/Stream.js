@@ -79,7 +79,7 @@ const Stream = () => {
           },
           {
             username: "3DENZ",
-            nomRP: { Pentacle: "Denzel PALMER", FortCarson: "???" },
+            nomRP: { Pentacle: "Denzel PALMER", FortCarson: "Harold SHIPMAN" },
             tag: "Staff",
             arcs: ["Pentacle", "FortCarson"],
           },
@@ -162,7 +162,7 @@ const Stream = () => {
             username: "Minos",
             nomRP: {
               School: "Mouloud KEFTA",
-              FortCarson: "???",
+              FortCarson: "Marlo MASON",
             },
             arcs: ["School", "FortCarson"],
           },
@@ -176,7 +176,7 @@ const Stream = () => {
           {
             username: "Anyme023",
             nomRP: {
-              FortCarson: "Andrew ???",
+              FortCarson: "Andrew WILLIAMS",
             },
             arcs: ["FortCarson"],
           },
@@ -184,8 +184,9 @@ const Stream = () => {
             username: "MrBboy45",
             nomRP: {
               School: "Jordan BIRKINS",
+              FortCarson: "Benjamin SIMPSON",
             },
-            arcs: ["School"],
+            arcs: ["School", "FortCarson"],
           },
           {
             username: "klearradio",
@@ -247,7 +248,7 @@ const Stream = () => {
           },
           {
             username: "manouyee",
-            nomRP: { FortCarson: "???" },
+            nomRP: { FortCarson: "Brook ???" },
             arcs: ["FortCarson"],
           },
           {
@@ -412,7 +413,7 @@ const Stream = () => {
             nomRP: {
               Pentacle: "Cesar ALARCON",
               School: "Jabar JACKSON (Prof Chimie)",
-              FortCarson: "Sheriff 22",
+              FortCarson: "SFera LAWRENCE / Sheriff 22",
             },
             arcs: ["Pentacle", "School", "FortCarson"],
           },
@@ -1017,6 +1018,11 @@ const Stream = () => {
           {
             username: "LidailHD",
             nomRP: { FortCarson: "Walker ROLLINS" },
+            arcs: ["FortCarson"],
+          },
+          {
+            username: "mulann92",
+            nomRP: { FortCarson: "Lana WILLIAMS" },
             arcs: ["FortCarson"],
           },
         ];
