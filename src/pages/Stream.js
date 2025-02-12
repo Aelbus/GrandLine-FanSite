@@ -47,6 +47,17 @@ const Stream = () => {
             arcs: ["School", "Survivor", "Pentacle", "FortCarson"],
           },
           {
+            username: "Pichotm",
+            nomRP: {
+              School: "DEV",
+              Survivor: "DEV",
+              Pentacle: "DEV - Robot gardien",
+              FortCarson: "DEV",
+            },
+            tag: "Fondateur - Staff - Dev Goat",
+            arcs: ["School", "Survivor", "Pentacle", "FortCarson"],
+          },
+          {
             username: "IproMx",
             nomRP: {
               School: "Jeffrey ROGER",
