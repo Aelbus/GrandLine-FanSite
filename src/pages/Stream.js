@@ -133,6 +133,12 @@ const Stream = () => {
             arcs: ["Pentacle", "School", "FortCarson", "Survivor"],
           },
           {
+            username: "hyenaa",
+            nomRP: { Pentacle: "Suzie BIGMAN - Bettie JONES", FortCarson: "" },
+            tag: "Staff",
+            arcs: ["Pentacle", "FortCarson"],
+          },
+          {
             username: "klearradio",
             nomRP: { Pentacle: "Arsene & Melton" },
             tag: "Weazel News",
@@ -347,11 +353,6 @@ const Stream = () => {
             arcs: ["Survivor"],
           },
           {
-            username: "Aimebap",
-            nomRP: { FortCarson: "Le TAXIDERMISTE" },
-            arcs: ["FortCarson"],
-          },
-          {
             username: "pauleta_twitch",
             nomRP: { Pentacle: "Stan LAFONDUE", Survivor: "🟡François PIGNON" },
             arcs: ["Pentacle", "Survivor"],
@@ -394,11 +395,7 @@ const Stream = () => {
             },
             arcs: ["Pentacle", "School", "FortCarson"],
           },
-          {
-            username: "hyenaa",
-            nomRP: { Pentacle: "Suzie BIGMAN - Bettie JONES" },
-            arcs: ["Pentacle"],
-          },
+
           {
             username: "anaisMRN",
             nomRP: { Pentacle: "Zoe BAKER" },
@@ -829,8 +826,8 @@ const Stream = () => {
           },
           {
             username: "aimebap",
-            nomRP: { Pentacle: "Jacky JONES" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Jacky JONES", FortCarson: "Le TAXIDERMISTE" },
+            arcs: ["Pentacle", "FortCarson"],
           },
           {
             username: "Melosatv",
