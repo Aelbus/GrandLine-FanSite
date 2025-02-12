@@ -6,7 +6,7 @@ import "../styles/pages/Stream.css";
 const Stream = () => {
   const [streamers, setStreamers] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedArc, setSelectedArc] = useState("");
+  const [selectedArc, setSelectedArc] = useState("Sc");
 
   const arcs = ["School", "Survivor", "Pentacle", "FortCarson"];
 
@@ -72,15 +72,16 @@ const Stream = () => {
               Pentacle: "Owen Davis - ZIEGEN",
               Survivor: "🟡Clark LEWIS",
               School: "Ludwig ZIEGEN (Prof SVT)",
+              FortCarson: "???",
             },
             tag: "Staff",
-            arcs: ["Pentacle", "Survivor", "School"],
+            arcs: ["Pentacle", "Survivor", "School", "FortCarson"],
           },
           {
             username: "3DENZ",
-            nomRP: { Pentacle: "Denzel PALMER" },
+            nomRP: { Pentacle: "Denzel PALMER", FortCarson: "???" },
             tag: "Staff",
-            arcs: ["Pentacle"],
+            arcs: ["Pentacle", "FortCarson"],
           },
           {
             username: "zeaaron_",
@@ -98,9 +99,10 @@ const Stream = () => {
               Pentacle: "Hector MORA",
               Survivor: "🎥Mali",
               School: "Ganesh VIKAPUTASH (CPE)",
+              FortCarson: "???",
             },
             tag: "Staff",
-            arcs: ["Pentacle", "Survivor", "School"],
+            arcs: ["Pentacle", "Survivor", "School", "FortCarson"],
           },
           {
             username: "shreik_",
