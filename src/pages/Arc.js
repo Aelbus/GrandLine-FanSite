@@ -69,7 +69,7 @@ const Arc = () => {
           <span>01/01/2025 - 06/02/2025</span>
           <p>
             Fort Carson City met en avant des intrigues complexes, des alliances
-            stratégiques et des rivalités intenses.Les joueurs doivent naviguer
+            stratégiques et des rivalités intenses. Les joueurs doivent naviguer
             à travers des défis politiques, économiques et sociaux, tout en
             développant leurs propres histoires au sein de la communauté. Les
             interactions entre les personnages sont au cœur de l'expérience,

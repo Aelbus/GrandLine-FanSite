@@ -412,6 +412,11 @@ const Stream = () => {
             arcs: ["FortCarson"],
           },
           {
+            username: "A_soyun",
+            nomRP: { FortCarson: "Jenna LOWDER" },
+            arcs: ["FortCarson"],
+          },
+          {
             username: "leiona17",
             nomRP: { School: "Leiona WILSON" },
             arcs: ["School"],
