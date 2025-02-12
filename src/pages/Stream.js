@@ -335,6 +335,11 @@ const Stream = () => {
             arcs: ["Survivor"],
           },
           {
+            username: "Aimebap",
+            nomRP: { FortCarson: "Le TAXIDERMISTE" },
+            arcs: ["FortCarson"],
+          },
+          {
             username: "pauleta_twitch",
             nomRP: { Pentacle: "Stan LAFONDUE", Survivor: "🟡François PIGNON" },
             arcs: ["Pentacle", "Survivor"],
