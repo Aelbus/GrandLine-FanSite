@@ -266,7 +266,7 @@ const Stream = () => {
           },
           {
             username: "manouyee",
-            nomRP: { FortCarson: "Brook ???" },
+            nomRP: { FortCarson: "Brook DAWSON" },
             arcs: ["FortCarson"],
           },
           {
