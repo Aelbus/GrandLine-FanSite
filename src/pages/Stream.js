@@ -99,7 +99,7 @@ const Stream = () => {
               Pentacle: "Hector MORA",
               Survivor: "🎥Mali",
               School: "Ganesh VIKAPUTASH (CPE)",
-              FortCarson: "PROF Arnaque",
+              FortCarson: "Dylan BROOKS",
             },
             tag: "Staff",
             arcs: ["Pentacle", "Survivor", "School", "FortCarson"],
@@ -134,7 +134,10 @@ const Stream = () => {
           },
           {
             username: "hyenaa",
-            nomRP: { Pentacle: "Suzie BIGMAN - Bettie JONES", FortCarson: "" },
+            nomRP: {
+              Pentacle: "Suzie BIGMAN - Bettie JONES",
+              FortCarson: "Madame SKITTLES",
+            },
             tag: "Staff",
             arcs: ["Pentacle", "FortCarson"],
           },
