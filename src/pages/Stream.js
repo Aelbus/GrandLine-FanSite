@@ -8,7 +8,7 @@ const Stream = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedArc, setSelectedArc] = useState("Sc");
 
-  const arcs = ["School", "Survivor", "Pentacle", "FortCarson"];
+  const arcs = ["School", "Survivor", "Pentacle", "FortCarson", "RedDeadRP"];
 
   useEffect(() => {
     const fetchStreamerData = async () => {

@@ -78,9 +78,9 @@ const Arc = () => {
           </p>
         </div>
         <div className="card-arc">
-          <h1>???</h1>
-          <span>??/??/20XX - ??/??/20XX</span>
-          <p>À suivre...</p>
+          <h1>RED DEAD RP</h1>
+          <span>??/??/2025 - ??/??/2025</span>
+          <p>Coming Soon...</p>
         </div>
         <div className="card-arc">
           <h1>???</h1>
