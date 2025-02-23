@@ -31,9 +31,22 @@ const Stream = () => {
               Survivor: "Le CHAUVE",
               Pentacle: "John APOTRIE",
               FortCarson: "Multiple Personnage",
+              RedDeadRP: "",
             },
             tag: "Fondateur - Staff",
-            arcs: ["School", "Survivor", "Pentacle", "FortCarson"],
+            arcs: ["School", "Survivor", "Pentacle", "FortCarson", "RedDeadRP"],
+          },
+          {
+            username: "Pichotm",
+            nomRP: {
+              School: "",
+              Survivor: "",
+              Pentacle: "",
+              FortCarson: "",
+              RedDeadRP: "",
+            },
+            tag: "Dev - Staff",
+            arcs: ["School", "Survivor", "Pentacle", "FortCarson", "RedDeadRP"],
           },
           {
             username: "Aminematue",
@@ -44,7 +57,7 @@ const Stream = () => {
               FortCarson: "Larry COLBY",
             },
             tag: "Fondateur",
-            arcs: ["School", "Survivor", "Pentacle", "FortCarson"],
+            arcs: ["School", "Survivor", "Pentacle", "FortCarson", "RedDeadRP"],
           },
           {
             username: "IproMx",
@@ -102,7 +115,7 @@ const Stream = () => {
               FortCarson: "Dylan BROOKS",
             },
             tag: "Staff",
-            arcs: ["Pentacle", "Survivor", "School", "FortCarson"],
+            arcs: ["Pentacle", "Survivor", "School", "FortCarson", "RedDeadRP"],
           },
           {
             username: "shreik_",
