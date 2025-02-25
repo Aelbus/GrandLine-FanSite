@@ -55,6 +55,7 @@ const Stream = () => {
               Survivor: "🟡/🔴/🎤 Amine MATHIEU",
               Pentacle: "Gaston BIGMAN",
               FortCarson: "Larry COLBY",
+              RedDeadRP: "",
             },
             tag: "Fondateur",
             arcs: ["School", "Survivor", "Pentacle", "FortCarson", "RedDeadRP"],
@@ -75,9 +76,10 @@ const Stream = () => {
               Pentacle: "Matthew BELLAMY",
               Survivor: "🟡Tom LEWIS",
               School: "Alan SMITHY (Prof Thêatre)",
+              RedDeadRP: "",
             },
             tag: "Staff",
-            arcs: ["Pentacle", "Survivor", "School"],
+            arcs: ["Pentacle", "Survivor", "School", "RedDeadRP"],
           },
           {
             username: "malariatv",
@@ -86,15 +88,20 @@ const Stream = () => {
               Survivor: "🟡Clark LEWIS",
               School: "Ludwig ZIEGEN (Prof SVT)",
               FortCarson: "RIP Le Dragon",
+              RedDeadRP: "",
             },
             tag: "Staff",
-            arcs: ["Pentacle", "Survivor", "School", "FortCarson"],
+            arcs: ["Pentacle", "Survivor", "School", "FortCarson", "RedDeadRP"],
           },
           {
             username: "3DENZ",
-            nomRP: { Pentacle: "Denzel PALMER", FortCarson: "Harold SHIPMAN" },
+            nomRP: {
+              Pentacle: "Denzel PALMER",
+              FortCarson: "Harold SHIPMAN",
+              RedDeadRP: "",
+            },
             tag: "Staff",
-            arcs: ["Pentacle", "FortCarson"],
+            arcs: ["Pentacle", "FortCarson", "RedDeadRP"],
           },
           {
             username: "zeaaron_",
@@ -124,14 +131,14 @@ const Stream = () => {
               School: "Keiko USAGI",
               FortCarson: "Keiko USAGI",
               Survivor: "🔴Kiara HANET",
+              RedDeadRP: "",
             },
             tag: "Staff",
-            arcs: ["Pentacle", "School", "Survivor", "FortCarson"],
+            arcs: ["Pentacle", "School", "Survivor", "FortCarson", "RedDeadRP"],
           },
           {
             username: "hassvnz",
             nomRP: { Pentacle: "Mikey" },
-            tag: "Staff",
             arcs: ["Pentacle"],
           },
           {
@@ -150,9 +157,20 @@ const Stream = () => {
             nomRP: {
               Pentacle: "Suzie BIGMAN - Bettie JONES",
               FortCarson: "Madame SKITTLES",
+              RedDeadRP: "",
             },
             tag: "Staff",
-            arcs: ["Pentacle", "FortCarson"],
+            arcs: ["Pentacle", "FortCarson", "RedDeadRP"],
+          },
+          {
+            username: "aimebap",
+            nomRP: {
+              Pentacle: "Jacky JONES",
+              FortCarson: "Le TAXIDERMISTE",
+              RedDeadRP: "",
+            },
+            tag: "Staff",
+            arcs: ["Pentacle", "FortCarson", "RedDeadRP"],
           },
           {
             username: "klearradio",
@@ -216,16 +234,20 @@ const Stream = () => {
           },
           {
             username: "mulann92",
-            nomRP: { FortCarson: "Lana WILLIAMS" },
-            arcs: ["FortCarson"],
+            nomRP: {
+              FortCarson: "Lana WILLIAMS",
+              RedDeadRP: "Gladysse QUARRANEAU",
+            },
+            arcs: ["FortCarson", "RedDeadRP"],
           },
           {
             username: "MrBboy45",
             nomRP: {
               School: "Jordan BIRKINS",
               FortCarson: "Benjamin SIMPSON",
+              RedDeadRP: "",
             },
-            arcs: ["School", "FortCarson"],
+            arcs: ["School", "FortCarson", "RedDeadRP"],
           },
 
           {
@@ -253,6 +275,7 @@ const Stream = () => {
             nomRP: {
               School: "Romuald PORNAULT",
               Survivor: "🔴Ousmane DEMBELE",
+              RedDeadRP: "",
             },
             arcs: ["School", "Survivor"],
           },
@@ -322,8 +345,12 @@ const Stream = () => {
           },
           {
             username: "chach0u__",
-            nomRP: { Pentacle: "Alix FORBES", FortCarson: "Lexie DAWSON" },
-            arcs: ["Pentacle", "FortCarson"],
+            nomRP: {
+              Pentacle: "Alix FORBES",
+              FortCarson: "Lexie DAWSON",
+              RedDeadRP: "Amara LAKATOS",
+            },
+            arcs: ["Pentacle", "FortCarson", "RedDeadRP"],
           },
           {
             username: "redmafia_tv",
@@ -335,9 +362,10 @@ const Stream = () => {
             nomRP: {
               Pentacle: "Britney HUNDERSON / FORBES",
               FortCarson: " Elena DAWSON",
+              RedDeadRP: "Grâce WATSON",
             },
 
-            arcs: ["Pentacle", "FortCarson"],
+            arcs: ["Pentacle", "FortCarson", "RedDeadRP"],
           },
           {
             username: "xo_trixy",
@@ -360,7 +388,11 @@ const Stream = () => {
           },
           {
             username: "locklear",
-            nomRP: { Pentacle: "Narine MUCUS", Survivor: "🟡Narine MUCUS 🏆" },
+            nomRP: {
+              Pentacle: "Narine MUCUS",
+              Survivor: "🟡Narine MUCUS 🏆",
+              RedDeadRP: "",
+            },
             arcs: ["Pentacle", "Survivor"],
           },
           {
@@ -533,16 +565,21 @@ const Stream = () => {
           },
           {
             username: "kailussss",
-            nomRP: { Pentacle: "Balentina CUCALACHA", School: "Kaïna (Pion)" },
-            arcs: ["Pentacle", "School"],
+            nomRP: {
+              Pentacle: "Balentina CUCALACHA",
+              School: "Kaïna (Pion)",
+              RedDeadRP: "Jade QUARRANEAU",
+            },
+            arcs: ["Pentacle", "School", "RedDeadRP"],
           },
           {
             username: "r3ymann",
             nomRP: {
               Pentacle: "Béatrice BONIFACE",
               FortCarson: "Ezekiel WHITEMORE",
+              RedDeadRP: "Wade QUARRANEAU",
             },
-            arcs: ["Pentacle", "FortCarson"],
+            arcs: ["Pentacle", "FortCarson", "RedDeadRP"],
           },
           {
             username: "der_glaude",
@@ -845,11 +882,7 @@ const Stream = () => {
             nomRP: { Pentacle: "John SMITH" },
             arcs: ["Pentacle"],
           },
-          {
-            username: "aimebap",
-            nomRP: { Pentacle: "Jacky JONES", FortCarson: "Le TAXIDERMISTE" },
-            arcs: ["Pentacle", "FortCarson"],
-          },
+
           {
             username: "Melosatv",
             nomRP: { Pentacle: "Tallulah SPARKS" },
@@ -1017,8 +1050,8 @@ const Stream = () => {
           },
           {
             username: "Boubouune",
-            nomRP: { FortCarson: "Kaiya KANE" },
-            arcs: ["FortCarson"],
+            nomRP: { FortCarson: "Kaiya KANE", RedDeadRP: "Nerissa CROWE" },
+            arcs: ["FortCarson", "RedDeadRP"],
           },
           {
             username: "beaxttv",
@@ -1032,13 +1065,31 @@ const Stream = () => {
           },
           {
             username: "PlumeLIVE",
-            nomRP: { FortCarson: "Virginia WESTWOOD" },
-            arcs: ["FortCarson"],
+            nomRP: {
+              FortCarson: "Virginia WESTWOOD",
+              RedDeadRP: "Evangeline CROWE",
+            },
+            arcs: ["FortCarson", "RedDeadRP"],
           },
           {
             username: "LidailHD",
             nomRP: { FortCarson: "Walker ROLLINS" },
             arcs: ["FortCarson"],
+          },
+          {
+            username: "Larekno",
+            nomRP: { RedDeadRP: "Craig DANIEL'S" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Zekun___",
+            nomRP: { RedDeadRP: "Wallas WAYN" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "danycroozer",
+            nomRP: { RedDeadRP: "Jeremiah HAWKINS" },
+            arcs: ["RedDeadRP"],
           },
         ];
 
