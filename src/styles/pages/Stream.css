@@ -37,6 +37,14 @@
   color: white;
   text-shadow: 1px 1px 0 black;
 }
+.projects-div-stream .ArcSelect {
+  position: absolute;
+  top: 29px;
+  left: 25px;
+  color: white;
+  text-shadow: 1px 1px 0 black;
+  font-size: 25px;
+}
 .projects-div-stream .search-bar {
   font-family: "Fjalla One", sans-serif;
   width: 600px;
@@ -45,7 +53,7 @@
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 20px;
-  background: #5c5c5c;
+  background: rgba(92, 92, 92, 0.5803921569);
   color: white;
 }
 .projects-div-stream .search-bar:focus {

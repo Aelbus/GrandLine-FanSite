@@ -1092,6 +1092,11 @@ const Stream = () => {
             nomRP: { RedDeadRP: "Jeremiah HAWKINS" },
             arcs: ["RedDeadRP"],
           },
+          {
+            username: "Sin",
+            nomRP: { RedDeadRP: "Kimblee REDMOND" },
+            arcs: ["RedDeadRP"],
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
@@ -1170,6 +1175,7 @@ const Stream = () => {
         <p className="compteur">
           Nombre de streamers : {filteredStreamers.length}
         </p>
+        <p className="ArcSelect">Selectionne un arc</p>
         {filteredStreamers.map((streamer, index) => (
           <div key={index} className="card-stream">
             <figure>
