@@ -277,7 +277,7 @@ const Stream = () => {
               Survivor: "🔴Ousmane DEMBELE",
               RedDeadRP: "",
             },
-            arcs: ["School", "Survivor"],
+            arcs: ["School", "Survivor", "RedDeadRP"],
           },
           {
             username: "LeBouseuh",
@@ -393,7 +393,7 @@ const Stream = () => {
               Survivor: "🟡Narine MUCUS 🏆",
               RedDeadRP: "",
             },
-            arcs: ["Pentacle", "Survivor"],
+            arcs: ["Pentacle", "Survivor", "RedDeadRP"],
           },
           {
             username: "Maghla",
@@ -431,8 +431,9 @@ const Stream = () => {
               Pentacle: "Mike GORDON",
               School: "Harry McARTHUR (Prof Musique)",
               FortCarson: "Franco RUSSO",
+              RedDeadRP: "",
             },
-            arcs: ["Pentacle", "School", "FortCarson"],
+            arcs: ["Pentacle", "School", "FortCarson", "RedDeadRP"],
           },
           {
             username: "ludmya",
