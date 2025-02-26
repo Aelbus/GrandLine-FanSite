@@ -137,6 +137,12 @@ const Stream = () => {
             arcs: ["Pentacle", "School", "Survivor", "FortCarson", "RedDeadRP"],
           },
           {
+            username: "Chunly91",
+            nomRP: { RedDeadRP: "" },
+            tag: "Staff",
+            arcs: ["RedDeadRP"],
+          },
+          {
             username: "hassvnz",
             nomRP: { Pentacle: "Mikey" },
             arcs: ["Pentacle"],
@@ -245,7 +251,7 @@ const Stream = () => {
             nomRP: {
               School: "Jordan BIRKINS",
               FortCarson: "Benjamin SIMPSON",
-              RedDeadRP: "",
+              RedDeadRP: "Frank QUARRANEAU",
             },
             arcs: ["School", "FortCarson", "RedDeadRP"],
           },
@@ -1095,6 +1101,61 @@ const Stream = () => {
           {
             username: "Sin",
             nomRP: { RedDeadRP: "Kimblee REDMOND" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "XnonIFlash",
+            nomRP: { RedDeadRP: "Gwenaël BIGNON" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Kazukatenshi",
+            nomRP: { RedDeadRP: "Alan BIGNON" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "pnkevaa",
+            nomRP: { RedDeadRP: "Moyyati WAYA'TAGA" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Xatacks",
+            nomRP: { RedDeadRP: "Kosoh WAYA'TAGA" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "alexudl",
+            nomRP: { RedDeadRP: "Tawa WAYA'TAGA" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Kreeks",
+            nomRP: { RedDeadRP: "Georges PALMER" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "MetoSpasmyl",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Picmat_",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "khaziz_",
+            nomRP: { RedDeadRP: "Eli MULDOON" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "arahfat",
+            nomRP: { RedDeadRP: "Clint REED" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Ekzyyl",
+            nomRP: { RedDeadRP: "Owen ADAMS" },
             arcs: ["RedDeadRP"],
           },
         ];
