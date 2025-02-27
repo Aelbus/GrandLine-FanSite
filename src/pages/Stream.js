@@ -213,8 +213,9 @@ const Stream = () => {
               School: "Kevin DUCHAMPS",
               FortCarson: "Marie-José DEBRUN",
               Survivor: "🟡Buddy RAY",
+              RedDeadRP: "",
             },
-            arcs: ["School", "FortCarson", "Survivor"],
+            arcs: ["School", "FortCarson", "Survivor", "RedDeadRP"],
           },
           {
             username: "Minos",
@@ -311,8 +312,11 @@ const Stream = () => {
           },
           {
             username: "manouyee",
-            nomRP: { FortCarson: "Brook DAWSON" },
-            arcs: ["FortCarson"],
+            nomRP: {
+              FortCarson: "Brook DAWSON",
+              RedDeadRP: "",
+            },
+            arcs: ["FortCarson", "RedDeadRP"],
           },
           {
             username: "elbwa78",
