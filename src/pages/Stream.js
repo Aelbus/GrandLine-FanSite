@@ -476,6 +476,11 @@ const Stream = () => {
             arcs: ["FortCarson"],
           },
           {
+            username: "So_Charliiie",
+            nomRP: { RedDeadRP: "Loretta Lavande SINCLAIR" },
+            arcs: ["RedDeadRP"],
+          },
+          {
             username: "leiona17",
             nomRP: { School: "Leiona WILSON" },
             arcs: ["School"],
@@ -607,8 +612,9 @@ const Stream = () => {
             nomRP: {
               Pentacle: "Alice DELACOURS",
               FortCarson: "Cassidy SMITH",
+              RedDeadRP: "Tifa LENZ",
             },
-            arcs: ["Pentacle", "FortCarson"],
+            arcs: ["Pentacle", "FortCarson", "RedDeadRP"],
           },
           {
             username: "spincheck",
@@ -657,8 +663,9 @@ const Stream = () => {
               Pentacle: "Léonardo SKORPION / Damon FORBES",
               School: "Clétus O'NEIL",
               Survivor: "🔴Vince SAVAGE",
+              RedDeadRP: "Angel DEL ALMA",
             },
-            arcs: ["Pentacle", "School", "Survivor"],
+            arcs: ["Pentacle", "School", "Survivor", "RedDeadRP"],
           },
           {
             username: "CeliaaXVI",
@@ -673,8 +680,9 @@ const Stream = () => {
               Pentacle: "Olya NELSON",
               School: "Suzie SMITH",
               Survivor: "🔴Victorine DELACOURS",
+              RedDeadRP: "Esperenza CORTES",
             },
-            arcs: ["Pentacle", "School", "Survivor"],
+            arcs: ["Pentacle", "School", "Survivor", "RedDeadRP"],
           },
           {
             username: "vi00lence",
@@ -1173,6 +1181,31 @@ const Stream = () => {
           {
             username: "PixelOctet",
             nomRP: { RedDeadRP: "Yélénah PROSPERIDAD" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Cnaid",
+            nomRP: { RedDeadRP: "Edgar CHAMBERLAIN" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "rayanalc",
+            nomRP: { RedDeadRP: "Phineas CHAMBERLAIN" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Canaplaye",
+            nomRP: { RedDeadRP: "Roy CAMTON" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "KhalGalere",
+            nomRP: { RedDeadRP: "Kenny MCGRAW" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "02rayane",
+            nomRP: { RedDeadRP: "Eddie HARPER" },
             arcs: ["RedDeadRP"],
           },
         ];
