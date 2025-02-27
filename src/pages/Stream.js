@@ -900,6 +900,11 @@ const Stream = () => {
             arcs: ["Pentacle"],
           },
           {
+            username: "m0nke_31",
+            nomRP: { RedDeadRP: "Auguste BOONE" },
+            arcs: ["RedDeadRP"],
+          },
+          {
             username: "Yaroph",
             nomRP: { Pentacle: "John SMITH" },
             arcs: ["Pentacle"],
