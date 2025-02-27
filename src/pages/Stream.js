@@ -604,7 +604,10 @@ const Stream = () => {
           },
           {
             username: "latuah",
-            nomRP: { Pentacle: "Alice DELACOURS", FortCarson: "Cassidy SMITH" },
+            nomRP: {
+              Pentacle: "Alice DELACOURS",
+              FortCarson: "Cassidy SMITH",
+            },
             arcs: ["Pentacle", "FortCarson"],
           },
           {
@@ -1139,7 +1142,7 @@ const Stream = () => {
           },
           {
             username: "MetoSpasmyl",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Bobby GOATY" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1160,6 +1163,16 @@ const Stream = () => {
           {
             username: "Ekzyyl",
             nomRP: { RedDeadRP: "Owen ADAMS" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "captainorion_",
+            nomRP: { RedDeadRP: "Jasko PROSPERIDAD" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "PixelOctet",
+            nomRP: { RedDeadRP: "Yélénah PROSPERIDAD" },
             arcs: ["RedDeadRP"],
           },
         ];
