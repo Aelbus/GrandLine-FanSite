@@ -1275,6 +1275,11 @@ const Stream = () => {
             nomRP: { RedDeadRP: "" },
             arcs: ["RedDeadRP"],
           },
+          {
+            username: "LevironTV",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
