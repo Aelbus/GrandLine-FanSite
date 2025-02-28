@@ -944,8 +944,8 @@ const Stream = () => {
           },
           {
             username: "ouilli",
-            nomRP: { Pentacle: "Dr. Charlie ORLANDO" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Dr. Charlie ORLANDO", RedDeadRP: "" },
+            arcs: ["Pentacle", "RedDeadRP"],
           },
           {
             username: "MeikhaTV",
@@ -1278,6 +1278,31 @@ const Stream = () => {
           {
             username: "LevironTV",
             nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "jonmadera",
+            nomRP: { RedDeadRP: "Stephen C.FOSTER" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Kwikwiii",
+            nomRP: { RedDeadRP: "Rose BIRD" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "flower_mp4",
+            nomRP: { RedDeadRP: "Lily GRAY" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "icegl0ck",
+            nomRP: { RedDeadRP: "Edward BIRD" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "gentigaa",
+            nomRP: { RedDeadRP: "Charly BIRD" },
             arcs: ["RedDeadRP"],
           },
         ];
