@@ -302,8 +302,12 @@ const Stream = () => {
           },
           {
             username: "tatiana_tv",
-            nomRP: { Pentacle: "Nova FORBES", FortCarson: "Fidji LAZARE" },
-            arcs: ["Pentacle", "FortCarson"],
+            nomRP: {
+              Pentacle: "Nova FORBES",
+              FortCarson: "Fidji LAZARE",
+              RedDeadRP: "",
+            },
+            arcs: ["Pentacle", "FortCarson", "RedDeadRP"],
           },
           {
             username: "idkbutimleila",
@@ -383,8 +387,9 @@ const Stream = () => {
               Pentacle: "Jodie SAVAGE",
               School: "Nova BURGER",
               Survivor: "🔴Alba NANA",
+              RedDeadRP: "",
             },
-            arcs: ["Pentacle", "Survivor", "School"],
+            arcs: ["Pentacle", "Survivor", "School", "RedDeadRP"],
           },
           {
             username: "zwave",
