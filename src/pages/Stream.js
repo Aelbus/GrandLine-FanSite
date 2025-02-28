@@ -1282,7 +1282,7 @@ const Stream = () => {
           },
           {
             username: "jonmadera",
-            nomRP: { RedDeadRP: "Stephen C.FOSTER" },
+            nomRP: { RedDeadRP: "Lucien BEAUCHAMPS" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1313,6 +1313,26 @@ const Stream = () => {
           {
             username: "aquecellee",
             nomRP: { RedDeadRP: "Madeleine DE LA FLEUR" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "tisseum",
+            nomRP: { RedDeadRP: "Eleanor WHITAKER" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Negative__",
+            nomRP: { RedDeadRP: "Harvey MONROE" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "DarkinEXE",
+            nomRP: { RedDeadRP: "Kin TURNER" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Noemotive_",
+            nomRP: { RedDeadRP: "Leïka EYOTA" },
             arcs: ["RedDeadRP"],
           },
         ];
