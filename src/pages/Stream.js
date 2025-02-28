@@ -354,8 +354,12 @@ const Stream = () => {
           },
           {
             username: "MlleHailey",
-            nomRP: { School: "Yellow BISHOP", FortCarson: "Brenda POWELL" },
-            arcs: ["School", "FortCarson"],
+            nomRP: {
+              School: "Yellow BISHOP",
+              FortCarson: "Brenda POWELL",
+              RedDeadRP: "Ellie WHITEMORE",
+            },
+            arcs: ["School", "FortCarson", "RedDeadRP"],
           },
           {
             username: "chach0u__",
