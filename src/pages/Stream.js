@@ -1255,7 +1255,7 @@ const Stream = () => {
           },
           {
             username: "synurFR",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Gerald DEEMER" },
             arcs: ["RedDeadRP"],
           },
           {
