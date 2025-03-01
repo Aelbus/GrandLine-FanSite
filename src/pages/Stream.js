@@ -1265,12 +1265,12 @@ const Stream = () => {
           },
           {
             username: "bigcarlosplay",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Averell MOYSE" },
             arcs: ["RedDeadRP"],
           },
           {
             username: "babaluciooo",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Homer MOYSE" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1355,7 +1355,7 @@ const Stream = () => {
           },
           {
             username: "nxbzn",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Dezba NAVAJO" },
             arcs: ["RedDeadRP"],
           },
           {
