@@ -944,7 +944,10 @@ const Stream = () => {
           },
           {
             username: "ouilli",
-            nomRP: { Pentacle: "Dr. Charlie ORLANDO", RedDeadRP: "" },
+            nomRP: {
+              Pentacle: "Dr. Charlie ORLANDO",
+              RedDeadRP: "Zenon PRETORIUS",
+            },
             arcs: ["Pentacle", "RedDeadRP"],
           },
           {
@@ -1247,7 +1250,7 @@ const Stream = () => {
           },
           {
             username: "Lenny__b",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Archie MOYSE" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1333,6 +1336,36 @@ const Stream = () => {
           {
             username: "Noemotive_",
             nomRP: { RedDeadRP: "Leïka EYOTA" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "dalaros",
+            nomRP: { RedDeadRP: "Baishan NAVAJO" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Bougieeeeeee",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "hellsaww",
+            nomRP: { RedDeadRP: "Colt COOPER" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "nxbzn",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Demotaikanbo",
+            nomRP: { RedDeadRP: "Ode MOYSE" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Noctxrn",
+            nomRP: { RedDeadRP: "Roy ATKINS" },
             arcs: ["RedDeadRP"],
           },
         ];
