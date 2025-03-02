@@ -759,8 +759,11 @@ const Stream = () => {
           },
           {
             username: "llyswi",
-            nomRP: { Pentacle: "Ketly HISPANIOLA" },
-            arcs: ["Pentacle"],
+            nomRP: {
+              Pentacle: "Ketly HISPANIOLA",
+              RedDeadRP: "Raven SINCLAIR",
+            },
+            arcs: ["Pentacle", "RedDeadRP"],
           },
           {
             username: "jumbo_gumbo",
@@ -1115,6 +1118,16 @@ const Stream = () => {
             arcs: ["FortCarson", "RedDeadRP"],
           },
           {
+            username: "Raumane",
+            nomRP: { RedDeadRP: "Morgane MCALISTER" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Poppielala",
+            nomRP: { RedDeadRP: "Rose MCALLISTER" },
+            arcs: ["RedDeadRP"],
+          },
+          {
             username: "LidailHD",
             nomRP: { FortCarson: "Walker ROLLINS" },
             arcs: ["FortCarson"],
@@ -1437,6 +1450,16 @@ const Stream = () => {
           {
             username: "Purlesias",
             nomRP: { RedDeadRP: "Wiliam KOOPMAN" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "ZulemaTV",
+            nomRP: { RedDeadRP: "Esmeralda TORRES" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "tracyctrl",
+            nomRP: { RedDeadRP: "Betsy ASHFORD" },
             arcs: ["RedDeadRP"],
           },
         ];
