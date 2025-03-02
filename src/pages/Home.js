@@ -13,9 +13,9 @@ const Home = () => {
         les communautés ainsi que la plupart des streamers sur les différents
         Arcs.
         <br />
+        <br />
         Excuser moi d'avance si il y à des erreurs, je ne fait pas parti du
         staff Grandline.
-        <br />
         <br />
         <br />
         Dev{" "}
