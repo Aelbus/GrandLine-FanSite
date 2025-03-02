@@ -1462,6 +1462,31 @@ const Stream = () => {
             nomRP: { RedDeadRP: "Betsy ASHFORD" },
             arcs: ["RedDeadRP"],
           },
+          {
+            username: "hakiiyo",
+            nomRP: { RedDeadRP: "Elijah MONROE" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "andre78",
+            nomRP: { RedDeadRP: "Kenny MACKENNIK" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Kymo",
+            nomRP: { RedDeadRP: "Abraham KINGSTON" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Ksm08",
+            nomRP: { RedDeadRP: "Fei LING" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Salut_nana",
+            nomRP: { RedDeadRP: "Mei LING" },
+            arcs: ["RedDeadRP"],
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
