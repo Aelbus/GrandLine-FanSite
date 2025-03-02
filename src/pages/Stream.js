@@ -349,8 +349,9 @@ const Stream = () => {
               School: "Marie-jeanne DUBIJON (Prof Arts)",
               Survivor: "🟡Camélia COSTE",
               FortCarson: "Chiara BELLADONNA",
+              RedDeadRP: " Noah ADLER",
             },
-            arcs: ["Pentacle", "School", "Survivor", "FortCarson"],
+            arcs: ["Pentacle", "School", "Survivor", "FortCarson", "RedDeadRP"],
           },
           {
             username: "MlleHailey",
@@ -510,7 +511,7 @@ const Stream = () => {
           },
           {
             username: "panpanqqoh",
-            nomRP: { Pentacle: "Patrice PLOT", RedDeadRP: "" },
+            nomRP: { Pentacle: "Patrice PLOT", RedDeadRP: "Juste FAVRET" },
             arcs: ["Pentacle", "RedDeadRP"],
           },
           {
@@ -1240,7 +1241,7 @@ const Stream = () => {
           },
           {
             username: "Couane",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Cletus MCDYKE" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1275,12 +1276,12 @@ const Stream = () => {
           },
           {
             username: "Bouate",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Horace STERFILD" },
             arcs: ["RedDeadRP"],
           },
           {
             username: "LevironTV",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Willie MCDYKE" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1366,6 +1367,11 @@ const Stream = () => {
           {
             username: "Noctxrn",
             nomRP: { RedDeadRP: "Roy ATKINS" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Martav",
+            nomRP: { RedDeadRP: "" },
             arcs: ["RedDeadRP"],
           },
         ];
