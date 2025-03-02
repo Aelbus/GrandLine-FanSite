@@ -1374,6 +1374,71 @@ const Stream = () => {
             nomRP: { RedDeadRP: "" },
             arcs: ["RedDeadRP"],
           },
+          {
+            username: "Everwolf94",
+            nomRP: { RedDeadRP: "Andrew BRADFORD" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Kwatro",
+            nomRP: { RedDeadRP: "Artemis GRAHAM" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Mamadk94",
+            nomRP: { RedDeadRP: "Bass FREEMAN" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Monkeydmouusss",
+            nomRP: { RedDeadRP: "Caleb BLACKWELL" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Kaly24",
+            nomRP: { RedDeadRP: "Dolores MENDOZA" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "jadtahar",
+            nomRP: { RedDeadRP: "Elias MOREAU" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "LoneRacoon",
+            nomRP: { RedDeadRP: "Isaiah SCOTT" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "ochil_",
+            nomRP: { RedDeadRP: "L'ermite De COLTER" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "zakkcc_",
+            nomRP: { RedDeadRP: "Mark DASH" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "bliizou",
+            nomRP: { RedDeadRP: "Nahele NAVAJO" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "ashleeey_c",
+            nomRP: { RedDeadRP: "Odessa HAYES" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Zaelite",
+            nomRP: { RedDeadRP: "Soledad MENDOZA" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Purlesias",
+            nomRP: { RedDeadRP: "Wiliam KOOPMAN" },
+            arcs: ["RedDeadRP"],
+          },
         ];
 
         const promises = streamerDataList.map(({ username }) =>
