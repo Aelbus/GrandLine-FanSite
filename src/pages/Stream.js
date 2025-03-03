@@ -287,6 +287,11 @@ const Stream = () => {
             arcs: ["School", "Survivor", "RedDeadRP"],
           },
           {
+            username: "Avamind",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
             username: "LeBouseuh",
             nomRP: { School: "Francis LALENE", Survivor: "🔴Patrick BRUNEL" },
             arcs: ["School", "Survivor"],
@@ -583,6 +588,11 @@ const Stream = () => {
               School: "MR. BURTON (Prof Cultur.G)",
             },
             arcs: ["School"],
+          },
+          {
+            username: "Scok",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
           },
           {
             username: "Tnopy",
@@ -1423,7 +1433,7 @@ const Stream = () => {
             arcs: ["RedDeadRP"],
           },
           {
-            username: "ochil_",
+            username: "Pawol",
             nomRP: { RedDeadRP: "L'ermite De COLTER" },
             arcs: ["RedDeadRP"],
           },
