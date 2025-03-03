@@ -35,7 +35,7 @@ const Header = () => {
                 return isActive ? "nav-link active-link" : "nav-link";
               }}
             >
-              Stream
+              Joueurs
             </NavLink>
           </li>
           <li>

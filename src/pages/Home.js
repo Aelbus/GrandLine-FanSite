@@ -14,8 +14,11 @@ const Home = () => {
         Arcs.
         <br />
         <br />
-        Excuser moi d'avance si il y à des erreurs, je ne fait pas parti du
-        staff Grandline.
+        Excusez-moi d'avance s'il y a des erreurs, je ne fais pas partie du
+        Staff Grandline.
+        <br /> Pour toute demande de modification "NomRP / Pseudo" dans la
+        catégorie Joueurs, vous pouvez utiliser le formulaire de contact via le
+        téléphone en bas à droite du site.
         <br />
         <br />
         Dev{" "}
