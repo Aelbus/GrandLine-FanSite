@@ -1086,8 +1086,13 @@ const Stream = () => {
           },
           {
             username: "freboca",
-            nomRP: { FortCarson: "Cletus BICOU" },
-            arcs: ["FortCarson"],
+            nomRP: { FortCarson: "Cletus BICOU", RedDeadRP: "Eli MCGRAW" },
+            arcs: ["FortCarson", "RedDeadRP"],
+          },
+          {
+            username: "wizzle",
+            nomRP: { RedDeadRP: "Clotaire VINCELASS" },
+            arcs: ["RedDeadRP"],
           },
           {
             username: "clescopaings",
@@ -1530,6 +1535,16 @@ const Stream = () => {
           {
             username: "eripet05",
             nomRP: { RedDeadRP: "Ludwig VOGEL" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "mrmook92",
+            nomRP: { RedDeadRP: "Earl ANDERSON" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "SLK_",
+            nomRP: { RedDeadRP: "Eugène ESPINAS" },
             arcs: ["RedDeadRP"],
           },
         ];
