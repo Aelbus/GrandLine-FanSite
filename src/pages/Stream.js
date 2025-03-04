@@ -217,6 +217,15 @@ const Stream = () => {
             arcs: ["School", "FortCarson", "Survivor"],
           },
           {
+            username: "Inoxtag",
+            nomRP: {
+              School: "Romuald PORNAULT",
+              Survivor: "🔴Ousmane DEMBELE",
+              RedDeadRP: "",
+            },
+            arcs: ["School", "Survivor", "RedDeadRP"],
+          },
+          {
             username: "Nateos",
             nomRP: {
               School: "Kevin DUCHAMPS",
@@ -265,17 +274,6 @@ const Stream = () => {
             },
             arcs: ["School", "FortCarson", "RedDeadRP"],
           },
-
-          {
-            username: "barbenoire__00",
-            nomRP: { Pentacle: "Arsene WASHINGTON", RedDeadRP: "Emmet BROWN" },
-            arcs: ["Pentacle", "RedDeadRP"],
-          },
-          {
-            username: "Melton_Wine",
-            nomRP: { Pentacle: "Melton WINE" },
-            arcs: ["Pentacle"],
-          },
           {
             username: "GrimKujow",
             nomRP: { Survivor: "🟡Douglas MENPHIS" },
@@ -285,15 +283,6 @@ const Stream = () => {
             username: "Michou",
             nomRP: { School: "Bobby JUNIOR" },
             arcs: ["School"],
-          },
-          {
-            username: "Inoxtag",
-            nomRP: {
-              School: "Romuald PORNAULT",
-              Survivor: "🔴Ousmane DEMBELE",
-              RedDeadRP: "",
-            },
-            arcs: ["School", "Survivor", "RedDeadRP"],
           },
           {
             username: "Avamind",
@@ -452,6 +441,16 @@ const Stream = () => {
           {
             username: "gamesroses",
             nomRP: { Pentacle: "BigJack" },
+            arcs: ["Pentacle"],
+          },
+          {
+            username: "barbenoire__00",
+            nomRP: { Pentacle: "Arsene WASHINGTON", RedDeadRP: "Emmet BROWN" },
+            arcs: ["Pentacle", "RedDeadRP"],
+          },
+          {
+            username: "Melton_Wine",
+            nomRP: { Pentacle: "Melton WINE" },
             arcs: ["Pentacle"],
           },
           {
@@ -1393,7 +1392,7 @@ const Stream = () => {
           },
           {
             username: "Bougieeeeeee",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Floyd McDYKE" },
             arcs: ["RedDeadRP"],
           },
           {
