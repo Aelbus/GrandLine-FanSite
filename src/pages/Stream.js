@@ -300,6 +300,11 @@ const Stream = () => {
             arcs: ["RedDeadRP"],
           },
           {
+            username: "Scok",
+            nomRP: { RedDeadRP: "Eugene HELLMAN" },
+            arcs: ["RedDeadRP"],
+          },
+          {
             username: "LeBouseuh",
             nomRP: { School: "Francis LALENE", Survivor: "🔴Patrick BRUNEL" },
             arcs: ["School", "Survivor"],
@@ -596,11 +601,6 @@ const Stream = () => {
               School: "MR. BURTON (Prof Cultur.G)",
             },
             arcs: ["School"],
-          },
-          {
-            username: "Scok",
-            nomRP: { RedDeadRP: "Eugene HELLMAN" },
-            arcs: ["RedDeadRP"],
           },
           {
             username: "Tnopy",
