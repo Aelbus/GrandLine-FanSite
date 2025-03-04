@@ -485,8 +485,13 @@ const Stream = () => {
 
           {
             username: "anaisMRN",
-            nomRP: { Pentacle: "Zoe BAKER" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Zoe BAKER", RedDeadRP: "Billie HARPER" },
+            arcs: ["Pentacle", "RedDeadRP"],
+          },
+          {
+            username: "kiishar",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
           },
           {
             username: "prince_toz",
@@ -1253,6 +1258,11 @@ const Stream = () => {
           {
             username: "Canaplaye",
             nomRP: { RedDeadRP: "Roy CAMTON" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "AmarVolte",
+            nomRP: { RedDeadRP: "Ludwig VAN KRUGER" },
             arcs: ["RedDeadRP"],
           },
           {
