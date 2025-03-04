@@ -296,7 +296,7 @@ const Stream = () => {
           },
           {
             username: "Avamind",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Selene HELLMAN" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -599,7 +599,7 @@ const Stream = () => {
           },
           {
             username: "Scok",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Eugene HELLMAN" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1553,6 +1553,31 @@ const Stream = () => {
           {
             username: "SLK_",
             nomRP: { RedDeadRP: "Eugène ESPINAS" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Alexinho_tv",
+            nomRP: { RedDeadRP: "Jack LORRO" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Baileylaserbeam",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "lifius",
+            nomRP: { RedDeadRP: "Charles McCARTY" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "kaykayti",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Younra",
+            nomRP: { RedDeadRP: "" },
             arcs: ["RedDeadRP"],
           },
         ];
