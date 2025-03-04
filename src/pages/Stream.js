@@ -109,9 +109,10 @@ const Stream = () => {
               Pentacle: "Alexandre FORBES",
               School: "Capitaine POLICE",
               Survivor: "🔴Philippe SALAMONCA",
+              RedDeadRP: "",
             },
             tag: "Staff",
-            arcs: ["Pentacle", "School", "Survivor"],
+            arcs: ["Pentacle", "School", "Survivor", "RedDeadRP"],
           },
           {
             username: "postbadon",
@@ -1286,7 +1287,7 @@ const Stream = () => {
             arcs: ["RedDeadRP"],
           },
           {
-            username: "Couane",
+            username: "Couane_",
             nomRP: { RedDeadRP: "Cletus MCDYKE" },
             arcs: ["RedDeadRP"],
           },
@@ -1611,6 +1612,11 @@ const Stream = () => {
             arcs: ["RedDeadRP"],
           },
           {
+            username: "vathir_",
+            nomRP: { RedDeadRP: "Jo CARRET" },
+            arcs: ["RedDeadRP"],
+          },
+          {
             username: "Brandouzz12",
             nomRP: { RedDeadRP: "Ned CARRET" },
             arcs: ["RedDeadRP"],
@@ -1623,6 +1629,51 @@ const Stream = () => {
           {
             username: "valoxk",
             nomRP: { RedDeadRP: "Darius SPRÜTZULI" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "oldarick",
+            nomRP: { RedDeadRP: "Frédérik MAGERSÜCHTIG" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "alexmgun",
+            nomRP: { RedDeadRP: "Joseph SCHULTZ" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "juniux19",
+            nomRP: { RedDeadRP: "Jules AKITO" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "sickomode",
+            nomRP: { RedDeadRP: "Logan McCARTY" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "zepcivo",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "0khmhaka",
+            nomRP: { RedDeadRP: "Maka WANAGI" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Daiko",
+            nomRP: { RedDeadRP: "Lucius HOLLOWAY" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Kiddo",
+            nomRP: { RedDeadRP: "Bogdan CANDAC" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Sakikin",
+            nomRP: { RedDeadRP: "Alice Night Wind (a modif)" },
             arcs: ["RedDeadRP"],
           },
         ];
