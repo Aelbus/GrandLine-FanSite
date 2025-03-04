@@ -179,6 +179,14 @@ const Stream = () => {
             arcs: ["Pentacle", "FortCarson", "RedDeadRP"],
           },
           {
+            username: "DVR__",
+            nomRP: {
+              RedDeadRP: "",
+            },
+            tag: "Staff",
+            arcs: ["RedDeadRP"],
+          },
+          {
             username: "klearradio",
             nomRP: { Pentacle: "Arsene & Melton" },
             tag: "Weazel News",
