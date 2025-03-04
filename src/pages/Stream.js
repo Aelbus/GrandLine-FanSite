@@ -1583,7 +1583,7 @@ const Stream = () => {
           },
           {
             username: "kaykayti",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Rose HARPER" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1674,6 +1674,11 @@ const Stream = () => {
           {
             username: "Sakikin",
             nomRP: { RedDeadRP: "Alice Night Wind (a modif)" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "iimercure",
+            nomRP: { RedDeadRP: "Clifford WALLACE" },
             arcs: ["RedDeadRP"],
           },
         ];
