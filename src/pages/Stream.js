@@ -66,9 +66,10 @@ const Stream = () => {
               School: "Jeffrey ROGER",
               FortCarson: "Père COLBY",
               Survivor: "🔴Axel LERET",
+              RedDeadRP: "",
             },
             tag: "Staff",
-            arcs: ["School", "FortCarson", "Survivor"],
+            arcs: ["School", "FortCarson", "Survivor", "RedDeadRP"],
           },
           {
             username: "Dorelium",
@@ -136,6 +137,14 @@ const Stream = () => {
             },
             tag: "Staff",
             arcs: ["Pentacle", "School", "Survivor", "FortCarson", "RedDeadRP"],
+          },
+          {
+            username: "zhuLii_",
+            nomRP: {
+              RedDeadRP: "",
+            },
+            tag: "Staff",
+            arcs: ["RedDeadRP"],
           },
           {
             username: "Chunly91",
@@ -1406,8 +1415,8 @@ const Stream = () => {
             arcs: ["RedDeadRP"],
           },
           {
-            username: "Demotaikanbo",
-            nomRP: { RedDeadRP: "Ode MOYSE" },
+            username: "Demotkb",
+            nomRP: { RedDeadRP: "" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1683,6 +1692,11 @@ const Stream = () => {
           {
             username: "komiaaa",
             nomRP: { RedDeadRP: "Silas RUSTY" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "mirooxb",
+            nomRP: { RedDeadRP: "" },
             arcs: ["RedDeadRP"],
           },
         ];
