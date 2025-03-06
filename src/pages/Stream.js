@@ -670,8 +670,8 @@ const Stream = () => {
           },
           {
             username: "frenchdee",
-            nomRP: { Pentacle: "Gary JAY" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Gary JAY", RedDeadRP: "" },
+            arcs: ["Pentacle", "RedDeadRP"],
           },
           {
             username: "nacked",
@@ -988,13 +988,13 @@ const Stream = () => {
           },
           {
             username: "MeikhaTV",
-            nomRP: { Pentacle: "Diane KINGSTON" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Diane KINGSTON", RedDeadRP: "" },
+            arcs: ["Pentacle", "RedDeadRP"],
           },
           {
             username: "Matsuki_R",
-            nomRP: { Pentacle: "Mile KINGSTON" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Mile KINGSTON", RedDeadRP: "" },
+            arcs: ["Pentacle", "RedDeadRP"],
           },
           {
             username: "Medouda",
@@ -1143,8 +1143,8 @@ const Stream = () => {
           },
           {
             username: "miisterkel",
-            nomRP: { FortCarson: "Michael HAWK" },
-            arcs: ["FortCarson"],
+            nomRP: { FortCarson: "Michael HAWK", RedDeadRP: "Michael HAWK" },
+            arcs: ["FortCarson", "RedDeadRP"],
           },
           {
             username: "PlumeLIVE",
@@ -1702,6 +1702,86 @@ const Stream = () => {
           {
             username: "lilyanai",
             nomRP: { RedDeadRP: "Victoria LANGSTON" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Skyden_Nray",
+            nomRP: { RedDeadRP: "Juan ALejandro MOYA" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Angelitotvv",
+            nomRP: { RedDeadRP: "Amos MONTI" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "touftouf",
+            nomRP: { RedDeadRP: "Archi Junior HERNANDEZ" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "AlymJr",
+            nomRP: { RedDeadRP: "Cornelius CROWLEY" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Elvee",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Seyli2sans12",
+            nomRP: { RedDeadRP: "Emiliano VALDES" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "izanami",
+            nomRP: { RedDeadRP: "Javier VALDES" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "zayfear",
+            nomRP: { RedDeadRP: "Iye WAPI" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Theos_xd",
+            nomRP: { RedDeadRP: "Jorge VILLANUEVA" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "phell",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "jothekay",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "ernesto_tv",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "xnoze",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "soranne734",
+            nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "snktakkar",
+            nomRP: { RedDeadRP: "Watawa WITCO" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "pinko_pop",
+            nomRP: { RedDeadRP: "" },
             arcs: ["RedDeadRP"],
           },
         ];
