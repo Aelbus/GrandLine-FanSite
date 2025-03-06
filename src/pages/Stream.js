@@ -939,8 +939,8 @@ const Stream = () => {
           },
           {
             username: "Anastronaute_",
-            nomRP: { Pentacle: "Charlie DAVIS" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Charlie DAVIS", RedDeadRP: "" },
+            arcs: ["Pentacle", "RedDeadRP"],
           },
           {
             username: "soofiansooo",
@@ -1697,6 +1697,11 @@ const Stream = () => {
           {
             username: "mirooxb",
             nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "lilyanai",
+            nomRP: { RedDeadRP: "Victoria LANGSTON" },
             arcs: ["RedDeadRP"],
           },
         ];
