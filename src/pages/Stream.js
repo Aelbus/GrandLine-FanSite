@@ -1742,7 +1742,6 @@ const Stream = () => {
     fetchStreamerData();
   }, []);
 
-  // Filtrage des streamers par filtre sélectionné et recherche
   const filteredStreamers = streamers.filter(
     (streamer) =>
       streamer.arcs.includes(selectedArc) &&
