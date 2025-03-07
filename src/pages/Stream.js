@@ -249,8 +249,9 @@ const Stream = () => {
             nomRP: {
               School: "Mouloud KEFTA",
               FortCarson: "Marlo MASON",
+              RedDeadRP: "",
             },
-            arcs: ["School", "FortCarson"],
+            arcs: ["School", "FortCarson", "RedDeadRP"],
           },
           {
             username: "Farees",
@@ -335,7 +336,7 @@ const Stream = () => {
             username: "manouyee",
             nomRP: {
               FortCarson: "Brook DAWSON",
-              RedDeadRP: "",
+              RedDeadRP: "Séraphine SORNA",
             },
             arcs: ["FortCarson", "RedDeadRP"],
           },
@@ -494,7 +495,7 @@ const Stream = () => {
 
           {
             username: "anaisMRN",
-            nomRP: { Pentacle: "Zoe BAKER", RedDeadRP: "Billie HARPER" },
+            nomRP: { Pentacle: "Zoe BAKER", RedDeadRP: "" },
             arcs: ["Pentacle", "RedDeadRP"],
           },
           {
@@ -654,7 +655,7 @@ const Stream = () => {
             nomRP: {
               Pentacle: "Alice DELACOURS",
               FortCarson: "Cassidy SMITH",
-              RedDeadRP: "Tifa LENZ",
+              RedDeadRP: "Tifa VELAZQUEZ",
             },
             arcs: ["Pentacle", "FortCarson", "RedDeadRP"],
           },
@@ -1143,7 +1144,7 @@ const Stream = () => {
           },
           {
             username: "miisterkel",
-            nomRP: { FortCarson: "Michael HAWK", RedDeadRP: "Michael HAWK" },
+            nomRP: { FortCarson: "Michael HAWK", RedDeadRP: "" },
             arcs: ["FortCarson", "RedDeadRP"],
           },
           {
@@ -1251,12 +1252,12 @@ const Stream = () => {
           },
           {
             username: "PixelOctet",
-            nomRP: { RedDeadRP: "Yélénah PROSPERIDAD" },
+            nomRP: { RedDeadRP: "" },
             arcs: ["RedDeadRP"],
           },
           {
             username: "Cnaid",
-            nomRP: { RedDeadRP: "Edgar CHAMBERLAIN" },
+            nomRP: { RedDeadRP: "" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1291,7 +1292,7 @@ const Stream = () => {
           },
           {
             username: "SevenLife7",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Irvin SPECK" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1301,7 +1302,7 @@ const Stream = () => {
           },
           {
             username: "MoriX",
-            nomRP: { RedDeadRP: "Burt BYLONG" },
+            nomRP: { RedDeadRP: "" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1311,7 +1312,7 @@ const Stream = () => {
           },
           {
             username: "synurFR",
-            nomRP: { RedDeadRP: "Gerald DEEMER" },
+            nomRP: { RedDeadRP: "Ernest CALIGAN" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1386,7 +1387,7 @@ const Stream = () => {
           },
           {
             username: "DarkinEXE",
-            nomRP: { RedDeadRP: "Kin TURNER" },
+            nomRP: { RedDeadRP: "Kin BRAITHWAITH" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1581,7 +1582,7 @@ const Stream = () => {
           },
           {
             username: "Baileylaserbeam",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Cunégonde BELLINI" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1661,7 +1662,7 @@ const Stream = () => {
           },
           {
             username: "zepcivo",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Kayce GRAVES" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1751,7 +1752,7 @@ const Stream = () => {
           },
           {
             username: "phell",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Mépris ORDERSON" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1782,6 +1783,11 @@ const Stream = () => {
           {
             username: "pinko_pop",
             nomRP: { RedDeadRP: "" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Josk_tv",
+            nomRP: { RedDeadRP: "Marco DEVERINO" },
             arcs: ["RedDeadRP"],
           },
         ];
