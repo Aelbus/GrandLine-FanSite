@@ -1475,7 +1475,7 @@ const Stream = () => {
           },
           {
             username: "Pawol",
-            nomRP: { RedDeadRP: "L'ermite De COLTER" },
+            nomRP: { RedDeadRP: "Henry Boone" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1770,7 +1770,7 @@ const Stream = () => {
           },
           {
             username: "ernesto_tv",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Julio SALAMANCA" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1780,7 +1780,7 @@ const Stream = () => {
           },
           {
             username: "soranne734",
-            nomRP: { RedDeadRP: "Wato YAWA" },
+            nomRP: { RedDeadRP: "Skatayawa WATOTECA" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1846,6 +1846,11 @@ const Stream = () => {
           {
             username: "Dimezo",
             nomRP: { RedDeadRP: "Bobby BROCKMORE" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "koba752",
+            nomRP: { RedDeadRP: "Diego RODRIGUEZ" },
             arcs: ["RedDeadRP"],
           },
         ];
