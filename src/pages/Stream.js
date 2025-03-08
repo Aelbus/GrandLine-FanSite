@@ -420,7 +420,7 @@ const Stream = () => {
               School: "Jean Charles VIVIER (Aziz)",
               Survivor: "🟡Karim BEIDA",
               FortCarson: "Colt WINCHESTER",
-              RedDeadRP: "",
+              RedDeadRP: "Cofy COLTER",
             },
             arcs: ["Pentacle", "School", "Survivor", "FortCarson", "RedDeadRP"],
           },
@@ -501,6 +501,7 @@ const Stream = () => {
           {
             username: "kiishar",
             nomRP: { RedDeadRP: "" },
+            tag: "Staff",
             arcs: ["RedDeadRP"],
           },
           {
@@ -539,7 +540,7 @@ const Stream = () => {
               Pentacle: "Cesar ALARCON",
               School: "Jabar JACKSON (Prof Chimie)",
               FortCarson: "SFera LAWRENCE / Sheriff 22",
-              RedDeadRP: "",
+              RedDeadRP: "Coby COLTER",
             },
             arcs: ["Pentacle", "School", "FortCarson", "RedDeadRP"],
           },
@@ -672,14 +673,14 @@ const Stream = () => {
           },
           {
             username: "frenchdee",
-            nomRP: { Pentacle: "Gary JAY", RedDeadRP: "" },
+            nomRP: { Pentacle: "Gary JAY", RedDeadRP: "Désir ORDERSON" },
             arcs: ["Pentacle", "RedDeadRP"],
           },
           {
             username: "nacked",
             nomRP: {
               Pentacle: "Monique SCHMITTELBOURG",
-              RedDeadRP: " Donald SKITTLES",
+              RedDeadRP: "Archibald WENTWORTH",
             },
             arcs: ["Pentacle", "RedDeadRP"],
           },
@@ -941,7 +942,7 @@ const Stream = () => {
           },
           {
             username: "Anastronaute_",
-            nomRP: { Pentacle: "Charlie DAVIS", RedDeadRP: "" },
+            nomRP: { Pentacle: "Charlie DAVIS", RedDeadRP: "Margaret VESPER" },
             arcs: ["Pentacle", "RedDeadRP"],
           },
           {
@@ -1309,7 +1310,7 @@ const Stream = () => {
           },
           {
             username: "MoriX",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Cornelius BABOON" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1434,7 +1435,7 @@ const Stream = () => {
           },
           {
             username: "Martav",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Cody COLTER" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1774,7 +1775,7 @@ const Stream = () => {
           },
           {
             username: "xnoze",
-            nomRP: { RedDeadRP: "Clint COLTER" },
+            nomRP: { RedDeadRP: "Cory COLTER" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1819,7 +1820,7 @@ const Stream = () => {
           },
           {
             username: "bc_darjah",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Dzik BRUDNY" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1830,6 +1831,21 @@ const Stream = () => {
           {
             username: "jTakafit95",
             nomRP: { RedDeadRP: "Armando SANCHEZ" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Lunaar01",
+            nomRP: { RedDeadRP: "Abraham McCOY" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Andre78",
+            nomRP: { RedDeadRP: "Kenny McKENNICK" },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Dimezo",
+            nomRP: { RedDeadRP: "Bobby BROCKMORE" },
             arcs: ["RedDeadRP"],
           },
         ];
