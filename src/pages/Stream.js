@@ -225,6 +225,20 @@ const Stream = () => {
             arcs: ["School", "FortCarson", "Survivor"],
           },
           {
+            username: "Squeezie",
+            nomRP: {
+              RedDeadRP: "",
+            },
+            arcs: ["RedDeadRP"],
+          },
+          {
+            username: "Pince__off",
+            nomRP: {
+              RedDeadRP: "",
+            },
+            arcs: ["RedDeadRP"],
+          },
+          {
             username: "Inoxtag",
             nomRP: {
               School: "Romuald PORNAULT",
@@ -251,6 +265,13 @@ const Stream = () => {
               RedDeadRP: "John INGLEWOOD",
             },
             arcs: ["School", "FortCarson", "RedDeadRP"],
+          },
+          {
+            username: "hamzakerdaloco",
+            nomRP: {
+              RedDeadRP: "",
+            },
+            arcs: ["RedDeadRP"],
           },
           {
             username: "Farees",
@@ -435,8 +456,8 @@ const Stream = () => {
           },
           {
             username: "Maghla",
-            nomRP: { Survivor: "🟡Stéphanie LEULEU" },
-            arcs: ["Survivor"],
+            nomRP: { Survivor: "🟡Stéphanie LEULEU", RedDeadRp: "" },
+            arcs: ["Survivor", "RedDeadRP"],
           },
           {
             username: "pauleta_twitch",
