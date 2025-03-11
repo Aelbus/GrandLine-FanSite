@@ -607,8 +607,8 @@ const Stream = () => {
           },
           {
             username: "as_coco",
-            nomRP: { Pentacle: "Alya Rosales MORA" },
-            arcs: ["Pentacle"],
+            nomRP: { Pentacle: "Alya Rosales MORA", RedDeadRP: "Elara GRAY" },
+            arcs: ["Pentacle", "RedDeadRP"],
           },
           {
             username: "saadikoooi",
