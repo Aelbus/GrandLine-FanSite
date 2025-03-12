@@ -430,7 +430,7 @@ const Stream = () => {
               Pentacle: "Jodie SAVAGE",
               School: "Nova BURGER",
               Survivor: "🔴Alba NANA",
-              RedDeadRP: "",
+              RedDeadRP: "Edith De ROSIERE",
             },
             arcs: ["Pentacle", "Survivor", "School", "RedDeadRP"],
           },
@@ -1626,7 +1626,7 @@ const Stream = () => {
           },
           {
             username: "Younra_",
-            nomRP: { RedDeadRP: "" },
+            nomRP: { RedDeadRP: "Pénélope BELLINI" },
             arcs: ["RedDeadRP"],
           },
           {
