@@ -1875,7 +1875,7 @@ const Stream = () => {
             arcs: ["RedDeadRP"],
           },
           {
-            username: "lukarri",
+            username: "lukaari",
             nomRP: { RedDeadRP: "Salvador DEL ANGELES" },
             arcs: ["RedDeadRP"],
           },
