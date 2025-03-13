@@ -10,7 +10,9 @@ const Video = () => {
     <div className="Video-div">
       <div className="Creator-container">
         <iframe
-          src="https://www.youtube.com/embed/DoscyQpje0k?si=YepmBVF9sUQjO2Gj"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ODQk4iFmIJw?si=d8pa0xW0BV0b8Zyk"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -57,7 +59,9 @@ const Video = () => {
       </div>
       <div className="Creator-container">
         <iframe
-          src="https://www.youtube.com/embed/IYHYpWUDRE4?si=fsW8ozKwkoTlZbUk"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/K4zJMXyV7_U?si=dm-qGhguzzveFz2Y"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
