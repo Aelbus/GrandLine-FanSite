@@ -17,7 +17,7 @@ const Stream = () => {
           `https://id.twitch.tv/oauth2/token`,
           new URLSearchParams({
             client_id: "u1ne1fj44jwu9p37xh6wu7t0n3lg7c",
-            client_secret: "77435hlfxy5njb0at679o91w6a2jo6",
+            client_secret: "bi4u8l7jsb9r2tsp54svimyxcj6cq2",
             grant_type: "client_credentials",
           })
         );
@@ -1928,7 +1928,6 @@ const Stream = () => {
           Nombre de streamers : {filteredStreamers.length}
         </p>
         <p className="ArcSelect">Selectionne un arc</p>
-        <h1>En Maintenance... </h1>
         {filteredStreamers.map((streamer, index) => (
           <div key={index} className="card-stream">
             <figure>
