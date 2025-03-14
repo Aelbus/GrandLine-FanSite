@@ -227,7 +227,7 @@ const Stream = () => {
           {
             username: "Squeezie",
             nomRP: {
-              RedDeadRP: "",
+              RedDeadRP: "Bob WESTWOOD",
             },
             arcs: ["RedDeadRP"],
           },
@@ -450,13 +450,16 @@ const Stream = () => {
             nomRP: {
               Pentacle: "Narine MUCUS",
               Survivor: "🟡Narine MUCUS 🏆",
-              RedDeadRP: "",
+              RedDeadRP: "Woody BOURSEMOLE",
             },
             arcs: ["Pentacle", "Survivor", "RedDeadRP"],
           },
           {
             username: "Maghla",
-            nomRP: { Survivor: "🟡Stéphanie LEULEU", RedDeadRp: "" },
+            nomRP: {
+              Survivor: "🟡Stéphanie LEULEU",
+              RedDeadRp: "Billie STONE",
+            },
             arcs: ["Survivor", "RedDeadRP"],
           },
           {
