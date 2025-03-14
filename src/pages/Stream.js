@@ -1242,11 +1242,7 @@ const Stream = () => {
             nomRP: { RedDeadRP: "Kosoh WAYA'TAGA" },
             arcs: ["RedDeadRP"],
           },
-          {
-            username: "alexudl",
-            nomRP: { RedDeadRP: "Tawa WAYA'TAGA" },
-            arcs: ["RedDeadRP"],
-          },
+
           {
             username: "Kreeks",
             nomRP: { RedDeadRP: "Georges PALMER" },
@@ -1357,11 +1353,7 @@ const Stream = () => {
             nomRP: { RedDeadRP: "Cornelius CALIGAN" },
             arcs: ["RedDeadRP"],
           },
-          {
-            username: "Alqx3",
-            nomRP: { RedDeadRP: "Miguel HERNANDEZ" },
-            arcs: ["RedDeadRP"],
-          },
+
           {
             username: "IVPRODTV",
             nomRP: { RedDeadRP: "Zack COFFEY" },
@@ -1563,28 +1555,8 @@ const Stream = () => {
             arcs: ["RedDeadRP"],
           },
           {
-            username: "andre78",
-            nomRP: { RedDeadRP: "Kenny MACKENNIK" },
-            arcs: ["RedDeadRP"],
-          },
-          {
-            username: "Kymo",
-            nomRP: { RedDeadRP: "Abraham KINGSTON" },
-            arcs: ["RedDeadRP"],
-          },
-          {
-            username: "Ksm08",
-            nomRP: { RedDeadRP: "Fei LING" },
-            arcs: ["RedDeadRP"],
-          },
-          {
             username: "Salut_nana",
             nomRP: { RedDeadRP: "Mei LING" },
-            arcs: ["RedDeadRP"],
-          },
-          {
-            username: "sarahcool",
-            nomRP: { RedDeadRP: "Nicole FORT" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1715,21 +1687,6 @@ const Stream = () => {
           {
             username: "zepcivo",
             nomRP: { RedDeadRP: "Kayce GRAVES" },
-            arcs: ["RedDeadRP"],
-          },
-          {
-            username: "0khmhaka",
-            nomRP: { RedDeadRP: "Maka WANAGI" },
-            arcs: ["RedDeadRP"],
-          },
-          {
-            username: "Daiko",
-            nomRP: { RedDeadRP: "Lucius HOLLOWAY" },
-            arcs: ["RedDeadRP"],
-          },
-          {
-            username: "Kiddo",
-            nomRP: { RedDeadRP: "Bogdan CANDAC" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1868,11 +1825,6 @@ const Stream = () => {
             arcs: ["RedDeadRP"],
           },
           {
-            username: "jahk_",
-            nomRP: { RedDeadRP: "Wanbli ZULA" },
-            arcs: ["RedDeadRP"],
-          },
-          {
             username: "jTakafit95",
             nomRP: { RedDeadRP: "Armando SANCHEZ" },
             arcs: ["RedDeadRP"],
@@ -1882,19 +1834,10 @@ const Stream = () => {
             nomRP: { RedDeadRP: "Abraham McCOY" },
             arcs: ["RedDeadRP"],
           },
-          {
-            username: "Andre78",
-            nomRP: { RedDeadRP: "Kenny McKENNICK" },
-            arcs: ["RedDeadRP"],
-          },
+
           {
             username: "Dimezo",
             nomRP: { RedDeadRP: "Bobby BROCKMORE" },
-            arcs: ["RedDeadRP"],
-          },
-          {
-            username: "koba752",
-            nomRP: { RedDeadRP: "Diego RODRIGUEZ" },
             arcs: ["RedDeadRP"],
           },
           {
@@ -1903,23 +1846,8 @@ const Stream = () => {
             arcs: ["RedDeadRP"],
           },
           {
-            username: "Siloe_st",
-            nomRP: { RedDeadRP: "" },
-            arcs: ["RedDeadRP"],
-          },
-          {
             username: "meiiinn",
             nomRP: { RedDeadRP: "Wambli SAPA" },
-            arcs: ["RedDeadRP"],
-          },
-          {
-            username: "OeOeoeh",
-            nomRP: { RedDeadRP: "Emilien Duclos" },
-            arcs: ["RedDeadRP"],
-          },
-          {
-            username: "JoutixV",
-            nomRP: { RedDeadRP: "Eliot FLINT" },
             arcs: ["RedDeadRP"],
           },
         ];
@@ -2000,6 +1928,7 @@ const Stream = () => {
           Nombre de streamers : {filteredStreamers.length}
         </p>
         <p className="ArcSelect">Selectionne un arc</p>
+        <h1>En Maintenance... </h1>
         {filteredStreamers.map((streamer, index) => (
           <div key={index} className="card-stream">
             <figure>
