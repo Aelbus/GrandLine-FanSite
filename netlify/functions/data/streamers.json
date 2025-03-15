@@ -2362,5 +2362,12 @@
       "RedDeadRP": "Wambli SAPA"
     },
     "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "Aelbus",
+    "nomRP": {
+      "RedDeadRP": "Test FIXSITE (pas whitelist)"
+    },
+    "arcs": ["RedDeadRP"]
   }
 ]
