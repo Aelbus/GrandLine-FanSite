@@ -2,84 +2,138 @@ const axios = require("axios");
 const fs = require("fs");
 const path = require("path");
 
-// Identifiants Twitch
-const clientId = "u1ne1fj44jwu9p37xh6wu7t0n3lg7c";
-const clientSecret = "yjg5e9fukj3dlz1frjmxr83ikarsiy";
+const clientId = process.env.TWITCH_CLIENT_ID;
+const clientSecret = process.env.TWITCH_CLIENT_SECRET;
 
-// Charger les données du fichier JSON
-const streamerFilePath = path.join(__dirname, "../data/streamers.json");
+const streamersPath = path.join(__dirname, "../data/streamers.json");
+const cachePath = path.join(__dirname, "../data/streamers_cache.json");
+const tokenCachePath = path.join(__dirname, "../data/.twitch_token.json"); // 🔐 caché
 
-exports.handler = async function () {
+// 📦 Lire le token s'il est encore valide
+function readCachedToken() {
   try {
-    const fileData = fs.readFileSync(streamerFilePath, "utf8");
-    const streamers = JSON.parse(fileData);
+    const raw = fs.readFileSync(tokenCachePath, "utf8");
+    const { token, expires_at } = JSON.parse(raw);
 
-    // 🔐 Récupérer un token d'accès
-    const tokenResponse = await axios.post(
-      "https://id.twitch.tv/oauth2/token",
-      null,
-      {
-        params: {
-          client_id: clientId,
-          client_secret: clientSecret,
-          grant_type: "client_credentials",
-        },
-      }
-    );
-
-    const accessToken = tokenResponse.data.access_token;
-
-    // 🔁 Diviser les usernames en lots de 50
-    const usernames = streamers.map((s) => s.username);
-    const batches = [];
-
-    for (let i = 0; i < usernames.length; i += 50) {
-      batches.push(usernames.slice(i, i + 50));
+    if (Date.now() < expires_at) {
+      return token;
+    } else {
+      console.log("⏳ Token expiré");
+      return null;
     }
+  } catch {
+    return null;
+  }
+}
 
-    const enrichedStreamers = [];
+// 💾 Sauvegarder un nouveau token avec sa date d’expiration
+function cacheToken(token, expiresInSeconds) {
+  const expires_at = Date.now() + expiresInSeconds * 1000 - 60000; // marge 60s
+  const data = { token, expires_at };
+  fs.writeFileSync(tokenCachePath, JSON.stringify(data));
+}
 
-    for (const batch of batches) {
-      const res = await axios.get(`https://api.twitch.tv/helix/users`, {
-        headers: {
-          "Client-ID": clientId,
-          Authorization: `Bearer ${accessToken}`,
-        },
-        params: {
-          login: batch,
-        },
-      });
+// 🔑 Récupérer un token depuis Twitch ou le cache
+async function getTwitchToken() {
+  const cached = readCachedToken();
+  if (cached) {
+    console.log("✅ Token récupéré depuis le cache");
+    return cached;
+  }
 
-      // Associer les données Twitch aux streamers
-      res.data.data.forEach((userData) => {
-        const original = streamers.find(
-          (s) => s.username.toLowerCase() === userData.login.toLowerCase()
+  try {
+    const res = await axios.post("https://id.twitch.tv/oauth2/token", null, {
+      params: {
+        client_id: clientId,
+        client_secret: clientSecret,
+        grant_type: "client_credentials",
+      },
+    });
+
+    const token = res.data.access_token;
+    const expiresIn = res.data.expires_in;
+
+    cacheToken(token, expiresIn);
+    console.log("🔐 Nouveau token Twitch stocké");
+    return token;
+  } catch (err) {
+    console.error("❌ Erreur récupération token :", err.response?.data || err);
+    return null;
+  }
+}
+
+// 🚀 Enrichir les données
+async function enrichStreamers(streamers, token) {
+  const results = await Promise.allSettled(
+    streamers.map(async (streamer) => {
+      try {
+        const res = await axios.get(
+          `https://api.twitch.tv/helix/users?login=${streamer.username}`,
+          {
+            headers: {
+              "Client-ID": clientId,
+              Authorization: `Bearer ${token}`,
+            },
+          }
         );
-        if (original) {
-          enrichedStreamers.push({
-            ...original,
-            profile_image_url: userData.profile_image_url,
-            display_name: userData.display_name,
-            login: userData.login,
-          });
-        }
-      });
-    }
+        const user = res.data.data[0];
+        return user
+          ? {
+              ...streamer,
+              display_name: user.display_name,
+              profile_image_url: user.profile_image_url,
+            }
+          : streamer;
+      } catch {
+        return streamer;
+      }
+    })
+  );
+
+  return results.map((res) =>
+    res.status === "fulfilled" ? res.value : { ...res.reason, fallback: true }
+  );
+}
+
+// 🧠 Fonction Lambda principale
+exports.handler = async () => {
+  try {
+    const baseData = JSON.parse(fs.readFileSync(streamersPath, "utf8"));
+    const token = await getTwitchToken();
+
+    if (!token) throw new Error("Impossible de récupérer le token Twitch");
+
+    const enriched = await enrichStreamers(baseData, token);
+
+    // 💾 Cache des streamers enrichis
+    fs.writeFileSync(cachePath, JSON.stringify(enriched, null, 2));
+    console.log("✅ Données streamers mises à jour");
 
     return {
       statusCode: 200,
-      body: JSON.stringify(enrichedStreamers),
-      headers: {
-        "Content-Type": "application/json",
-      },
+      body: JSON.stringify(enriched),
+      headers: { "Content-Type": "application/json" },
     };
   } catch (err) {
-    console.error("❌ Erreur globale :", err);
-    return {
-      statusCode: 500,
-      body: JSON.stringify({
-        error: "Erreur lors de la récupération des données Twitch",
-      }),
-    };
+    console.error("❌ Erreur principale :", err.message);
+
+    // 🧯 Fallback sur cache précédent
+    try {
+      const cached = JSON.parse(fs.readFileSync(cachePath, "utf8"));
+      console.log("⚠️ Fallback sur cache streamers");
+      return {
+        statusCode: 200,
+        body: JSON.stringify(cached),
+        headers: { "Content-Type": "application/json" },
+      };
+    } catch (cacheErr) {
+      console.error("🚨 Aucun cache valide trouvé :", cacheErr.message);
+      return {
+        statusCode: 500,
+        body: JSON.stringify({
+          error: "Impossible de récupérer les données des streamers",
+        }),
+      };
+    }
   }
 };
