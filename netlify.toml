@@ -2,11 +2,16 @@
   functions = "netlify/functions"
   publish = "build"
 
-[[functions]]
-  name = "twitch"
-  schedule = "*/30 * * * *"
+[functions]
+  # Tu peux ajouter des options ici si besoin (comme des modules externes)
+  # external_node_modules = ["axios"]
 
 [[headers]]
   for = "/.netlify/functions/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Headers = "Content-Type"
+    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
+
+[functions."twitch"]
+  schedule = "*/30 * * * *"
