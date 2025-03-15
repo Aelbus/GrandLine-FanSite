@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "cp -r netlify/data public/data",
+    "prebuild": "cp -r netlify/functions/data public/data",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
