@@ -12,35 +12,22 @@ const Stream = () => {
   useEffect(() => {
     const fetchStreamerData = async () => {
       try {
-        const cacheBuster = new Date().getTime();
-        const url = `/data/streamers_cache.json?nocache=${cacheBuster}`;
+        const timestamp = encodeURIComponent(Date.now());
+        const url = `/data/streamers_cache.json?nocache=${timestamp}`;
 
-        console.log(`📡 Récupération du JSON depuis : ${url}`);
-
+        console.log(`📡 Chargement depuis : ${url}`);
         const res = await fetch(url);
-        if (!res.ok) {
-          throw new Error(`Erreur HTTP: ${res.status}`);
-        }
+
+        if (!res.ok) throw new Error(`Erreur HTTP: ${res.status}`);
 
         const data = await res.json();
-
-        console.log("📦 Données reçues du fichier JSON :", data);
+        console.log("📦 Données reçues :", data);
 
         const streamersArray = Array.isArray(data)
           ? data
           : Array.isArray(data.streamers)
           ? data.streamers
           : [];
-
-        // Vérification si Aelbus est dans les données récupérées
-        const aelbusCheck = streamersArray.find(
-          (streamer) => streamer.username === "Aelbus"
-        );
-        if (aelbusCheck) {
-          console.log("✅ Aelbus est bien dans le JSON !");
-        } else {
-          console.warn("⚠️ Aelbus n'est PAS dans les données récupérées !");
-        }
 
         const tagPriority = {
           "Fondateur - Staff": 1,
@@ -61,7 +48,7 @@ const Stream = () => {
 
         setStreamers(sortedStreamers);
       } catch (error) {
-        console.error("❌ Erreur de parsing ou récupération JSON :", error);
+        console.error("❌ Erreur de récupération des streamers :", error);
       }
     };
 
