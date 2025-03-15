@@ -12,12 +12,12 @@ const Stream = () => {
   useEffect(() => {
     const fetchStreamerData = async () => {
       try {
+        // ✅ Charger depuis le bucket S3 directement
         const timestamp = encodeURIComponent(Date.now());
-        const url = `/data/streamers_cache.json?nocache=${timestamp}`;
+        const s3Url = `https://grandline-streamers-cache.s3.eu-north-1.amazonaws.com/streamers_cache.json?nocache=${timestamp}`;
+        console.log(`📡 Chargement depuis S3 : ${s3Url}`);
 
-        console.log(`📡 Chargement depuis : ${url}`);
-        const res = await fetch(url);
-
+        const res = await fetch(s3Url);
         if (!res.ok) throw new Error(`Erreur HTTP: ${res.status}`);
 
         const data = await res.json();
@@ -95,7 +95,7 @@ const Stream = () => {
         <p className="compteur">
           Nombre de streamers : {filteredStreamers.length}
         </p>
-        <p className="ArcSelect">Selectionne un arc</p>
+        <p className="ArcSelect">Sélectionne un arc</p>
 
         {filteredStreamers.map((streamer, index) => (
           <div key={index} className="card-stream">
