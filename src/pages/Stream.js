@@ -15,6 +15,15 @@ const Stream = () => {
         const res = await fetch("/.netlify/functions/twitch");
         const data = await res.json();
 
+        console.log("📦 Données reçues du backend :", data);
+
+        // Protection : on vérifie que les données sont bien un tableau
+        const streamersArray = Array.isArray(data)
+          ? data
+          : Array.isArray(data.streamers)
+          ? data.streamers
+          : [];
+
         const tagPriority = {
           "Fondateur - Staff": 1,
           Fondateur: 2,
@@ -22,7 +31,7 @@ const Stream = () => {
           Staff: 4,
         };
 
-        const sortedStreamers = [...data].sort((a, b) => {
+        const sortedStreamers = [...streamersArray].sort((a, b) => {
           const tagA = tagPriority[a.tag] || 999;
           const tagB = tagPriority[b.tag] || 999;
 
@@ -36,7 +45,10 @@ const Stream = () => {
 
         setStreamers(sortedStreamers);
       } catch (error) {
-        console.error("Erreur lors de la récupération des streamers :", error);
+        console.error(
+          "❌ Erreur lors de la récupération des streamers :",
+          error
+        );
       }
     };
 
@@ -45,11 +57,11 @@ const Stream = () => {
 
   const filteredStreamers = streamers.filter(
     (streamer) =>
-      streamer.arcs.includes(selectedArc) &&
+      streamer.arcs?.includes(selectedArc) &&
       streamer.display_name &&
       (streamer.display_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        streamer.username.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        (streamer.nomRP[selectedArc] &&
+        streamer.username?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        (streamer.nomRP?.[selectedArc] &&
           streamer.nomRP[selectedArc]
             .toLowerCase()
             .includes(searchTerm.toLowerCase())) ||
@@ -99,7 +111,7 @@ const Stream = () => {
                   </span>
                   <br />
                   <span className="nomrp">
-                    {streamer.nomRP[selectedArc] || "???"}
+                    {streamer.nomRP?.[selectedArc] || "???"}
                   </span>
                   <br />
                   <span className="tag">{streamer.tag || ""}</span>
