@@ -3738,14 +3738,12 @@
     "username": "Aelbus",
     "nomRP": {
       "School": "test",
-      "Survivor": "test1",
       "Pentacle": "test2",
       "FortCarson": "test3",
       "RedDeadRP": "test4"
     },
     "arcs": [
       "School",
-      "Survivor",
       "Pentacle",
       "FortCarson",
       "RedDeadRP"
