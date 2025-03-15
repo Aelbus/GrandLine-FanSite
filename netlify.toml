@@ -2,14 +2,11 @@
   functions = "netlify/functions"
   publish = "build"
 
-[functions]
-  directory = "netlify/functions"
+[[functions]]
+  name = "twitch"
+  schedule = "*/30 * * * *"
 
 [[headers]]
   for = "/.netlify/functions/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-
-[[scheduled]]
-  path = "/.netlify/functions/twitch"
-  schedule = "*/30 * * * *" # 
