@@ -5,45 +5,41 @@ const path = require("path");
 const clientId = process.env.TWITCH_CLIENT_ID;
 const clientSecret = process.env.TWITCH_CLIENT_SECRET;
 
-// 🔍 Affichage des chemins pour debug
-console.log("📂 __dirname =", __dirname);
-
 const streamersPath = path.join(__dirname, "data/streamers.json");
 const cachePath = path.join(__dirname, "data/streamers_cache.json");
 const tokenCachePath = path.join(__dirname, "data/.twitch_token.json");
 
-console.log("📄 streamersPath:", streamersPath);
-console.log("📄 cachePath:", cachePath);
-console.log("📄 tokenCachePath:", tokenCachePath);
-
-// 🔄 Lire un token mis en cache
+// 📦 Lire le token s'il est encore valide
 function readCachedToken() {
   try {
     const raw = fs.readFileSync(tokenCachePath, "utf8");
     const { token, expires_at } = JSON.parse(raw);
+
     if (Date.now() < expires_at) {
-      console.log("✅ Token récupéré depuis le cache");
       return token;
+    } else {
+      console.log("⏳ Token expiré");
+      return null;
     }
-    console.log("⏳ Token expiré");
-    return null;
-  } catch (e) {
-    console.log("📭 Aucun token en cache");
+  } catch {
     return null;
   }
 }
 
-// 💾 Stocker un nouveau token
+// 💾 Sauvegarder un nouveau token avec sa date d’expiration
 function cacheToken(token, expiresInSeconds) {
   const expires_at = Date.now() + expiresInSeconds * 1000 - 60000;
   const data = { token, expires_at };
   fs.writeFileSync(tokenCachePath, JSON.stringify(data));
 }
 
-// 🔑 Récupérer un token Twitch
+// 🔑 Récupérer un token depuis Twitch ou le cache
 async function getTwitchToken() {
   const cached = readCachedToken();
-  if (cached) return cached;
+  if (cached) {
+    console.log("✅ Token récupéré depuis le cache");
+    return cached;
+  }
 
   try {
     const res = await axios.post("https://id.twitch.tv/oauth2/token", null, {
@@ -53,18 +49,20 @@ async function getTwitchToken() {
         grant_type: "client_credentials",
       },
     });
+
     const token = res.data.access_token;
     const expiresIn = res.data.expires_in;
+
     cacheToken(token, expiresIn);
-    console.log("🔐 Nouveau token stocké");
+    console.log("🔐 Nouveau token Twitch stocké");
     return token;
   } catch (err) {
-    console.error("❌ Erreur récupération token:", err.response?.data || err);
+    console.error("❌ Erreur récupération token :", err.response?.data || err);
     return null;
   }
 }
 
-// 📦 Enrichir les données Twitch
+// 🚀 Enrichir les données
 async function enrichStreamers(streamers, token) {
   const results = await Promise.allSettled(
     streamers.map(async (streamer) => {
@@ -97,20 +95,18 @@ async function enrichStreamers(streamers, token) {
   );
 }
 
-// ✅ Fonction Lambda principale
+// 🧠 Fonction Lambda principale
 exports.handler = async () => {
   try {
-    console.log("📚 Lecture du fichier source...");
     const baseData = JSON.parse(fs.readFileSync(streamersPath, "utf8"));
-
     const token = await getTwitchToken();
+
     if (!token) throw new Error("Impossible de récupérer le token Twitch");
 
-    console.log("🚀 Enrichissement des streamers...");
     const enriched = await enrichStreamers(baseData, token);
 
     fs.writeFileSync(cachePath, JSON.stringify(enriched, null, 2));
-    console.log("✅ Données streamers enrichies et sauvegardées");
+    console.log("✅ Données streamers mises à jour");
 
     return {
       statusCode: 200,
@@ -118,21 +114,18 @@ exports.handler = async () => {
       headers: { "Content-Type": "application/json" },
     };
   } catch (err) {
-    console.error("❌ Erreur principale:", err.message);
+    console.error("❌ Erreur principale :", err.message);
 
-    // 🔁 Lecture du cache
     try {
-      console.log("⚠️ Lecture du cache de secours...");
       const cached = JSON.parse(fs.readFileSync(cachePath, "utf8"));
-      console.log("✅ Données de secours servies depuis le cache");
-
+      console.log("⚠️ Fallback sur cache streamers");
       return {
         statusCode: 200,
         body: JSON.stringify(cached),
         headers: { "Content-Type": "application/json" },
       };
     } catch (cacheErr) {
-      console.error("🚨 Aucun cache de secours:", cacheErr.message);
+      console.error("🚨 Aucun cache valide trouvé :", cacheErr.message);
       return {
         statusCode: 500,
         body: JSON.stringify({
