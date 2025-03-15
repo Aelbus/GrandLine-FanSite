@@ -22,7 +22,6 @@
 .env.production.local
 .env
 netlify/data/.twitch_token.json
-netlify/data/streamers_cache.json
 
 npm-debug.log*
 yarn-debug.log*
