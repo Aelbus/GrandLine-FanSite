@@ -8,9 +8,9 @@ const clientSecret = process.env.TWITCH_CLIENT_SECRET;
 // 🔍 Affichage des chemins pour debug
 console.log("📂 __dirname =", __dirname);
 
-const streamersPath = path.join(__dirname, "../data/streamers.json");
-const cachePath = path.join(__dirname, "../data/streamers_cache.json");
-const tokenCachePath = path.join(__dirname, "../data/.twitch_token.json");
+const streamersPath = path.join(__dirname, "data/streamers.json");
+const cachePath = path.join(__dirname, "data/streamers_cache.json");
+const tokenCachePath = path.join(__dirname, "data/.twitch_token.json");
 
 console.log("📄 streamersPath:", streamersPath);
 console.log("📄 cachePath:", cachePath);
