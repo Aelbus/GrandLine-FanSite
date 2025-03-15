@@ -22,8 +22,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "shx mkdir -p public/data && shx cp netlify/functions/data/streamers_cache.json public/data/",
+    "prebuild": "node scripts/download-cache.js",
     "build": "react-scripts build",
+    "maj": "node scripts/maj-streamers.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sass": "sass --watch ./src/sass:./src/styles"
