@@ -1,34 +1,27 @@
-// scripts/maj.js
 require("dotenv").config();
-const AWS = require("aws-sdk");
 const fs = require("fs");
 const path = require("path");
-const { execSync } = require("child_process");
 const axios = require("axios");
+const AWS = require("aws-sdk");
+const { execSync } = require("child_process");
 
-// 📍 Chemins
-const streamersPath = path.join(
-  __dirname,
-  "../netlify/functions/data/streamers.json"
-);
-const publicCachePath = path.join(
-  __dirname,
-  "../public/data/streamers_cache.json"
-);
-
-// 🌍 Twitch API
 const clientId = process.env.TWITCH_CLIENT_ID;
 const clientSecret = process.env.TWITCH_CLIENT_SECRET;
+const region = process.env.NETLIFY_AWS_REGION;
+const bucketName = process.env.NETLIFY_AWS_BUCKET;
 
-// 📦 Lecture JSON
-const readJSON = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
+const BATCH_SIZE = 30;
+const BATCH_DELAY = parseInt(process.env.TWITCH_BATCH_DELAY_MS) || 30000;
 
-// 🔍 Comparaison simple (peut être améliorée si besoin)
-function deepCompare(a, b) {
-  return JSON.stringify(a) === JSON.stringify(b);
-}
+const s3 = new AWS.S3({
+  accessKeyId: process.env.NETLIFY_AWS_ACCESS_KEY,
+  secretAccessKey: process.env.NETLIFY_AWS_SECRET_KEY,
+  region,
+});
 
-// 🔑 Token Twitch
+const localStreamersPath = path.join("netlify/functions/data/streamers.json");
+const cachePath = path.join("public/data/streamers_cache.json");
+
 async function getTwitchToken() {
   const res = await axios.post("https://id.twitch.tv/oauth2/token", null, {
     params: {
@@ -40,81 +33,103 @@ async function getTwitchToken() {
   return res.data.access_token;
 }
 
-// 📡 Fetch données Twitch par lot de 30
-async function enrichStreamers(streamers, token) {
-  const usernames = streamers.map((s) => s.username);
-  const enriched = [];
-
-  for (let i = 0; i < usernames.length; i += 30) {
-    const batch = usernames.slice(i, i + 30);
-    const res = await axios.get("https://api.twitch.tv/helix/users", {
+async function fetchTwitchData(usernames, token) {
+  const loginParams = usernames.map((u) => `login=${u}`).join("&");
+  const res = await axios.get(
+    `https://api.twitch.tv/helix/users?${loginParams}`,
+    {
       headers: {
         "Client-ID": clientId,
         Authorization: `Bearer ${token}`,
       },
-      params: { login: batch },
-    });
-
-    const twitchData = res.data.data;
-
-    batch.forEach((username) => {
-      const twitchInfo = twitchData.find(
-        (u) => u.login.toLowerCase() === username.toLowerCase()
-      );
-      const base = streamers.find(
-        (s) => s.username.toLowerCase() === username.toLowerCase()
-      );
-
-      enriched.push({
-        ...base,
-        display_name: twitchInfo?.display_name || base.username,
-        profile_image_url: twitchInfo?.profile_image_url || null,
-      });
-    });
-
-    // ⏱️ Attente entre les appels si trop long
-    if (i + 30 < usernames.length) {
-      console.log(`⏳ Attente 30s...`);
-      await new Promise((resolve) => setTimeout(resolve, 30000));
     }
-  }
+  );
+  return res.data.data;
+}
 
-  return enriched;
+function formatStreamers(rawStreamers, twitchUsers) {
+  return rawStreamers.map((s) => {
+    const twitch = twitchUsers.find(
+      (t) => t.login.toLowerCase() === s.username.toLowerCase()
+    );
+    return twitch
+      ? {
+          ...s,
+          display_name: twitch.display_name,
+          profile_image_url: twitch.profile_image_url,
+        }
+      : s;
+  });
+}
+
+function compareStreamers(newData, oldData) {
+  const oldMap = new Map(oldData.map((s) => [s.username.toLowerCase(), s]));
+  const newMap = new Map(newData.map((s) => [s.username.toLowerCase(), s]));
+
+  const added = [...newMap.keys()].filter((k) => !oldMap.has(k));
+  const removed = [...oldMap.keys()].filter((k) => !newMap.has(k));
+
+  const modified = [...newMap.keys()].filter(
+    (k) =>
+      oldMap.has(k) &&
+      JSON.stringify(newMap.get(k)) !== JSON.stringify(oldMap.get(k))
+  );
+
+  return {
+    added: added.map((k) => newMap.get(k).username),
+    removed: removed.map((k) => oldMap.get(k).username),
+    modified: modified.map((k) => newMap.get(k).username),
+  };
 }
 
 (async () => {
+  console.log("📖 Lecture des streamers...");
+
+  const rawStreamers = JSON.parse(fs.readFileSync(localStreamersPath, "utf8"));
+  let oldCache = [];
   try {
-    console.log("📖 Lecture des streamers...");
-    const localStreamers = readJSON(streamersPath);
-
-    let currentCache = [];
-    if (fs.existsSync(publicCachePath)) {
-      currentCache = readJSON(publicCachePath);
-    }
-
-    const token = await getTwitchToken();
-    const enriched = await enrichStreamers(localStreamers, token);
-
-    if (deepCompare(enriched, currentCache)) {
-      console.log("✅ Aucune modification détectée. Pas de build nécessaire.");
-      return;
-    }
-
-    console.log("📝 Mise à jour de streamers_cache.json...");
-    fs.writeFileSync(publicCachePath, JSON.stringify(enriched, null, 2));
-
-    console.log("🏗️ Build du site...");
-    execSync("npm run build", { stdio: "inherit" });
-
-    console.log("🚀 Commit & push Git...");
-    execSync("git add .", { stdio: "inherit" });
-    execSync(`git commit -m "🆕 Mise à jour streamers_cache.json [auto]"`, {
-      stdio: "inherit",
-    });
-    execSync("git push origin main", { stdio: "inherit" });
-
-    console.log("✅ Terminé avec succès !");
-  } catch (err) {
-    console.error("❌ Erreur pendant le process :", err.message);
+    oldCache = JSON.parse(fs.readFileSync(cachePath, "utf8"));
+  } catch {
+    console.warn("⚠️ Aucun cache local précédent.");
   }
+
+  const token = await getTwitchToken();
+  let enriched = [];
+
+  for (let i = 0; i < rawStreamers.length; i += BATCH_SIZE) {
+    const batch = rawStreamers.slice(i, i + BATCH_SIZE);
+    const twitchUsers = await fetchTwitchData(
+      batch.map((s) => s.username),
+      token
+    );
+    enriched.push(...formatStreamers(batch, twitchUsers));
+
+    if (i + BATCH_SIZE < rawStreamers.length) {
+      console.log(`⏳ Attente ${BATCH_DELAY / 1000}s...`);
+      await new Promise((res) => setTimeout(res, BATCH_DELAY));
+    }
+  }
+
+  const changes = compareStreamers(enriched, oldCache);
+
+  console.log("\n📊 Résumé des changements :");
+  console.log(`🟢 Ajoutés : ${changes.added.join(", ") || "Aucun"}`);
+  console.log(`🟡 Modifiés : ${changes.modified.join(", ") || "Aucun"}`);
+  console.log(`🔴 Supprimés : ${changes.removed.join(", ") || "Aucun"}`);
+
+  fs.writeFileSync(cachePath, JSON.stringify(enriched, null, 2));
+  console.log("📝 Mise à jour de streamers_cache.json...");
+
+  console.log("🏗️ Build du site...");
+  execSync("npm run build", { stdio: "inherit" });
+
+  console.log("🚀 Commit & push Git...");
+  execSync(
+    'git add . && git commit -m "🆕 Mise à jour streamers_cache.json [auto]" && git push',
+    {
+      stdio: "inherit",
+    }
+  );
+
+  console.log("✅ Terminé avec succès !");
 })();
