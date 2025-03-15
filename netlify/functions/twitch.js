@@ -2,12 +2,14 @@ const AWS = require("aws-sdk");
 const axios = require("axios");
 const fs = require("fs");
 
+// Initialisation AWS S3
 const s3 = new AWS.S3({
   accessKeyId: process.env.NETLIFY_AWS_ACCESS_KEY,
   secretAccessKey: process.env.NETLIFY_AWS_SECRET_KEY,
   region: process.env.NETLIFY_AWS_REGION,
 });
 const bucketName = process.env.NETLIFY_AWS_BUCKET;
+const tokenCachePath = "/tmp/twitch_token.json"; // Emplacement du cache temporaire du token
 
 const clientId = process.env.TWITCH_CLIENT_ID;
 const clientSecret = process.env.TWITCH_CLIENT_SECRET;
@@ -15,37 +17,46 @@ const clientSecret = process.env.TWITCH_CLIENT_SECRET;
 // 📦 Lire le token s'il est encore valide
 function readCachedToken() {
   try {
-    const raw = fs.readFileSync("/tmp/twitch_token.json", "utf8");
+    if (!fs.existsSync(tokenCachePath)) {
+      console.log("📭 Aucun token en cache.");
+      return null;
+    }
+
+    const raw = fs.readFileSync(tokenCachePath, "utf8");
     const { token, expires_at } = JSON.parse(raw);
 
     if (Date.now() < expires_at) {
+      console.log("✅ Token récupéré depuis le cache.");
       return token;
     } else {
-      console.log("⏳ Token expiré");
+      console.log("⏳ Token expiré.");
       return null;
     }
-  } catch {
-    console.log("📭 Aucun token en cache");
+  } catch (err) {
+    console.error("❌ Erreur de lecture du cache token :", err.message);
     return null;
   }
 }
 
 // 💾 Sauvegarder un nouveau token avec sa date d’expiration
 function cacheToken(token, expiresInSeconds) {
-  const expires_at = Date.now() + expiresInSeconds * 1000 - 60000;
-  const data = { token, expires_at };
-  fs.writeFileSync("/tmp/twitch_token.json", JSON.stringify(data));
+  try {
+    const expires_at = Date.now() + expiresInSeconds * 1000 - 60000;
+    const data = { token, expires_at };
+    fs.writeFileSync(tokenCachePath, JSON.stringify(data));
+    console.log("📝 Token stocké dans /tmp.");
+  } catch (err) {
+    console.error("❌ Erreur écriture token :", err.message);
+  }
 }
 
 // 🔑 Récupérer un token depuis Twitch ou le cache
 async function getTwitchToken() {
   const cached = readCachedToken();
-  if (cached) {
-    console.log("✅ Token récupéré depuis le cache");
-    return cached;
-  }
+  if (cached) return cached;
 
   try {
+    console.log("🔑 Récupération du token Twitch...");
     const res = await axios.post("https://id.twitch.tv/oauth2/token", null, {
       params: {
         client_id: clientId,
@@ -54,20 +65,22 @@ async function getTwitchToken() {
       },
     });
 
-    const token = res.data.access_token;
-    const expiresIn = res.data.expires_in;
-
-    cacheToken(token, expiresIn);
-    console.log("🔐 Nouveau token Twitch stocké");
-    return token;
+    cacheToken(res.data.access_token, res.data.expires_in);
+    console.log("✅ Nouveau token Twitch stocké !");
+    return res.data.access_token;
   } catch (err) {
-    console.error("❌ Erreur récupération token :", err.response?.data || err);
-    return null;
+    console.error(
+      "❌ Erreur récupération token Twitch :",
+      err.response?.data || err.message
+    );
+    throw new Error("Impossible de récupérer le token Twitch.");
   }
 }
 
-// 🚀 Enrichir les données
+// 🚀 Enrichir les streamers avec leurs infos Twitch
 async function enrichStreamers(streamers, token) {
+  console.log("🚀 Enrichissement des streamers en cours...");
+
   const results = await Promise.allSettled(
     streamers.map(async (streamer) => {
       try {
@@ -80,6 +93,7 @@ async function enrichStreamers(streamers, token) {
             },
           }
         );
+
         const user = res.data.data[0];
         return user
           ? {
@@ -88,12 +102,17 @@ async function enrichStreamers(streamers, token) {
               profile_image_url: user.profile_image_url,
             }
           : streamer;
-      } catch {
+      } catch (error) {
+        console.error(
+          `⚠️ Erreur enrichissement pour ${streamer.username}:`,
+          error.message
+        );
         return streamer;
       }
     })
   );
 
+  console.log("✅ Enrichissement terminé !");
   return results.map((res) =>
     res.status === "fulfilled" ? res.value : { ...res.reason, fallback: true }
   );
@@ -102,20 +121,27 @@ async function enrichStreamers(streamers, token) {
 // 🧠 Fonction Lambda principale
 exports.handler = async () => {
   try {
-    // 🛠️ 1. Récupérer les données des streamers depuis S3
+    console.log("📚 Récupération des streamers depuis S3...");
+
+    // 📂 1. Récupérer `streamers.json` depuis S3
     const streamersData = await s3
       .getObject({ Bucket: bucketName, Key: "streamers.json" })
       .promise()
-      .then((data) => JSON.parse(data.Body.toString()));
+      .then((data) => JSON.parse(data.Body.toString()))
+      .catch((err) => {
+        console.error("❌ Erreur récupération streamers.json :", err.message);
+        throw new Error("Erreur lecture des streamers depuis S3.");
+      });
 
     // 🔑 2. Récupérer un token Twitch
     const token = await getTwitchToken();
-    if (!token) throw new Error("Impossible de récupérer le token Twitch");
 
-    // 🌟 3. Enrichir les streamers avec leurs données Twitch
+    // 🌟 3. Enrichir les streamers
     const enrichedStreamers = await enrichStreamers(streamersData, token);
+    if (!enrichedStreamers.length)
+      throw new Error("Données enrichies invalides.");
 
-    // 🪣 4. Enregistrer les données enrichies dans le cache S3
+    // 🪣 4. Sauvegarde dans S3 (`streamers_cache.json`)
     await s3
       .putObject({
         Bucket: bucketName,
@@ -123,9 +149,12 @@ exports.handler = async () => {
         Body: JSON.stringify(enrichedStreamers, null, 2),
         ContentType: "application/json",
       })
-      .promise();
-
-    console.log("✅ Données streamers mises à jour");
+      .promise()
+      .then(() => console.log("✅ Données streamers mises à jour dans S3."))
+      .catch((err) => {
+        console.error("❌ Erreur sauvegarde S3 :", err.message);
+        throw new Error("Erreur écriture du cache des streamers.");
+      });
 
     return {
       statusCode: 200,
@@ -134,11 +163,10 @@ exports.handler = async () => {
     };
   } catch (err) {
     console.error("❌ Erreur principale :", err.message);
-
     return {
       statusCode: 500,
       body: JSON.stringify({
-        error: "Impossible de récupérer les données des streamers",
+        error: "Impossible de récupérer les données des streamers.",
       }),
     };
   }
