@@ -12,4 +12,4 @@
 
 [[scheduled]]
   path = "/.netlify/functions/twitch"
-  schedule = "*/30 * * * *" # Toutes les 30 minutes
+  schedule = "*/30 * * * *" # 
