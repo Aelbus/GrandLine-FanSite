@@ -9,13 +9,7 @@
       "RedDeadRP": ""
     },
     "tag": "Fondateur - Staff",
-    "arcs": [
-      "School",
-      "Survivor",
-      "Pentacle",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["School", "Survivor", "Pentacle", "FortCarson", "RedDeadRP"],
     "display_name": "LolyPokicake",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9b4cd801-97f5-4c73-9e1c-8dc6e1c490bf-profile_image-300x300.png"
   },
@@ -29,13 +23,7 @@
       "RedDeadRP": ""
     },
     "tag": "Dev - Staff",
-    "arcs": [
-      "School",
-      "Survivor",
-      "Pentacle",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["School", "Survivor", "Pentacle", "FortCarson", "RedDeadRP"],
     "display_name": "PichotM",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a5f429b1-9276-4bf5-882c-98584b51df5d-profile_image-300x300.png"
   },
@@ -49,13 +37,7 @@
       "RedDeadRP": ""
     },
     "tag": "Fondateur",
-    "arcs": [
-      "School",
-      "Survivor",
-      "Pentacle",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["School", "Survivor", "Pentacle", "FortCarson", "RedDeadRP"],
     "display_name": "aminematue",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-300x300.png"
   },
@@ -68,12 +50,7 @@
       "RedDeadRP": ""
     },
     "tag": "Staff",
-    "arcs": [
-      "School",
-      "FortCarson",
-      "Survivor",
-      "RedDeadRP"
-    ],
+    "arcs": ["School", "FortCarson", "Survivor", "RedDeadRP"],
     "display_name": "iProMx",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d933b0c4-f8f6-4c77-a19a-1311e960faa1-profile_image-300x300.jpeg"
   },
@@ -86,12 +63,7 @@
       "RedDeadRP": ""
     },
     "tag": "Staff",
-    "arcs": [
-      "Pentacle",
-      "Survivor",
-      "School",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "Survivor", "School", "RedDeadRP"],
     "display_name": "Dorelium",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e0d59f71-bab4-4d61-849b-2d09076785fb-profile_image-300x300.png"
   },
@@ -105,13 +77,7 @@
       "RedDeadRP": "Silas Emerald"
     },
     "tag": "Staff",
-    "arcs": [
-      "Pentacle",
-      "Survivor",
-      "School",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "Survivor", "School", "FortCarson", "RedDeadRP"],
     "display_name": "MaLaRiaTV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b8872a93-1723-4a5f-8cc8-4b4c7d168b33-profile_image-300x300.jpg"
   },
@@ -123,11 +89,7 @@
       "RedDeadRP": ""
     },
     "tag": "Staff",
-    "arcs": [
-      "Pentacle",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "FortCarson", "RedDeadRP"],
     "display_name": "3DENZ",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b2e5d0fd-6117-48b2-88d2-79a6687c1a2d-profile_image-300x300.png"
   },
@@ -140,12 +102,7 @@
       "RedDeadRP": ""
     },
     "tag": "Staff",
-    "arcs": [
-      "Pentacle",
-      "School",
-      "Survivor",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "School", "Survivor", "RedDeadRP"],
     "display_name": "ZeAaron_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9d1e1ea2-ca5b-445e-98f5-143246b35c00-profile_image-300x300.png"
   },
@@ -158,13 +115,7 @@
       "FortCarson": "Dylan BROOKS"
     },
     "tag": "Staff",
-    "arcs": [
-      "Pentacle",
-      "Survivor",
-      "School",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "Survivor", "School", "FortCarson", "RedDeadRP"],
     "display_name": "postbadon",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4ed0cde5-62c1-402b-86ba-83f1ee8d68fe-profile_image-300x300.png"
   },
@@ -177,13 +128,7 @@
       "Survivor": "🔴Kiara HANET",
       "RedDeadRP": ""
     },
-    "arcs": [
-      "Pentacle",
-      "School",
-      "Survivor",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "School", "Survivor", "FortCarson", "RedDeadRP"],
     "display_name": "Shreik_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b3891781-4e44-4310-a3e8-856192111fd8-profile_image-300x300.png"
   },
@@ -193,9 +138,7 @@
       "RedDeadRP": ""
     },
     "tag": "Staff",
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "ZhuLii_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b24ecaf0-061d-4878-8de3-cf68c4067e05-profile_image-300x300.png"
   },
@@ -205,9 +148,7 @@
       "RedDeadRP": ""
     },
     "tag": "Staff",
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "chunly91",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e19a9638-eae3-41ca-a4f7-b8061df35166-profile_image-300x300.png"
   },
@@ -216,9 +157,7 @@
     "nomRP": {
       "Pentacle": "Mikey"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "hassvnz",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a725eadc-6e9f-4217-af69-20c9e64b0bc3-profile_image-300x300.png"
   },
@@ -231,12 +170,7 @@
       "FortCarson": "Nelson POWELL"
     },
     "tag": "Staff",
-    "arcs": [
-      "Pentacle",
-      "School",
-      "FortCarson",
-      "Survivor"
-    ],
+    "arcs": ["Pentacle", "School", "FortCarson", "Survivor"],
     "display_name": "Zipperr",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e4814356-8283-44fc-8a60-57b50788d704-profile_image-300x300.png"
   },
@@ -248,11 +182,7 @@
       "RedDeadRP": ""
     },
     "tag": "Staff",
-    "arcs": [
-      "Pentacle",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "FortCarson", "RedDeadRP"],
     "display_name": "Hyenaa",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/68c22065-335e-4776-ad53-95bdbc60870b-profile_image-300x300.png"
   },
@@ -264,11 +194,7 @@
       "RedDeadRP": ""
     },
     "tag": "Staff",
-    "arcs": [
-      "Pentacle",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "FortCarson", "RedDeadRP"],
     "display_name": "Aimebap",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6358c91e-3d28-4bba-b2fa-d460bc6ecdb5-profile_image-300x300.png"
   },
@@ -278,9 +204,7 @@
       "RedDeadRP": ""
     },
     "tag": "Staff",
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "DVR__",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cc56ae64-05ec-49c9-864e-0eafbbd75eb8-profile_image-300x300.png"
   },
@@ -290,9 +214,7 @@
       "Pentacle": "Arsene & Melton"
     },
     "tag": "Weazel News",
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "KlearRadio",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d0d86c4a-8200-41db-a63f-a359e04aef5e-profile_image-300x300.png"
   },
@@ -302,9 +224,7 @@
       "FortCarson": "RAVI"
     },
     "tag": "Weazel News",
-    "arcs": [
-      "FortCarson"
-    ],
+    "arcs": ["FortCarson"],
     "display_name": "RayouLivee",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3bc37eeb-7be2-4d7c-9fc6-13046d76ce1c-profile_image-300x300.png"
   },
@@ -314,10 +234,7 @@
       "School": "Amid SEFIO",
       "Survivor": "🟡Jax SOMBRERO"
     },
-    "arcs": [
-      "School",
-      "Survivor"
-    ],
+    "arcs": ["School", "Survivor"],
     "display_name": "RebeuDeter",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b0942318-9297-444b-94dc-cf3f34cd2f7b-profile_image-300x300.png"
   },
@@ -328,11 +245,7 @@
       "FortCarson": " Calleb COLBY",
       "Survivor": "🟡Habib OCHE"
     },
-    "arcs": [
-      "School",
-      "FortCarson",
-      "Survivor"
-    ],
+    "arcs": ["School", "FortCarson", "Survivor"],
     "display_name": "Kamet0",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9e12862d-a8d0-4df2-81aa-e2241022dc98-profile_image-300x300.jpg"
   },
@@ -341,9 +254,7 @@
     "nomRP": {
       "RedDeadRP": "Bob WESTWOOD"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Squeezie",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1939615e-a34d-4fab-a035-8c3d8ffae278-profile_image-300x300.png"
   },
@@ -352,9 +263,7 @@
     "nomRP": {
       "RedDeadRP": ""
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "PRINCE__OFF",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ef88468a-ccf6-449f-8e11-9e17e166971a-profile_image-300x300.png"
   },
@@ -365,11 +274,7 @@
       "Survivor": "🔴Ousmane DEMBELE",
       "RedDeadRP": ""
     },
-    "arcs": [
-      "School",
-      "Survivor",
-      "RedDeadRP"
-    ],
+    "arcs": ["School", "Survivor", "RedDeadRP"],
     "display_name": "Inoxtag",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/67eedbf5-7eee-46c4-82e5-dc1765136d76-profile_image-300x300.png"
   },
@@ -381,12 +286,7 @@
       "Survivor": "🟡Buddy RAY",
       "RedDeadRP": ""
     },
-    "arcs": [
-      "School",
-      "FortCarson",
-      "Survivor",
-      "RedDeadRP"
-    ],
+    "arcs": ["School", "FortCarson", "Survivor", "RedDeadRP"],
     "display_name": "Nateos",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f4e0d1ce-521c-4726-b426-ba0f2aaf27eb-profile_image-300x300.png"
   },
@@ -397,11 +297,7 @@
       "FortCarson": "Marlo MASON",
       "RedDeadRP": "John INGLEWOOD"
     },
-    "arcs": [
-      "School",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["School", "FortCarson", "RedDeadRP"],
     "display_name": "Minos",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/41f65eb9-8826-4376-b3b4-574be1153412-profile_image-300x300.png"
   },
@@ -410,9 +306,7 @@
     "nomRP": {
       "RedDeadRP": "Cletus REED"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "HamzaKerdaloco",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d07bcd42-4a31-4a1f-b431-f2ae8ab24610-profile_image-300x300.png"
   },
@@ -421,9 +315,7 @@
     "nomRP": {
       "School": "Bachir LEBDIRI"
     },
-    "arcs": [
-      "School"
-    ],
+    "arcs": ["School"],
     "display_name": "Farees",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e8741e42-bc43-4475-bd5f-3e7dc59f1cdc-profile_image-300x300.png"
   },
@@ -432,9 +324,7 @@
     "nomRP": {
       "FortCarson": "Andrew WILLIAMS"
     },
-    "arcs": [
-      "FortCarson"
-    ],
+    "arcs": ["FortCarson"],
     "display_name": "Anyme023",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/17ef7a09-3473-4ff8-85ca-e6648d392116-profile_image-300x300.png"
   },
@@ -444,10 +334,7 @@
       "FortCarson": "Lana WILLIAMS",
       "RedDeadRP": "Gladysse QUARRANEAU"
     },
-    "arcs": [
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["FortCarson", "RedDeadRP"],
     "display_name": "Mulann92",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d39e46f8-7e73-4826-8064-818aacd745c9-profile_image-300x300.jpeg"
   },
@@ -458,11 +345,7 @@
       "FortCarson": "Benjamin SIMPSON",
       "RedDeadRP": "Frank QUARRANEAU"
     },
-    "arcs": [
-      "School",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["School", "FortCarson", "RedDeadRP"],
     "display_name": "MrBboy45",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b47c1dc9-27cb-4ef8-8f48-26eb6bdd1d46-profile_image-300x300.png"
   },
@@ -471,9 +354,7 @@
     "nomRP": {
       "Survivor": "🟡Douglas MENPHIS"
     },
-    "arcs": [
-      "Survivor"
-    ],
+    "arcs": ["Survivor"],
     "display_name": "Grimkujow",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/afbf58f0-b2ef-49d6-b504-d2639de41a77-profile_image-300x300.png"
   },
@@ -482,9 +363,7 @@
     "nomRP": {
       "School": "Bobby JUNIOR"
     },
-    "arcs": [
-      "School"
-    ],
+    "arcs": ["School"],
     "display_name": "Michou",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f2357d19-50cf-4b35-9e11-792d638c75c8-profile_image-300x300.png"
   },
@@ -493,9 +372,7 @@
     "nomRP": {
       "RedDeadRP": "Selene HELLMAN"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "AVAMind",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7611726d-3398-4231-8a33-cae5c0edad15-profile_image-300x300.png"
   },
@@ -504,9 +381,7 @@
     "nomRP": {
       "RedDeadRP": "Eugene HELLMAN"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Scok",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7e602df2f2647b96-profile_image-300x300.png"
   },
@@ -516,10 +391,7 @@
       "School": "Francis LALENE",
       "Survivor": "🔴Patrick BRUNEL"
     },
-    "arcs": [
-      "School",
-      "Survivor"
-    ],
+    "arcs": ["School", "Survivor"],
     "display_name": "LeBouseuh",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9a6e58e5-2da6-47e4-a4ce-eb91a0d1572d-profile_image-300x300.png"
   },
@@ -530,11 +402,7 @@
       "School": "John SOURDOUGH",
       "Survivor": "🟡Jack SPARDOUGH"
     },
-    "arcs": [
-      "Pentacle",
-      "School",
-      "Survivor"
-    ],
+    "arcs": ["Pentacle", "School", "Survivor"],
     "display_name": "MasterSnakou",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d19c5097-bf78-4368-9fdc-d29abd0e75d2-profile_image-300x300.png"
   },
@@ -545,11 +413,7 @@
       "FortCarson": "Fidji LAZARE",
       "RedDeadRP": ""
     },
-    "arcs": [
-      "Pentacle",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "FortCarson", "RedDeadRP"],
     "display_name": "Tatiana_TV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/41f282b9-69df-49ff-8b63-6ff9d422bb5b-profile_image-300x300.png"
   },
@@ -559,10 +423,7 @@
       "FortCarson": "Louisa LAZARE",
       "RedDeadRP": "Suzan SMITH"
     },
-    "arcs": [
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["FortCarson", "RedDeadRP"],
     "display_name": "idkbutimleila",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5c5b4274-2d83-437a-acad-61c322434b7f-profile_image-300x300.png"
   },
@@ -572,10 +433,7 @@
       "FortCarson": "Brook DAWSON",
       "RedDeadRP": "Séraphine SORNA"
     },
-    "arcs": [
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["FortCarson", "RedDeadRP"],
     "display_name": "manouyee",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/323f402e-1797-4c9b-a6a4-34124e99f224-profile_image-300x300.png"
   },
@@ -585,10 +443,7 @@
       "Pentacle": "Connor FORBES",
       "RedDeadRP": " Silas CROWLEY"
     },
-    "arcs": [
-      "Pentacle",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "RedDeadRP"],
     "display_name": "Elbwa78",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/869446a6-8b36-4e99-871e-c126d034d4d7-profile_image-300x300.png"
   },
@@ -597,9 +452,7 @@
     "nomRP": {
       "Survivor": "🔴Pierre CARRE"
     },
-    "arcs": [
-      "Survivor"
-    ],
+    "arcs": ["Survivor"],
     "display_name": "Skyyart",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f5287d16-d2c8-4a82-ad68-d621415d43f2-profile_image-300x300.png"
   },
@@ -608,9 +461,7 @@
     "nomRP": {
       "Survivor": "🔴Richard PASTEL"
     },
-    "arcs": [
-      "Survivor"
-    ],
+    "arcs": ["Survivor"],
     "display_name": "Terracid",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/terracid-profile_image-d0b3a49fe9db5777-300x300.jpeg"
   },
@@ -619,9 +470,7 @@
     "nomRP": {
       "Survivor": "🔴Jacques BOULON"
     },
-    "arcs": [
-      "Survivor"
-    ],
+    "arcs": ["Survivor"],
     "display_name": "Laink",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51519e66-e6a1-426a-84f6-d57497076544-profile_image-300x300.png"
   },
@@ -634,13 +483,7 @@
       "FortCarson": "Chiara BELLADONNA",
       "RedDeadRP": " Noah ADLER"
     },
-    "arcs": [
-      "Pentacle",
-      "School",
-      "Survivor",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "School", "Survivor", "FortCarson", "RedDeadRP"],
     "display_name": "HeavenFox",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d61a7f17-8d0c-46a7-96e4-8782bc4c3e7c-profile_image-300x300.png"
   },
@@ -651,11 +494,7 @@
       "FortCarson": "Brenda POWELL",
       "RedDeadRP": "Ellie WHITEMORE"
     },
-    "arcs": [
-      "School",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["School", "FortCarson", "RedDeadRP"],
     "display_name": "MlleHailey",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8645039f-cf5f-45b7-9afe-b995d13ec1c3-profile_image-300x300.png"
   },
@@ -666,11 +505,7 @@
       "FortCarson": "Lexie DAWSON",
       "RedDeadRP": "Amara LAKATOS"
     },
-    "arcs": [
-      "Pentacle",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "FortCarson", "RedDeadRP"],
     "display_name": "chach0u__",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/88e61651-c7fd-4e93-8f98-3dfb44d76317-profile_image-300x300.png"
   },
@@ -679,9 +514,7 @@
     "nomRP": {
       "Pentacle": "David FORBES"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "REDMAFIA_TV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4d87071f-d743-498d-84b7-ef8e76cbe36a-profile_image-300x300.png"
   },
@@ -692,11 +525,7 @@
       "FortCarson": " Elena DAWSON",
       "RedDeadRP": "Grâce WATSON"
     },
-    "arcs": [
-      "Pentacle",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "FortCarson", "RedDeadRP"],
     "display_name": "Darcy_trix",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6b14c9a5-ffba-440c-a567-54a1cbcda7cf-profile_image-300x300.png"
   },
@@ -708,12 +537,7 @@
       "Survivor": "🔴Alba NANA",
       "RedDeadRP": "Edith De ROSIERE"
     },
-    "arcs": [
-      "Pentacle",
-      "Survivor",
-      "School",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "Survivor", "School", "RedDeadRP"],
     "display_name": "xo_trixy",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5466b371-98b5-4b10-9073-c7910c82503b-profile_image-300x300.png"
   },
@@ -726,13 +550,7 @@
       "FortCarson": "Colt WINCHESTER",
       "RedDeadRP": "Cofy COLTER"
     },
-    "arcs": [
-      "Pentacle",
-      "School",
-      "Survivor",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "School", "Survivor", "FortCarson", "RedDeadRP"],
     "display_name": "Zwave",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/aca27da2-4235-4c67-afd2-a57b4ea56fd0-profile_image-300x300.png"
   },
@@ -743,11 +561,7 @@
       "Survivor": "🟡Narine MUCUS 🏆",
       "RedDeadRP": "Woody BOURSEMOLE"
     },
-    "arcs": [
-      "Pentacle",
-      "Survivor",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "Survivor", "RedDeadRP"],
     "display_name": "Locklear",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/70d90ec14808c95f-profile_image-300x300.png"
   },
@@ -757,10 +571,7 @@
       "Survivor": "🟡Stéphanie LEULEU",
       "RedDeadRP": "Billie STONE"
     },
-    "arcs": [
-      "Survivor",
-      "RedDeadRP"
-    ],
+    "arcs": ["Survivor", "RedDeadRP"],
     "display_name": "Maghla",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f3608a23-83b6-4bc0-b131-44844959e3d1-profile_image-300x300.png"
   },
@@ -770,10 +581,7 @@
       "Pentacle": "Stan LAFONDUE",
       "Survivor": "🟡François PIGNON"
     },
-    "arcs": [
-      "Pentacle",
-      "Survivor"
-    ],
+    "arcs": ["Pentacle", "Survivor"],
     "display_name": "Pauleta_Twitch",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c1a5891a-e432-4c71-9d39-3ce50e9c6244-profile_image-300x300.png"
   },
@@ -782,9 +590,7 @@
     "nomRP": {
       "Pentacle": "Emily PALMER"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Aneyaris_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/dc6003d1-5e4b-456f-b512-d5ef7775f927-profile_image-300x300.png"
   },
@@ -793,9 +599,7 @@
     "nomRP": {
       "Pentacle": "BigJack"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "GamesRoses",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/539001b8-9bc1-44dc-9eca-47288d20d5e0-profile_image-300x300.png"
   },
@@ -805,10 +609,7 @@
       "Pentacle": "Arsene WASHINGTON",
       "RedDeadRP": "Emmet BROWN"
     },
-    "arcs": [
-      "Pentacle",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "RedDeadRP"],
     "display_name": "barbenoire__00",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5df06331-5299-4501-a9cf-50449e2fa8d5-profile_image-300x300.png"
   },
@@ -817,9 +618,7 @@
     "nomRP": {
       "Pentacle": "Melton WINE"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Melton_Wine",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/09b27500-926d-45a0-818d-3c4290e01175-profile_image-300x300.jpeg"
   },
@@ -828,9 +627,7 @@
     "nomRP": {
       "Pentacle": "Tyler JONES"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "CarboNHH",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/dfcd49c7-d548-412c-8068-e6da9c011c0a-profile_image-300x300.png"
   },
@@ -839,9 +636,7 @@
     "nomRP": {
       "Pentacle": "Jimmy OPPENHEIM"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "GzaFizzle",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/gzafizzle-profile_image-cc719d2987f18c54-300x300.jpeg"
   },
@@ -853,12 +648,7 @@
       "FortCarson": "Franco RUSSO",
       "RedDeadRP": "Harlan WALKER"
     },
-    "arcs": [
-      "Pentacle",
-      "School",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "School", "FortCarson", "RedDeadRP"],
     "display_name": "Zaardoz",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e92c5ced-b609-4291-bb52-bc1cccdc9f9e-profile_image-300x300.png"
   },
@@ -869,11 +659,7 @@
       "School": "Emily EVANS",
       "FortCarson": " Linzee LOVE"
     },
-    "arcs": [
-      "Pentacle",
-      "School",
-      "FortCarson"
-    ],
+    "arcs": ["Pentacle", "School", "FortCarson"],
     "display_name": "Ludmya",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/60d453cc-a632-4fa5-8467-168df215d0f0-profile_image-300x300.png"
   },
@@ -883,10 +669,7 @@
       "Pentacle": "Zoe BAKER",
       "RedDeadRP": "Teodora ROBINSON"
     },
-    "arcs": [
-      "Pentacle",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "RedDeadRP"],
     "display_name": "AnaisMRN",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0a7f3d1f-66c0-4dba-8d7f-cf41519c40de-profile_image-300x300.png"
   },
@@ -896,9 +679,7 @@
       "RedDeadRP": ""
     },
     "tag": "Staff",
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Kiishar",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c030768f-97a7-4552-9f9a-265860f2fecb-profile_image-300x300.png"
   },
@@ -907,9 +688,7 @@
     "nomRP": {
       "Pentacle": "Gustavo CESAR / Grayson FORBES"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Prince_ToZ",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/aa74ef6f-9ad8-491d-b502-164aae22212d-profile_image-300x300.png"
   },
@@ -918,9 +697,7 @@
     "nomRP": {
       "FortCarson": "Ayana CARTER"
     },
-    "arcs": [
-      "FortCarson"
-    ],
+    "arcs": ["FortCarson"],
     "display_name": "Laukinawa",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/39a9db8b-7c1c-4a70-9063-3aea9f412ee4-profile_image-300x300.png"
   },
@@ -929,9 +706,7 @@
     "nomRP": {
       "FortCarson": "Jenna LOWDER"
     },
-    "arcs": [
-      "FortCarson"
-    ],
+    "arcs": ["FortCarson"],
     "display_name": "a_soyun",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0bef3b32-19b8-4bb2-b19d-08576de69242-profile_image-300x300.png"
   },
@@ -940,9 +715,7 @@
     "nomRP": {
       "RedDeadRP": "Loretta Lavande SINCLAIR"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "So_Charliiie",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/23d0ef1f-7ab4-48f8-bb82-53330d7804c7-profile_image-300x300.png"
   },
@@ -951,9 +724,7 @@
     "nomRP": {
       "School": "Leiona WILSON"
     },
-    "arcs": [
-      "School"
-    ],
+    "arcs": ["School"],
     "display_name": "leiona17",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/94a843a3-7f82-4d30-9c5d-32fed8121ef4-profile_image-300x300.png"
   },
@@ -963,10 +734,7 @@
       "Pentacle": "Robert WALTON",
       "School": "Bobby LUNIVERS"
     },
-    "arcs": [
-      "Pentacle",
-      "School"
-    ],
+    "arcs": ["Pentacle", "School"],
     "display_name": "NicoTheo_off",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9137f84c-ccaa-451c-a630-76edf293128f-profile_image-300x300.png"
   },
@@ -978,12 +746,7 @@
       "FortCarson": "SFera LAWRENCE / Sheriff 22",
       "RedDeadRP": "Coby COLTER"
     },
-    "arcs": [
-      "Pentacle",
-      "School",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "School", "FortCarson", "RedDeadRP"],
     "display_name": "DVM_Medja",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/444617fd-c089-48be-b9ed-a039c43e7c44-profile_image-300x300.png"
   },
@@ -993,10 +756,7 @@
       "Pentacle": "Patrice PLOT",
       "RedDeadRP": "Juste FAVRET"
     },
-    "arcs": [
-      "Pentacle",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "RedDeadRP"],
     "display_name": "panpanQqOh",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7847637f-7ded-4ede-82e9-0613695a036c-profile_image-300x300.png"
   },
@@ -1006,10 +766,7 @@
       "Pentacle": "Ray WILKINS",
       "RedDeadRP": " Aaron FINLER"
     },
-    "arcs": [
-      "Pentacle",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "RedDeadRP"],
     "display_name": "samolito9",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/040c711a-b96e-413f-8675-ff14c0d0ae84-profile_image-300x300.png"
   },
@@ -1019,10 +776,7 @@
       "Pentacle": "Steeve WALKINS",
       "FortCarson": "Dwayne CARTER"
     },
-    "arcs": [
-      "Pentacle",
-      "FortCarson"
-    ],
+    "arcs": ["Pentacle", "FortCarson"],
     "display_name": "Flamby",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/294c98b5-e34d-42cd-a8f0-140b72fba9b0-profile_image-300x300.png"
   },
@@ -1031,9 +785,7 @@
     "nomRP": {
       "Pentacle": "Buck BARREL"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "byilhann",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ea4b608a-2f21-432a-afca-03da7920a8a6-profile_image-300x300.png"
   },
@@ -1042,27 +794,21 @@
     "nomRP": {
       "Pentacle": "Framboise LOPEZ"
     },
-    "arcs": [
-      "Pentacle"
-    ]
+    "arcs": ["Pentacle"]
   },
   {
     "username": "hirukiart",
     "nomRP": {
       "Pentacle": "Fraise MIRA"
     },
-    "arcs": [
-      "Pentacle"
-    ]
+    "arcs": ["Pentacle"]
   },
   {
     "username": "evelunes",
     "nomRP": {
       "Pentacle": "Diana ALLOCCO"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "evelunes",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9e7469ad-4977-4da0-969d-27f118e19509-profile_image-300x300.png"
   },
@@ -1072,10 +818,7 @@
       "Pentacle": "Lucy DAMORT",
       "FortCarson": "Stormy CLOVER"
     },
-    "arcs": [
-      "Pentacle",
-      "FortCarson"
-    ],
+    "arcs": ["Pentacle", "FortCarson"],
     "display_name": "AYAKATAZ",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3c4a30fc-299d-4cec-819f-5f977d3d0b06-profile_image-300x300.png"
   },
@@ -1085,10 +828,7 @@
       "Pentacle": "Alya Rosales MORA",
       "RedDeadRP": "Elara GRAY"
     },
-    "arcs": [
-      "Pentacle",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "RedDeadRP"],
     "display_name": "as_coco",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/42441a7b-9a93-4e98-9ecf-c048567a3cbb-profile_image-300x300.png"
   },
@@ -1097,9 +837,7 @@
     "nomRP": {
       "Pentacle": "Harukichi YAMAGUCHI"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Saadikoooi",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/78415580-443f-4e50-8cdb-6f33f14e1c66-profile_image-300x300.png"
   },
@@ -1108,9 +846,7 @@
     "nomRP": {
       "School": "MR. WHITE (Prof Langues)"
     },
-    "arcs": [
-      "School"
-    ],
+    "arcs": ["School"],
     "display_name": "MrPaul_Live",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/458e93f0-8699-4f86-95a0-51bf5a4fa86d-profile_image-300x300.png"
   },
@@ -1119,9 +855,7 @@
     "nomRP": {
       "Pentacle": "Guadalupe MORA"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "LaTomateMozza",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f477cac2-bd6a-4431-8063-495f4da49be4-profile_image-300x300.png"
   },
@@ -1131,10 +865,7 @@
       "Pentacle": "Javier CHAMORRO",
       "School": " Patrick BLONDEL (Prof Sport)"
     },
-    "arcs": [
-      "Pentacle",
-      "School"
-    ],
+    "arcs": ["Pentacle", "School"],
     "display_name": "Bilou",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ed2540c3-233e-41d4-bad3-e2017a4490ca-profile_image-300x300.png"
   },
@@ -1143,9 +874,7 @@
     "nomRP": {
       "School": "MR. BURTON (Prof Cultur.G)"
     },
-    "arcs": [
-      "School"
-    ],
+    "arcs": ["School"],
     "display_name": "JulobsS",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/52960de7-7dbf-4dfb-832f-5a4f74607a97-profile_image-300x300.png"
   },
@@ -1154,9 +883,7 @@
     "nomRP": {
       "Pentacle": "Léonard KRUGER"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Tnopy",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/badd5753-4d16-488a-aca3-39c8e2b36660-profile_image-300x300.png"
   },
@@ -1167,11 +894,7 @@
       "School": "Kaïna (Pion)",
       "RedDeadRP": "Jade QUARRANEAU"
     },
-    "arcs": [
-      "Pentacle",
-      "School",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "School", "RedDeadRP"],
     "display_name": "Kailussss",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9b96d676-cec7-4e55-aab5-d02e89fcb9c3-profile_image-300x300.png"
   },
@@ -1182,11 +905,7 @@
       "FortCarson": "Ezekiel WHITEMORE",
       "RedDeadRP": "Wade QUARRANEAU"
     },
-    "arcs": [
-      "Pentacle",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "FortCarson", "RedDeadRP"],
     "display_name": "R3YMANN",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d5c8ed67-1b52-46f4-8eb8-cba5c710c30e-profile_image-300x300.png"
   },
@@ -1195,9 +914,7 @@
     "nomRP": {
       "Pentacle": "Maurice DUBIDON"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Der_Glaude",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4d9841f6-20f8-41a1-8eb3-f5fb6fcb12bf-profile_image-300x300.png"
   },
@@ -1206,9 +923,7 @@
     "nomRP": {
       "Pentacle": "Stephen W.FAUST"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Feykoww",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d664555e-b192-4e43-9d91-76693ad34d34-profile_image-300x300.png"
   },
@@ -1219,11 +934,7 @@
       "FortCarson": "Cassidy SMITH",
       "RedDeadRP": "Tifa VELAZQUEZ"
     },
-    "arcs": [
-      "Pentacle",
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "FortCarson", "RedDeadRP"],
     "display_name": "Latuah",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/806bc04e-92cc-423e-b8d4-9e6681d3263e-profile_image-300x300.png"
   },
@@ -1232,9 +943,7 @@
     "nomRP": {
       "Pentacle": "Harry NOLUCK"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Spincheck",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bb02f5bb-cdb3-48f0-a29b-8ff1ee248f19-profile_image-300x300.png"
   },
@@ -1243,9 +952,7 @@
     "nomRP": {
       "Pentacle": "Enriqué DELGADO"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "zx_yassine",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b3868411-feb8-48b8-b17d-094d3df63b30-profile_image-300x300.png"
   },
@@ -1255,10 +962,7 @@
       "Pentacle": "Gary JAY",
       "RedDeadRP": "Désir ORDERSON"
     },
-    "arcs": [
-      "Pentacle",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "RedDeadRP"],
     "display_name": "FrenchDee",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4fc5eb5d-576b-4409-a2c4-671b2a516918-profile_image-300x300.png"
   },
@@ -1268,10 +972,7 @@
       "Pentacle": "Monique SCHMITTELBOURG",
       "RedDeadRP": "Archibald WENTWORTH"
     },
-    "arcs": [
-      "Pentacle",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "RedDeadRP"],
     "display_name": "Nacked",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c5387d00-af7d-44ab-82be-3f847cc88046-profile_image-300x300.png"
   },
@@ -1280,9 +981,7 @@
     "nomRP": {
       "Pentacle": "Felichia DELAMANCHA"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "saniahasna",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/520d4310-275e-4011-b146-0dd0fb5e4264-profile_image-300x300.png"
   },
@@ -1291,9 +990,7 @@
     "nomRP": {
       "Pentacle": "Addebayo OKONKWO"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Qidou",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/421f05cd-0938-47e5-9c28-6c4f0da9c42b-profile_image-300x300.png"
   },
@@ -1303,9 +1000,7 @@
       "Pentacle": "Maellys HUNDERSON"
     },
     "tag": "House Of Secret PROD",
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "KaypsTV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8cb633f1-2006-4404-8210-cd5d081dec4d-profile_image-300x300.png"
   },
@@ -1314,9 +1009,7 @@
     "nomRP": {
       "Pentacle": "Dylan POTIN"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "NAYRENNS",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0114937a-6030-43fd-bbd9-0ef40fdb9d29-profile_image-300x300.png"
   },
@@ -1328,12 +1021,7 @@
       "Survivor": "🔴Vince SAVAGE",
       "RedDeadRP": "Angel DEL ALMA"
     },
-    "arcs": [
-      "Pentacle",
-      "School",
-      "Survivor",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "School", "Survivor", "RedDeadRP"],
     "display_name": "NekzioH",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c3a4544b-5113-4241-a559-bf2247fddafe-profile_image-300x300.png"
   },
@@ -1342,9 +1030,7 @@
     "nomRP": {
       "School": "Elena RIMENEZ"
     },
-    "arcs": [
-      "School"
-    ],
+    "arcs": ["School"],
     "display_name": "CeliaaXVI",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/92f6fac4-723d-4c09-824d-853a212f7b70-profile_image-300x300.png"
   },
@@ -1356,12 +1042,7 @@
       "Survivor": "🔴Victorine DELACOURS",
       "RedDeadRP": "Esperenza CORTES"
     },
-    "arcs": [
-      "Pentacle",
-      "School",
-      "Survivor",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "School", "Survivor", "RedDeadRP"],
     "display_name": "lil__quinn",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a1a62263-f510-4937-b1ae-1aa3f4828a54-profile_image-300x300.png"
   },
@@ -1370,9 +1051,7 @@
     "nomRP": {
       "Pentacle": "Sam DJORIS"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "vi00lence",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1dcc5b71-f786-496b-9f94-bedb48a0f9a5-profile_image-300x300.png"
   },
@@ -1381,9 +1060,7 @@
     "nomRP": {
       "Pentacle": "Isabella LOPEZ"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "El_Figuees",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b136cb3f-25af-4e2d-935b-4eae62363079-profile_image-300x300.png"
   },
@@ -1392,9 +1069,7 @@
     "nomRP": {
       "Pentacle": "Jake THOMPSON"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Kiko_Tech",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/da2b05cd-15b9-47e7-abae-8957a6e10e90-profile_image-300x300.png"
   },
@@ -1403,9 +1078,7 @@
     "nomRP": {
       "Pentacle": "Mercedes MARCOU"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Las_Pepitasse",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ebd06247-fcc5-4051-a071-53f7ae16d9b0-profile_image-300x300.png"
   },
@@ -1414,9 +1087,7 @@
     "nomRP": {
       "Pentacle": "Michel ENCLUME"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "BOBLEGOB",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9c77e75e-460c-46d1-bd5b-d81213b8d0bd-profile_image-300x300.png"
   },
@@ -1425,9 +1096,7 @@
     "nomRP": {
       "Pentacle": "Tyler TURNER"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "goudaal",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/97583877-b442-48bb-aaf6-7881f127e154-profile_image-300x300.png"
   },
@@ -1436,9 +1105,7 @@
     "nomRP": {
       "Pentacle": "Daryl DECKER"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Izac95arg",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c3fee99b-89cb-4f78-b7d8-7bb42042922c-profile_image-300x300.png"
   },
@@ -1447,9 +1114,7 @@
     "nomRP": {
       "Pentacle": "Donnie FRANKLIN"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Siknyre__",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8a5937e0-9a40-4fae-be26-d4ec4d4fa836-profile_image-300x300.png"
   },
@@ -1458,9 +1123,7 @@
     "nomRP": {
       "Pentacle": "Tom CARTER"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "TekoYoungCity_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ba2803d4-88d7-4a12-b156-a160fa1d0a54-profile_image-300x300.png"
   },
@@ -1469,9 +1132,7 @@
     "nomRP": {
       "Pentacle": "Tego OCHOA"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "KaLaVeRaX3",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8afcaa9a-4b9c-4e2e-b195-a8a8c4b580f3-profile_image-300x300.png"
   },
@@ -1481,10 +1142,7 @@
       "Pentacle": "Ava MENDEZ",
       "FortCarson": "Arya JENSEN"
     },
-    "arcs": [
-      "Pentacle",
-      "FortCarson"
-    ],
+    "arcs": ["Pentacle", "FortCarson"],
     "display_name": "SayrannW",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b461add4-9113-49c6-bed1-469aaf6920f2-profile_image-300x300.png"
   },
@@ -1493,9 +1151,7 @@
     "nomRP": {
       "Pentacle": "Jean-François WALTON"
     },
-    "arcs": [
-      "Pentacle"
-    ]
+    "arcs": ["Pentacle"]
   },
   {
     "username": "llyswi",
@@ -1503,10 +1159,7 @@
       "Pentacle": "Ketly HISPANIOLA",
       "RedDeadRP": "Raven SINCLAIR"
     },
-    "arcs": [
-      "Pentacle",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "RedDeadRP"],
     "display_name": "LLYSWI",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a7cf0e4f-4537-4929-97b7-946dd33db8cb-profile_image-300x300.jpeg"
   },
@@ -1515,9 +1168,7 @@
     "nomRP": {
       "Pentacle": "Vincent MOREAU"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Jumbo_Gumbo",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/15da37ad-c23b-49d9-9f5b-2cb3e037efb0-profile_image-300x300.png"
   },
@@ -1526,9 +1177,7 @@
     "nomRP": {
       "Pentacle": "Luciano PEREZ"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Saanzou",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/374b3ee1-49b8-48d8-9796-5b711c1597f4-profile_image-300x300.png"
   },
@@ -1537,9 +1186,7 @@
     "nomRP": {
       "Pentacle": "Lucas MORETTI"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Kimalec_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4c74be90-0d7a-400a-8216-cbc4f7c54c77-profile_image-300x300.png"
   },
@@ -1548,9 +1195,7 @@
     "nomRP": {
       "Pentacle": "Thorfinn THORSON"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "pazouzoo",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f0a53b97-be38-4cc2-852f-33c862aff148-profile_image-300x300.png"
   },
@@ -1559,9 +1204,7 @@
     "nomRP": {
       "Pentacle": "Sarahi MORA"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "olivanie",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/54043ba0-d282-4822-a0e6-5483c8487c04-profile_image-300x300.png"
   },
@@ -1570,9 +1213,7 @@
     "nomRP": {
       "Pentacle": "Bruno EFENE"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "CapitaineYahya",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/13d821ea-a136-4263-be9d-f115b0482d07-profile_image-300x300.png"
   },
@@ -1581,18 +1222,14 @@
     "nomRP": {
       "Pentacle": "Lucy COWELL-Marie DEFONTAINE"
     },
-    "arcs": [
-      "Pentacle"
-    ]
+    "arcs": ["Pentacle"]
   },
   {
     "username": "azregafr",
     "nomRP": {
       "Pentacle": "Poté ALVAREZ"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "AzregaFR",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/da799063-9d8a-483b-9617-fd116cf8e652-profile_image-300x300.png"
   },
@@ -1601,9 +1238,7 @@
     "nomRP": {
       "Pentacle": "Isabella HARRINGTON"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Angyalll",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6c9aebaf-fcb2-4e18-8af7-a5f7292987b9-profile_image-300x300.png"
   },
@@ -1612,9 +1247,7 @@
     "nomRP": {
       "Pentacle": "Brahim SEKSOUKI"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "ValhalaTV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d900bcbd-2e5e-4cab-89a2-d4f2c1b00bfa-profile_image-300x300.png"
   },
@@ -1623,9 +1256,7 @@
     "nomRP": {
       "Pentacle": "Mchenef MEKTOUB"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "DZ_AMINE",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/fb0265f8-5231-4aeb-bf85-bc01bd82a4bf-profile_image-300x300.png"
   },
@@ -1634,9 +1265,7 @@
     "nomRP": {
       "Pentacle": "Roger ZEFE"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "La_Tache",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/fbf95272-3564-48fc-9011-72617c803b86-profile_image-300x300.png"
   },
@@ -1645,9 +1274,7 @@
     "nomRP": {
       "Pentacle": "Giorgio VASELINELLI"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Nasd91",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c5f7fd5c-f4d4-4258-8c97-90de7f9fbaa4-profile_image-300x300.png"
   },
@@ -1656,9 +1283,7 @@
     "nomRP": {
       "Pentacle": "Lilia BENZOUZ"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "KozukiDbasma",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f78f31de-f35d-44ce-b0a7-e9b4879bdc4d-profile_image-300x300.png"
   },
@@ -1667,9 +1292,7 @@
     "nomRP": {
       "Pentacle": "Amir ASHRAFI"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "YanisMonkey",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e66ad88-61d5-4900-ad73-d544c41bdc6f-profile_image-300x300.png"
   },
@@ -1678,18 +1301,14 @@
     "nomRP": {
       "Pentacle": "Jayden FOREMAN"
     },
-    "arcs": [
-      "Pentacle"
-    ]
+    "arcs": ["Pentacle"]
   },
   {
     "username": "ekalandras",
     "nomRP": {
       "Pentacle": "Ezra GREY"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "ekalandras",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/07345840-3173-4e82-8466-568d783731a5-profile_image-300x300.png"
   },
@@ -1698,9 +1317,7 @@
     "nomRP": {
       "Pentacle": "Assia MALIK"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "idkbutimleila",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5c5b4274-2d83-437a-acad-61c322434b7f-profile_image-300x300.png"
   },
@@ -1709,9 +1326,7 @@
     "nomRP": {
       "Pentacle": "Gynnie HARRINGTON"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "nadoulliiii",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4ec15944-229b-4439-9bbf-502bcfc83cab-profile_image-300x300.png"
   },
@@ -1720,9 +1335,7 @@
     "nomRP": {
       "Pentacle": "Alex PRICE"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "nounoursbastion",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/94d4ffb4-e2d8-4321-967f-a0ab1f5f1b85-profile_image-300x300.png"
   },
@@ -1731,9 +1344,7 @@
     "nomRP": {
       "Pentacle": "Eustache FERMI"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Helfynn",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c147b7dd-c4dc-481e-8837-7c2d5e3886e0-profile_image-300x300.png"
   },
@@ -1742,9 +1353,7 @@
     "nomRP": {
       "Pentacle": "Moumoudou JOHNSON"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "James__Patagheul",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/98557f4d-9ecf-4aaf-b821-24031f44cff8-profile_image-300x300.png"
   },
@@ -1753,9 +1362,7 @@
     "nomRP": {
       "Pentacle": "Samir ALMADA"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "dilovibes",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3ab4ba48-122c-4e00-a34e-d208bbb6ac6d-profile_image-300x300.png"
   },
@@ -1764,9 +1371,7 @@
     "nomRP": {
       "Pentacle": "Pavel YOGUNSKOI"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Tvmadiba",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/304b87c4-2c66-4911-877d-7121e494faea-profile_image-300x300.png"
   },
@@ -1775,9 +1380,7 @@
     "nomRP": {
       "Pentacle": "Daniel BOYLER"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "flyorrr",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3ad632b8-73f7-4f07-9f26-a8ff3380cc39-profile_image-300x300.png"
   },
@@ -1786,9 +1389,7 @@
     "nomRP": {
       "School": "Nash RONDA (Prof Chimie)"
     },
-    "arcs": [
-      "School"
-    ],
+    "arcs": ["School"],
     "display_name": "Blaize",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0204ff48-5b7d-494c-a673-1ba7bd3afaec-profile_image-300x300.png"
   },
@@ -1797,9 +1398,7 @@
     "nomRP": {
       "Pentacle": "Aron EL HAITY"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Tiks782",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5f8078d9-190a-4d2e-8efd-93169ee85d18-profile_image-300x300.png"
   },
@@ -1808,9 +1407,7 @@
     "nomRP": {
       "Pentacle": "Damian STEEL"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Troismont",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e05dff37-2b16-46d7-9ef3-0b2fb77be48d-profile_image-300x300.png"
   },
@@ -1820,10 +1417,7 @@
       "Pentacle": "Charlie DAVIS",
       "RedDeadRP": "Margaret VESPER"
     },
-    "arcs": [
-      "Pentacle",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "RedDeadRP"],
     "display_name": "anastronaute_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cf7d80ce-7b36-4dec-afb9-ae9d026e2539-profile_image-300x300.png"
   },
@@ -1832,9 +1426,7 @@
     "nomRP": {
       "Pentacle": "Dr COHEN"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "SooFianSooo",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5ff19fee-14fe-4465-b1c4-1c62af1de7dc-profile_image-300x300.png"
   },
@@ -1843,9 +1435,7 @@
     "nomRP": {
       "RedDeadRP": "Auguste BOONE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "m0nke_31",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/42a5a1c0-e2b9-4ae8-8bb7-c5bb98171da4-profile_image-300x300.jpeg"
   },
@@ -1854,9 +1444,7 @@
     "nomRP": {
       "Pentacle": "John SMITH"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Yaroph",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b89766af-ed28-4407-bc3a-f84b2d66ffde-profile_image-300x300.jpeg"
   },
@@ -1865,9 +1453,7 @@
     "nomRP": {
       "Pentacle": "Tallulah SPARKS"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "MelosaTV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0f37c079-ab1e-4167-a449-1784d9ae69b8-profile_image-300x300.png"
   },
@@ -1876,9 +1462,7 @@
     "nomRP": {
       "Pentacle": "Baba J. SANTANA"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Baba2M",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/35618dc5-5e9a-4553-baaa-cb589a7b53f6-profile_image-300x300.png"
   },
@@ -1887,9 +1471,7 @@
     "nomRP": {
       "Pentacle": "Walter QUEENSEY / Joe HIGHWAY"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "AlexGamingCrew",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0e1256fd-acf5-42fa-9889-29bba54a3cbf-profile_image-300x300.png"
   },
@@ -1898,9 +1480,7 @@
     "nomRP": {
       "Pentacle": "Kelly BARKS"
     },
-    "arcs": [
-      "Pentacle"
-    ]
+    "arcs": ["Pentacle"]
   },
   {
     "username": "ouilli",
@@ -1908,10 +1488,7 @@
       "Pentacle": "Dr. Charlie ORLANDO",
       "RedDeadRP": "Zenon PRETORIUS"
     },
-    "arcs": [
-      "Pentacle",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "RedDeadRP"],
     "display_name": "Ouilli",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4c8ac2b7-c74d-45ce-a435-df3c8652597c-profile_image-300x300.png"
   },
@@ -1921,10 +1498,7 @@
       "Pentacle": "Diane KINGSTON",
       "RedDeadRP": "Prudence ORDERSON"
     },
-    "arcs": [
-      "Pentacle",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "RedDeadRP"],
     "display_name": "MeikhaTV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/172a15ca-7bb5-4c52-80ff-ab392d134d8f-profile_image-300x300.png"
   },
@@ -1934,10 +1508,7 @@
       "Pentacle": "Mile KINGSTON",
       "RedDeadRP": "Ego ORDERSON"
     },
-    "arcs": [
-      "Pentacle",
-      "RedDeadRP"
-    ],
+    "arcs": ["Pentacle", "RedDeadRP"],
     "display_name": "Matsuki_R",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4dfc106c-de38-4e50-9987-6cfe0c90d4d1-profile_image-300x300.png"
   },
@@ -1946,9 +1517,7 @@
     "nomRP": {
       "Pentacle": "Martin MOULIN"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Medouda",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/202cba19-cab4-48ac-b0fd-7275f1b69125-profile_image-300x300.png"
   },
@@ -1957,9 +1526,7 @@
     "nomRP": {
       "Pentacle": "Lovena HISPANIOLA"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "riinemaa",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/07b28073-4ace-4e74-8aa2-b213e9586610-profile_image-300x300.png"
   },
@@ -1968,9 +1535,7 @@
     "nomRP": {
       "Pentacle": "Francky GONZALES"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "lilrhey",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3001b9d9-40c4-47d1-ac38-2bb1fafb888c-profile_image-300x300.png"
   },
@@ -1979,9 +1544,7 @@
     "nomRP": {
       "Pentacle": "Floyd ELLIS"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "iSpace",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f27ea89b-0784-4485-8eba-1a5576e5d1c2-profile_image-300x300.png"
   },
@@ -1990,9 +1553,7 @@
     "nomRP": {
       "Pentacle": "Jake DEAN"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Real_Anantia",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ac5c0ad6-5f48-4923-ae7e-2877df0dc758-profile_image-300x300.png"
   },
@@ -2001,18 +1562,14 @@
     "nomRP": {
       "Pentacle": "Elros WARD"
     },
-    "arcs": [
-      "Pentacle"
-    ]
+    "arcs": ["Pentacle"]
   },
   {
     "username": "SkelOneS1",
     "nomRP": {
       "Pentacle": "Frédéric OSWALD"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "SkelOneS1",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/95316478-5207-4641-9e5d-a27cfb0920d7-profile_image-300x300.png"
   },
@@ -2021,9 +1578,7 @@
     "nomRP": {
       "Pentacle": "Kay KATANA"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Cbl_ttv",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5e662f6d-549c-4ee4-ba3e-e7e51745cf05-profile_image-300x300.png"
   },
@@ -2032,9 +1587,7 @@
     "nomRP": {
       "Pentacle": "Winfield BLACKWOOD"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "EyaLan",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c7d6e829-1353-4295-8c0b-bf4842f57f35-profile_image-300x300.png"
   },
@@ -2043,9 +1596,7 @@
     "nomRP": {
       "Pentacle": "Papicha"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "pleyss2be_p2b",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/19bdb1fa-3d28-4c4a-8d98-f84a8956a4eb-profile_image-300x300.png"
   },
@@ -2055,10 +1606,7 @@
       "Pentacle": "Logan WALKER",
       "FortCarson": "Elijah STONE"
     },
-    "arcs": [
-      "Pentacle",
-      "FortCarson"
-    ],
+    "arcs": ["Pentacle", "FortCarson"],
     "display_name": "covatvv",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ca3d2774-3d27-4d24-a6be-559b26cf663c-profile_image-300x300.png"
   },
@@ -2067,9 +1615,7 @@
     "nomRP": {
       "Pentacle": "Gaby MONTANA"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "ZulemaTV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ba8443fc-c20c-4922-a1eb-cff539e37520-profile_image-300x300.png"
   },
@@ -2078,9 +1624,7 @@
     "nomRP": {
       "Pentacle": "Jake Prize"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "eterzx",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/95ab50e2-fcee-4b09-913d-03623358a2b0-profile_image-300x300.png"
   },
@@ -2089,27 +1633,21 @@
     "nomRP": {
       "Pentacle": "Steeve/Steevie"
     },
-    "arcs": [
-      "Pentacle"
-    ]
+    "arcs": ["Pentacle"]
   },
   {
     "username": "fc_vito_",
     "nomRP": {
       "Pentacle": "Ghjuvan RICCI"
     },
-    "arcs": [
-      "Pentacle"
-    ]
+    "arcs": ["Pentacle"]
   },
   {
     "username": "HasoDaisuHi",
     "nomRP": {
       "Pentacle": "Paula NONYME"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "HasoDaisuHi",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1f523002-56fd-4bcb-9a92-4d3ef3c878bb-profile_image-300x300.png"
   },
@@ -2118,9 +1656,7 @@
     "nomRP": {
       "Pentacle": "Rose WINTER"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "doctormistakes",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c39e63c2-aeab-4484-b192-7d5e0965ca96-profile_image-300x300.png"
   },
@@ -2129,9 +1665,7 @@
     "nomRP": {
       "Pentacle": "Arya FOX"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "Jagher_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3aa47834-0b3c-4e28-a6cd-bf06fcbfe876-profile_image-300x300.png"
   },
@@ -2140,9 +1674,7 @@
     "nomRP": {
       "Pentacle": "Joel DEZIRE"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "CrashKill",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/97fdf751-b167-4f8c-82b1-ab2d9d42df75-profile_image-300x300.png"
   },
@@ -2151,9 +1683,7 @@
     "nomRP": {
       "Pentacle": "Miklo"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "MONKEYDNINI",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/95b1805c-c26f-413f-a3d4-5089301485cd-profile_image-300x300.png"
   },
@@ -2162,9 +1692,7 @@
     "nomRP": {
       "Pentacle": "Ricco"
     },
-    "arcs": [
-      "Pentacle"
-    ],
+    "arcs": ["Pentacle"],
     "display_name": "D_Roretsu",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/31ca56ec-52ec-448a-af78-cabdc5fe02fe-profile_image-300x300.png"
   },
@@ -2173,9 +1701,7 @@
     "nomRP": {
       "FortCarson": "Ava CARTER"
     },
-    "arcs": [
-      "FortCarson"
-    ],
+    "arcs": ["FortCarson"],
     "display_name": "OhLaZizanie",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9944b013-addf-45ad-be60-b8ecbbf5b135-profile_image-300x300.png"
   },
@@ -2185,10 +1711,7 @@
       "FortCarson": "Cletus BICOU",
       "RedDeadRP": "Eli MCGRAW"
     },
-    "arcs": [
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["FortCarson", "RedDeadRP"],
     "display_name": "freboca",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f7bc6ede-586b-4234-96c5-dfdf3d7b77e7-profile_image-300x300.png"
   },
@@ -2197,9 +1720,7 @@
     "nomRP": {
       "RedDeadRP": "Clotaire VINCELASS"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "wizzle",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/dbdc9198-def8-11e9-8681-784f43822e80-profile_image-300x300.png"
   },
@@ -2208,9 +1729,7 @@
     "nomRP": {
       "FortCarson": "Curtis McCOY"
     },
-    "arcs": [
-      "FortCarson"
-    ],
+    "arcs": ["FortCarson"],
     "display_name": "clescopaings",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5732fe72-e0a3-4051-a5fe-d5bc86308ede-profile_image-300x300.png"
   },
@@ -2219,9 +1738,7 @@
     "nomRP": {
       "FortCarson": "Dante BELLADONNA"
     },
-    "arcs": [
-      "FortCarson"
-    ],
+    "arcs": ["FortCarson"],
     "display_name": "Clemsed",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/19844cd7-64d4-4613-9bbf-a5a28800f871-profile_image-300x300.jpeg"
   },
@@ -2230,9 +1747,7 @@
     "nomRP": {
       "FortCarson": "Gabriel HAMBLE"
     },
-    "arcs": [
-      "FortCarson"
-    ],
+    "arcs": ["FortCarson"],
     "display_name": "SkyRavenTV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e73c152d-7d4e-4717-8c78-943da6575939-profile_image-300x300.png"
   },
@@ -2242,10 +1757,7 @@
       "FortCarson": "Kaiya KANE",
       "RedDeadRP": "Nerissa CROWE"
     },
-    "arcs": [
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["FortCarson", "RedDeadRP"],
     "display_name": "Boubouune",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/62fe98a0-75fb-4426-9667-1ffbb95f3969-profile_image-300x300.png"
   },
@@ -2255,10 +1767,7 @@
       "FortCarson": "Buck HARLOW",
       "Pentacle": "???"
     },
-    "arcs": [
-      "FortCarson",
-      "Pentacle"
-    ],
+    "arcs": ["FortCarson", "Pentacle"],
     "display_name": "BeaxtTv",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d95084bf-fb80-450d-baf4-1a4610ca7126-profile_image-300x300.png"
   },
@@ -2268,10 +1777,7 @@
       "FortCarson": "Michael HAWK",
       "RedDeadRP": "Elias HARRINGTON"
     },
-    "arcs": [
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["FortCarson", "RedDeadRP"],
     "display_name": "miisterkel",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db2287ac-348e-456e-a681-4b5930ef0aea-profile_image-300x300.png"
   },
@@ -2281,10 +1787,7 @@
       "FortCarson": "Virginia WESTWOOD",
       "RedDeadRP": "Evangeline CROWE"
     },
-    "arcs": [
-      "FortCarson",
-      "RedDeadRP"
-    ],
+    "arcs": ["FortCarson", "RedDeadRP"],
     "display_name": "plumeLIVE",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0a666260-b62c-4472-b198-96c56f8df764-profile_image-300x300.png"
   },
@@ -2293,9 +1796,7 @@
     "nomRP": {
       "RedDeadRP": "Morgane MCALISTER"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Raumane",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/68b51b24-c079-458f-a12d-2747b5075b79-profile_image-300x300.png"
   },
@@ -2304,9 +1805,7 @@
     "nomRP": {
       "RedDeadRP": "Rose MCALLISTER"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "PoppieLaLa",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/57e76fe4-ff95-4712-8d94-6ac3137f3cc3-profile_image-300x300.png"
   },
@@ -2315,9 +1814,7 @@
     "nomRP": {
       "FortCarson": "Walker ROLLINS"
     },
-    "arcs": [
-      "FortCarson"
-    ],
+    "arcs": ["FortCarson"],
     "display_name": "LidailHD",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/80707557-1698-4220-bd82-cef0c1cd1cfb-profile_image-300x300.png"
   },
@@ -2326,9 +1823,7 @@
     "nomRP": {
       "RedDeadRP": "Craig DANIEL'S"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Larekno",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/62a7ed31-f01f-4db5-a549-bee133ae81a1-profile_image-300x300.png"
   },
@@ -2337,9 +1832,7 @@
     "nomRP": {
       "RedDeadRP": "Wallas WAYN"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Zekun___",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/454a5eff-c3d2-44b2-aab7-f6c09df7d679-profile_image-300x300.png"
   },
@@ -2348,9 +1841,7 @@
     "nomRP": {
       "RedDeadRP": "Jeremiah HAWKINS"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "DanyCroozer",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/acad6986-0d2a-4dc1-b2ef-17d768a01e93-profile_image-300x300.jpeg"
   },
@@ -2359,18 +1850,14 @@
     "nomRP": {
       "RedDeadRP": "Kimblee REDMOND"
     },
-    "arcs": [
-      "RedDeadRP"
-    ]
+    "arcs": ["RedDeadRP"]
   },
   {
     "username": "XnonIFlash",
     "nomRP": {
       "RedDeadRP": "Gwenaël BIGNON"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "XnonIFlash",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/31d8f597-d26d-4f4c-ab5b-b4e06e815899-profile_image-300x300.png"
   },
@@ -2379,9 +1866,7 @@
     "nomRP": {
       "RedDeadRP": "Alan BIGNON"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Kazukatenshi",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/95b7ce60-02a2-45cb-a9a5-7516b82e4049-profile_image-300x300.png"
   },
@@ -2390,9 +1875,7 @@
     "nomRP": {
       "RedDeadRP": "Moyyati WAYA'TAGA"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "pnkevaa",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0d3b7577-6f0c-42b6-81ca-67c1d41c04a4-profile_image-300x300.png"
   },
@@ -2401,9 +1884,7 @@
     "nomRP": {
       "RedDeadRP": "Kosoh WAYA'TAGA"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Xatacks",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/53b3c621-05bf-461b-a6a4-1105cf52e44d-profile_image-300x300.png"
   },
@@ -2412,9 +1893,7 @@
     "nomRP": {
       "RedDeadRP": "Georges PALMER"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Kreeks",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3d5a741b-9d06-44a0-93cf-b612fbdd8fbb-profile_image-300x300.png"
   },
@@ -2423,9 +1902,7 @@
     "nomRP": {
       "RedDeadRP": "Bobby GOATY"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "MetoSpasmyl",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d30de5f5-4678-4dcc-b504-4c2d39f8ae47-profile_image-300x300.jpg"
   },
@@ -2434,9 +1911,7 @@
     "nomRP": {
       "RedDeadRP": "Buddy GOATY"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Picmat_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/73576bb9-29e5-44cf-b1b4-7156c8302575-profile_image-300x300.png"
   },
@@ -2445,9 +1920,7 @@
     "nomRP": {
       "RedDeadRP": "Eli MULDOON"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Khaziz_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a7328e36-f7b6-480b-950d-fdba4507c65a-profile_image-300x300.png"
   },
@@ -2456,9 +1929,7 @@
     "nomRP": {
       "RedDeadRP": "Clint REED"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "arahfat",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a11cc367-5924-4d5b-9f75-571e4b772411-profile_image-300x300.png"
   },
@@ -2467,9 +1938,7 @@
     "nomRP": {
       "RedDeadRP": "Brutus REED"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Wahibastos",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3caed20f-04eb-49c5-8c91-c6b0cd79493b-profile_image-300x300.png"
   },
@@ -2478,9 +1947,7 @@
     "nomRP": {
       "RedDeadRP": "Owen ADAMS"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "EkzyyL",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2a126a38-fe35-4328-af5f-029d0ac4b4de-profile_image-300x300.png"
   },
@@ -2489,9 +1956,7 @@
     "nomRP": {
       "RedDeadRP": "Jasko PROSPERIDAD"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "captainorion_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3f62ff8e-0dec-4022-8ec1-39ffac23e657-profile_image-300x300.png"
   },
@@ -2500,9 +1965,7 @@
     "nomRP": {
       "RedDeadRP": "Yélénah PROSPERIDAD"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "PixelOctet",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d7d052b7-d176-427d-bca5-94b6c4629404-profile_image-300x300.png"
   },
@@ -2511,9 +1974,7 @@
     "nomRP": {
       "RedDeadRP": "Edgar CHAMBERLAIN"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "cnaid",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/41780b5a-def8-11e9-94d9-784f43822e80-profile_image-300x300.png"
   },
@@ -2522,9 +1983,7 @@
     "nomRP": {
       "RedDeadRP": "Phineas CHAMBERLAIN"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "rayanalc",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ead5c8b2-a4c9-4724-b1dd-9f00b46cbd3d-profile_image-300x300.png"
   },
@@ -2533,9 +1992,7 @@
     "nomRP": {
       "RedDeadRP": "Roy CANTON"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Canaplaye",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5a598f2b-5d65-4219-bd0b-6f66bef29e1f-profile_image-300x300.png"
   },
@@ -2544,9 +2001,7 @@
     "nomRP": {
       "RedDeadRP": "Ludwig VAN KRUGER"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "AmarVolte",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/daaa6a8d-0a57-4539-988f-2f4942f42813-profile_image-300x300.png"
   },
@@ -2555,9 +2010,7 @@
     "nomRP": {
       "RedDeadRP": "Kenny MCGRAW"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "KhalGalere",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/85e9feea-f77f-4696-8884-8182f995f624-profile_image-300x300.jpeg"
   },
@@ -2566,9 +2019,7 @@
     "nomRP": {
       "RedDeadRP": "Eddie HARPER"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "02rayane",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/68f4dfbd-60d4-48e3-b490-f88a60c80b6c-profile_image-300x300.png"
   },
@@ -2577,9 +2028,7 @@
     "nomRP": {
       "RedDeadRP": "Montgomery NORRINGTON"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "PhoenXSensei",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e31ab1c0-c4b6-445a-8961-aea6f1abbcbc-profile_image-300x300.png"
   },
@@ -2588,9 +2037,7 @@
     "nomRP": {
       "RedDeadRP": "Irvin SPECK"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "SevenLife7",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4621da81-118e-4fa5-a4de-1f5248ba4715-profile_image-300x300.png"
   },
@@ -2599,9 +2046,7 @@
     "nomRP": {
       "RedDeadRP": "Cletus MCDYKE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Couane_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/fc08d76f-c81b-44bc-918d-5efeda9a4a95-profile_image-300x300.png"
   },
@@ -2610,9 +2055,7 @@
     "nomRP": {
       "RedDeadRP": "Cornelius BABOON"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "MoriX",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/morix-profile_image-1b19dbb384a21c0d-300x300.png"
   },
@@ -2621,9 +2064,7 @@
     "nomRP": {
       "RedDeadRP": "Archie MOYSE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Lenny__B",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/65e43895-a6e0-475a-bba3-a62d828d6086-profile_image-300x300.png"
   },
@@ -2632,9 +2073,7 @@
     "nomRP": {
       "RedDeadRP": "Ernest CALIGAN"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "synurfr",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/synurfr-profile_image-584daadc98fe7d52-300x300.png"
   },
@@ -2643,9 +2082,7 @@
     "nomRP": {
       "RedDeadRP": "Cornelius CALIGAN"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Akkeliam",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/de130ab0-def7-11e9-b668-784f43822e80-profile_image-300x300.png"
   },
@@ -2654,9 +2091,7 @@
     "nomRP": {
       "RedDeadRP": "Zack COFFEY"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "IVPRODTV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/192edd80-0bc1-481b-91e6-5b9ac9178523-profile_image-300x300.png"
   },
@@ -2665,9 +2100,7 @@
     "nomRP": {
       "RedDeadRP": "Averell MOYSE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Bigcarlosplay",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/294c98b5-e34d-42cd-a8f0-140b72fba9b0-profile_image-300x300.png"
   },
@@ -2676,9 +2109,7 @@
     "nomRP": {
       "RedDeadRP": "Homer MOYSE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Babaluciooo",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ead5c8b2-a4c9-4724-b1dd-9f00b46cbd3d-profile_image-300x300.png"
   },
@@ -2687,9 +2118,7 @@
     "nomRP": {
       "RedDeadRP": "Horace STERFILD"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Bouate",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/029e7344-0839-4cfc-bdb9-293c65f260ce-profile_image-300x300.png"
   },
@@ -2698,9 +2127,7 @@
     "nomRP": {
       "RedDeadRP": "Willie MCDYKE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "LevironTV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ae02eadb-ac23-4ef6-a191-09c2700562e3-profile_image-300x300.png"
   },
@@ -2709,9 +2136,7 @@
     "nomRP": {
       "RedDeadRP": "Lucien BEAUCHAMPS"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "jonmadera",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/13e5fa74-defa-11e9-809c-784f43822e80-profile_image-300x300.png"
   },
@@ -2720,9 +2145,7 @@
     "nomRP": {
       "RedDeadRP": "Rose BIRD"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "kwikwiii",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5cbf0440-c657-4353-b423-51164b5bff2c-profile_image-300x300.png"
   },
@@ -2731,9 +2154,7 @@
     "nomRP": {
       "RedDeadRP": "Lily GRAY"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "flower_mp4",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/afb3f00f-50c3-43cd-b289-462c4f617d1b-profile_image-300x300.png"
   },
@@ -2742,9 +2163,7 @@
     "nomRP": {
       "RedDeadRP": "Edward BIRD"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "icegl0ck",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/215b7342-def9-11e9-9a66-784f43822e80-profile_image-300x300.png"
   },
@@ -2753,9 +2172,7 @@
     "nomRP": {
       "RedDeadRP": "Charly BIRD"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "gentigaa",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e2decead-7a7a-4c6a-b9b8-67852af96154-profile_image-300x300.png"
   },
@@ -2764,9 +2181,7 @@
     "nomRP": {
       "RedDeadRP": "Ferdinand DE LA FLEUR"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "gob54",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/215b7342-def9-11e9-9a66-784f43822e80-profile_image-300x300.png"
   },
@@ -2775,9 +2190,7 @@
     "nomRP": {
       "RedDeadRP": "Madeleine DE LA FLEUR"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Aquecellee",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/549f505b-6db3-4a65-bd6f-99f7a466618f-profile_image-300x300.png"
   },
@@ -2786,9 +2199,7 @@
     "nomRP": {
       "RedDeadRP": "Eleanor WHITAKER"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "tisseum",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/06e3261f-71cf-4440-8d9f-b11796caa90e-profile_image-300x300.png"
   },
@@ -2797,9 +2208,7 @@
     "nomRP": {
       "RedDeadRP": "Harvey MONROE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Negative__",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b89f33e8-472e-4551-b480-32cc22964318-profile_image-300x300.png"
   },
@@ -2808,9 +2217,7 @@
     "nomRP": {
       "RedDeadRP": "Bonnie BRAITHWAITE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "DarkinEXE",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/47e64466-ab87-4cff-90ee-bc1ddfdae040-profile_image-300x300.png"
   },
@@ -2819,9 +2226,7 @@
     "nomRP": {
       "RedDeadRP": "Leïka EYOTA"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Noemotive_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/25b61c0c-59ff-4281-86fe-834ab12fcdca-profile_image-300x300.png"
   },
@@ -2830,9 +2235,7 @@
     "nomRP": {
       "RedDeadRP": "Baishan NAVAJO"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "dalaros",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/13e5fa74-defa-11e9-809c-784f43822e80-profile_image-300x300.png"
   },
@@ -2841,9 +2244,7 @@
     "nomRP": {
       "RedDeadRP": "Floyd McDYKE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Bougieeeeeee",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d22ea02e-1012-4e60-9262-190c232ead6e-profile_image-300x300.png"
   },
@@ -2852,9 +2253,7 @@
     "nomRP": {
       "RedDeadRP": "Archibalde McDYKE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "rominou",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/75087c11-89a8-4d7c-84ba-76ba7608f858-profile_image-300x300.jpg"
   },
@@ -2863,9 +2262,7 @@
     "nomRP": {
       "RedDeadRP": "Colt COOPER"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Hellsaww",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/68a98bdd-8b49-46ec-9ce4-c5fa99f018e8-profile_image-300x300.png"
   },
@@ -2874,9 +2271,7 @@
     "nomRP": {
       "RedDeadRP": "Dezba NAVAJO"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "nxbzn",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/31d465de-0e97-4160-8caa-bf107279a5b9-profile_image-300x300.png"
   },
@@ -2885,9 +2280,7 @@
     "nomRP": {
       "RedDeadRP": "Otis ADLER"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "demotkb",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/88ff0650-c4b9-4fff-a5bd-67d8297641f8-profile_image-300x300.png"
   },
@@ -2896,9 +2289,7 @@
     "nomRP": {
       "RedDeadRP": "Roy ATKINS"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Noctxrn",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/dc8e702f-d1e2-4750-b774-86d8ba855f0d-profile_image-300x300.png"
   },
@@ -2907,9 +2298,7 @@
     "nomRP": {
       "RedDeadRP": "Cody COLTER"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Martav",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4cf3c1cd-5c39-4835-8df9-d6ca068ae293-profile_image-300x300.png"
   },
@@ -2918,9 +2307,7 @@
     "nomRP": {
       "RedDeadRP": "Andrew BRADFORD"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Everwolf94",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ba6162cb-1d78-4121-b295-9c56a142a6cf-profile_image-300x300.png"
   },
@@ -2929,9 +2316,7 @@
     "nomRP": {
       "RedDeadRP": "Artemis GRAHAM"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "kwatro",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/dbdc9198-def8-11e9-8681-784f43822e80-profile_image-300x300.png"
   },
@@ -2940,9 +2325,7 @@
     "nomRP": {
       "RedDeadRP": "Billy FREEMAN"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Mamadk94",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9b8c6db0-9901-4567-b9a0-ffa6766be9fd-profile_image-300x300.png"
   },
@@ -2951,9 +2334,7 @@
     "nomRP": {
       "RedDeadRP": "Caleb BLACKWELL"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "MONKEYDMOUUSSS",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/73e70675-391b-4cc3-9186-29e67d71582e-profile_image-300x300.png"
   },
@@ -2962,9 +2343,7 @@
     "nomRP": {
       "RedDeadRP": "Dolores MENDOZA"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "kaly24",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/13e5fa74-defa-11e9-809c-784f43822e80-profile_image-300x300.png"
   },
@@ -2973,9 +2352,7 @@
     "nomRP": {
       "RedDeadRP": "Elias MOREAU"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "jadtahar",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/233ee8e8-ca98-4038-87db-a312c4638c82-profile_image-300x300.jpeg"
   },
@@ -2984,9 +2361,7 @@
     "nomRP": {
       "RedDeadRP": "Isaiah SCOTT"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "LoneRacoon",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/122d5c6a-ec9d-4941-8fd0-d26dab029539-profile_image-300x300.png"
   },
@@ -2995,9 +2370,7 @@
     "nomRP": {
       "RedDeadRP": "Henry Boone"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Pawol",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/dc7ff6b4-5629-4798-853b-37d206a22a38-profile_image-300x300.png"
   },
@@ -3006,9 +2379,7 @@
     "nomRP": {
       "RedDeadRP": "Mark DASH"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "zakkcc_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/99dec415-2473-46f4-9e02-b228d1d57440-profile_image-300x300.png"
   },
@@ -3017,9 +2388,7 @@
     "nomRP": {
       "RedDeadRP": "Nahele NAVAJO"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Bliizou",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/61058ce3-e420-4e47-afe0-065dd37c6c24-profile_image-300x300.png"
   },
@@ -3028,9 +2397,7 @@
     "nomRP": {
       "RedDeadRP": "Odessa HAYES"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "ashleeey_c",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/13b50729-562b-4173-86e7-d1798513cb77-profile_image-300x300.png"
   },
@@ -3039,9 +2406,7 @@
     "nomRP": {
       "RedDeadRP": "Soledad MENDOZA"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Zaelite",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5809c10a-1fdf-4b42-82d1-b373bfac3844-profile_image-300x300.jpeg"
   },
@@ -3050,9 +2415,7 @@
     "nomRP": {
       "RedDeadRP": "Wiliam KOOPMAN"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Purlesias",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/16d7c5aa-13c4-4f74-b25a-547eeb08bc58-profile_image-300x300.png"
   },
@@ -3061,9 +2424,7 @@
     "nomRP": {
       "RedDeadRP": "Esmeralda TORRES"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "ZulemaTV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ba8443fc-c20c-4922-a1eb-cff539e37520-profile_image-300x300.png"
   },
@@ -3072,9 +2433,7 @@
     "nomRP": {
       "RedDeadRP": "Betsy ASHFORD"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "tracyctrl",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f9c33793-b690-40df-87d3-edf05a0a4e88-profile_image-300x300.png"
   },
@@ -3083,9 +2442,7 @@
     "nomRP": {
       "RedDeadRP": "Elijah MONROE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Hakiiyooo",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6cbafe13-e2cd-4a9d-9f03-766a0a71c11d-profile_image-300x300.png"
   },
@@ -3094,9 +2451,7 @@
     "nomRP": {
       "RedDeadRP": "Mei LING"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "salut_nana",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/342e2e5c-5df3-4b30-ab74-a8021fe2531e-profile_image-300x300.jpeg"
   },
@@ -3105,9 +2460,7 @@
     "nomRP": {
       "RedDeadRP": "Wayne PETTERSON"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Ahkronika",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a420f92f-b7b9-4c4c-8cc5-d65afd2a00d5-profile_image-300x300.png"
   },
@@ -3116,9 +2469,7 @@
     "nomRP": {
       "RedDeadRP": "Beck BOONE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "josan51",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-300x300.png"
   },
@@ -3127,9 +2478,7 @@
     "nomRP": {
       "RedDeadRP": "Gilbert WASHBURN"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "genoud",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/998f01ae-def8-11e9-b95c-784f43822e80-profile_image-300x300.png"
   },
@@ -3138,9 +2487,7 @@
     "nomRP": {
       "RedDeadRP": "Jack WASHBURN"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "arpenik",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/215b7342-def9-11e9-9a66-784f43822e80-profile_image-300x300.png"
   },
@@ -3149,9 +2496,7 @@
     "nomRP": {
       "RedDeadRP": "Wyatt WASHBURN"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "KelklepcePey",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/19e64751-8f09-4daa-85da-053bbc7ff42f-profile_image-300x300.png"
   },
@@ -3160,9 +2505,7 @@
     "nomRP": {
       "RedDeadRP": "Ludwig VOGEL"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "vasla_13",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5aa6aad4-6c12-4933-8ffa-c4ad1d6faff2-profile_image-300x300.png"
   },
@@ -3171,9 +2514,7 @@
     "nomRP": {
       "RedDeadRP": "Earl ANDERSON"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "MrMook92",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cca22eea-1bba-4975-b90c-bba6b964c549-profile_image-300x300.png"
   },
@@ -3182,9 +2523,7 @@
     "nomRP": {
       "RedDeadRP": "Eugène ESPINAS"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "SLK_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ff864120-a4f3-493e-ac43-14fcf229e385-profile_image-300x300.png"
   },
@@ -3193,9 +2532,7 @@
     "nomRP": {
       "RedDeadRP": "Jack LORRO"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Alexinho_TV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8b3a2e7b-0c46-4fb2-b547-6272b44bc0a4-profile_image-300x300.png"
   },
@@ -3204,9 +2541,7 @@
     "nomRP": {
       "RedDeadRP": "Cunégonde BELLINI"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "BaileyLaserBeam",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/410375fe-ba4a-40cc-b5c8-483e26baa4e2-profile_image-300x300.png"
   },
@@ -3215,9 +2550,7 @@
     "nomRP": {
       "RedDeadRP": "Charles McCARTY"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "lifius",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ead5c8b2-a4c9-4724-b1dd-9f00b46cbd3d-profile_image-300x300.png"
   },
@@ -3226,9 +2559,7 @@
     "nomRP": {
       "RedDeadRP": "Rose HARPER"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "KayKayti",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7a93fd7a-b523-40d9-8bae-d2bff88470e6-profile_image-300x300.png"
   },
@@ -3237,9 +2568,7 @@
     "nomRP": {
       "RedDeadRP": "Pénélope BELLINI"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Younra_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6a560621-afb9-4fec-bade-3fc8a3b1e590-profile_image-300x300.png"
   },
@@ -3248,9 +2577,7 @@
     "nomRP": {
       "RedDeadRP": "Lazare NICOPOLIS"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Eulbarbouz",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/dbdc9198-def8-11e9-8681-784f43822e80-profile_image-300x300.png"
   },
@@ -3259,9 +2586,7 @@
     "nomRP": {
       "RedDeadRP": "Luke BRENNAN"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "imthelukTV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/17f515b8-fa92-4f7b-bd3e-95bba02ef989-profile_image-300x300.png"
   },
@@ -3270,9 +2595,7 @@
     "nomRP": {
       "RedDeadRP": "Bobby CARRET"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "TGLaDouille",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4683ad5d-629c-48ed-b6e7-9490584f272e-profile_image-300x300.png"
   },
@@ -3281,9 +2604,7 @@
     "nomRP": {
       "RedDeadRP": "Jerry CARRET"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Pirate_rit",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/660d071b-7fc7-4292-b9e0-628db2748539-profile_image-300x300.png"
   },
@@ -3292,9 +2613,7 @@
     "nomRP": {
       "RedDeadRP": "Jo CARRET"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Vathir_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2cf91eda-d7cd-4616-975d-f3433130f77b-profile_image-300x300.png"
   },
@@ -3303,9 +2622,7 @@
     "nomRP": {
       "RedDeadRP": "Ned CARRET"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "brandouzz12",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-300x300.png"
   },
@@ -3314,9 +2631,7 @@
     "nomRP": {
       "RedDeadRP": "Horace DAVENPORT"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Maxth3r",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2184309e-295c-4971-824a-03774525e8fc-profile_image-300x300.png"
   },
@@ -3325,9 +2640,7 @@
     "nomRP": {
       "RedDeadRP": "Darius SPRÜTZULI"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "valoxk",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9e08278f-a69b-4f2e-b84a-70de567f6252-profile_image-300x300.png"
   },
@@ -3336,9 +2649,7 @@
     "nomRP": {
       "RedDeadRP": "Frédérik MAGERSÜCHTIG"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Oldarick",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/215b7342-def9-11e9-9a66-784f43822e80-profile_image-300x300.png"
   },
@@ -3347,9 +2658,7 @@
     "nomRP": {
       "RedDeadRP": "Joseph SCHULTZ"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "AlexMGun",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5ffd1ad8-3d97-401b-856d-aeb0590c70be-profile_image-300x300.jpg"
   },
@@ -3358,9 +2667,7 @@
     "nomRP": {
       "RedDeadRP": "Jules AKITO"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "juniux19",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ebd677c3-a8ad-4a5b-a544-a77db2861e90-profile_image-300x300.jpg"
   },
@@ -3369,9 +2676,7 @@
     "nomRP": {
       "RedDeadRP": "Logan McCARTY"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "SickoMode",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-300x300.png"
   },
@@ -3380,9 +2685,7 @@
     "nomRP": {
       "RedDeadRP": "Kayce GRAVES"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Zepcivo",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c4dd81e2-0218-4196-b369-12b813ce8bfc-profile_image-300x300.png"
   },
@@ -3391,9 +2694,7 @@
     "nomRP": {
       "RedDeadRP": "Alice NIGHT WIND"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "sakikin",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ce09ccdb-8b67-4237-b303-21815e961a10-profile_image-300x300.png"
   },
@@ -3402,9 +2703,7 @@
     "nomRP": {
       "RedDeadRP": "Clifford WALLACE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "iimercure",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/cdd517fe-def4-11e9-948e-784f43822e80-profile_image-300x300.png"
   },
@@ -3413,9 +2712,7 @@
     "nomRP": {
       "RedDeadRP": "Silas RUSTY"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Komiaaa",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f28fe98c-3e36-4581-9ab7-8b0ec8d652b5-profile_image-300x300.png"
   },
@@ -3424,9 +2721,7 @@
     "nomRP": {
       "RedDeadRP": "Lilo DEVERINO"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Mirooxb",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8ed431e1-7d6f-4973-b699-8176bd733063-profile_image-300x300.png"
   },
@@ -3435,9 +2730,7 @@
     "nomRP": {
       "RedDeadRP": "Victoria LANGSTON"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Lilyanai",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/789d5387-ad6b-482c-84f2-b739ed72abb1-profile_image-300x300.png"
   },
@@ -3446,9 +2739,7 @@
     "nomRP": {
       "RedDeadRP": "Juan ALejandro MOYA"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Skyden_NRay",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1256ff8c-aa8c-403e-a8e8-a4a6e3bdec47-profile_image-300x300.png"
   },
@@ -3457,9 +2748,7 @@
     "nomRP": {
       "RedDeadRP": "Amos MONTI"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "AngelitoTvv",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2b521092-9877-4a00-a1e2-a5b8dc1694d1-profile_image-300x300.png"
   },
@@ -3468,9 +2757,7 @@
     "nomRP": {
       "RedDeadRP": "Archi Junior HERNANDEZ"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "approze",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad770971-009e-4b42-b2ab-d2d37ca00897-profile_image-300x300.png"
   },
@@ -3479,9 +2766,7 @@
     "nomRP": {
       "RedDeadRP": "Cornelius CROWLEY"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "AlymJr",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8fd028f6-3bdf-4231-bc04-c97456bb4d33-profile_image-300x300.png"
   },
@@ -3490,9 +2775,7 @@
     "nomRP": {
       "RedDeadRP": "Deviance ORDERSON"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "elvee",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebe4cd89-b4f4-4cd9-adac-2f30151b4209-profile_image-300x300.png"
   },
@@ -3501,9 +2784,7 @@
     "nomRP": {
       "RedDeadRP": "Emiliano VALDES"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Seyli2sans12",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c6c02801-35a2-4339-9fb1-9051c10881d5-profile_image-300x300.png"
   },
@@ -3512,9 +2793,7 @@
     "nomRP": {
       "RedDeadRP": "Javier VALDES"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "izanami",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/13e5fa74-defa-11e9-809c-784f43822e80-profile_image-300x300.png"
   },
@@ -3523,9 +2802,7 @@
     "nomRP": {
       "RedDeadRP": "Iye WAPI"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "zayfear",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/54a973b0-f4bd-4079-b73e-0dd37be30a47-profile_image-300x300.png"
   },
@@ -3534,9 +2811,7 @@
     "nomRP": {
       "RedDeadRP": "Jorge VILLANUEVA"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Theos_xd",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/60cc2e98-a1c9-41fa-89ee-8c2bc6843b16-profile_image-300x300.png"
   },
@@ -3545,9 +2820,7 @@
     "nomRP": {
       "RedDeadRP": "Mépris ORDERSON"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "PHEll",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/21e9b10e-1aa4-448e-b376-91902da720c3-profile_image-300x300.png"
   },
@@ -3556,9 +2829,7 @@
     "nomRP": {
       "RedDeadRP": "Gino DEVERINO"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "jothekay",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/61a2258a-cf5e-49e7-a343-3af7e6811ad9-profile_image-300x300.png"
   },
@@ -3567,9 +2838,7 @@
     "nomRP": {
       "RedDeadRP": "Julio SALAMANCA"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Ernesto_tv",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/23020216-9c7d-4866-8582-7e2e9f123ef2-profile_image-300x300.png"
   },
@@ -3578,9 +2847,7 @@
     "nomRP": {
       "RedDeadRP": "Cory COLTER"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "xnoze",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/acf57ae6-adf0-4928-bf9a-01295905c295-profile_image-300x300.png"
   },
@@ -3589,9 +2856,7 @@
     "nomRP": {
       "RedDeadRP": "Skatayawa WATOTECA"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "soranne734",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c1caf94a-91f8-4ea6-ac66-1c5353ecefdf-profile_image-300x300.png"
   },
@@ -3600,18 +2865,14 @@
     "nomRP": {
       "RedDeadRP": "Watawa WITCO"
     },
-    "arcs": [
-      "RedDeadRP"
-    ]
+    "arcs": ["RedDeadRP"]
   },
   {
     "username": "pinko_pop",
     "nomRP": {
       "RedDeadRP": "Wenona AWASHISH "
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "pinko_pop",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1920e41-f8d1-4b26-a53b-4b9133c00d17-profile_image-300x300.png"
   },
@@ -3620,9 +2881,7 @@
     "nomRP": {
       "RedDeadRP": "Marco DEVERINO"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Josk_TV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/310bc20a-9bb3-44a4-892d-4763bca12ac7-profile_image-300x300.png"
   },
@@ -3631,9 +2890,7 @@
     "nomRP": {
       "RedDeadRP": "Rocco DEVERINO"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Dxqson",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/38838a20-6c75-4239-a67b-df8f3d5fa14f-profile_image-300x300.png"
   },
@@ -3642,9 +2899,7 @@
     "nomRP": {
       "RedDeadRP": "Daniel WASHBURN"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Podau",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/cdd517fe-def4-11e9-948e-784f43822e80-profile_image-300x300.png"
   },
@@ -3653,9 +2908,7 @@
     "nomRP": {
       "RedDeadRP": "Chogan NASHOBA"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "hugzito_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/86616cfd-6cc9-4b1e-8914-d9341376ac4b-profile_image-300x300.jpg"
   },
@@ -3664,9 +2917,7 @@
     "nomRP": {
       "RedDeadRP": "John MAFFE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "VARG_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/varg_-profile_image-a0a8e976b770f5b0-300x300.jpeg"
   },
@@ -3675,9 +2926,7 @@
     "nomRP": {
       "RedDeadRP": "Dzik BRUDNY"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "BC_Darjah",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c572c636-c148-4bd6-baa0-75295a44676d-profile_image-300x300.png"
   },
@@ -3686,18 +2935,14 @@
     "nomRP": {
       "RedDeadRP": "Armando SANCHEZ"
     },
-    "arcs": [
-      "RedDeadRP"
-    ]
+    "arcs": ["RedDeadRP"]
   },
   {
     "username": "Lunaar01",
     "nomRP": {
       "RedDeadRP": "Abraham McCOY"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Lunaar01",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9fbaa653-645f-4fd4-9d72-284b34cf0984-profile_image-300x300.png"
   },
@@ -3706,9 +2951,7 @@
     "nomRP": {
       "RedDeadRP": "Bobby BROCKMORE"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Dimezo",
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ead5c8b2-a4c9-4724-b1dd-9f00b46cbd3d-profile_image-300x300.png"
   },
@@ -3717,9 +2960,7 @@
     "nomRP": {
       "RedDeadRP": "Salvador DEL ANGELES"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Lukaari",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a15ad2dc-60d8-48fb-a184-e7cd806fd3fb-profile_image-300x300.png"
   },
@@ -3728,9 +2969,7 @@
     "nomRP": {
       "RedDeadRP": "Wambli SAPA"
     },
-    "arcs": [
-      "RedDeadRP"
-    ],
+    "arcs": ["RedDeadRP"],
     "display_name": "Meiiinn",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/064d30d6-28e7-4f77-85cc-406893f37b2c-profile_image-300x300.png"
   }

@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "cp -r netlify/functions/data public/data",
+    "prebuild": "shx mkdir -p public/data && shx cp netlify/functions/data/streamers_cache.json public/data/",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "shx": "^0.3.4"
   }
 }

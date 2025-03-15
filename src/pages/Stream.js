@@ -12,12 +12,11 @@ const Stream = () => {
   useEffect(() => {
     const fetchStreamerData = async () => {
       try {
-        const res = await fetch("/.netlify/functions/twitch");
+        const res = await fetch("/data/streamers_cache.json");
         const data = await res.json();
 
-        console.log("📦 Données reçues du backend :", data);
+        console.log("📦 Données reçues du fichier JSON :", data);
 
-        // Protection : on vérifie que les données sont bien un tableau
         const streamersArray = Array.isArray(data)
           ? data
           : Array.isArray(data.streamers)
@@ -34,21 +33,16 @@ const Stream = () => {
         const sortedStreamers = [...streamersArray].sort((a, b) => {
           const tagA = tagPriority[a.tag] || 999;
           const tagB = tagPriority[b.tag] || 999;
-
           if (tagA !== tagB) return tagA - tagB;
 
           const nameA = (a.display_name || a.username || "").toLowerCase();
           const nameB = (b.display_name || b.username || "").toLowerCase();
-
           return nameA.localeCompare(nameB);
         });
 
         setStreamers(sortedStreamers);
       } catch (error) {
-        console.error(
-          "❌ Erreur lors de la récupération des streamers :",
-          error
-        );
+        console.error("❌ Erreur de parsing ou récupération JSON :", error);
       }
     };
 
