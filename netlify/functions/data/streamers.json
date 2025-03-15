@@ -2362,16 +2362,5 @@
       "RedDeadRP": "Wambli SAPA"
     },
     "arcs": ["RedDeadRP"]
-  },
-  {
-    "username": "Aelbus",
-    "nomRP": {
-      "School": "test",
-
-      "Pentacle": "test2",
-      "FortCarson": "test3",
-      "RedDeadRP": "test4"
-    },
-    "arcs": ["School", "Pentacle", "FortCarson", "RedDeadRP"]
   }
 ]
