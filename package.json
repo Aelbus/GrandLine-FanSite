@@ -20,6 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prebuild": "xcopy netlify\\data netlify\\functions\\data /E /I /Y",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
