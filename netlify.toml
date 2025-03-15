@@ -7,11 +7,11 @@
 
 [functions."twitch"]
   schedule = "*/15 * * * *" # Toutes les 15 min
-  included_files = [
-    "netlify/functions/data/streamers.json",
-    "netlify/functions/data/streamers_cache.json",
-    "netlify/functions/data/.twitch_token.json"
-  ]
+
+[[headers]]
+  for = "/data/streamers_cache.json"
+  [headers.values]
+    Cache-Control = "no-store"
 
 [[headers]]
   for = "/.netlify/functions/*"
