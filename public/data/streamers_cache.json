@@ -2079,7 +2079,7 @@
   {
     "username": "zulematv",
     "nomRP": {
-      "Pentacle": "Gaby MONTANA"
+      "Pentacle": "Esmeralda TORRES"
     },
     "arcs": [
       "Pentacle"
@@ -2562,7 +2562,7 @@
   {
     "username": "AmarVolte",
     "nomRP": {
-      "RedDeadRP": "Ludwig VAN KRUGER"
+      "RedDeadRP": "Ludwig VAN KRUEGER"
     },
     "arcs": [
       "RedDeadRP"
@@ -3506,15 +3506,15 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8fd028f6-3bdf-4231-bc04-c97456bb4d33-profile_image-300x300.png"
   },
   {
-    "username": "Elvee",
+    "username": "El__vee",
     "nomRP": {
       "RedDeadRP": "Deviance ORDERSON"
     },
     "arcs": [
       "RedDeadRP"
     ],
-    "display_name": "elvee",
-    "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebe4cd89-b4f4-4cd9-adac-2f30151b4209-profile_image-300x300.png"
+    "display_name": "el__vee",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d53db531-956e-4ba0-96c5-97250be51a08-profile_image-300x300.png"
   },
   {
     "username": "Seyli2sans12",
@@ -3671,15 +3671,15 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/cdd517fe-def4-11e9-948e-784f43822e80-profile_image-300x300.png"
   },
   {
-    "username": "hugzito_",
+    "username": "hugzit0",
     "nomRP": {
       "RedDeadRP": "Chogan NASHOBA"
     },
     "arcs": [
       "RedDeadRP"
     ],
-    "display_name": "hugzito_",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/86616cfd-6cc9-4b1e-8914-d9341376ac4b-profile_image-300x300.jpg"
+    "display_name": "hugzit0",
+    "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/cdd517fe-def4-11e9-948e-784f43822e80-profile_image-300x300.png"
   },
   {
     "username": "Varg_",
@@ -3779,5 +3779,49 @@
     ],
     "display_name": "BKRO_",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c4bd9f1e-56d8-47a0-8c43-1ad5401f8940-profile_image-300x300.png"
+  },
+  {
+    "username": "InamiTV",
+    "nomRP": {
+      "RedDeadRP": "Mia BRAITHWAITE"
+    },
+    "arcs": [
+      "RedDeadRP"
+    ],
+    "display_name": "InamiTV",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/344e1cce-1f10-44b1-87b5-adda945eced1-profile_image-300x300.png"
+  },
+  {
+    "username": "andre_ziggy",
+    "nomRP": {
+      "RedDeadRP": "Kenny MACKENNIK"
+    },
+    "arcs": [
+      "RedDeadRP"
+    ],
+    "display_name": "andre_ziggy",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bacb8833-adf7-4e39-a334-4fc740e1c93f-profile_image-300x300.png"
+  },
+  {
+    "username": "0khmhaka",
+    "nomRP": {
+      "RedDeadRP": "Maka WANAGI"
+    },
+    "arcs": [
+      "RedDeadRP"
+    ],
+    "display_name": "0khmhaka",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b8044ab7-a615-4107-a6fd-39a2412b2cd5-profile_image-300x300.png"
+  },
+  {
+    "username": "Crazyti_me",
+    "nomRP": {
+      "RedDeadRP": "Arolde JACKSON"
+    },
+    "arcs": [
+      "RedDeadRP"
+    ],
+    "display_name": "Crazyti_me",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2978471e-5db1-4c02-91dd-a2dc9a63559c-profile_image-300x300.png"
   }
 ]

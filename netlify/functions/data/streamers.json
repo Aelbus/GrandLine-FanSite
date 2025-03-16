@@ -1297,7 +1297,7 @@
   {
     "username": "zulematv",
     "nomRP": {
-      "Pentacle": "Gaby MONTANA"
+      "Pentacle": "Esmeralda TORRES"
     },
     "arcs": ["Pentacle"]
   },
@@ -1603,7 +1603,7 @@
   {
     "username": "AmarVolte",
     "nomRP": {
-      "RedDeadRP": "Ludwig VAN KRUGER"
+      "RedDeadRP": "Ludwig VAN KRUEGER"
     },
     "arcs": ["RedDeadRP"]
   },
@@ -2203,7 +2203,7 @@
     "arcs": ["RedDeadRP"]
   },
   {
-    "username": "Elvee",
+    "username": "El__vee",
     "nomRP": {
       "RedDeadRP": "Deviance ORDERSON"
     },
@@ -2308,7 +2308,7 @@
     "arcs": ["RedDeadRP"]
   },
   {
-    "username": "hugzito_",
+    "username": "hugzit0",
     "nomRP": {
       "RedDeadRP": "Chogan NASHOBA"
     },
@@ -2374,6 +2374,34 @@
     "username": "BKRO_",
     "nomRP": {
       "RedDeadRP": "Franklin MADISON"
+    },
+    "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "InamiTV",
+    "nomRP": {
+      "RedDeadRP": "Mia BRAITHWAITE"
+    },
+    "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "andre_ziggy",
+    "nomRP": {
+      "RedDeadRP": "Kenny MACKENNIK"
+    },
+    "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "0khmhaka",
+    "nomRP": {
+      "RedDeadRP": "Maka WANAGI"
+    },
+    "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "Crazyti_me",
+    "nomRP": {
+      "RedDeadRP": "Arolde JACKSON"
     },
     "arcs": ["RedDeadRP"]
   }
