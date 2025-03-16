@@ -161,7 +161,7 @@
     "nomRP": {
       "Pentacle": "Jacky JONES",
       "FortCarson": "Le TAXIDERMISTE",
-      "RedDeadRP": ""
+      "RedDeadRP": "Ambrose CALIGAN"
     },
     "tag": "Staff",
     "arcs": ["Pentacle", "FortCarson", "RedDeadRP"]
@@ -217,7 +217,7 @@
   {
     "username": "Prince__off",
     "nomRP": {
-      "RedDeadRP": ""
+      "RedDeadRP": "Billy JACKSON"
     },
     "arcs": ["RedDeadRP"]
   },
