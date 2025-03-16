@@ -129,6 +129,7 @@ async function main() {
 
     // 🔃 Upload de streamers.json TOUJOURS
     await uploadToS3(sourcePath, "streamers.json");
+    console.log("☁️ Fichier streamers.json mis à jour sur S3.");
 
     const token = await getTwitchToken();
     const enriched = await enrichStreamers(baseStreamers, token);
