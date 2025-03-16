@@ -4,7 +4,7 @@ const axios = require("axios");
 const AWS = require("aws-sdk");
 const { execSync } = require("child_process");
 
-const customCommitMessage = process.argv[2];
+const customCommitMessage = process.argv.slice(2).join(" ");
 const commitMessage =
   customCommitMessage || "🔄 Auto-update streamers_cache.json";
 
@@ -127,9 +127,8 @@ async function main() {
     console.log("📖 Lecture des streamers...");
     const baseStreamers = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
 
-    // 🔃 Upload de streamers.json TOUJOURS
+    // Upload streamers.json même sans changement
     await uploadToS3(sourcePath, "streamers.json");
-    console.log("☁️ Fichier streamers.json mis à jour sur S3.");
 
     const token = await getTwitchToken();
     const enriched = await enrichStreamers(baseStreamers, token);
@@ -140,25 +139,27 @@ async function main() {
 
     const { added, modified, removed } = detectChanges(oldCache, enriched);
 
-    // Résumé
+    // Résumé des changements
     console.log("\n📊 Résumé des changements :");
     if (added.length) console.log("🟢 Ajoutés :", added.join(", "));
     if (modified.length) console.log("🟡 Modifiés :", modified.join(", "));
     if (removed.length) console.log("🔴 Supprimés :", removed.join(", "));
-
     if (!added.length && !modified.length && !removed.length) {
-      console.log("✅ Aucun changement dans le cache enrichi.");
-    } else {
-      fs.writeFileSync(cachePath, JSON.stringify(enriched, null, 2));
-      console.log("📝 Cache mis à jour localement.");
-      await uploadToS3(cachePath, "streamers_cache.json");
+      console.log(
+        "✅ Aucun changement détecté, mais le cache est renvoyé quand même."
+      );
     }
+
+    // Enregistrement local et upload du cache TOUJOURS
+    fs.writeFileSync(cachePath, JSON.stringify(enriched, null, 2));
+    console.log("📝 Cache mis à jour localement.");
+    await uploadToS3(cachePath, "streamers_cache.json");
 
     // Build
     console.log("🏗️ Build du site...");
     execSync("npm run build", { stdio: "inherit" });
 
-    // Push Git
+    // Git push
     console.log("🚀 Commit & push Git...");
     execSync(`git add . && git commit -m "${commitMessage}" && git push`, {
       stdio: "inherit",

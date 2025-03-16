@@ -6,7 +6,7 @@
       "Survivor": "Le CHAUVE",
       "Pentacle": "John APOTRIE",
       "FortCarson": "Multiple Personnage",
-      "RedDeadRP": ""
+      "RedDeadRP": "Draeven HOLLOWAY"
     },
     "tag": "Fondateur - Staff",
     "arcs": [
@@ -120,7 +120,7 @@
     "nomRP": {
       "Pentacle": "Denzel PALMER",
       "FortCarson": "Harold SHIPMAN",
-      "RedDeadRP": ""
+      "RedDeadRP": "Kennet SMITH"
     },
     "tag": "Staff",
     "arcs": [
@@ -363,7 +363,7 @@
     "nomRP": {
       "School": "Romuald PORNAULT",
       "Survivor": "🔴Ousmane DEMBELE",
-      "RedDeadRP": ""
+      "RedDeadRP": "Django LEON"
     },
     "arcs": [
       "School",
@@ -677,10 +677,12 @@
   {
     "username": "redmafia_tv",
     "nomRP": {
-      "Pentacle": "David FORBES"
+      "Pentacle": "David FORBES",
+      "RedDeadRP": " Ezekiel GRIMALDI"
     },
     "arcs": [
-      "Pentacle"
+      "Pentacle",
+      "RedDeadRP"
     ],
     "display_name": "REDMAFIA_TV",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4d87071f-d743-498d-84b7-ef8e76cbe36a-profile_image-300x300.png"
