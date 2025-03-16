@@ -4,12 +4,10 @@ const axios = require("axios");
 const AWS = require("aws-sdk");
 const { execSync } = require("child_process");
 
-// 📝 Récupérer le message personnalisé passé en argument
 const customCommitMessage = process.argv[2];
 const commitMessage =
   customCommitMessage || "🔄 Auto-update streamers_cache.json";
 
-// AWS S3 config
 const s3 = new AWS.S3({
   accessKeyId: process.env.NETLIFY_AWS_ACCESS_KEY,
   secretAccessKey: process.env.NETLIFY_AWS_SECRET_KEY,
@@ -17,15 +15,12 @@ const s3 = new AWS.S3({
 });
 const bucketName = process.env.NETLIFY_AWS_BUCKET;
 
-// Fichiers
 const sourcePath = "netlify/functions/data/streamers.json";
 const cachePath = "public/data/streamers_cache.json";
 
-// Twitch config
 const clientId = process.env.TWITCH_CLIENT_ID;
 const clientSecret = process.env.TWITCH_CLIENT_SECRET;
 
-// 🔐 Token Twitch
 async function getTwitchToken() {
   const res = await axios.post("https://id.twitch.tv/oauth2/token", null, {
     params: {
@@ -37,7 +32,6 @@ async function getTwitchToken() {
   return res.data.access_token;
 }
 
-// 🎯 Comparaison améliorée
 function detectChanges(oldList, newList) {
   const oldMap = new Map(oldList.map((s) => [s.username, s]));
   const newMap = new Map(newList.map((s) => [s.username, s]));
@@ -70,7 +64,6 @@ function detectChanges(oldList, newList) {
   return { added, modified, removed };
 }
 
-// 🔁 Enrichir via Twitch
 async function enrichStreamers(streamers, token) {
   const batches = [];
   for (let i = 0; i < streamers.length; i += 30) {
@@ -116,7 +109,6 @@ async function enrichStreamers(streamers, token) {
   return enriched;
 }
 
-// ☁️ Upload to S3
 async function uploadToS3(filePath, key) {
   const fileContent = fs.readFileSync(filePath);
   await s3
@@ -130,11 +122,14 @@ async function uploadToS3(filePath, key) {
   console.log(`☁️ Fichier uploadé sur S3 : ${key}`);
 }
 
-// 🧠 Main
 async function main() {
   try {
     console.log("📖 Lecture des streamers...");
     const baseStreamers = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
+
+    // 🔃 Upload de streamers.json TOUJOURS
+    await uploadToS3(sourcePath, "streamers.json");
+
     const token = await getTwitchToken();
     const enriched = await enrichStreamers(baseStreamers, token);
 
@@ -149,21 +144,20 @@ async function main() {
     if (added.length) console.log("🟢 Ajoutés :", added.join(", "));
     if (modified.length) console.log("🟡 Modifiés :", modified.join(", "));
     if (removed.length) console.log("🔴 Supprimés :", removed.join(", "));
-    if (!added.length && !modified.length && !removed.length)
-      return console.log("✅ Aucun changement détecté, build annulé.");
 
-    // Écriture cache local
-    fs.writeFileSync(cachePath, JSON.stringify(enriched, null, 2));
-    console.log("📝 Cache mis à jour localement.");
-
-    // Upload S3
-    await uploadToS3(cachePath, "streamers_cache.json");
+    if (!added.length && !modified.length && !removed.length) {
+      console.log("✅ Aucun changement dans le cache enrichi.");
+    } else {
+      fs.writeFileSync(cachePath, JSON.stringify(enriched, null, 2));
+      console.log("📝 Cache mis à jour localement.");
+      await uploadToS3(cachePath, "streamers_cache.json");
+    }
 
     // Build
     console.log("🏗️ Build du site...");
     execSync("npm run build", { stdio: "inherit" });
 
-    // Git push
+    // Push Git
     console.log("🚀 Commit & push Git...");
     execSync(`git add . && git commit -m "${commitMessage}" && git push`, {
       stdio: "inherit",
