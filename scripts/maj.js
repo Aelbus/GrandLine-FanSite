@@ -37,7 +37,7 @@ async function getTwitchToken() {
   return res.data.access_token;
 }
 
-// 🎯 Comparaison intelligente
+// 🎯 Comparaison améliorée
 function detectChanges(oldList, newList) {
   const oldMap = new Map(oldList.map((s) => [s.username, s]));
   const newMap = new Map(newList.map((s) => [s.username, s]));
@@ -51,7 +51,11 @@ function detectChanges(oldList, newList) {
       added.push(username);
     } else {
       const oldS = oldMap.get(username);
-      if (JSON.stringify(oldS) !== JSON.stringify(newS)) {
+      const hasChanged =
+        oldS.display_name !== newS.display_name ||
+        oldS.profile_image_url !== newS.profile_image_url;
+
+      if (hasChanged) {
         modified.push(username);
       }
     }
@@ -130,14 +134,17 @@ async function uploadToS3(filePath, key) {
 async function main() {
   try {
     console.log("📖 Lecture des streamers...");
-    const streamers = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
+    const baseStreamers = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
+    const token = await getTwitchToken();
+    const enriched = await enrichStreamers(baseStreamers, token);
+
     const oldCache = fs.existsSync(cachePath)
       ? JSON.parse(fs.readFileSync(cachePath, "utf8"))
       : [];
 
-    const { added, modified, removed } = detectChanges(oldCache, streamers);
+    const { added, modified, removed } = detectChanges(oldCache, enriched);
 
-    // Résumé console
+    // Résumé
     console.log("\n📊 Résumé des changements :");
     if (added.length) console.log("🟢 Ajoutés :", added.join(", "));
     if (modified.length) console.log("🟡 Modifiés :", modified.join(", "));
@@ -145,22 +152,18 @@ async function main() {
     if (!added.length && !modified.length && !removed.length)
       return console.log("✅ Aucun changement détecté, build annulé.");
 
-    // Enrichissement Twitch
-    const token = await getTwitchToken();
-    const enriched = await enrichStreamers(streamers, token);
-
-    // Mise à jour cache local
+    // Écriture cache local
     fs.writeFileSync(cachePath, JSON.stringify(enriched, null, 2));
     console.log("📝 Cache mis à jour localement.");
 
-    // Upload sur S3
+    // Upload S3
     await uploadToS3(cachePath, "streamers_cache.json");
 
     // Build
     console.log("🏗️ Build du site...");
     execSync("npm run build", { stdio: "inherit" });
 
-    // Push
+    // Git push
     console.log("🚀 Commit & push Git...");
     execSync(`git add . && git commit -m "${commitMessage}" && git push`, {
       stdio: "inherit",
