@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disallow: /netlify/
+Disallow: /scripts/
+Disallow: /node_modules/
+Disallow: /public/data/
+Disallow: /.netlify/
+
+Sitemap: https://grandline-galerie-trollesque.netlify.app/sitemap.xml
