@@ -418,10 +418,9 @@
   {
     "username": "redmafia_tv",
     "nomRP": {
-      "Pentacle": "David FORBES",
-      "RedDeadRP": " Ezekiel GRIMALDI"
+      "Pentacle": "David FORBES"
     },
-    "arcs": ["Pentacle", "RedDeadRP"]
+    "arcs": ["Pentacle"]
   },
   {
     "username": "darcy_trix",
