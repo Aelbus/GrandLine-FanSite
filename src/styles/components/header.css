@@ -1,3 +1,10 @@
+.mobile-menu {
+  display: none;
+}
+.mobile-menu.show {
+  display: flex !important;
+}
+
 .header-div {
   z-index: 99;
   background: rgba(36, 36, 36, 0.8352941176);
@@ -10,10 +17,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-}
-.header-div .nav-div {
-  position: relative;
-  margin: 0 10px 0 10px;
+  padding: 0 20px;
 }
 .header-div .nav-div ul {
   padding: 0;
@@ -21,30 +25,23 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .header-div .nav-div ul li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 85px;
   list-style: none;
-  cursor: pointer;
-  font-family: "Fjalla One", sans-serif;
+  height: 85px;
   width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 .header-div .nav-div ul li:hover {
   background-color: rgba(167, 167, 167, 0.082);
 }
 .header-div .nav-div ul li a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  font-weight: 400;
+  font-family: "Fjalla One", sans-serif;
   font-size: 20px;
-  text-align: center;
   color: white;
   text-decoration: none;
 }
@@ -53,8 +50,111 @@
   animation: text-pop-up-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 .header-div .logo-head {
-  margin: 15px;
   height: 80px;
+  margin-left: auto;
+}
+.header-div .burger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+.header-div .burger span {
+  height: 3px;
+  width: 25px;
+  background: white;
+  margin: 4px;
+  transition: 0.3s;
+}
+@media screen and (max-width: 768px) {
+  .header-div {
+    justify-content: space-between;
+  }
+  .header-div .nav-div {
+    display: none;
+  }
+  .header-div .logo-head {
+    height: 60px;
+  }
+  .header-div .burger {
+    display: flex;
+  }
+  .header-div .mobile-menu {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 100;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  .header-div .mobile-menu ul {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-div .mobile-menu ul li {
+    width: 50%;
+    border-bottom: #ff0000 1px solid;
+    border-top: #ff0000 1px solid;
+    margin: 30px 0;
+  }
+  .header-div .mobile-menu ul li a {
+    font-size: 34px;
+    color: white;
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header-div .burger {
+    display: flex;
+    margin-left: 15px;
+  }
+  .header-div .logo-head {
+    height: 65px;
+    margin-right: 15px;
+  }
+  .header-div .nav-div {
+    display: none;
+  }
+  .header-div .mobile-menu {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: 250px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 20px;
+    border-top: 2px solid #ff0000;
+    z-index: 100;
+  }
+  .header-div .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    margin: 0;
+  }
+  .header-div .mobile-menu ul li {
+    width: 100%;
+    padding: 12px 0;
+  }
+  .header-div .mobile-menu ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  .header-div .mobile-menu ul li a:hover {
+    text-decoration: underline;
+  }
 }
 
 @keyframes text-pop-up-bottom {
@@ -66,6 +166,14 @@
     background-color: rgba(26, 26, 26, 0.5960784314);
     transform-origin: 50% 50%;
     text-shadow: 0 1px 0 #000000, 0 2px 0 #000000, 0 3px 0 #ff0000, 0 4px 0 #ff0000, 0 5px 0 #ff0000, 0 6px 0 #ff0000, 0 7px 0 #000000, 0 8px 0 #000000, 0 9px 0 #000000, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 

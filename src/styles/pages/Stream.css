@@ -1,83 +1,92 @@
 .projects-div-stream {
-  height: 85vh;
-  margin-top: 90px;
-  margin-left: 5px;
-  margin-right: 5px;
-  animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0 5px;
+}
+.projects-div-stream .header-stream-block {
+  position: relative;
+  z-index: 2;
+  padding-top: 90px;
+  background: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
-.projects-div-stream .arc-buttons {
+.projects-div-stream .header-stream-block .ArcSelect {
+  color: white;
+  text-shadow: 1px 1px 0 black;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.projects-div-stream .header-stream-block .arc-buttons {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
-  flex-direction: row;
+  justify-content: center;
   margin-bottom: 8px;
 }
-.projects-div-stream .arc-buttons button {
+.projects-div-stream .header-stream-block .arc-buttons button {
   font-size: 18px;
   padding: 0 10px;
   background: white;
   border: black 1px solid;
   border-radius: 25px;
+  cursor: pointer;
 }
-.projects-div-stream .arc-buttons button:focus {
+.projects-div-stream .header-stream-block .arc-buttons button.active {
   border-color: #2bff00;
   background: #ace67c;
-  outline: none;
+  color: black;
 }
-.projects-div-stream .arc-buttons button:hover {
+.projects-div-stream .header-stream-block .arc-buttons button:hover {
   background: rgb(199, 199, 199);
-  border: black 1px solid;
 }
-.projects-div-stream .compteur {
-  position: absolute;
-  top: 29px;
+.projects-div-stream .header-stream-block .compteur {
   color: white;
   text-shadow: 1px 1px 0 black;
+  margin-bottom: 8px;
 }
-.projects-div-stream .ArcSelect {
-  position: absolute;
-  top: 29px;
-  left: 25px;
-  color: white;
-  text-shadow: 1px 1px 0 black;
-  font-size: 25px;
-}
-.projects-div-stream .search-bar {
+.projects-div-stream .header-stream-block .search-bar {
   font-family: "Fjalla One", sans-serif;
   width: 600px;
+  max-width: 90vw;
   padding: 10px;
-  margin-top: 15px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 20px;
   background: rgba(92, 92, 92, 0.5803921569);
   color: white;
 }
-.projects-div-stream .search-bar:focus {
+.projects-div-stream .header-stream-block .search-bar:focus {
   border-color: #ff0000;
   outline: none;
 }
-.projects-div-stream .search-bar::placeholder {
+.projects-div-stream .header-stream-block .search-bar::placeholder {
   font-size: 14px;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 .projects-div-stream .card-container-stream {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 2px;
   border-top: rgba(0, 0, 0, 0.2588235294) solid 3px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
   align-content: flex-start;
-  width: 98%;
-  height: 80vh;
-  overflow: auto;
-  flex-direction: row;
+  gap: 2px;
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 80px;
 }
 .projects-div-stream .card-container-stream .card-stream {
   position: relative;
+  padding: 5px;
 }
 .projects-div-stream .card-container-stream .card-stream figure {
   display: flex;
@@ -100,20 +109,6 @@
   border: 3px solid #f0f0f0;
   background: #f0f0f0;
 }
-.projects-div-stream .card-container-stream .card-stream figure .live-status {
-  width: 55px;
-  text-wrap: nowrap;
-  padding: 15px 5px 1px 5px;
-  margin-bottom: -3px;
-  background-color: #f0f0f0;
-  text-align: center;
-  font-size: 13px;
-  color: black;
-  border-radius: 25px 0px 25px 25px;
-  position: absolute;
-  bottom: 8px;
-  right: 40px;
-}
 .projects-div-stream .card-container-stream .card-stream figure figcaption {
   width: 280px;
   height: 60px;
@@ -123,6 +118,7 @@
   align-items: flex-start;
   gap: 10px;
   padding-left: 10px;
+  position: relative;
 }
 .projects-div-stream .card-container-stream .card-stream figure figcaption p {
   width: 250px;
@@ -145,18 +141,77 @@
 }
 .projects-div-stream .card-container-stream .card-stream figure figcaption a {
   position: absolute;
-  top: 23px;
-  right: 47px;
-}
-.projects-div-stream .card-container-stream .card-stream figure figcaption a:hover {
-  animation: iconeTwitchanim 0.6s ease-in-out both;
+  top: 4px;
+  right: 17px;
 }
 .projects-div-stream .card-container-stream .card-stream figure figcaption a img {
-  width: 45px;
-  height: 45px;
+  width: 55px;
+  height: 55px;
   border: none;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .projects-div-stream .header-stream-block .search-bar {
+    width: 90%;
+  }
+  .projects-div-stream .card-container-stream {
+    padding-bottom: 80px;
+  }
+  .projects-div-stream .card-container-stream .card-stream figure {
+    width: 100%;
+    max-width: 280px;
+    height: 40px;
+    padding: 10px;
+  }
+  .projects-div-stream .card-container-stream .card-stream figure figcaption {
+    width: 100%;
+  }
+  .projects-div-stream .card-container-stream .card-stream figure figcaption a {
+    top: 3px;
+    right: 20px;
+  }
+  .projects-div-stream .card-container-stream .card-stream figure figcaption a img {
+    width: 55px;
+    height: 55px;
+  }
+}
+@media (max-width: 767px) {
+  .projects-div-stream .header-stream-block .ArcSelect {
+    font-size: 20px;
+    text-align: center;
+  }
+  .projects-div-stream .header-stream-block .arc-buttons button {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+  .projects-div-stream .header-stream-block .compteur {
+    font-size: 16px;
+  }
+  .projects-div-stream .header-stream-block .search-bar {
+    width: 90%;
+    font-size: 14px;
+  }
+  .projects-div-stream .card-container-stream {
+    padding-bottom: 80px;
+  }
+  .projects-div-stream .card-container-stream .card-stream figure {
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    padding: 10px;
+  }
+  .projects-div-stream .card-container-stream .card-stream figure figcaption {
+    width: 100%;
+  }
+  .projects-div-stream .card-container-stream .card-stream figure figcaption a {
+    top: 3px;
+    right: 10px;
+  }
+  .projects-div-stream .card-container-stream .card-stream figure figcaption a img {
+    width: 55px;
+    height: 55px;
+  }
+}
 @keyframes slide-in-top {
   0% {
     transform: translateY(-1000px);
@@ -167,23 +222,22 @@
     opacity: 1;
   }
 }
-@keyframes iconeTwitchanim {
-  0% {
-    transform: translateZ(0);
-    filter: invert(0);
-    border: none;
-  }
-  100% {
-    transform: translateZ(100px);
-    filter: invert(1);
-  }
-}
 @keyframes shadow-drop-center-stream {
   0% {
     box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
   }
   100% {
     box-shadow: 0 0 20px 0px rgb(255, 0, 0);
+  }
+}
+@keyframes iconeTwitchanim {
+  0% {
+    transform: translateZ(0);
+    filter: invert(0);
+  }
+  100% {
+    transform: translateZ(100px);
+    filter: invert(1);
   }
 }
 

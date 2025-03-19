@@ -1,16 +1,24 @@
-html {
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
   font-family: "Fjalla One", sans-serif;
   font-style: normal;
   font-weight: 400;
-  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
+  min-height: 100vh;
   background-color: black;
   background-image: url(../assets/images/background2.webp);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  margin: 0;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 /*# sourceMappingURL=index.css.map */

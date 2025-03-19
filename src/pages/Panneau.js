@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "../styles/pages/Panneau.css";
 
 const Panneau = () => {
@@ -28,6 +28,7 @@ const Panneau = () => {
       import:
         "https://zone52.wizebot.tv/gl-pancarte/imgs/e0edebeaad974e2c67b32cd2b05e0ab4.png",
     },
+
     {
       title: "CHAUVA",
       info: "???",
@@ -240,6 +241,10 @@ const Panneau = () => {
     },
   ];
 
+  useEffect(() => {
+    setTotalPanneaux(projects.length);
+  }, [projects.length]);
+
   const openModal = (index) => {
     setSelectedCard(index);
     setModalOpen(true);
@@ -260,22 +265,20 @@ const Panneau = () => {
     alert("URL copiée dans le presse-papiers !");
   };
 
-  useState(() => {
-    setTotalPanneaux(projects.length);
-  }, []);
-
   return (
     <main className="projects-div-panneau">
-      <p className="compteur">Nombre de panneaux : {totalPanneaux}</p>
+      <div className="header-panneau-block">
+        <p className="compteur">Nombre de panneaux : {totalPanneaux}</p>
+        <a
+          className="tuto hide-on-mobile"
+          href="https://www.youtube.com/watch?v=xFbs4_-sOig"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Comment importer en jeu ?
+        </a>
+      </div>
 
-      <a
-        className="tuto"
-        href="https://www.youtube.com/watch?v=xFbs4_-sOig"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Comment importer en jeu ?
-      </a>
       <div className="card-container-panneau">
         {projects.map((project, index) => (
           <div
@@ -284,14 +287,15 @@ const Panneau = () => {
             onClick={() => openModal(index)}
           >
             <figure>
-              <img src={project.url} alt={project.title} />
+              <img src={project.url} alt={project.title} loading="lazy" />
             </figure>
           </div>
         ))}
       </div>
-      {modalOpen && (
+
+      {modalOpen && selectedCard !== null && (
         <div className="modal">
-          <div className="modal-content-panneau">
+          <div className="modal-content">
             <span className="close" onClick={closeModal}>
               &times;
             </span>
@@ -301,7 +305,9 @@ const Panneau = () => {
               src={projects[selectedCard].url}
               alt={projects[selectedCard].title}
             />
-            <button onClick={copyURL}>Importer en jeu</button>{" "}
+            <button className="import hide-on-mobile" onClick={copyURL}>
+              Importer en jeu
+            </button>
           </div>
         </div>
       )}

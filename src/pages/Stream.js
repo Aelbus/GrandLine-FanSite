@@ -12,7 +12,6 @@ const Stream = () => {
   useEffect(() => {
     const fetchStreamerData = async () => {
       try {
-        // ✅ Charger depuis le bucket S3 directement
         const timestamp = encodeURIComponent(Date.now());
         const s3Url = `https://grandline-streamers-cache.s3.eu-north-1.amazonaws.com/streamers_cache.json?nocache=${timestamp}`;
         console.log(`📡 Chargement depuis S3 : ${s3Url}`);
@@ -71,32 +70,35 @@ const Stream = () => {
 
   return (
     <main className="projects-div-stream">
-      <div className="arc-buttons">
-        {arcs.map((arc) => (
-          <button
-            key={arc}
-            className={`arc-button ${selectedArc === arc ? "active" : ""}`}
-            onClick={() => setSelectedArc(arc)}
-          >
-            {arc}
-          </button>
-        ))}
-      </div>
+      <div className="header-stream-block">
+        <p className="ArcSelect">Sélectionne un arc</p>
 
-      <input
-        className="search-bar"
-        type="text"
-        placeholder="Rechercher un Streamer par NomRP ou Pseudo Twitch..."
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-      />
+        <div className="arc-buttons">
+          {arcs.map((arc) => (
+            <button
+              key={arc}
+              className={`arc-button ${selectedArc === arc ? "active" : ""}`}
+              onClick={() => setSelectedArc(arc)}
+            >
+              {arc}
+            </button>
+          ))}
+        </div>
 
-      <div className="card-container-stream">
         <p className="compteur">
           Nombre de streamers : {filteredStreamers.length}
         </p>
-        <p className="ArcSelect">Sélectionne un arc</p>
 
+        <input
+          className="search-bar"
+          type="text"
+          placeholder="Rechercher un Streamer par NomRP ou Pseudo Twitch..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+      </div>
+
+      <div className="card-container-stream">
         {filteredStreamers.map((streamer, index) => (
           <div key={index} className="card-stream">
             <figure>

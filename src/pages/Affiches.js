@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "../styles/pages/Affiche.css";
 
 const Affiches = () => {
@@ -2090,6 +2090,10 @@ const Affiches = () => {
     },
   ];
 
+  useEffect(() => {
+    setTotalAffiches(projects.length);
+  }, [projects.length]);
+
   const openModal = (index) => {
     setSelectedCard(index);
     setModalOpen(true);
@@ -2117,66 +2121,66 @@ const Affiches = () => {
     if (term.trim() === "") {
       setFilteredIndices([]);
     } else {
-      const filteredIndices = projects
+      const filtered = projects
         .map((project, index) => ({ project, index }))
         .filter(
           ({ project }) =>
             project.title.toLowerCase().includes(term.toLowerCase()) ||
             project.info.toLowerCase().includes(term.toLowerCase())
         )
-        .map(({ index }) => index)
-        .filter((index) => index >= 0 && index < projects.length);
+        .map(({ index }) => index);
 
-      setFilteredIndices(filteredIndices);
+      setFilteredIndices(filtered);
     }
   };
 
-  useState(() => {
-    setTotalAffiches(projects.length);
-  }, []);
+  const visibleProjects =
+    searchTerm.trim() === ""
+      ? projects.map((_, index) => index)
+      : filteredIndices;
 
   return (
     <main className="projects-div-affiche">
-      <input
-        className="search-bar"
-        type="text"
-        placeholder="Rechercher une affiche par Titre ou Créateur..."
-        value={searchTerm}
-        onChange={handleSearch}
-      />
-      <p className="compteur">Nombre d'affiches : {totalAffiches}</p>
-      <a
-        className="tuto"
-        href="https://www.youtube.com/watch?v=xFbs4_-sOig"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Comment importer en jeu ?
-      </a>
-      <div className="card-container-affiche">
-        {(searchTerm.trim() === ""
-          ? projects.map((_, index) => index)
-          : filteredIndices
-        ).map((index) => {
-          if (index >= 0 && index < projects.length) {
-            return (
-              <div
-                key={index}
-                className="card-affiche"
-                onClick={() => openModal(index)}
-              >
-                <figure>
-                  <img src={projects[index].url} alt={projects[index].title} />
-                </figure>
-              </div>
-            );
-          } else {
-            console.error("Invalid index:", index);
-            return null;
-          }
-        })}
+      <div className="header-affiche-block">
+        <input
+          className="search-bar"
+          type="text"
+          placeholder="Recherche..."
+          value={searchTerm}
+          onChange={handleSearch}
+        />
+        <p className="compteur">Nombre d'affiches : {totalAffiches}</p>
+        <a
+          className="tuto hide-on-mobile"
+          href="https://www.youtube.com/watch?v=xFbs4_-sOig"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Comment importer en jeu ?
+        </a>
       </div>
-      {modalOpen && (
+
+      <div className="card-container-affiche">
+        {visibleProjects.map((index) =>
+          index >= 0 && index < projects.length ? (
+            <div
+              key={index}
+              className="card-affiche"
+              onClick={() => openModal(index)}
+            >
+              <figure>
+                <img
+                  src={projects[index].url}
+                  alt={projects[index].title}
+                  loading="lazy"
+                />
+              </figure>
+            </div>
+          ) : null
+        )}
+      </div>
+
+      {modalOpen && selectedCard !== null && (
         <div className="modal">
           <div className="modal-content">
             <span className="close" onClick={closeModal}>
@@ -2188,9 +2192,9 @@ const Affiches = () => {
               src={projects[selectedCard].url}
               alt={projects[selectedCard].title}
             />
-            <button className="import" onClick={copyURL}>
+            <button className="import hide-on-mobile" onClick={copyURL}>
               Importer en jeu
-            </button>{" "}
+            </button>
           </div>
         </div>
       )}

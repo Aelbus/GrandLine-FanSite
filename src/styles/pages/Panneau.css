@@ -1,119 +1,185 @@
 .projects-div-panneau {
-  background: rgba(36, 36, 36, 0.5333333333);
-  height: 85vh;
-  margin-top: 90px;
-  margin-left: 5px;
-  margin-right: 5px;
+  height: calc(100vh - 125px);
+  margin: 90px 5px 0 5px;
+  overflow: hidden;
   animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
-.projects-div-panneau .tuto {
+.projects-div-panneau .header-panneau-block {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.projects-div-panneau .header-panneau-block .compteur {
+  color: white;
+  text-shadow: 1px 1px 0 black;
+  margin-bottom: 6px;
+}
+.projects-div-panneau .header-panneau-block .tuto {
   text-decoration: none;
   color: white;
   background: red;
   padding: 6px 10px;
   border-radius: 25px;
-  margin-top: 10px;
 }
-.projects-div-panneau .tuto:visited {
+.projects-div-panneau .header-panneau-block .tuto:visited {
   color: #ffffff;
 }
-.projects-div-panneau .tuto:hover {
-  animation: shadow-drop-center 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-.projects-div-panneau .compteur {
-  position: absolute;
-  top: -6px;
-  color: white;
+.projects-div-panneau .header-panneau-block .tuto:hover {
+  animation: shadow-drop-center 0.2s ease both;
 }
 .projects-div-panneau .card-container-panneau {
+  border-top: rgba(0, 0, 0, 0.2588235294) solid 3px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
   align-content: flex-start;
-  width: 98%;
-  height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex-grow: 1;
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 80px;
+  padding-top: 20px;
   gap: 10px;
-  overflow: auto;
-  flex-direction: row;
 }
 .projects-div-panneau .card-container-panneau .card-panneau {
   width: 512px;
-  height: 272px;
+  height: auto;
+  cursor: pointer;
 }
 .projects-div-panneau .card-container-panneau .card-panneau figure {
   width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .projects-div-panneau .card-container-panneau .card-panneau figure img {
   width: 98%;
+  height: auto;
 }
 .projects-div-panneau .card-container-panneau .card-panneau figure img:hover {
-  animation: shadow-drop-center 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-drop-center 0.2s ease both;
 }
 
 .modal {
   position: fixed;
   top: 0;
   left: 0;
-  animation: puff-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  display: flex;
-  width: 100%;
-  height: 100%;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.modal-content-panneau {
+.modal-content {
   background-color: rgb(219, 219, 219);
   padding: 20px;
   border-radius: 10px;
-  width: auto;
-  height: auto;
+  max-width: 90vw;
+  max-height: 85vh;
   overflow: auto;
   position: relative;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
-.modal-content-panneau .close {
-  position: absolute;
-  top: 0px;
-  right: 10px;
-  cursor: pointer;
-  font-size: 35px;
-}
-.modal-content-panneau h2 {
-  font-size: 18px;
-  margin: 0;
-}
-.modal-content-panneau p {
-  font-size: 14px;
-  color: #747474;
-  margin: 2px 0 8px 0;
-}
-.modal-content-panneau img {
-  width: 700px;
+.modal-content img {
+  max-width: 100%;
   height: auto;
+  margin-top: 10px;
 }
-.modal-content-panneau button {
+.modal-content .import {
   background-color: rgb(38, 173, 110);
   border-radius: 5px;
   border: none;
   cursor: pointer;
   height: 25px;
-  position: absolute;
-  top: 40px;
-  right: 20px;
+  padding: 0 10px;
+  margin-top: 15px;
 }
-.modal-content-panneau button:hover {
+.modal-content .import:hover {
   background-color: rgb(8, 212, 117);
 }
 
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .projects-div-panneau .header-panneau-block .tuto {
+    font-size: 14px;
+  }
+  .projects-div-panneau .card-container-panneau .card-panneau {
+    width: 400px;
+  }
+  .projects-div-panneau .modal-content {
+    max-width: 95vw;
+    max-height: 90vh;
+    padding: 15px;
+  }
+  .projects-div-panneau .modal-content .import {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .projects-div-panneau {
+    margin: 90px 10px 0 10px;
+  }
+  .projects-div-panneau .header-panneau-block .compteur {
+    font-size: 16px;
+  }
+  .projects-div-panneau .header-panneau-block .tuto {
+    display: none;
+  }
+  .projects-div-panneau .card-container-panneau {
+    padding-top: 10px;
+    padding-bottom: 80px;
+  }
+  .projects-div-panneau .card-container-panneau .card-panneau {
+    max-width: 100%;
+    width: 150px;
+  }
+  .projects-div-panneau .card-container-panneau .card-panneau figure img {
+    width: 90%;
+  }
+  .modal-content {
+    max-width: 95vw;
+    max-height: 95vh;
+    padding: 10px;
+  }
+  .modal-content .import {
+    display: none;
+  }
+}
 @keyframes slide-in-top {
   0% {
     transform: translateY(-1000px);
@@ -121,16 +187,6 @@
   }
   100% {
     transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes puff-in-center {
-  0% {
-    filter: blur(4px);
-    opacity: 0;
-  }
-  100% {
-    filter: blur(0px);
     opacity: 1;
   }
 }
