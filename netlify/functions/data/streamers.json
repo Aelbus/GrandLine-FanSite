@@ -96,7 +96,8 @@
       "Pentacle": "Hector MORA",
       "Survivor": "🎥Mali",
       "School": "Ganesh VIKAPUTASH (CPE)",
-      "FortCarson": "Dylan BROOKS"
+      "FortCarson": "Dylan BROOKS",
+      "RedDeadRP": "??? CALIGAN"
     },
     "tag": "Staff",
     "arcs": ["Pentacle", "Survivor", "School", "FortCarson", "RedDeadRP"]
@@ -151,7 +152,7 @@
     "nomRP": {
       "Pentacle": "Suzie BIGMAN - Bettie JONES",
       "FortCarson": "Madame SKITTLES",
-      "RedDeadRP": "Fillette CALLIGAN"
+      "RedDeadRP": "Fillette CALIGAN"
     },
     "tag": "Staff",
     "arcs": ["Pentacle", "FortCarson", "RedDeadRP"]
@@ -550,7 +551,7 @@
   {
     "username": "kiishar",
     "nomRP": {
-      "RedDeadRP": "Wilbert CALLIGAN"
+      "RedDeadRP": "Wilbert CALIGAN"
     },
     "tag": "Staff",
     "arcs": ["RedDeadRP"]
