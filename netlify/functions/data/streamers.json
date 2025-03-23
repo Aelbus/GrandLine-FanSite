@@ -2447,5 +2447,12 @@
       "RedDeadRP": "Desiré EDWARDS"
     },
     "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "2sDoublea",
+    "nomRP": {
+      "RedDeadRP": "Thomas HAWKINS"
+    },
+    "arcs": ["RedDeadRP"]
   }
 ]
