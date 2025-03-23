@@ -2405,5 +2405,12 @@
       "RedDeadRP": "Eliot FLINT"
     },
     "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "Kaatsup",
+    "nomRP": {
+      "RedDeadRP": "??? WILSON"
+    },
+    "arcs": ["RedDeadRP"]
   }
 ]
