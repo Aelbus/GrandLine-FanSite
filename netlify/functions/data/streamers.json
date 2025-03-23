@@ -2412,5 +2412,40 @@
       "RedDeadRP": "Alice WINSLOW"
     },
     "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "eulbarbouz",
+    "nomRP": {
+      "RedDeadRP": "Edgar NICOPOLIS"
+    },
+    "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "healda",
+    "nomRP": {
+      "RedDeadRP": "Angus O'LEARY"
+    },
+    "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "zakartbc",
+    "nomRP": {
+      "RedDeadRP": "Jacko GOULLIE"
+    },
+    "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "CynoxHD",
+    "nomRP": {
+      "RedDeadRP": ""
+    },
+    "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "Enespastore",
+    "nomRP": {
+      "RedDeadRP": "Desiré EDWARDS"
+    },
+    "arcs": ["RedDeadRP"]
   }
 ]

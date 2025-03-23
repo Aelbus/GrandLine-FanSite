@@ -3835,5 +3835,60 @@
     ],
     "display_name": "Kaatsup",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3a9d73b4-1fd6-4c13-b5ca-a22bdab43cc6-profile_image-300x300.png"
+  },
+  {
+    "username": "eulbarbouz",
+    "nomRP": {
+      "RedDeadRP": "Edgar NICOPOLIS"
+    },
+    "arcs": [
+      "RedDeadRP"
+    ],
+    "display_name": "Eulbarbouz",
+    "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/dbdc9198-def8-11e9-8681-784f43822e80-profile_image-300x300.png"
+  },
+  {
+    "username": "healda",
+    "nomRP": {
+      "RedDeadRP": "Angus O'LEARY"
+    },
+    "arcs": [
+      "RedDeadRP"
+    ],
+    "display_name": "healda",
+    "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/dbdc9198-def8-11e9-8681-784f43822e80-profile_image-300x300.png"
+  },
+  {
+    "username": "zakartbc",
+    "nomRP": {
+      "RedDeadRP": "Jacko GOULLIE"
+    },
+    "arcs": [
+      "RedDeadRP"
+    ],
+    "display_name": "zakartbc",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/43840e83-8f92-402e-b355-0d6f8381b6af-profile_image-300x300.png"
+  },
+  {
+    "username": "CynoxHD",
+    "nomRP": {
+      "RedDeadRP": ""
+    },
+    "arcs": [
+      "RedDeadRP"
+    ],
+    "display_name": "CynoxHD",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3a9f2cc2-f5d4-4a3d-82d0-6203bc0381f7-profile_image-300x300.png"
+  },
+  {
+    "username": "Enespastore",
+    "nomRP": {
+      "RedDeadRP": "Desiré EDWARDS"
+    },
+    "arcs": [
+      "RedDeadRP"
+    ],
+    "display_name": "EnesPastore",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1968237e-caf7-4e13-8a0f-195bad65fade-profile_image-300x300.png"
   }
 ]
