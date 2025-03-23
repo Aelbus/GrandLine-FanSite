@@ -338,7 +338,7 @@
     "nomRP": {
       "Pentacle": "Nova FORBES",
       "FortCarson": "Fidji LAZARE",
-      "RedDeadRP": "??? WILSON"
+      "RedDeadRP": "Kate WINSLOW"
     },
     "arcs": ["Pentacle", "FortCarson", "RedDeadRP"]
   },
@@ -2409,7 +2409,7 @@
   {
     "username": "Kaatsup",
     "nomRP": {
-      "RedDeadRP": "Alice WILSON"
+      "RedDeadRP": "Alice WINSLOW"
     },
     "arcs": ["RedDeadRP"]
   }
