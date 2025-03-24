@@ -1707,7 +1707,7 @@
     "arcs": ["RedDeadRP"]
   },
   {
-    "username": "jonmadera",
+    "username": "jonmaderabis",
     "nomRP": {
       "RedDeadRP": "Lucien BEAUCHAMPS"
     },
@@ -1742,7 +1742,7 @@
     "arcs": ["RedDeadRP"]
   },
   {
-    "username": "gob54",
+    "username": "gob_RP",
     "nomRP": {
       "RedDeadRP": "Ferdinand DE LA FLEUR"
     },
@@ -1828,7 +1828,7 @@
   {
     "username": "Noctxrn",
     "nomRP": {
-      "RedDeadRP": "Roy ATKINS"
+      "RedDeadRP": "Silas ATKINS"
     },
     "arcs": ["RedDeadRP"]
   },
@@ -1847,7 +1847,7 @@
     "arcs": ["RedDeadRP"]
   },
   {
-    "username": "Kwatro",
+    "username": "Kwatro97",
     "nomRP": {
       "RedDeadRP": "Artemis GRAHAM"
     },
@@ -2029,7 +2029,7 @@
     "arcs": ["RedDeadRP"]
   },
   {
-    "username": "lifius",
+    "username": "lifiuss",
     "nomRP": {
       "RedDeadRP": "Charles McCARTY"
     },
@@ -2302,7 +2302,7 @@
     "arcs": ["RedDeadRP"]
   },
   {
-    "username": "Podau",
+    "username": "Daufi08",
     "nomRP": {
       "RedDeadRP": "Daniel WASHBURN"
     },
@@ -2337,7 +2337,7 @@
     "arcs": ["RedDeadRP"]
   },
   {
-    "username": "Dimezo",
+    "username": "Dimsss60",
     "nomRP": {
       "RedDeadRP": "Bobby BROCKMORE"
     },
@@ -2461,6 +2461,27 @@
       "RedDeadRP": "Hunter VESPER"
     },
     "tag": "Staff",
+    "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "koba752",
+    "nomRP": {
+      "RedDeadRP": "Diego RODRIGUEZ"
+    },
+    "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "OnlyFamax",
+    "nomRP": {
+      "RedDeadRP": "Wanbli SAPA"
+    },
+    "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "TurnDesiign__",
+    "nomRP": {
+      "RedDeadRP": "Otis HONOR"
+    },
     "arcs": ["RedDeadRP"]
   }
 ]
