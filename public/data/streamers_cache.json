@@ -3265,17 +3265,6 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6a560621-afb9-4fec-bade-3fc8a3b1e590-profile_image-300x300.png"
   },
   {
-    "username": "Eulbarbouz",
-    "nomRP": {
-      "RedDeadRP": "Lazare NICOPOLIS"
-    },
-    "arcs": [
-      "RedDeadRP"
-    ],
-    "display_name": "Eulbarbouz",
-    "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/dbdc9198-def8-11e9-8681-784f43822e80-profile_image-300x300.png"
-  },
-  {
     "username": "imthelukTV",
     "nomRP": {
       "RedDeadRP": "Luke BRENNAN"
@@ -3905,11 +3894,15 @@
   {
     "username": "R0Y_lol",
     "nomRP": {
-      "RedDeadRP": "Hunter VESPER"
+      "RedDeadRP": "Hunter VESPER",
+      "FortCarson": "??? CROWLEY",
+      "Pentacle": "Dexter SINATRA"
     },
     "tag": "Staff",
     "arcs": [
-      "RedDeadRP"
+      "Pentacle",
+      "RedDeadRP",
+      "FortCarson"
     ],
     "display_name": "R0Y_lol",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f2c28889-e1ac-41e8-b80c-9c1a933c9842-profile_image-300x300.png"

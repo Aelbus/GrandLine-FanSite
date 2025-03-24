@@ -2050,13 +2050,6 @@
     "arcs": ["RedDeadRP"]
   },
   {
-    "username": "Eulbarbouz",
-    "nomRP": {
-      "RedDeadRP": "Lazare NICOPOLIS"
-    },
-    "arcs": ["RedDeadRP"]
-  },
-  {
     "username": "imthelukTV",
     "nomRP": {
       "RedDeadRP": "Luke BRENNAN"
@@ -2458,10 +2451,12 @@
   {
     "username": "R0Y_lol",
     "nomRP": {
-      "RedDeadRP": "Hunter VESPER"
+      "RedDeadRP": "Hunter VESPER",
+      "FortCarson": "??? CROWLEY",
+      "Pentacle": "Dexter SINATRA"
     },
     "tag": "Staff",
-    "arcs": ["RedDeadRP"]
+    "arcs": ["Pentacle", "RedDeadRP", "FortCarson"]
   },
   {
     "username": "koba752",
