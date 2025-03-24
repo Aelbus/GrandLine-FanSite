@@ -2454,5 +2454,13 @@
       "RedDeadRP": "Thomas HAWKINS"
     },
     "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "R0Y_lol",
+    "nomRP": {
+      "RedDeadRP": "Hunter VESPER"
+    },
+    "tag": "Staff",
+    "arcs": ["RedDeadRP"]
   }
 ]
