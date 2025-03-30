@@ -24,6 +24,18 @@
     "arcs": ["School", "Survivor", "Pentacle", "FortCarson", "RedDeadRP"]
   },
   {
+    "username": "Stackeeed",
+    "nomRP": {
+      "School": "",
+      "Survivor": "",
+      "Pentacle": "",
+      "FortCarson": "",
+      "RedDeadRP": ""
+    },
+    "tag": "Dev - Staff",
+    "arcs": ["School", "Survivor", "Pentacle", "FortCarson", "RedDeadRP"]
+  },
+  {
     "username": "Aminematue",
     "nomRP": {
       "School": "Amine ZEUBIO",

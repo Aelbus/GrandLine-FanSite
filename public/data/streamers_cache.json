@@ -40,6 +40,26 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a5f429b1-9276-4bf5-882c-98584b51df5d-profile_image-300x300.png"
   },
   {
+    "username": "Stackeeed",
+    "nomRP": {
+      "School": "",
+      "Survivor": "",
+      "Pentacle": "",
+      "FortCarson": "",
+      "RedDeadRP": ""
+    },
+    "tag": "Dev - Staff",
+    "arcs": [
+      "School",
+      "Survivor",
+      "Pentacle",
+      "FortCarson",
+      "RedDeadRP"
+    ],
+    "display_name": "Stackeeed",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2daf95da-29da-4c18-8f03-08deb916db26-profile_image-300x300.png"
+  },
+  {
     "username": "Aminematue",
     "nomRP": {
       "School": "Amine ZEUBIO",
