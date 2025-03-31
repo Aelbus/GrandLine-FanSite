@@ -11,8 +11,8 @@ const Affiches = () => {
   const projects = [
     {
       title: "Le Dragon De JADE",
-      info: "Mei FING",
-      url: "https://ibb.co/qF2GjC9S",
+      info: "Mei LING",
+      url: "https://i.postimg.cc/7YWdLXFk/menu-nana-v4.png",
       import:
         "https://zone52.wizebot.tv/gl-pancarte/imgs/1e482222015312f29f38938c16d5e967.png",
     },
