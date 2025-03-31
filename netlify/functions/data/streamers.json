@@ -1559,13 +1559,6 @@
     "arcs": ["RedDeadRP"]
   },
   {
-    "username": "arahfat",
-    "nomRP": {
-      "RedDeadRP": "Clint REED"
-    },
-    "arcs": ["RedDeadRP"]
-  },
-  {
     "username": "Wahibastos",
     "nomRP": {
       "RedDeadRP": "Brutus REED"
@@ -1884,13 +1877,6 @@
     "username": "Kaly24",
     "nomRP": {
       "RedDeadRP": "Dolores MENDOZA"
-    },
-    "arcs": ["RedDeadRP"]
-  },
-  {
-    "username": "jadtahar",
-    "nomRP": {
-      "RedDeadRP": "Elias MOREAU"
     },
     "arcs": ["RedDeadRP"]
   },
