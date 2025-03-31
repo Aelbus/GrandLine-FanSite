@@ -10,6 +10,13 @@ const Affiches = () => {
 
   const projects = [
     {
+      title: "Le Dragon De JADE",
+      info: "Mei FING",
+      url: "https://ibb.co/qF2GjC9S",
+      import:
+        "https://zone52.wizebot.tv/gl-pancarte/imgs/1e482222015312f29f38938c16d5e967.png",
+    },
+    {
       title: "Los Santos",
       info: "@17winterflower",
       url: "https://i.goopics.net/xsioih.png",
