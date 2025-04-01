@@ -13,8 +13,6 @@ const Header = () => {
     { to: "/", label: "Accueil" },
     { to: "/arc", label: "Arc" },
     { to: "/stream", label: "Joueurs" },
-    { to: "/affiche", label: "Affiche" },
-    { to: "/panneau", label: "Panneau" },
     { to: "/vidéo", label: "Vidéo" },
   ];
 
