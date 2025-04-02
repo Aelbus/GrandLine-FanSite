@@ -3927,5 +3927,38 @@
     ],
     "display_name": "TurnDesiign__",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db4e78f6-7796-4ae3-af54-e063a83df731-profile_image-300x300.png"
+  },
+  {
+    "username": "aslan_",
+    "nomRP": {
+      "RedDeadRP": "Frank YORK"
+    },
+    "arcs": [
+      "RedDeadRP"
+    ],
+    "display_name": "aslan_",
+    "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebe4cd89-b4f4-4cd9-adac-2f30151b4209-profile_image-300x300.png"
+  },
+  {
+    "username": "sasso_",
+    "nomRP": {
+      "RedDeadRP": "Jack MOSS"
+    },
+    "arcs": [
+      "RedDeadRP"
+    ],
+    "display_name": "Sasso_",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/157ea466-d5d4-4ea5-ba0a-83c3bbd53a8d-profile_image-300x300.jpeg"
+  },
+  {
+    "username": "Neiiko",
+    "nomRP": {
+      "RedDeadRP": "Jules PERRET"
+    },
+    "arcs": [
+      "RedDeadRP"
+    ],
+    "display_name": "neiiko",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/neiiko-profile_image-76cafbfb1cf5e52c-300x300.jpeg"
   }
 ]

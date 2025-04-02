@@ -2471,5 +2471,26 @@
       "RedDeadRP": "Otis HONOR"
     },
     "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "aslan_",
+    "nomRP": {
+      "RedDeadRP": "Frank YORK"
+    },
+    "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "sasso_",
+    "nomRP": {
+      "RedDeadRP": "Jack MOSS"
+    },
+    "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "Neiiko",
+    "nomRP": {
+      "RedDeadRP": "Jules PERRET"
+    },
+    "arcs": ["RedDeadRP"]
   }
 ]
