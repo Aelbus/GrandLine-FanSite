@@ -21,7 +21,6 @@ const Home = () => {
             catégorie Joueurs, vous pouvez utiliser le formulaire de contact via
             le téléphone en bas à droite du site.
             <br />
-            AFFICHE & PANNEAU en maintenance...
             <br />
             Dev{" "}
             <a href="https://linktr.ee/AelBus" target="_blank" rel="noreferrer">
