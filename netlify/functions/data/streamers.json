@@ -1375,9 +1375,10 @@
   {
     "username": "OhLaZizanie",
     "nomRP": {
-      "FortCarson": "Ava CARTER"
+      "FortCarson": "Ava CARTER",
+      "RedDeadRP": "Lucia ESTELA"
     },
-    "arcs": ["FortCarson"]
+    "arcs": ["FortCarson", "redDeadRP"]
   },
   {
     "username": "freboca",
