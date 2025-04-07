@@ -80,6 +80,19 @@ const Footer = () => {
         All rights reserved
       </p>
 
+      {/* ✅ Ko-Fi Button */}
+      <a
+        href="https://ko-fi.com/G2G11D51IP"
+        target="_blank"
+        rel="noreferrer"
+        className="kofi-fixed"
+      >
+        <img
+          src="https://storage.ko-fi.com/cdn/kofi2.png?v=6"
+          alt="Buy Me a Coffee at ko-fi.com"
+        />
+      </a>
+
       {/* 💻 Desktop / Tablette : Phone */}
       <motion.div
         initial={{ y: "100%" }}

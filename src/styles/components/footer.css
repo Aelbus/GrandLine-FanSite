@@ -24,6 +24,27 @@
   color: #ff0000;
 }
 
+.kofi-fixed {
+  position: fixed;
+  bottom: 40px;
+  left: 20px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.kofi-fixed img {
+  height: 36px;
+  border: none;
+}
+.kofi-fixed:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
 .PhoneX {
   position: fixed;
   bottom: -50px;
@@ -123,6 +144,26 @@
   }
   .PhoneX {
     display: none;
+  }
+  .kofi-fixed {
+    position: fixed;
+    bottom: 32px;
+    left: 10px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .kofi-fixed img {
+    height: 28px;
+    border: none;
+  }
+  .kofi-fixed:hover {
+    background-color: rgba(255, 0, 0, 0.2);
+    transition: 0.3s;
   }
   .chat-bubble {
     display: block;
