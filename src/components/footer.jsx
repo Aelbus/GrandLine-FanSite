@@ -8,6 +8,7 @@ const Footer = () => {
   const [isSent, setIsSent] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isKofiModalOpen, setIsKofiModalOpen] = useState(false);
   const formRef = useRef(null);
 
   useEffect(() => {
@@ -80,18 +81,41 @@ const Footer = () => {
         All rights reserved
       </p>
 
-      {/* ✅ Ko-Fi Button */}
-      <a
-        href="https://ko-fi.com/G2G11D51IP"
-        target="_blank"
-        rel="noreferrer"
-        className="kofi-fixed"
-      >
+      {/* ✅ Ko-Fi button modale */}
+      <button className="kofi-fixed" onClick={() => setIsKofiModalOpen(true)}>
         <img
           src="https://storage.ko-fi.com/cdn/kofi2.png?v=6"
           alt="Buy Me a Coffee at ko-fi.com"
         />
-      </a>
+      </button>
+
+      {isKofiModalOpen && (
+        <div
+          className="kofi-modal-overlay"
+          onClick={() => setIsKofiModalOpen(false)}
+        >
+          <div className="kofi-modal" onClick={(e) => e.stopPropagation()}>
+            <button
+              className="modal-close"
+              onClick={() => setIsKofiModalOpen(false)}
+            >
+              ✖
+            </button>
+            <iframe
+              id="kofiframe"
+              src="https://ko-fi.com/aelbus/?hidefeed=true&widget=true&embed=true&preview=true"
+              style={{
+                border: "none",
+                width: "100%",
+                padding: "4px",
+                background: "#f9f9f9",
+              }}
+              height="712"
+              title="aelbus"
+            ></iframe>
+          </div>
+        </div>
+      )}
 
       {/* 💻 Desktop / Tablette : Phone */}
       <motion.div
