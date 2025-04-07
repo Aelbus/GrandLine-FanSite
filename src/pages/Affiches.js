@@ -31,13 +31,6 @@ const Affiches = () => {
         "https://zone52.wizebot.tv/gl-pancarte/imgs/30ab8a82acc61c5a1ab8b72b9f4098be.png",
     },
     {
-      title: "Orange is the new Black",
-      info: "Elanciel",
-      url: "https://i.postimg.cc/C1JQ0Jtq/orange-is-the-new-black-elanciel.png",
-      import:
-        "https://zone52.wizebot.tv/gl-pancarte/imgs/5a4ca1e8b9ea5fd6aa6e5cf8312ee2f7.png",
-    },
-    {
       title: "Bigman",
       info: "Dpix",
       url: "https://i.postimg.cc/25RJ71hV/bigman-dpix.png",
