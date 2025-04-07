@@ -1,0 +1,197 @@
+.music-layout {
+  position: relative;
+  background: rgba(36, 36, 36, 0.5882352941);
+  margin: 120px auto 80px auto;
+  padding: 30px;
+  max-width: 1100px;
+  width: calc(100% - 40px);
+  border-radius: 20px;
+  animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+  height: calc(100vh - 200px);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.music-layout .playlist-column {
+  width: 35%;
+  min-width: 280px;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 20px;
+  overflow-y: auto;
+  height: 100%;
+}
+.music-layout .playlist-column .creator-section {
+  margin-bottom: 25px;
+}
+.music-layout .playlist-column .creator-section h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgba(255, 0, 0, 0.5);
+  padding-bottom: 5px;
+  text-align: center;
+}
+.music-layout .playlist-column .creator-section .playlist {
+  list-style: none;
+  padding: 0;
+}
+.music-layout .playlist-column .creator-section .playlist li {
+  padding: 10px;
+  color: #ddd;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background 0.3s, color 0.3s;
+}
+.music-layout .playlist-column .creator-section .playlist li:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.music-layout .playlist-column .creator-section .playlist li.active-track {
+  background-color: rgba(255, 0, 0, 0.6);
+  color: white;
+  font-weight: bold;
+}
+.music-layout .playlist-column::-webkit-scrollbar {
+  width: 8px;
+}
+.music-layout .playlist-column::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.music-layout .player-column {
+  flex: 1;
+  min-width: 350px;
+  max-width: 800px;
+  height: 100%;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border-radius: 20px;
+  box-shadow: none;
+}
+.music-layout .player-column iframe,
+.music-layout .player-column .react-player {
+  width: 100% !important;
+  max-width: 100%;
+  height: auto !important;
+  aspect-ratio: 16/9;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.music-layout .player-column .player-placeholder {
+  color: #aaa;
+  font-size: 18px;
+  text-align: center;
+}
+
+.hide-on-mobile {
+  display: block;
+}
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
+
+.mini-player-sticky {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .music-layout {
+    flex-direction: column;
+    height: auto;
+  }
+  .music-layout .playlist-column,
+  .music-layout .player-column {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+  }
+  .music-layout .player-column {
+    display: none;
+  }
+  .mini-player-sticky {
+    display: flex;
+    position: fixed;
+    top: 85px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: rgba(36, 36, 36, 0.644);
+    color: white;
+    z-index: 10;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    font-size: 14px;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.5);
+    box-shadow: 0 2px 8px rgba(255, 0, 0, 0.3);
+  }
+  .mini-player-sticky .track-info {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .mini-player-sticky .controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .mini-player-sticky .controls button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .mini-player-sticky .controls button:hover {
+    color: #ff0000;
+  }
+  .mini-player-sticky .controls .volume-slider {
+    appearance: none;
+    width: 80px;
+    height: 4px;
+    background: rgba(255, 0, 0, 0.6);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .mini-player-sticky .controls .volume-slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: white;
+    border: 1px solid #ff0000;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .mini-player-sticky .controls .volume-slider::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: white;
+    border: 1px solid #ff0000;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=Musique.css.map */

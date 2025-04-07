@@ -6,6 +6,7 @@ import Error from "./pages/Error";
 import Stream from "./pages/Stream";
 import Panneau from "./pages/Panneau";
 import Vidéo from "./pages/Vidéo";
+import Musique from "./pages/Musique";
 import Arc from "./pages/Arc";
 
 const router = () => {
@@ -19,6 +20,7 @@ const router = () => {
         <Route path="/vidéo" element={<Vidéo />} />
         <Route path="/arc" element={<Arc />} />
         <Route path="*" element={<Error />} />
+        <Route path="/musique" element={<Musique />} />
       </Routes>
     </>
   );
