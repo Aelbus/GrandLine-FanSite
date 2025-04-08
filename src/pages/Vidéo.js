@@ -28,7 +28,7 @@ J'ai grandi avec des jeux de plateau D&G, et suis donc fan de RolePlay autant in
   },
   {
     name: "Varggan",
-    video: "https://www.youtube.com/embed/K4zJMXyV7_U?si=dm-qGhguzzveFz2Y",
+    video: "https://www.youtube.com/embed/eKRPGLbx6F8?si=vFT3BNjdV6b8t9vK",
     desc: `Bonjour je m'appelle Eymen, 😀
 Je suis concept artist et illustrateur (surtout concept artist), c'est ma passion depuis toujours, surtout quand ça touche aux jeux vidéo.
 Je suis également designer, dans le montage, tel que les miniatures YouTube ou autre. Je suis toujours à la recherche de boulot.
