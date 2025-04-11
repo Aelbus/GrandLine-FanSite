@@ -2503,5 +2503,12 @@
       "RedDeadRP": "Osman LAZAR"
     },
     "arcs": ["RedDeadRP"]
+  },
+  {
+    "username": "baboush_tv",
+    "nomRP": {
+      "RedDeadRP": "Clint REED"
+    },
+    "arcs": ["RedDeadRP"]
   }
 ]
