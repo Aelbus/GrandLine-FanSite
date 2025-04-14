@@ -79,7 +79,7 @@ const Arc = () => {
         </div>
         <div className="card-arc">
           <h1>RED DEAD RP</h1>
-          <span>14/03/2025 - ??/??/2025</span>
+          <span>14/03/2025 - 14/04/2025</span>
           <p>Coming Soon...</p>
         </div>
         <div className="card-arc">
