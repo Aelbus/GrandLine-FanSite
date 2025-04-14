@@ -80,7 +80,16 @@ const Arc = () => {
         <div className="card-arc">
           <h1>RED DEAD RP</h1>
           <span>14/03/2025 - 14/04/2025</span>
-          <p>Coming Soon...</p>
+          <p>
+            Une aventure cette fois proposée sur le jeu "RED Dead Redemption 2"
+            dans la temporalité de l'année 1899. Celle-ci parlera de plusieurs
+            personnages vivant au milieu de conflits politiques ainsi que de
+            guerres de territoire entre natifs, cowboys et familles influentes.
+            Retrouver les frères COLTER terrorisant la population, la famille
+            CALIGAN voulant contrôler le monde ainsi que l'adorable EMERALD
+            RANCH et ses dirigeants menés par la main de "maître" SILAS. Une
+            aventure pleine de trahisons et rebondissements.
+          </p>
         </div>
         <div className="card-arc">
           <h1>???</h1>
